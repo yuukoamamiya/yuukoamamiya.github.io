@@ -5,6 +5,7 @@ tags: [galgame,二次元]
 published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20190508123749.png
+description: 就正如很多人玩的初雪樱不叫初雪樱叫做初雪绫一样，我玩的这游戏不叫魔导巧壳叫做西元帅巧壳，不过分吧（）
 ---
 好吧其实这游戏应该叫做[魔導巧殻 ～闇の月女神は導国で詠う～](http://bangumi.tv/subject/54516)，但是就正如很多人玩的初雪樱不叫初雪樱叫做初雪绫一样，我玩的这游戏不叫魔导巧壳叫做西元帅巧壳，不过分吧（）
 
