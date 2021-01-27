@@ -1,4 +1,4 @@
-baseurl: https://yuukoamamiya.github.io/
+baseurl: https://yuukoamamiya.github.io/blog
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
