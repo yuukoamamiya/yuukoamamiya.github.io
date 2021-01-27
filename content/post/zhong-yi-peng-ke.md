@@ -6,6 +6,7 @@ published: true
 hideInList: false
 feature: https://storage.live.com/items/734D3C6FB1804A6C!1021?authkey=AKdg_ovNhZADhR0
 isTop: false
+description: 中医苏鲁的呼唤40K
 ---
 我中午的时候在睡梦中获得了混沌诸神的启示，领悟了中医被埋藏的远古真相。我清楚地明白这部分的知识不应该被公开，从某种意义上说，这些知识是有害的。但是自从我领悟到这些禁断的知识起，这些隐秘就像是蛊虫一样无时无刻不在噬咬着我的心智。我应当公开这些知识，这是我的义务与责任，人类应当面对这些不可承受之重。尽管如果我说出这些隐秘的知识之后，我恐怕会被认为是白痴，或者是疯子。
 
