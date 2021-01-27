@@ -5,11 +5,8 @@ tags: [脑洞,二次元]
 published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/76092399_p0.png
+description: 以后请称我为大河内二楼。
 ---
-以后请称我为大河内二楼。
-
-<!-- more -->
-
 
 有一天，一群吃不饱饭的学生觉得世界病了我为什么要吃药，吃不饱饭一定都是大人的错，于是为了维持学院牧歌的生活，又因为取得了超级武器“拉普拉斯之棒球棍”，他们决定独立建国。
 
