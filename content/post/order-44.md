@@ -6,6 +6,7 @@ published: true
 hideInList: false
 feature: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20200817194745.jpg
 isTop: false
+description: The New Order:Last Days Of Europe是一个钢铁雄心4的mod，它假想了一条轴心国获得二战胜利的世界线。但是与高堡奇人等表现纳粹美学的作品不同，TNO十分黑色幽默地在轴心国赢得二战的前提下表现着纳粹的癫狂与无能，或者说魔怔且拉跨。
 ---
 The New Order:Last Days Of Europe是一个钢铁雄心4的mod，它假想了一条轴心国获得二战胜利的世界线。但是与高堡奇人等表现纳粹美学的作品不同，TNO十分黑色幽默地在轴心国赢得二战的前提下表现着纳粹的癫狂与无能，或者说魔怔且拉跨。
 
