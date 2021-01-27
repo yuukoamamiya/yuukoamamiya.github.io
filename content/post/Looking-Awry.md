@@ -6,6 +6,7 @@ published: true
 hideInList: false
 feature: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210114215734.jpg
 isTop: false
+description: 用精神分析来云电影？狗都不看
 ---
 《斜目而视》是左翼的网红哲学家齐泽克写的一本关于精神分析的书，他用电影做例子，试图用比较通俗的方式讲解拉康派精神分析中的一些基本概念。当然，他讲的电影我是几乎一部都没看过，以至于这本书的初衷——通过电影用通俗的方式看哲学——一下子就反了过来，变成了通过哲学用狗都不看的方法云电影……
 
