@@ -6,6 +6,7 @@ published: true
 hideInList: false
 feature: 
 isTop: false
+description: 减 肥 饮 食
 ---
 之前看[雷先生](https://space.bilibili.com/509050400/)直播的时候老见他安利空气炸锅。本来打算双十一的时候买的，结果最近翻[s1观测站](https://bbs.saraba1st.com/2b/thread-1947415-1-1.html)发现正好有打折，那就顺手买一个好了。就当作是大男孩的玩具了。
 
