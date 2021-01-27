@@ -78,7 +78,7 @@ description: 是齐泽克，好耶
 
 ## 你一生的故事
 
-[https://yuukoamamiya.github.io/post/Stories-of-Your-Life-and-Others/](https://yuukoamamiya.github.io/post/Stories-of-Your-Life-and-Others/)
+[https://yuukoamamiya.github.io/p/%E4%BD%A0%E4%B8%80%E7%94%9F%E7%9A%84%E6%95%85%E4%BA%8B/](https://yuukoamamiya.github.io/p/%E4%BD%A0%E4%B8%80%E7%94%9F%E7%9A%84%E6%95%85%E4%BA%8B/)
 
 特德姜的短篇科幻小说集，我之前特地写过一篇了。
 
@@ -86,7 +86,7 @@ description: 是齐泽克，好耶
 
 ## 棉花帝国
 
-[https://yuukoamamiya.github.io/post/Empire-of-Cotton/](https://yuukoamamiya.github.io/post/Empire-of-Cotton/)
+[https://yuukoamamiya.github.io/p/%E6%A3%89%E8%8A%B1%E5%B8%9D%E5%9B%BD%E4%B8%80%E9%83%A8%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%E5%85%A8%E7%90%83%E5%8F%B2/](https://yuukoamamiya.github.io/p/%E6%A3%89%E8%8A%B1%E5%B8%9D%E5%9B%BD%E4%B8%80%E9%83%A8%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%E5%85%A8%E7%90%83%E5%8F%B2/)
 
 棉花只是个线索，作者实际上想些的是资本主义。
 
@@ -116,7 +116,7 @@ description: 是齐泽克，好耶
 
 ## 新的一天
 
-[https://yuukoamamiya.github.io/post/xu-li-zhi/](https://yuukoamamiya.github.io/post/xu-li-zhi/)
+[https://yuukoamamiya.github.io/p/%E8%AE%B8%E7%AB%8B%E5%BF%97%E8%AF%97%E6%AD%8C%E6%91%98%E5%BD%95/](https://yuukoamamiya.github.io/p/%E8%AE%B8%E7%AB%8B%E5%BF%97%E8%AF%97%E6%AD%8C%E6%91%98%E5%BD%95/)
 
 没单独写书评，但是做了摘录。
 
