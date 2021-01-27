@@ -6,6 +6,7 @@ published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20180720161016_original-768x480.jpg
 isTop: false
+description: 求求你们不要再整什么“《人间尼哥》作者大宰种”啦
 ---
 太宰治的作品大致上，都可以划拉进三个阶段里面去。
 
