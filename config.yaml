@@ -146,7 +146,4 @@ markup:
     highlight:
         noClasses: false
 
-outputFormats:
-outputFormats.RSS:
-  mediatype: "application/rss"
-  baseName: "atom"
+googleAnalytics: UA-173973679-1
