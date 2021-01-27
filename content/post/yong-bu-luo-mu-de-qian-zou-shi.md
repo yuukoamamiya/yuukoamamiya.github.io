@@ -5,6 +5,7 @@ tags: [galgame,二次元]
 published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20190508122007.png
+description: 如果你追前女友追地太快，那你会一下子跑到她的前面去了
 ---
 契诃夫说：如果故事中出现手枪，它就非发射不可。当然大家看见这个句子这么林少华风格应该能猜到，我其实并没有看过这句话真正的出处，而是在村上春树的小说里接受了反刍过的二手知识罢了。这句话讲的是一个奥卡姆剃刀的道理，在文艺作品中还是比较重要的，正所谓“文章不写半句空”嘛。手枪是这样，前女友也是一律。假如故事中出现了前女友，就非同她复合不可。
 
