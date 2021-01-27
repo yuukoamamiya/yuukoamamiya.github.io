@@ -5,6 +5,7 @@ tags: [二次元,轻小说,电影]
 published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20190511234200.png
+description: 关于穷小子与富家女能否相爱这个问题，浪漫主义的作家认为可以，现实主义的作家认为不行；我们要辨证的看待这个问题：可以，但是没有结果。
 ---
 关于穷小子与富家女能否相爱这个问题，浪漫主义的作家认为可以，现实主义的作家认为不行；我们要辨证的看待这个问题：可以，但是没有结果。
 
