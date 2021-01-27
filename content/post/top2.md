@@ -6,7 +6,7 @@ published: true
 hideInList: false
 feature: https://storage.live.com/items/734D3C6FB1804A6C!1015?authkey=AKdg_ovNhZADhR0
 isTop: false
-description: 都0202年了，你怎么才看TOP。
+description: 我操这个飞跃巅峰，牛 逼 疯 了  ！ ！
 ---
 昨天一口气补完了飞跃巅峰2，打开QQ群逢人便吹：
 
