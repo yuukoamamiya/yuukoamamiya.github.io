@@ -6,6 +6,7 @@ published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200123204628.jpg
 isTop: false
+description: 十几岁的年轻人总是把排泄的欲望视作创作的冲动。
 ---
 > 十几岁的年轻人总是把排泄的欲望视作创作的冲动。
 
