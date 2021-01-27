@@ -1,6 +1,6 @@
 ---
 title: '校长的冬天'
-date: 2019-10-05 18:46:42
+date: 2017-01-06 20:20:13
 tags: [脑洞,生活]
 published: true
 hideInList: false
