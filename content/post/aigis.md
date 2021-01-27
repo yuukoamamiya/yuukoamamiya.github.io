@@ -5,6 +5,7 @@ tags: [二次元,手游]
 published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20190518003130.jpg
+description: 不媚宅的手游？狗都不玩
 ---
 说来很可笑，千年战争这都是快五周年的游戏了，我今天才入坑。而且我入坑的原因则更加可笑：我先去玩了明日方舟，然后觉得这游戏不好，既没有儿童，也没有色情，不玩不玩，这才回过头来去捡起了退坑舰c以后好久没登陆的dmm账号去玩千年战争。
 
