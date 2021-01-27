@@ -6,7 +6,7 @@ published: true
 hideInList: false
 feature: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20200816173314.jpg
 isTop: false
-description:棉花、资本主义和全球 
+description: 棉花、资本主义和全球 
 ---
 这本书是长老给我推荐的。当时我陷入了书荒，让长老给我推荐点书，“随便什么都可以，反正看什么都好过没书看”，这是我当时的原话。也不知道当时的我看到后来大学毕业的时候，一箱一箱朝家里运接下来十年估计也看不完的书的时候是什么感受，不过这是另一码事了。
 
