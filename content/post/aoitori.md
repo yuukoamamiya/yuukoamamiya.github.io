@@ -5,6 +5,7 @@ tags: [galgame,二次元]
 published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/Snipaste_2019-08-31_17-24-17.png
+description: 青い鳥、もし幸せ
 ---
 “青鸟”一词出典比利时的剧作家梅特林克的同名戏剧作品，这也是他的代表作。我从小便听过这部童话剧的大名，当然，如同这个世界上的大多数如雷贯耳的巨作一般，我能听说过一个名字、听说过一个剧情的大意就不错了，要我本本都看过去可真是饶了我吧（笑）。
 
