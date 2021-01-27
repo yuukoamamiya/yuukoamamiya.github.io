@@ -6,6 +6,7 @@ published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20190508122249.png
 isTop: false
+description: 听起来也许很荒谬，但是有相当多的神话不过是工业时代的再创作。
 ---
  　　听起来也许很荒谬，但是有相当多的神话不过是工业时代的再创作。  
  <!-- more --> 
