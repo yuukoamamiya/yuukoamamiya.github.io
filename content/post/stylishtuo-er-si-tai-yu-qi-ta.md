@@ -6,6 +6,7 @@ published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20190508120826.png
 isTop: false
+description: 优质的应用各有各的feature，而流氓的应用则大抵相似。
 ---
 > 幸福的家庭都是相似的，不幸的家庭各有各的不幸。  
 
