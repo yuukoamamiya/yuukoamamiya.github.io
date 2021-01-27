@@ -1,11 +1,11 @@
-baseurl: https://yuukoamamiya.github.io/blog
+baseurl: https://yuukoamamiya.github.io
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
 title: Yuko's Blog
 
 # Change it to your Disqus shortname before using
-disqusShortname: hugo-theme-stack
+disqusShortname: yukoamamiya
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn
@@ -45,7 +45,7 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
+        enabled: true
         provider: disqus
         utterances:
             repo:
@@ -119,6 +119,18 @@ menu:
           weight: -60
           pre: search
 
+        - identifier: link
+          name: Link
+          url: link
+          weight: -50
+          pre: link
+
+        - identifier: rss
+          name: Rss
+          url: index.xml
+          weight: -40
+          pre: rss
+
 related:
     includeNewer: true
     threshold: 60
@@ -133,3 +145,8 @@ related:
 markup:
     highlight:
         noClasses: false
+
+outputFormats:
+outputFormats.RSS:
+  mediatype: "application/rss"
+  baseName: "atom"
