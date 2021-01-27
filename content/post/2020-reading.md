@@ -6,6 +6,7 @@ published: true
 hideInList: false
 feature: 
 isTop: false
+description: 是齐泽克，好耶
 ---
 2020年上半年被疫情困在家里，学校也没得去；下半年匆忙地找了找工作，然后又赶鸭子上架被送去了考研——虽然和大学期间没啥区别基本都是宅在室内，但是总感觉经历了不少2333
 
