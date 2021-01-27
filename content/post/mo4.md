@@ -5,6 +5,7 @@ tags: [galgame,二次元]
 published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20190508124222.png
+description: mo4就这？就这？？们二次元真的蛮好笑的
 ---
 秋之回忆这个系列可能还是老年黄油狗会经常提，我就算不得什么老年黄油狗。一上来玩的就是前奏诗初雪樱这个年代的黄油了，头一次玩新作已经是兰斯10这种去年的作品了。假如真要接触秋之回忆系列的话恐怕得从去年的8开始------然而8没有pc版，所以还是鸽了。
 
