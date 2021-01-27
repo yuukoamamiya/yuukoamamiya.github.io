@@ -5,6 +5,7 @@ tags: [脑洞,生活]
 published: true
 hideInList: false
 feature: 
+description: 除了星空，关于那个地方我没什么想念的。  ——托妮·莫里森
 ---
 > 除了星空，关于那个地方我没什么想念的。  ——托妮·莫里森
 
