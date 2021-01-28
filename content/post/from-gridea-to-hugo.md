@@ -2,8 +2,6 @@
 title: '从Gridea迁移到Hugo'
 date: 2021-01-28 16:52:00
 tags: [科技]
-hide: false
-comments: true
 feature: 
 description: 持续集成，牛逼
 ---
