@@ -2,10 +2,10 @@
 title: '备份EHViewer的数据'
 date: 2019-07-27 23:08:39
 tags: [科技,二次元]
-published: true
-hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/TIM%E5%9B%BE%E7%89%8720190726174630.jpg
 description: 木有eh的人生还有什么意义（指元素英雄
+aliases:
+    - /posts/ehviewer-backup/
 ---
 > 所有这些时刻，终将流逝在时光中  
 > 一如眼泪  
