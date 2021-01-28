@@ -1,7 +1,7 @@
 +++
 title = "About"
 date = "2021-01-27"
-aliases = ["about-us",  "contact"]
+aliases = ["about-me",  "contact"]
 license = "CC BY-NC-ND"
 lastmod = "2021-01-27"
 
