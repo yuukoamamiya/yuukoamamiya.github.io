@@ -283,7 +283,7 @@ jobs:
 
 事情到这一步，就算是施工完毕了。你可以在 master 分支随便进行一些改动来使得 Action 生效。我刚弄好的时候传了一个表情包上去然后删掉了（
 
-![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128224444.jpg)
+![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128231609.jpg)
 
 之后再更新新的文章就直接把 .md 文件上传到 `\content\post` 目录下就成，用网页传用命令行传用桌面应用传都没问题。改动之后会自动生成自动生效。已经难说和 Gridea 哪个方便哪个麻烦了。可能配置过程中还是 Gridea 更加傻瓜式一些，但是配置好之后还是这么整比较省事。
 
