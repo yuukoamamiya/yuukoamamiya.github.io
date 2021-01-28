@@ -5,7 +5,7 @@ tags: [科技]
 feature: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20200701224625.jpg
 description: 我就这么耗费了一整天的时间把miui刷掉之后想方设法再现miui的功能……
 aliases:
-    - /posts/redmi-k30/
+    - /post/redmi-k30/
 ---
 突然这么说一句可能有些突兀。MIUI是傻逼。
 
