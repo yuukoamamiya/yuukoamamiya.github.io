@@ -6,7 +6,25 @@
     <description>Recent content in Posts on Yuko&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Jan 2021 17:13:11 +0000</lastBuildDate><atom:link href="https://yuukoamamiya.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Jan 2021 16:52:00 +0800</lastBuildDate><atom:link href="https://yuukoamamiya.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从Gridea迁移到Hugo</title>
+      <link>https://yuukoamamiya.github.io/p/from-gridea-to-hugo/</link>
+      <pubDate>Thu, 28 Jan 2021 16:52:00 +0800</pubDate>
+      
+      <guid>https://yuukoamamiya.github.io/p/from-gridea-to-hugo/</guid>
+      <description>我之前写了一篇博文来讲述我从 blogspot 转移到现在用的 github page ，那个时候用的生成工具是 Gridea ，我现在还觉得那玩意不错，什么都是傻瓜式的，也就第一次设置的时候要跟着教程来，麻烦点，设置好之后就可以看着GUI的脸色行事了。
+只不过后来是越用越觉得 Gridea 有各种各样的问题。我最讨厌的毒瘤框架自不必说，写了篇文章要生成个半天再同步个半天，还经常同步个半天没能 push 上去，就相当痛苦。正好这个时候有了 Github Actions ，如果是自建博客的话传个markdown文件就行，剩下的都是云端自动了，也犯不着在本地先执行什么 hexo -d 再执行一下 git ，最早制约我去自己折腾 hexo 一类工具的制约已经消失了。
+安装Hugo 我得说我选择 Hugo 没有什么特别的理由，纯粹就是单纯图个装起来省事。我之前装好了包管理器 Chocolatey ，再装 Hugo 就一行命令的事情，而且装好了直接就已经是环境变量了，可以直接在命令行里执行 hugo 命令，很方便。
+要紧的命令就这么两行：
+安装 Chocolatey （需要管理员权限 powershell）：
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&amp;#39;https://chocolatey.org/install.ps1&amp;#39;)) 安装 Hugo
+choco install hugo-extended 这两个装上就够了，当然，要是像我这样没GUI就浑身难受的，那还可以再装个 Chocolatey GUI：
+choco install chocolateygui 装到这里就算是该装的软件都装过一遍了，那之后就是做博客了。
+创建博客 Hugo 里面新建工程的命令是
+hugo new site my_blog 在任意目录下运行，就可以看到生成了一个名为 my_blog 的文件夹，这个文件夹里面自带了一些博客最基本的内容。Hugo 是不自带默认主题的，需要去下一个来。</description>
+    </item>
+    
     <item>
       <title> 斜目而视</title>
       <link>https://yuukoamamiya.github.io/p/looking-awry/</link>
