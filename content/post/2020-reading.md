@@ -12,8 +12,6 @@ description: 是齐泽克，好耶
 
 今年看的书也是不怎么多，基本集中在最后几个月考研的时候看的——我看书素来有个习惯，是在压力越大的时候越有劲头去看书。我总是抱怨大学看的书和高中时候看的没法比，但是某种意义上来说，这也是个好事。
 
-<!-- more -->
-
 照着豆瓣上标记的看过来的，一边回忆一边写。不过豆瓣上只标记了看完了的书，还有点别的，比如说《单一民族神话的起源》看了一半被抓去考研了（233），《意识形态的崇高客体》看了一半实在受不了齐泽克满嘴的拉康怪话决定先去看拉康之类的……反正豆瓣上没标，你要我记我也记不住233
 
 ![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20201229205851.jpg)
@@ -78,7 +76,7 @@ description: 是齐泽克，好耶
 
 ## 你一生的故事
 
-[https://yuukoamamiya.github.io/p/%E4%BD%A0%E4%B8%80%E7%94%9F%E7%9A%84%E6%95%85%E4%BA%8B/](https://yuukoamamiya.github.io/p/%E4%BD%A0%E4%B8%80%E7%94%9F%E7%9A%84%E6%95%85%E4%BA%8B/)
+[https://yuukoamamiya.github.io/p/stories-of-your-life-and-others/](https://yuukoamamiya.github.io/p/stories-of-your-life-and-others/)
 
 特德姜的短篇科幻小说集，我之前特地写过一篇了。
 
@@ -86,7 +84,7 @@ description: 是齐泽克，好耶
 
 ## 棉花帝国
 
-[https://yuukoamamiya.github.io/p/%E6%A3%89%E8%8A%B1%E5%B8%9D%E5%9B%BD%E4%B8%80%E9%83%A8%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%E5%85%A8%E7%90%83%E5%8F%B2/](https://yuukoamamiya.github.io/p/%E6%A3%89%E8%8A%B1%E5%B8%9D%E5%9B%BD%E4%B8%80%E9%83%A8%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%E5%85%A8%E7%90%83%E5%8F%B2/)
+[https://yuukoamamiya.github.io/p/empire-of-cotton/](https://yuukoamamiya.github.io/p/empire-of-cotton/)
 
 棉花只是个线索，作者实际上想些的是资本主义。
 
@@ -116,7 +114,7 @@ description: 是齐泽克，好耶
 
 ## 新的一天
 
-[https://yuukoamamiya.github.io/p/%E8%AE%B8%E7%AB%8B%E5%BF%97%E8%AF%97%E6%AD%8C%E6%91%98%E5%BD%95/](https://yuukoamamiya.github.io/p/%E8%AE%B8%E7%AB%8B%E5%BF%97%E8%AF%97%E6%AD%8C%E6%91%98%E5%BD%95/)
+[https://yuukoamamiya.github.io/p/xu-li-zhi/](https://yuukoamamiya.github.io/p/xu-li-zhi/)
 
 没单独写书评，但是做了摘录。
 
