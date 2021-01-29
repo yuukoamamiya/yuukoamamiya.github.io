@@ -122,6 +122,29 @@ disqusShortname: yukoamamiya
 
 这个主题支持 disqus 和 utterances 两套评论系统，后者是基于 github issue 的，要是我之前 gitalk 的数据还在我就用后者了。不过换成 Hugo 之后链接地址全变了，原先的 issue 也就对应不上了，算了算了，全扬了得了233
 
+```yaml
+permalinks:
+    post: /p/:filename/
+    page: /:slug/
+```
+
+这行代码决定的是生成的博文页面的 url 。
+
+Gridea 的逻辑是取文件名做链接，比如说 `aigis.md` 这个文件最后生成的链接是 `xxx.github.io/post/aigis` ，而 Hugo 的逻辑，至少按照这个主题原来的设置 `post: /p/:slug/`来说是读文件的内容。如果有在 Front Matter 里面设置 `slug` 字段的话，那就读取这个字段并生成地址，没有的话就读 `title` ，那我从 Gridea 刚刚转过来的，哪里会设置这个字段嘛，结果就是前面的 `aigis.md` 生成的链接成了 `xxx.github.io/p/千年战争` 。
+
+我把这段里面的 `slug` 改成了 `filename` 这个逻辑就和 Gridea 的对上了。当然，还有 p 和 post 的区别，不过这个我不打算改了。就那么几篇特定的博文用 `aliases` 设置一下别名就成了。比如这样：
+
+```yaml
+aliases:
+    - /post/order-44/
+```
+
+
+
+![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20200429164034.jpg)
+
+反正 SEO 乱了也没什么，会点进来看的也就爱看个什么 TNO 魔怔 Order-44 啊，怒喷 MIUI 啊之类的，也就那么几篇，就连点进来看我睿评太宰治的都没几个。
+
 [修改字体](https://docs.stack.jimmycai.com/v/zh-cn/modify-theme/example-custom-font-family-for-article-content)
 
 修改字体我几乎是从文档里面一字不落直接照搬了。不过我自己也确认不了思源宋体的效果，我这边直接本地强制把字体显示成 Ubuntu 了……
@@ -132,7 +155,7 @@ disqusShortname: yukoamamiya
 
 比如：
 
-```
+```yaml
 ---
 title: "科技"
 feature: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128122034.jpg
@@ -158,25 +181,11 @@ Gridea 的博文存放在其数据文件夹的 `\posts` 子目录下，直接把
 
 ~~不过这篇博文是大一时候写的了，现在我看我也流泪啊~~
 
-以及博文的地址发生了变动。
+还有一个重大的问题是时间。
 
-Gridea 的逻辑是取文件名做链接，比如说 `aigis.md` 这个文件最后生成的链接是 `xxx.github.io/post/aigis` ，而 Hugo 的逻辑，至少按照这个主题的设置来说是读文件的内容。
+Gridea 里面的时间格式是 `2021-01-28 16:52:00` ，而 Hugo 的则是 `2021-01-28 16:52:00+0800` ，两者几乎完全一样，就是 Hugo 的加上了时区信息。
 
-```yaml
-permalinks:
-    post: /p/:slug/
-    page: /:slug/
-```
-
-还是前面的`config.yaml` 文件，里面这一段的意思是链接地址如果有在 Front Matter 里面设置 `slug` 字段的话，那就读取这个字段并生成地址，没有的话就读 `title` ，那我从 Gridea 刚刚转过来的，哪里会设置这个字段嘛，结果就是前面的 `aigis.md` 生成的链接成了 `xxx.github.io/p/千年战争` 。
-
-解决方案应该是有的，引入 `filename` 这个变量应该就行，不过我不敢改2333
-
-不过几篇特定的博文用 `aliases` 设置一下别名还是容易的。有空了再弄。
-
-![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20200429164034.jpg)
-
-反正 SEO 乱了也没什么，会点进来看的也就爱看个什么 TNO 魔怔 Order-44 啊，怒喷 MIUI 啊之类的，也就那么几篇，就连点进来看我睿评太宰治的都没几个。
+老的博文不写时区也无所谓，但是新的博文在写的时候一定要加上时区信息。如果不写的话，Hugo 会认为这是一篇发布时间在未来的博文而不给渲染……
 
 ## Google Search Console
 
