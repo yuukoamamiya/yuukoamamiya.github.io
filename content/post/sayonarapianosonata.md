@@ -1,7 +1,7 @@
 ---
 title: 'さよならピアノソナタ'
 date: 2019-06-08 17:09:14
-tags: [轻小说]
+tags: [轻小说,二次元]
 published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20190608171129.jpg
