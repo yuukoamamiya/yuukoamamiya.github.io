@@ -29,7 +29,7 @@
         <pubDate>Thu, 28 Jan 2021 16:52:00 +0800</pubDate>
         
         <guid>https://yuukoamamiya.github.io/p/from-gridea-to-hugo/</guid>
-        <description>我之前写了一篇博文来讲述我从 blogspot 转移到现在用的 github page ，那个时候用的生成工具是 Gridea ，我现在还觉得那玩意不错，什么都是傻瓜式的，也就第一次设置的时候要跟着教程来，麻烦点，设置好之后就可以看着GUI的脸色行事了。
+        <description>&lt;img src="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210210222138.png" alt="Featured image of post 从Gridea迁移到Hugo" /&gt;我之前写了一篇博文来讲述我从 blogspot 转移到现在用的 github page ，那个时候用的生成工具是 Gridea ，我现在还觉得那玩意不错，什么都是傻瓜式的，也就第一次设置的时候要跟着教程来，麻烦点，设置好之后就可以看着GUI的脸色行事了。
 只不过后来是越用越觉得 Gridea 有各种各样的问题。我最讨厌的毒瘤框架自不必说，写了篇文章要生成个半天再同步个半天，还经常同步个半天没能 push 上去，就相当痛苦。正好这个时候有了 Github Actions ，如果是自建博客的话传个markdown文件就行，剩下的都是云端自动了，也犯不着在本地先执行什么 hexo -d 再执行一下 git ，最早制约我去自己折腾 hexo 一类工具的制约已经消失了。
 安装Hugo 我得说我选择 Hugo 没有什么特别的理由，纯粹就是单纯图个装起来省事。我之前装好了包管理器 Chocolatey ，再装 Hugo 就一行命令的事情，而且装好了直接就已经是环境变量了，可以直接在命令行里执行 hugo 命令，很方便。
 要紧的命令就这么两行：
