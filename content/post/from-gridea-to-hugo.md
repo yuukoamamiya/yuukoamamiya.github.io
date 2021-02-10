@@ -2,7 +2,7 @@
 title: '从Gridea迁移到Hugo'
 date: 2021-01-28 16:52:00+0800
 tags: [科技]
-feature: 
+feature: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210210222138.png
 description: 持续集成，牛逼
 ---
 
