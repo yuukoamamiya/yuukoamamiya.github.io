@@ -2,8 +2,6 @@
 title: 'Adobe Acrobat XI 如何给 PDF 更换背景颜色'
 date: 2021-02-10 19:18:00+0800
 tags: [科技]
-hide: false
-comments: true
 feature: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210210202759.png
 description: 
 slug: Adobe-Acrobat-XI-change-background-color 
