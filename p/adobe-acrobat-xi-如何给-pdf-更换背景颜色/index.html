@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173973679-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173973679-1');
+</script>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173973679-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173973679-1');
+</script>
+
+<meta name='description' content='最近加了几个哲学群，下了一堆电子书，不过都是PDF。PDF电子书其实挺难看的，在电脑上不太好看，放手机或者kindle又太小，可能放平板会好一点，不过最好还是打印出来——不过春节了，淘宝打印店都关门。
+于是就琢磨着怎么让自己在电脑上看PDF能看得舒服点：最简单的方法当然是把背景色换个绿的。但是问题也就接踵而来，PDF阅读器改背景色不太好改。得益于2021年“优秀”的中国互联网，我总算是在一堆狗屎的“你换个福昕吧”之类的垃圾信息里面好不容易找到了解决方法。
+以及我用的阅读器是 Adobe Acrobat XI ，嬴政天下做的破解，谷歌直接搜或者微博找 vposy 就行。
+这里设置一下就好了。我从简书偷了几个背景色的设定，不过总的来说我感觉这几个也就那样，看着选。
+河白色 #FFFFFF rgb(255, 255, 255) 杏仁黄 #FAF9DE rgb(250, 249, 222) 秋叶褐 #FFF2E2 rgb(255, 242, 226) 胭脂红 #FDE6E0 rgb(253, 230, 224) 青草绿 #E3EDCD rgb(227, 237, 205) 海天蓝 #DCE2F1 rgb(220, 226, 241) 葛巾紫 #E9EBFE rgb(233, 235, 254) 极光灰 #EAEAEF rgb(234, 234, 239) 我体感是浅绿浅黄浅灰之类的看起来会比较舒服。
+改完背景色之后的效果大概是这样。
+不过这个只能改知网下的，或者是自己用doc生成的PDF。 那种扫描本是改不了的，原来是白底黑字还是白底黑字，这个和PDF文件有关。
+比如说这个就是扫描的电子书，还是那么白。
+还是等春节过后打印了来看吧……
+当然更好一点的方法是装一个护眼软件（比如 iris ），把色温啊蓝光之类的调一调，眼睛会舒服很多。'><title>Adobe Acrobat XI 如何给 PDF 更换背景颜色</title>
+
+<link rel='canonical' href='https://yuukoamamiya.github.io/p/adobe-acrobat-xi-%E5%A6%82%E4%BD%95%E7%BB%99-pdf-%E6%9B%B4%E6%8D%A2%E8%83%8C%E6%99%AF%E9%A2%9C%E8%89%B2/'>
+
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='Adobe Acrobat XI 如何给 PDF 更换背景颜色'>
+<meta property='og:description' content='最近加了几个哲学群，下了一堆电子书，不过都是PDF。PDF电子书其实挺难看的，在电脑上不太好看，放手机或者kindle又太小，可能放平板会好一点，不过最好还是打印出来——不过春节了，淘宝打印店都关门。
+于是就琢磨着怎么让自己在电脑上看PDF能看得舒服点：最简单的方法当然是把背景色换个绿的。但是问题也就接踵而来，PDF阅读器改背景色不太好改。得益于2021年“优秀”的中国互联网，我总算是在一堆狗屎的“你换个福昕吧”之类的垃圾信息里面好不容易找到了解决方法。
+以及我用的阅读器是 Adobe Acrobat XI ，嬴政天下做的破解，谷歌直接搜或者微博找 vposy 就行。
+这里设置一下就好了。我从简书偷了几个背景色的设定，不过总的来说我感觉这几个也就那样，看着选。
+河白色 #FFFFFF rgb(255, 255, 255) 杏仁黄 #FAF9DE rgb(250, 249, 222) 秋叶褐 #FFF2E2 rgb(255, 242, 226) 胭脂红 #FDE6E0 rgb(253, 230, 224) 青草绿 #E3EDCD rgb(227, 237, 205) 海天蓝 #DCE2F1 rgb(220, 226, 241) 葛巾紫 #E9EBFE rgb(233, 235, 254) 极光灰 #EAEAEF rgb(234, 234, 239) 我体感是浅绿浅黄浅灰之类的看起来会比较舒服。
+改完背景色之后的效果大概是这样。
+不过这个只能改知网下的，或者是自己用doc生成的PDF。 那种扫描本是改不了的，原来是白底黑字还是白底黑字，这个和PDF文件有关。
+比如说这个就是扫描的电子书，还是那么白。
+还是等春节过后打印了来看吧……
+当然更好一点的方法是装一个护眼软件（比如 iris ），把色温啊蓝光之类的调一调，眼睛会舒服很多。'>
+<meta property='og:url' content='https://yuukoamamiya.github.io/p/adobe-acrobat-xi-%E5%A6%82%E4%BD%95%E7%BB%99-pdf-%E6%9B%B4%E6%8D%A2%E8%83%8C%E6%99%AF%E9%A2%9C%E8%89%B2/'>
+<meta property='og:site_name' content='Yuko&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='科技' /><meta property='article:published_time' content='2021-02-10T19:18:00&#43;08:00'/><meta property='article:modified_time' content='2021-02-10T19:18:00&#43;08:00'/>
+<meta name="twitter:site" content="amamiyadolores"><meta name="twitter:title" content="Adobe Acrobat XI 如何给 PDF 更换背景颜色">
+<meta name="twitter:description" content="最近加了几个哲学群，下了一堆电子书，不过都是PDF。PDF电子书其实挺难看的，在电脑上不太好看，放手机或者kindle又太小，可能放平板会好一点，不过最好还是打印出来——不过春节了，淘宝打印店都关门。
+于是就琢磨着怎么让自己在电脑上看PDF能看得舒服点：最简单的方法当然是把背景色换个绿的。但是问题也就接踵而来，PDF阅读器改背景色不太好改。得益于2021年“优秀”的中国互联网，我总算是在一堆狗屎的“你换个福昕吧”之类的垃圾信息里面好不容易找到了解决方法。
+以及我用的阅读器是 Adobe Acrobat XI ，嬴政天下做的破解，谷歌直接搜或者微博找 vposy 就行。
+这里设置一下就好了。我从简书偷了几个背景色的设定，不过总的来说我感觉这几个也就那样，看着选。
+河白色 #FFFFFF rgb(255, 255, 255) 杏仁黄 #FAF9DE rgb(250, 249, 222) 秋叶褐 #FFF2E2 rgb(255, 242, 226) 胭脂红 #FDE6E0 rgb(253, 230, 224) 青草绿 #E3EDCD rgb(227, 237, 205) 海天蓝 #DCE2F1 rgb(220, 226, 241) 葛巾紫 #E9EBFE rgb(233, 235, 254) 极光灰 #EAEAEF rgb(234, 234, 239) 我体感是浅绿浅黄浅灰之类的看起来会比较舒服。
+改完背景色之后的效果大概是这样。
+不过这个只能改知网下的，或者是自己用doc生成的PDF。 那种扫描本是改不了的，原来是白底黑字还是白底黑字，这个和PDF文件有关。
+比如说这个就是扫描的电子书，还是那么白。
+还是等春节过后打印了来看吧……
+当然更好一点的方法是装一个护眼软件（比如 iris ），把色温啊蓝光之类的调一调，眼睛会舒服很多。">
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210127185955.ico" />
+<style>
+    :root {
+        --article-font-family: "Noto Serif SC", var(--base-font-family);
+    }
+</style>
+
+<script>
+		(function () {
+		    const customFont = document.createElement('link');
+		    customFont.href = "<https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap>";
+		
+		    customFont.type = "text/css";
+		    customFont.rel = "stylesheet";
+		
+		    document.head.appendChild(customFont);
+		}());
+</script>
+    </head>
+    <body class="">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.body.dataset.scheme = 'dark';
+        } else {
+            document.body.dataset.scheme = 'light';
+        }
+    })();
+</script><div class="container main-container flex on-phone--column extended article-page with-toolbar">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_huf4a7664daa0240f4b76557a888da9c62_185817_300x0_resize_box_2.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+                    <span class="emoji">🎷</span>
+                
+            </figure>
+        
+        <h1 class="site-name"><a href="https://yuukoamamiya.github.io">Yuko&#39;s Blog</a></h1>
+        <h2 class="site-description">让无价值的灵魂去哭泣吧！</h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/link'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Link</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/index.xml'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                
+                <span>Rss</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>暗色模式</span>
+            </li>
+        
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    <div id="article-toolbar">
+        <a href="https://yuukoamamiya.github.io" class="back-home">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+            <span>Back</span>
+        </a>
+    </div>
+
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <h2 class="article-title">
+        <a href="/p/adobe-acrobat-xi-%E5%A6%82%E4%BD%95%E7%BB%99-pdf-%E6%9B%B4%E6%8D%A2%E8%83%8C%E6%99%AF%E9%A2%9C%E8%89%B2/">Adobe Acrobat XI 如何给 PDF 更换背景颜色</a>
+    </h2>
+
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Feb 10, 2021</time>
+    </footer></div>
+</header>
+
+    <section class="article-content">
+    <p>最近加了几个哲学群，下了一堆电子书，不过都是PDF。PDF电子书其实挺难看的，在电脑上不太好看，放手机或者kindle又太小，可能放平板会好一点，不过最好还是打印出来——不过春节了，淘宝打印店都关门。</p>
+<p>于是就琢磨着怎么让自己在电脑上看PDF能看得舒服点：最简单的方法当然是把背景色换个绿的。但是问题也就接踵而来，PDF阅读器改背景色不太好改。得益于2021年“优秀”的中国互联网，我总算是在一堆狗屎的“你换个福昕吧”之类的垃圾信息里面好不容易找到了解决方法。</p>
+<p>以及我用的阅读器是 Adobe Acrobat XI ，嬴政天下做的破解，谷歌直接搜或者微博找 <code>vposy</code> 就行。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210210193445.png" alt=""  /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210210193451.png" alt=""  /></p>
+<p>这里设置一下就好了。我从简书偷了几个背景色的设定，不过总的来说我感觉这几个也就那样，看着选。</p>
+<pre><code>河白色 #FFFFFF rgb(255, 255, 255)  
+杏仁黄 #FAF9DE rgb(250, 249, 222)
+秋叶褐 #FFF2E2 rgb(255, 242, 226)
+胭脂红 #FDE6E0 rgb(253, 230, 224)
+青草绿 #E3EDCD rgb(227, 237, 205)
+海天蓝 #DCE2F1 rgb(220, 226, 241)
+葛巾紫 #E9EBFE rgb(233, 235, 254)
+极光灰 #EAEAEF rgb(234, 234, 239)
+</code></pre><p>我体感是浅绿浅黄浅灰之类的看起来会比较舒服。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210210200458.png" alt=""  /></p>
+<p>改完背景色之后的效果大概是这样。</p>
+<p>不过这个只能改知网下的，或者是自己用doc生成的PDF。 那种扫描本是改不了的，原来是白底黑字还是白底黑字，这个和PDF文件有关。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210210200843.png" alt=""  /></p>
+<p>比如说这个就是扫描的电子书，还是那么白。</p>
+<p>还是等春节过后打印了来看吧……</p>
+<p>当然更好一点的方法是装一个护眼软件（比如 <code>iris</code> ），把色温啊蓝光之类的调一调，眼睛会舒服很多。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210210201101.png" alt=""  /></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E7%A7%91%E6%8A%80/">科技</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+</aside>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2016 - 
+        
+        2021 Yuko&#39;s Blog
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.0.1">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css">
+            </main>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
