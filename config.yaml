@@ -123,14 +123,14 @@ menu:
           name: Link
           url: link
           weight: -50
-          pre: notebook
+          pre: link
 
 
         - identifier: wiki
           name: wiki
           url: wiki
           weight: -40
-          pre: rss
+          pre: notebook
 
 
         - identifier: rss
