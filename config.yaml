@@ -123,12 +123,20 @@ menu:
           name: Link
           url: link
           weight: -50
-          pre: link
+          pre: notebook
+
+
+        - identifier: wiki
+          name: wiki
+          url: wiki
+          weight: -40
+          pre: rss
+
 
         - identifier: rss
           name: Rss
           url: index.xml
-          weight: -40
+          weight: -30
           pre: rss
 
 related:
