@@ -127,7 +127,7 @@ menu:
 
 
         - identifier: wiki
-          name: wiki
+          name: Wiki
           url: wiki
           weight: -40
           pre: notebook
