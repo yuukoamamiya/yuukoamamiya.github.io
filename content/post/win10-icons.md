@@ -59,9 +59,23 @@ slug: win10-icons
 
 之前如果是登陆了打包下的图标包的话，给的压缩包里是有一堆 psd 文件的。用PS对着做就行了。
 
-![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210223142132.ico)
+![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210224151809.ico)
 
-我这个epub就是对着doc的图标改的。反正他本来这个doc的字就是个图层了，改起来很容易。
+我这个md就是对着js的图标改的。对着摹仿就可以了。
+
+![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210224151649.png)
+
+> 字体：Arial Rounded MT Bold
+>
+> 字重：Regular
+>
+> 大小：120
+>
+> 字距：-10
+
+这是个看起来和原来的图标比较像的设定。
+
+![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210224151707.png)
 
 要注意的是给的psd是长宽不相等的，直接输出png图片去转的话整个图标就变胖了。在输出png之前要先调整画布大小至长宽相等。
 
