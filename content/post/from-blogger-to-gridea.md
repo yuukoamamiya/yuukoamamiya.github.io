@@ -63,7 +63,7 @@ gridea支持的评论系统有两套，一个是disqusjs，另一套就是我现
 
 ![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20190508195554.png)
 
-不过也还有一个问题，我不知道是这个issue功能带bug，还是撞上人家的审核机制了，总之就是有两篇文章的issue一直创建不出来，一篇是[黑win10的](https://yuukoamamiya.github.io/post/wei-shi-me-yao-shi-yong-windows-10-de-214-tiao-li-you/)，另一篇是[讲lgbt的](https://yuukoamamiya.github.io/post/tan-yi-tan-zhe-ci-de-feng-jin-tong-xing-lian-shi-jian/)，没有就没有吧，凑合着用。
+不过也还有一个问题，我不知道是这个issue功能带bug，还是撞上人家的审核机制了，总之就是有两篇文章的issue一直创建不出来，一篇是[黑win10的](https://yuukoamamiya.github.io/p/reason-to-use-win10/)，另一篇是讲lgbt的，不过已经删掉了，没有就没有吧，凑合着用。
 
 ## まだ足りない部分
 
