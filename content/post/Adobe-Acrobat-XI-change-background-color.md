@@ -47,3 +47,25 @@ slug: Adobe-Acrobat-XI-change-background-color
 当然更好一点的方法是装一个护眼软件（比如 `iris` ），把色温啊蓝光之类的调一调，眼睛会舒服很多。
 
 ![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210210201101.png)
+
+2/28更新：
+
+![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210228222402.png)
+
+扫描PDF可以用 视图-工具-文档处理-优化扫描的PDF 这里把PDF的背景扣了，扣了之后就能强行换背景了。但是效果挺拉的。
+
+![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210218214645.png)
+
+现在是整了个别的软件来看扫描PDF，稻壳阅读器。这也是我最近发现的年度惊喜软件了。看扫描PDF能改背景颜色，不过能选的颜色不多；能看epub和mobi，不过不能换字体；看txt能自动分章节，不过智能程度挺低；有个批注功能，但是基本残废——总之什么都能做但是什么都做不好，不过好在能开的格式多，开起来速度快。
+
+以及前面提到的究极护眼方案，把书拿去淘宝打印店打印：
+
+![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210228223222.jpg)
+
+![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210228223154.jpg)
+
+打的八分钱一张的道林纸，效果挺好，摸上去手上也不染墨粉。
+
+就是价格有点“厉害”，两个六百多页的PDF打掉将近一百块。
+
+不过盗版书毕竟没得选、
