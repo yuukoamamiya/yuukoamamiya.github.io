@@ -12,7 +12,7 @@ disqusShortname: yukoamamiya
 DefaultContentLanguage: zh-cn
 
 permalinks:
-    post: /p/:filename/
+    post: /p/:slug/
     page: /:slug/
 
 params:
