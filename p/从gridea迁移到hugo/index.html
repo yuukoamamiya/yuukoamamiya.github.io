@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173973679-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173973679-1');
+</script>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173973679-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173973679-1');
+</script>
+
+<meta name='description' content='持续集成，牛逼'><title>从Gridea迁移到Hugo</title>
+
+<link rel='canonical' href='https://yuukoamamiya.github.io/p/%E4%BB%8Egridea%E8%BF%81%E7%A7%BB%E5%88%B0hugo/'>
+
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='从Gridea迁移到Hugo'>
+<meta property='og:description' content='持续集成，牛逼'>
+<meta property='og:url' content='https://yuukoamamiya.github.io/p/%E4%BB%8Egridea%E8%BF%81%E7%A7%BB%E5%88%B0hugo/'>
+<meta property='og:site_name' content='Yuko&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='科技' /><meta property='article:published_time' content='2021-01-28T16:52:00&#43;08:00'/><meta property='article:modified_time' content='2021-01-28T16:52:00&#43;08:00'/><meta property='og:image' content='https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210210222138.png' />
+<meta name="twitter:site" content="amamiyadolores"><meta name="twitter:title" content="从Gridea迁移到Hugo">
+<meta name="twitter:description" content="持续集成，牛逼"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210210222138.png' />
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210127185955.ico" />
+<style>
+    :root {
+        --article-font-family: "Noto Serif SC", var(--base-font-family);
+    }
+</style>
+
+<script>
+		(function () {
+		    const customFont = document.createElement('link');
+		    customFont.href = "<https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap>";
+		
+		    customFont.type = "text/css";
+		    customFont.rel = "stylesheet";
+		
+		    document.head.appendChild(customFont);
+		}());
+</script>
+    </head>
+    <body class="">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.body.dataset.scheme = 'dark';
+        } else {
+            document.body.dataset.scheme = 'light';
+        }
+    })();
+</script><div class="container main-container flex on-phone--column extended article-page with-toolbar">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_huf4a7664daa0240f4b76557a888da9c62_185817_300x0_resize_box_2.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+                    <span class="emoji">🎷</span>
+                
+            </figure>
+        
+        <h1 class="site-name"><a href="https://yuukoamamiya.github.io">Yuko&#39;s Blog</a></h1>
+        <h2 class="site-description">让无价值的灵魂去哭泣吧！</h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/link'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Link</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/wiki'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-notebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" />
+  <line x1="13" y1="8" x2="15" y2="8" />
+  <line x1="13" y1="12" x2="15" y2="12" />
+</svg>
+                
+                <span>Wiki</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/index.xml'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                
+                <span>Rss</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>暗色模式</span>
+            </li>
+        
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    <div id="article-toolbar">
+        <a href="https://yuukoamamiya.github.io" class="back-home">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+            <span>Back</span>
+        </a>
+    </div>
+
+    <article class="main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/%E4%BB%8Egridea%E8%BF%81%E7%A7%BB%E5%88%B0hugo/">
+                
+                    <img src="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210210222138.png" loading="lazy" alt="Featured image of post 从Gridea迁移到Hugo" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+
+    <h2 class="article-title">
+        <a href="/p/%E4%BB%8Egridea%E8%BF%81%E7%A7%BB%E5%88%B0hugo/">从Gridea迁移到Hugo</a>
+    </h2>
+
+    
+    <h3 class="article-subtitle">
+        持续集成，牛逼
+    </h3>
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Jan 28, 2021</time>
+    </footer></div>
+</header>
+
+    <section class="article-content">
+    <p>我之前写了<a class="link" href="https://yuukoamamiya.github.io/p/%E8%AE%B0%E4%B8%80%E6%AC%A1%E6%90%AC%E8%BF%81%E5%8D%9A%E5%AE%A2/"  target="_blank" rel="noopener"
+    >一篇博文</a>来讲述我从 blogspot 转移到现在用的 github page ，那个时候用的生成工具是 Gridea ，我现在还觉得那玩意不错，什么都是傻瓜式的，也就第一次设置的时候要跟着教程来，麻烦点，设置好之后就可以看着GUI的脸色行事了。</p>
+<p>只不过后来是越用越觉得 Gridea 有各种各样的问题。我最讨厌的毒瘤框架自不必说，写了篇文章要生成个半天再同步个半天，还经常同步个半天没能 push 上去，就相当痛苦。正好这个时候有了 Github Actions ，如果是自建博客的话传个markdown文件就行，剩下的都是云端自动了，也犯不着在本地先执行什么 <code>hexo -d</code> 再执行一下 <code>git</code> ，最早制约我去自己折腾 hexo 一类工具的制约已经消失了。</p>
+<h2 id="安装hugo">安装Hugo</h2>
+<p>我得说我选择 Hugo 没有什么特别的理由，纯粹就是单纯图个装起来省事。我之前装好了包管理器 Chocolatey ，再装 Hugo 就一行命令的事情，而且装好了直接就已经是环境变量了，可以直接在命令行里执行 <code>hugo</code> 命令，很方便。</p>
+<p>要紧的命令就这么两行：</p>
+<p>安装 Chocolatey （需要管理员权限 powershell）：</p>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Set-ExecutionPolicy</span> <span class="n">Bypass</span> <span class="n">-Scope</span> <span class="k">Process</span> <span class="n">-Force</span><span class="p">;</span> <span class="no">[System.Net.ServicePointManager]</span><span class="p">::</span><span class="n">SecurityProtocol</span> <span class="p">=</span> <span class="no">[System.Net.ServicePointManager]</span><span class="p">::</span><span class="n">SecurityProtocol</span> <span class="o">-bor</span> <span class="n">3072</span><span class="p">;</span> <span class="nb">iex </span><span class="p">((</span><span class="nb">New-Object</span> <span class="n">System</span><span class="p">.</span><span class="n">Net</span><span class="p">.</span><span class="n">WebClient</span><span class="p">).</span><span class="n">DownloadString</span><span class="p">(</span><span class="s1">&#39;https://chocolatey.org/install.ps1&#39;</span><span class="p">))</span>
+</code></pre></div><p>安装 Hugo</p>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">choco</span> <span class="n">install</span> <span class="n">hugo-extended</span>
+</code></pre></div><p>这两个装上就够了，当然，要是像我这样没GUI就浑身难受的，那还可以再装个 Chocolatey GUI：</p>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">choco</span> <span class="n">install</span> <span class="n">chocolateygui</span>
+</code></pre></div><p>装到这里就算是该装的软件都装过一遍了，那之后就是做博客了。</p>
+<h2 id="创建博客">创建博客</h2>
+<p>Hugo 里面新建工程的命令是</p>
+<div class="highlight"><pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">hugo</span> <span class="n">new</span> <span class="n">site</span> <span class="n">my_blog</span>
+</code></pre></div><p>在任意目录下运行，就可以看到生成了一个名为 <code>my_blog</code> 的文件夹，这个文件夹里面自带了一些博客最基本的内容。Hugo 是不自带默认主题的，需要去下一个来。</p>
+<p>我下的是 <a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack"  target="_blank" rel="noopener"
+    >Stack</a> 主题，自带一个<a class="link" href="https://docs.stack.jimmycai.com/v/zh-cn/"  target="_blank" rel="noopener"
+    >中文文档</a>，一步一步照着文档来就行。下载最新 <a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack/releases"  target="_blank" rel="noopener"
+    >Release</a> 之后下，把 <code>hugo-theme-stack-master</code> 改名为 <code>hugo-theme-stack</code> 并放到站点目录的 <code>theme</code> 文件夹下。</p>
+<p>我这是个全新的博客，就如文档所言，把 <code>exampleSite</code> 文件夹中的 <code>assets</code> 和 <code>config.yaml</code> 给复制到博客根目录下；博客根目录下原本有个 <code>config.toml</code> ，理论上可以对着这两个文件依样画葫芦自己写配置文件，但是还是算了，嫌麻烦，直接给删了得了。</p>
+<p>不过网上能找到的一些修改功能的教程几乎都是基于 toml 的，有时候把格式改成 yaml 修修改改还能用，有时候就用不了，凑合凑合得了，也不用太讲究。</p>
+<p>以下设置过程中，全程时不时打开 <code>hugo server</code> 看看对劲不对劲……</p>
+<h2 id="配置主题">配置主题</h2>
+<p><code>config.yaml</code> 这个文件几乎是开箱即用的，但还是不少地方需要自己再设置过。</p>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">params</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">mainSections</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span>- <span class="l">post</span><span class="w">
+</span><span class="w">    </span><span class="nt">featuredImageField</span><span class="p">:</span><span class="w"> </span><span class="l">feature</span><span class="w">
+</span><span class="w">    </span><span class="nt">rssFullContent</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span><span class="w">    </span><span class="nt">favicon</span><span class="p">:</span><span class="w"> </span><span class="l">https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210127185955.ico</span><span class="w">
+</span></code></pre></div><p><code>featuredImageField</code> 决定的是特色图片（题图）使用的字段。默认是 image ，我这里修改成了 feature ，因为从 Gridea 的 post 文件夹里拿出来的文件就是这样的。当然也可以批量修改，用 sublime text 就可以把整个文件夹里的 feature 字段全部改成 image ，不过我偷懒了一手，而且这么改目前看下来也没出啥毛病。能用就成。</p>
+<p><code>rssFullContent</code> 决定的是 rss 是否输出全文。 <code>favicon</code> 决定了网站的图标，看着改就行。</p>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">sidebar</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">emoji</span><span class="p">:</span><span class="w"> </span><span class="l">🎷</span><span class="w">
+</span><span class="w">        </span><span class="nt">subtitle</span><span class="p">:</span><span class="w"> </span><span class="l">让无价值的灵魂去哭泣吧！</span><span class="w">
+</span><span class="w">        </span><span class="nt">avatar</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">local</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">            </span><span class="nt">src</span><span class="p">:</span><span class="w"> </span><span class="l">img/avatar.png</span><span class="w">
+</span></code></pre></div><p>一些个性化博客的设置。把博主头像放在根目录下的 <code>assets/img</code> 里就成。</p>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">menu</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span>- <span class="nt">identifier</span><span class="p">:</span><span class="w"> </span><span class="l">link</span><span class="w">
+</span><span class="w">          </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Link</span><span class="w">
+</span><span class="w">          </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l">link</span><span class="w">
+</span><span class="w">          </span><span class="nt">weight</span><span class="p">:</span><span class="w"> </span>-<span class="m">50</span><span class="w">
+</span><span class="w">          </span><span class="nt">pre</span><span class="p">:</span><span class="w"> </span><span class="l">link</span><span class="w">
+</span><span class="w">
+</span><span class="w">        </span>- <span class="nt">identifier</span><span class="p">:</span><span class="w"> </span><span class="l">rss</span><span class="w">
+</span><span class="w">          </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Rss</span><span class="w">
+</span><span class="w">          </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l">index.xml</span><span class="w">
+</span><span class="w">          </span><span class="nt">weight</span><span class="p">:</span><span class="w"> </span>-<span class="m">40</span><span class="w">
+</span><span class="w">          </span><span class="nt">pre</span><span class="p">:</span><span class="w"> </span><span class="l">rss</span><span class="w">
+</span></code></pre></div><p>个性化菜单。</p>
+<p>原本的左侧菜单只有主页、关于、存档、搜索，这四个选项。我给加了友链和 rss 订阅这两个。</p>
+<p>当然这个时候菜单里面的东西都是不能用的，还需要再配置过。</p>
+<p>老样子还是从作者给的示范里面偷活，把 <code>exampleSite/content/page</code> 整个文件夹拷到根目录的 <code>content</code> 文件夹底下，搜索和存档是直接可以用了。<code>about.md</code> 这个文件还得依样画葫芦自己写点东西上去（我之前甚至想不到写什么去别人博客里偷活233）， <code>link.md</code> 也是一律。大佬们自然有办法手写点代码让友情链接的页面好看点，我是个粗人，拿 md 随手写写差不多了。rss 直接可以用了，不需要再创建了。</p>
+<p>不过这里有个问题是，生成的 rss 订阅地址是 <code>index.xml</code> 而不是以前的 <code>atom.xml</code> ，这就意味着以前的 rss 订阅地址就失效了。我也没什么好办法去解决。</p>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="c"># Change it to your Disqus shortname before using</span><span class="w">
+</span><span class="w"></span><span class="nt">disqusShortname</span><span class="p">:</span><span class="w"> </span><span class="l">yukoamamiya</span><span class="w">
+</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="w">    </span><span class="nt">comments</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">        </span><span class="nt">provider</span><span class="p">:</span><span class="w"> </span><span class="l">disqus</span><span class="w">
+</span></code></pre></div><p>评论系统设置 disqus 省事，就直接用了。 <code>disqusShortname</code> 这个属性设置一下就行。</p>
+<p>这个主题支持 disqus 和 utterances 两套评论系统，后者是基于 github issue 的，要是我之前 gitalk 的数据还在我就用后者了。不过换成 Hugo 之后链接地址全变了，原先的 issue 也就对应不上了，算了算了，全扬了得了233</p>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">permalinks</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">post</span><span class="p">:</span><span class="w"> </span><span class="l">/p/:filename/</span><span class="w">
+</span><span class="w">    </span><span class="nt">page</span><span class="p">:</span><span class="w"> </span><span class="l">/:slug/</span><span class="w">
+</span></code></pre></div><p>这行代码决定的是生成的博文页面的 url 。</p>
+<p>Gridea 的逻辑是取文件名做链接，比如说 <code>aigis.md</code> 这个文件最后生成的链接是 <code>xxx.github.io/post/aigis</code> ，而 Hugo 的逻辑，至少按照这个主题原来的设置 <code>post: /p/:slug/</code>来说是读文件的内容。如果有在 Front Matter 里面设置 <code>slug</code> 字段的话，那就读取这个字段并生成地址，没有的话就读 <code>title</code> ，那我从 Gridea 刚刚转过来的，哪里会设置这个字段嘛，结果就是前面的 <code>aigis.md</code> 生成的链接成了 <code>xxx.github.io/p/千年战争</code> 。</p>
+<p>我把这段里面的 <code>slug</code> 改成了 <code>filename</code> 这个逻辑就和 Gridea 的对上了。当然，还有 p 和 post 的区别，不过这个我不打算改了。就那么几篇特定的博文用 <code>aliases</code> 设置一下别名就成了。比如这样：</p>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">aliases</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span>- <span class="l">/post/order-44/</span><span class="w">
+</span></code></pre></div><p><img src="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20200429164034.jpg" alt=""  /></p>
+<p>反正 SEO 乱了也没什么，会点进来看的也就爱看个什么 TNO 魔怔 Order-44 啊，怒喷 MIUI 啊之类的，也就那么几篇，就连点进来看我睿评太宰治的都没几个。</p>
+<p><a class="link" href="https://docs.stack.jimmycai.com/v/zh-cn/modify-theme/example-custom-font-family-for-article-content"  target="_blank" rel="noopener"
+    >修改字体</a></p>
+<p>修改字体我几乎是从文档里面一字不落直接照搬了。不过我自己也确认不了思源宋体的效果，我这边直接本地强制把字体显示成 Ubuntu 了……</p>
+<p><a class="link" href="https://docs.stack.jimmycai.com/v/zh-cn/writing/gei-fen-lei-biao-qian-tian-jia-tu-pian-he-jian-jie"  target="_blank" rel="noopener"
+    >给分类 / 标签添加图片和简介</a></p>
+<p>同样是照着文档来就行。在 <code>content/tags/标签名</code> 下创建 <code>_index.md</code>，然后写点迫真二次元内容。</p>
+<p>比如：</p>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nn">---</span><span class="w">
+</span><span class="w"></span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;科技&#34;</span><span class="w">
+</span><span class="w"></span><span class="nt">feature</span><span class="p">:</span><span class="w"> </span><span class="l">https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128122034.jpg</span><span class="w">
+</span><span class="w"></span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;你的XP系统有点问题，我已经帮你重装好了&#34;</span><span class="w">
+</span><span class="w"></span><span class="nn">---</span><span class="w">
+</span></code></pre></div><p>显示效果是这样的：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128201948.png" alt=""  /></p>
+<h2 id="迁移博文">迁移博文</h2>
+<p>Gridea 的博文存放在其数据文件夹的 <code>\posts</code> 子目录下，直接把里面的那堆博文复制到 <code>\content\post</code> 下就能用。</p>
+<p>两者的 Front Matter 还是有些区别的，比如说 Hugo 的 <code>hidden: = flase</code> 对应的是 Gridea 的 <code>hideInList: false</code> ，不过总体而言差别不大。而且也可以用 sublime text 批量改整个文件夹。</p>
+<p>一个比较明显的区别在文章简介，在这个主题里面基本就是副标题。Hugo 的文章简介是用 <code>description</code> 词条写的，而 Gridea 的则是靠 <code>&lt;!-- more --&gt;</code> 打标记。这个没啥批量改的法子，也许可以写脚本硬改，但是我这里文章虽然多，有副标题的也不怎么多，就硬改得了。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128203433.png" alt=""  /></p>
+<p>我觉得最炫的是这个hhhhh</p>
+<p><del>不过这篇博文是大一时候写的了，现在我看我也流泪啊</del></p>
+<p>还有一个重大的问题是时间。</p>
+<p>Gridea 里面的时间格式是 <code>2021-01-28 16:52:00</code> ，而 Hugo 的则是 <code>2021-01-28 16:52:00+0800</code> ，两者几乎完全一样，就是 Hugo 的加上了时区信息。</p>
+<p>老的博文不写时区也无所谓，但是新的博文在写的时候一定要加上时区信息。如果不写的话，Hugo 会认为这是一篇发布时间在未来的博文而不给渲染……</p>
+<h2 id="google-search-console">Google Search Console</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128205719.png" alt=""  /></p>
+<p>如果是第一次向谷歌提交站点的话，这一步还是放在后面，等 Github Actions 设置好了再弄吧。我这里因为以前就设置过，现在重新提交一下站点地图就成。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128210146.png" alt=""  /></p>
+<p>站点地图的提交需要时间……估计现在在谷歌上搜 TNO 搜来我博客的，摁一下还是会看404……</p>
+<h2 id="google-analytics">Google Analytics</h2>
+<p>主题作者在文档里面也<a class="link" href="https://docs.stack.jimmycai.com/v/zh-cn/modify-theme"  target="_blank" rel="noopener"
+    >提了一嘴</a>怎么设置，不过我还是跟着<a class="link" href="https://coreychen71.github.io/posts/2019-05/hugoaddgoogleanalytics/"  target="_blank" rel="noopener"
+    >这个教程</a>走的。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128211634.png" alt=""  /></p>
+<p>没申请过 Google Analytics 服务的可以来 <a class="link" href="https://analytics.google.com/analytics/web/?authuser=0#provision/SignUp/"  target="_blank" rel="noopener"
+    >https://analytics.google.com/analytics/web/?authuser=0#provision/SignUp/</a> 先申请一个，我这边是已经申请好了，就差把代码嵌到博客里面去了。</p>
+<p>首先把跟踪 id 加到 <code>config.yaml</code> 里面去。上面发的那个教程里用的是 toml ，和 yaml 的格式略有不同。</p>
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">googleAnalytics</span><span class="p">:</span><span class="w"> </span><span class="l">UA-xxxxxxxxx-x</span><span class="w">
+</span></code></pre></div><p>然后是把 <code>\themes\hugo-theme-stack\layouts\partials\head\head.html</code> 复制到根目录下的 <code>\layouts\partials\head\head.html</code> 里去。</p>
+<p>在这个文件里加上四行：</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html">{{ template &#34;_internal/google_analytics_async.html&#34; . }}
+{{ if not .Site.IsServer }}
+{{ template &#34;_internal/google_analytics_async.html&#34; . }}
+{{ end }}
+</code></pre></div><p>在 <code>\layouts</code> 目录下建立 <code>_internal</code> 文件夹，并且再在其中创建 <code>google_analytics_async.html </code> 文件，然后把我前面截图里面的全局网站代码（gtag.js）复制进去就成。</p>
+<h2 id="设置github-actions">设置Github Actions</h2>
+<p>首先是要准备 <code>&lt;你的github用户名&gt;.github.io</code> 仓库，有一个 master 分支和一个 gh-pages 分支。</p>
+<p>然后把刚刚弄出来的那堆博客文件整个目录传到这个仓库的 master 分支上去——这个时候比较标准的解法是 <code>git push</code> ，不过我能不用命令行肯定不用命令行的233</p>
+<p>我在这一步用的是 <a class="link" href="https://desktop.github.com/"  target="_blank" rel="noopener"
+    >Github Desktop</a> 应用（没错，我甚至连 git 都没装）。</p>
+<p>这里要注意的是需要设置排除，根目录下创建一个文本文档并重命名为 <code>.gitignore</code> ，写入以下内容：</p>
+<pre><code>/public/
+/themes/*/.git
+</code></pre><p>然后是申请 token，在 github 上依次点击 右上角你的头像 - Settings - Developer Settings - Personal access tokens，生成一个。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128220717.png" alt=""  /></p>
+<p>（我这里之前 Gridea 本来就要用的，直接用了之前那个）</p>
+<p>要注意的是这个 token 只会在这个时候给你看一次，丢了就是丢了，以后就再也不会再出现了。我推荐把这个给存到密码管理软件里面去，用 lastpass 之类的软件给管理起来。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128223012.png" alt=""  /></p>
+<p>回到 <code>&lt;你的github用户名&gt;.github.io</code> 仓库，依次选择 Settings - Secret ，添加一个仓库密钥名为 <code>personal_token</code> ，内容是刚刚的 token 复制进去。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128223513.png" alt=""  /></p>
+<p>回到仓库，依次点击 Actions - New wordflow - Set up a workflow yourself，然后把这堆我也是抄来的一大坨代码复制进去就好了。</p>
+<div class="highlight"><pre class="chroma"><code class="language-yml" data-lang="yml"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy Hugo</span><span class="w"> </span><span class="c"># 任君喜欢</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">push</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">branches</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span>- <span class="l">master  </span><span class="w"> </span><span class="c"># master 更新触发</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">build-deploy</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-18.04</span><span class="w">
+</span><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v1</span><span class="w">
+</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup Hugo</span><span class="w">
+</span><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-hugo@v2</span><span class="w">
+</span><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span><span class="w">          </span><span class="nt">hugo-version</span><span class="p">:</span><span class="w"> </span><span class="l">latest</span><span class="w">
+</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build </span><span class="w">
+</span><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">hugo</span><span class="w">
+</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy</span><span class="w">
+</span><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-gh-pages@v3</span><span class="w">
+</span><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span><span class="w">          </span><span class="nt">personal_token</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.personal_token }}</span><span class="w"> </span><span class="c"># personal_token</span><span class="w">
+</span><span class="w">          </span><span class="nt">PUBLISH_BRANCH</span><span class="p">:</span><span class="w"> </span><span class="l">gh-pages </span><span class="w"> </span><span class="c"># 推送到当前 gh-pages 分支</span><span class="w">
+</span><span class="w">          </span><span class="nt">PUBLISH_DIR</span><span class="p">:</span><span class="w"> </span><span class="l">./public </span><span class="w"> </span><span class="c"># hugo 生成到 public 作为跟目录</span><span class="w">
+</span><span class="w">          </span><span class="nt">commit_message</span><span class="p">:</span><span class="w"> </span><span class="l">${{ github.event.head_commit.message }}</span><span class="w">
+</span></code></pre></div><h2 id="施工完毕">施工完毕</h2>
+<p>事情到这一步，就算是施工完毕了。你可以在 master 分支随便进行一些改动来使得 Action 生效。我刚弄好的时候传了一个表情包上去然后删掉了（</p>
+<p><img src="https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128231609.jpg" alt=""  /></p>
+<p>之后再更新新的文章就直接把 .md 文件上传到 <code>\content\post</code> 目录下就成，用网页传用命令行传用桌面应用传都没问题。改动之后会自动生成自动生效。已经难说和 Gridea 哪个方便哪个麻烦了。可能配置过程中还是 Gridea 更加傻瓜式一些，但是配置好之后还是这么整比较省事。</p>
+<p>就是手写 Front Matter 还有点麻烦，这个我还得再琢磨琢磨。比如说可以设置 Front Matter 的默认格式，再比如说可以用那种自定义短语的软件来辅助之类的，都还可以进一步研究。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E7%A7%91%E6%8A%80/">科技</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+</aside>
+
+
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yukoamamiya" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2016 - 
+        
+        2021 Yuko&#39;s Blog
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.0.1">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css">
+            </main>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
