@@ -6,6 +6,7 @@ published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20190508120129.png
 description: 这就是FGO威力加强版吗，还原度真高啊
+slug: Rance-10
 ---
 “大佬帮我看看我这个配置能不能过丽萨斯双杀啊。”“是踢球勇者，我中了我中了。”
 

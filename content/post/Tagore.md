@@ -6,6 +6,7 @@ published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/1280.jpg
 isTop: false
+slug: Tagore
 ---
 
 初次读到泰戈尔的诗时，已经是高中的年岁了。这自然太迟了，我扼腕叹息，悔不曾更早开卷；但这也不迟，在能读下这本书的年岁时读到，多晚也不迟。也并不能说我从来不曾听说过这位声震世间的大文豪的名头，但是想来不读过他的书而只是知道什么“亚洲最早的诺贝尔文学奖得主”“冰心先生的文学导师”之类的称号，是只看到了他身后的光晕，而不曾见到他本人。

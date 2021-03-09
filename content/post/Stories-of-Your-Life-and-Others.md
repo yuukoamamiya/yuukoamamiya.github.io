@@ -4,8 +4,6 @@ date: 2020-07-11 22:04:22
 tags: [科幻,文艺,人文社科]
 feature: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20200711092845.jpg
 description: 飞跃巅峰（雾
-aliases:
-    - /post/Stories-of-Your-Life-and-Others/
 ---
 早年的宅社做动画片相当有SF魂，这一点从他们做过的机器人动画有多炫酷里面就可以看出来。EVA最终话标题neta了《在世界中心呼唤爱的野兽》；剧场版真心为你neta的是《献给阿尔吉侬的花束》（我前阵子读了这位作者的另一本《光明王》，有机会也讲一讲）；飞跃巅峰2最后一话的标题neta的就是特德·姜的《你一生的故事》，也就是我最近才看完的这一本。
 

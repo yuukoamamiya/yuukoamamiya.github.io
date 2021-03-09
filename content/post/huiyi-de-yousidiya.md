@@ -5,6 +5,7 @@ tags: [galgame,二次元]
 published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20190508115405.png
+slug: 穢翼のユースティア
 ---
 前两天才刚刚打完了脏翅膀，打完之后总有一种淡淡的忧愁郁结在心头。
 ![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20190508115405.png)

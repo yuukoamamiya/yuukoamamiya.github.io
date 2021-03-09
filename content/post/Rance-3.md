@@ -5,6 +5,7 @@ tags: [galgame,二次元]
 published: true
 hideInList: false
 feature: 
+slug: Rance-3
 ---
 1. 先打兰9回来补兰3真的发现了好多回收的伏笔啊。和托马的战斗尤其经典。
 

@@ -6,6 +6,7 @@ published: true
 hideInList: false
 feature: 
 isTop: false
+slug: Yeats
 ---
 1889年，彼时24岁的叶芝第一次见到了茅德·冈。他在那天的日记里写到：“我一生的的烦恼开始了。”于是，这便揭开了文学史上这一段苦涩的缪斯故事的序幕。
 

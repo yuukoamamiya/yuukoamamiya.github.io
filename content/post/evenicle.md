@@ -6,6 +6,7 @@ published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20190508134455.png
 description: 凯斯，她真是太可爱了！
+slug: evenicle
 ---
 
 众所周知，日本特产除了優しい以外一钱不值的男主角，甚至这个優しさ本身还是要打问号的，当然，兰斯除外；众所周知，日本还特产三辞四让活像准备登基的王莽一样抵死不从坚决不纳妾的伪善男主，当然后面一般来说会马上紧跟着真香后宫+1，当然，兰斯除外；众所周知，日本还特产满口仁义道德实际上只是怂地一匹，老婆十几个，推了的一个都没有的阳痿男主，当然，兰斯还是例外。
