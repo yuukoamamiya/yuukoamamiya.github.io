@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>安卓 on Yuko&#39;s Blog</title>
+    <link>https://yuukoamamiya.github.io/tags/%E5%AE%89%E5%8D%93/</link>
+    <description>Recent content in 安卓 on Yuko&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jul 2020 22:30:43 +0000</lastBuildDate><atom:link href="https://yuukoamamiya.github.io/tags/%E5%AE%89%E5%8D%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>红米k30折腾记</title>
+      <link>https://yuukoamamiya.github.io/p/redmi-k30/</link>
+      <pubDate>Wed, 01 Jul 2020 22:30:43 +0000</pubDate>
+      
+      <guid>https://yuukoamamiya.github.io/p/redmi-k30/</guid>
+      <description>突然这么说一句可能有些突兀。MIUI是傻逼。
+我在打开任何应用都能看见广告的时候发现MIUI是傻逼。我在关广告关了半个钟头还没关完的时候发现MIUI是傻逼。我在发现无法更换默认桌面应用的时候发现MIUI是傻逼。我在安装了冰箱却发现无法冻结系统自带应用商店的时候发现MIUI是傻逼。我在安装了play版的支付宝和火狐却不停被提醒“您安装的是非正版版本”的时候发现MIUI是傻逼。我在v2ray没法正常更新订阅的时候发现MIUI是傻逼。我在受够了MIUI这个傻吊系统想要刷机刷掉时发现解锁还要等7天的时候发现MIUI真的就是一坨彻头彻尾的傻逼。
+这一切都像极了那个苏联笑话：嘿老兄，这是谁买了这部手机，是你还是我？
+那还能咋办。看到这么一个“与人斗其乐无穷的手机”。我一咬牙，一狠心，一跺脚，我就把这手机给……给供着用了一个星期。
+害，都用小米手机了，那必然是个穷鬼。穷鬼是没法砸手机的。而有钱砸手机的阔佬自然也不会花钱买小米的罪受。
+等到这一个星期过去，分分钟给你解锁了，系统都给你刷咯。指定没有你的好果汁吃。
+刷机的ROM选的是破先生推荐的crdroid，这是一个基于lineage修改的系统。
+哦管他呢，lineage也好pixel experience也好，什么都好，只要不是miui，什么都好。
+解锁 正常来说我应该把刷rec放在第一部分。但是我很想把小米这个撒泼打滚就是不想让你解锁的模样给发出来乐一乐。
+考虑到我用小米以前用的手机不是谷歌就是三星，小米确实是我用过的手机里面体验最屎的同时也是最想让你吃屎并且千方百计阻止你离开屎盆子的手机了，以我贫瘠的脑容量实在是无法想象段位比小米还要高的华为手机用户是如何生存的。
+Recovery 顺着crdroid的发布页面可以直接找到这个机型的rec，现在的rec基本都是twrp了，没什么可说的，好歹都能用触摸屏，挺好。
+刷入过程也没什么好说的，用这两句命令线刷就行。有刷机经验的话很快就能搞定。大约比下载ROM的速度快了个114514倍吧。
+fastboot flash recovery twrp.img fastboot boot twrp.img 命令行看起来都比MIUI亲切
+唯一要注意的是如果一边开模拟器肝手游一边刷机的话ADB会读到两个和电脑连接的安卓设备，所以还是先把模拟器关了吧。
+刷入系统 主要是下载系统的过程比较慢，我用了bitcomet去下，但是也没比http硬下好多少。
+进twrp三清。把rom包拷贝到手机目录。install。搞定。
+刷好之后可以在“高级”菜单下直接root系统，root完了会自带magisk。
+GApps 其实就是俗称的谷歌全家桶。可以在https://opengapps.org/下载到。
+ARM64和安卓10不必说。variant看着选。
+pico和nano是小包。mico和mini则多了一些谷歌自家app。full和stock是完整的全家桶，不同之处在于输入stock之后，谷歌自家的短信应用会替换你系统自带的短信应用，谷歌的电话会替代自带的电话，etc。
+当然说是这么说，反正我的那个stock包刷进去了是没替换成……短信电话日历邮箱的APP都有了双份，还害得我特地用冰箱再去冻了一些……
+如图所示，stock这个包是真的很完整，如果用不着什么google pay啊duo啊谷歌地图谷歌新闻之类的玩意还是别刷了，micro和mini里面选着刷就行。具体micro和mini的包里面有什么是可以在网页里看的，比如说这图里的就是micro的。
+Magisk 在twrp里面开启了root系统之后就自带的管理器，之后就都是这个应用来帮你管理root权限了。比起他的老前辈supersu而言，magisk有着可以安装插件的黑科技。
+虽然这么说话很阴间，但是都0202年了，不会还有kingroot吧
+我先把我打上的模块列在这里。大部分都会在下面的部分提到。
+ Advanced Charging Controller (ACC) Ice Box System Plugin Module Riru (Riru - Core) Riru - EdXposed Riru - Enhanced mode for Strorage Isolation Riru - MiPushFake  黑阈 老牌后台管理了。这个作者人品不咋地，软件还是阳间的。
+冰箱 考虑到各路国产毒瘤APP在后台也不安生。比方说当你启动支付宝的时候这些国产毒瘤们会在后台挨个唤醒，支付宝叫醒淘宝，淘宝叫醒飞猪，飞猪叫醒咸鱼……就这么挨个地叫直到你的内存塞不下位置。</description>
+    </item>
+    
+    <item>
+      <title>我的常用软件/工作方式</title>
+      <link>https://yuukoamamiya.github.io/p/%E6%88%91%E7%9A%84%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/%E5%B7%A5%E4%BD%9C%E6%96%B9%E5%BC%8F/</link>
+      <pubDate>Sun, 26 Apr 2020 13:41:32 +0000</pubDate>
+      
+      <guid>https://yuukoamamiya.github.io/p/%E6%88%91%E7%9A%84%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/%E5%B7%A5%E4%BD%9C%E6%96%B9%E5%BC%8F/</guid>
+      <description>2019-3-19 初版
+2020-4-26 第二版
+操作系统 Windows 电脑上我的主力操作系统还是Windows。
+家里面倒是有一台老电脑，十几年前的MacBook Pro，当年是家里人不会用Mac OS就去装了Windows，结果近几年因为苹果的质量太好一直不坏但是那个 core 2 duo 的 CPU 实在是用着太费劲了，我就给装了Lubuntu。结论是比想象中要凑合能用，至少也不会有那么卡了，也不至于有多么发热（我一开始装的是Deepin，用一会整个电脑都烫得可怕）。
+言归正传，使用Windows以外的系统是需要理由的，比如说像是程序员会去用Linux而设计师会去用OS X那样。而使用Windows本身是不需要理由的，因为软件就在那里啊不是吗。
+何况我还有那么多黄油要打呢（笑。
+黄色游戏没有手游色情，不如玩手游。
+安卓 我已经好几次被家里人揪着领子逼问“你到底买不买 iPhone ，别家的小朋友都用 iPhone 了凭什么就你不叫我们给你买 iPhone ”了。当然最近似乎 iPhone 被换成了华为（苦笑。
+我就直说吧，我使用安卓而不是 iOS 的最大理由就是因为安卓上有ehviewer这种杀手级应用，没了这个应用我简直不知道这个手机存在于我的裤兜里头到底有什么意义。
+至于华为为首的国产手机……我觉得即使抛开那种冷战式的疑神疑鬼思维不提，我作为一个将 iOS 弃之如敝履的安卓用户，实在是没有道理去用那种抄袭 iOS 之后将安卓进行再发明然后在发布会上吹一通牛逼说自己如何如何又“吊打”了苹果的国产手机吧。只有原生安卓才是我的菜。更何况那种冷战式的疑神疑鬼思维，我还真觉得有点道理。
+尽管安卓手机在面对国产流氓软件的时候需要付出很大努力才能勉强压制住……
+等我有钱我必换苹果。不仅乱杀国产流氓软件，还能方便给日本手游充钱。
+安卓模拟器 我用的雷电模拟器。雷电3的系统是安卓5，占用的资源比较低。
+我用的是果壳剥壳的去广告版本。
+主要是玩的手游多233
+浏览器 Chrome 最近惊闻 RunningCheese 大神终于开始做 Chrome 了，我当年就全靠他做的 firefox 放在U盘里随身带着才能度过一个又一个辗转于图书馆机房的无聊周末午后的。不过现在时过境迁，我基本已经从拿着大神手把手制作的修改版浏览器那里毕业了，尽管我现在还是做不到像RC大神那样高度定义一个 firefox 那样出来用，自己给 Chrome 装两个插件、装几个脚本、再收藏几个小书签，还是容易的。
+言归正传，我现在在电脑和手机上都在使用 Chrome ，原因无他，谷歌家的同步功能用起来实在是太舒服了。无论是书签浏览记录还是保存的密码都会一并同步过来，甚至当你换电脑的时候还会在另一台登上谷歌账号的电脑上把之前装过的插件都给同步过来——只要你能够连上国际互联网。
+Firefox 我现在用的就是 RunningCheese 大神的火狐了。得益于火狐在修改上的高自由度，奶酪大神在浏览器里加入了大量便于使用的特性，稍微改一改，用起来就能很舒服。
+而且感觉火狐的占用比较低，打欧陆风云打一半切出去查控制台指令也不会让电脑太卡。
+而且同步书签不要翻了。虽然我电脑上梯子是常开的，但是手机上不是常开的。
+神奇浏览器 我现在在手机上使用的副手浏览器。因为有着还过得去的阅读模式和去广告的功能，晚上看也有夜间模式，所以我会在上乱七八糟网站看色情小说的时候用这个浏览器。平时基本用不着。
+顺便吐槽一句，手机版的 Chrome 不能支持扩展这一点实在是太难受了= =，隔壁 Yandex Browser怕不是都支持几百年了都。</description>
+    </item>
+    
+  </channel>
+</rss>

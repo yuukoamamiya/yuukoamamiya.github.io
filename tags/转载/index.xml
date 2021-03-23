@@ -79,22 +79,5 @@ Requiescat in Pace</description>
 以下是推荐使用windows 10的214条理由</description>
     </item>
     
-    <item>
-      <title>怎样保护你的隐私</title>
-      <link>https://yuukoamamiya.github.io/p/%E6%80%8E%E6%A0%B7%E4%BF%9D%E6%8A%A4%E4%BD%A0%E7%9A%84%E9%9A%90%E7%A7%81/</link>
-      <pubDate>Mon, 02 Jul 2018 12:17:50 +0000</pubDate>
-      
-      <guid>https://yuukoamamiya.github.io/p/%E6%80%8E%E6%A0%B7%E4%BF%9D%E6%8A%A4%E4%BD%A0%E7%9A%84%E9%9A%90%E7%A7%81/</guid>
-      <description>（0）说在前面：百度李彦宏曾说过：&amp;ldquo;中国人对隐私问题的态度更加开放，相对来说也没那么敏感。如果他们可以用隐私换取便利和效率，在很多情况下他们就愿意这么做&amp;rdquo;。如果你不在乎个人隐私，愿意用个人隐私换取方便，那么这篇文章对你没有价值，浪费你的时间，请无视就可以。
-如果你想最大化保护你的个人隐私，那么我建议你：
-（1）浏览器：坚决不要使用任何国产浏览器，推荐使用自由软件，比如 Firefox 和 Chromium (注意 Google Chrome 不开源)。Firefox 是 Mozilla 非营利性组织维护，极大程度上保护你的隐私数据。
-（2）杀毒软件：坚决不要使用国产杀毒软件 (火绒除外，微点有待观察)，他们会监控你的上网纪录，比如 360 会监控你的访问记录，拦截美国驻华大使馆的一些网址。
-（3）Android 手机：解锁Bootloader 进行 Root，拒绝购买那些不提供解锁 Bootloader 的手机，比如华为，魅族，锤子等。因为解锁 Bootloader 进行 Root 是摆脱手机厂商监控的第一步。只有进行 Root 才能卸载掉那些监控手机的预装 App。随着大多数国产手机逐渐关闭解锁 Bootloader 和加大 Root 的难度，用户想要摆脱手机厂商的监控也越来越难，注意不要相信所谓的&amp;quot;Root 很危险&amp;quot;之类的谣言，安全是相对的，这跟用户习惯也有很大的关系。
-（4）输入法：杜绝使用国产输入法，它们会监控并上传你的所有输入记录。在此推荐使用 Google 输入法 (缺点是词库不足)。在墙内由于 GFW，你的数据不会传输到墙外。
-（5）iOS 用户：建议你将 Apple 账户进行转区到国外，国内的账户数据会存储在云上贵州那里，以供审查。Apple 在隐私保护方面做的还是不错的 (仅限乔布斯时期，库克时期由于他要跟中国政府做生意，选择了妥协)，毕竟是为了保护用户隐私敢直接和 FBI 硬杠的公司。
-（6）Android 杀毒软件：你可以放心大胆地卸载掉所有 xx 安全管家，xx 安全中心，xx 大师。Android 手机不需要任何杀毒软件 (划掉)。想要安全，Root 才是最彻底的方法。再次重申不要相信国内所谓&amp;quot;Root 了很危险&amp;quot;这样的谣言。那些所谓的安全管家，只不过是监控你手机，收集你隐私数据的工具而已。
-（7）Android 手机 ROM：不可否认，国产手机在硬件设计方面做的非常不错，硬件性价比也很高。但在系统 ROM 上，对原生 Android 做了极大的修改，所以不要使用任何国产深度定制 ROM，并且应该选择能刷机的手机，建议刷上 XDA 社区的 ROM，能力强的可以自己拿 AOSP 的源码来编译 ROM，精简掉你不想要的 App，事实证明，一个 Android 7.</description>
-    </item>
-    
   </channel>
 </rss>
