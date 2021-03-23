@@ -1,7 +1,9 @@
 ---
 title: 记一次搬迁博客
 date: 2019-05-08 20:20:52
-tags: [科技]
+categories:
+- 技术
+tags: [博客]
 published: true
 hideInList: false
 feature: 

@@ -1,7 +1,9 @@
 ---
 title: 为什么要使用 windows 10 的214条理由
 date: 2019-01-05 12:28:56
-tags: [转载,科技]
+categories:
+- 技术
+tags: [转载,计算机]
 published: true
 hideInList: false
 feature: 

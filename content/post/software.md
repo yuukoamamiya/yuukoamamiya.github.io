@@ -1,7 +1,9 @@
 ---
 title: '我的常用软件/工作方式'
 date: 2020-04-26 13:41:32
-tags: [科技]
+categories:
+- 技术
+tags: [计算机,安卓]
 published: true
 hideInList: false
 feature: 

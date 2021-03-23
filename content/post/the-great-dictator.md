@@ -1,7 +1,9 @@
 ---
 title: The Great Dictator
 date: 2019-05-09 23:17:13
-tags: [文艺,电影]
+categories:
+- 美术与游艺
+tags: [电影]
 published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20190509210743.png

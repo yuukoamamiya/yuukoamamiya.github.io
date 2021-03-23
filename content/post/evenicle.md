@@ -1,6 +1,8 @@
 ---
 title: 夏娃年代记：秋 野 花 是 神
 date: 2019-04-11 13:43:26
+categories:
+- 美术与游艺
 tags: [galgame,二次元]
 published: true
 hideInList: false

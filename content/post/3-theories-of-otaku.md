@@ -1,6 +1,8 @@
 ---
 title: '肥宅的三重境界'
 date: 2018-11-12 11:32:15
+categories:
+- 杂感
 tags: [二次元]
 published: true
 hideInList: false

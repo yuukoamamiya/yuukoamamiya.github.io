@@ -1,7 +1,9 @@
 ---
 title: '太宰治文学的三个阶段'
 date: 2019-11-25 22:20:56
-tags: [文艺]
+categories:
+- 语言与文学
+tags: [日本文学]
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20180720161016_original-768x480.jpg
 description: 求求你们不要再整什么“《人间尼哥》作者大宰种”啦
 slug: dazai-osamu

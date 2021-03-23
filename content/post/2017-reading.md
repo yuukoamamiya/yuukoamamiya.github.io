@@ -1,8 +1,17 @@
 ---
 title: '总结一下2017年看的书'
 date: 2017-12-29 20:57:00+0800
-tags: [读书笔记,文艺]
-hide: false
+categories:
+- 语言与文学
+- 社会学
+tags: 
+- 小说
+- 诗歌
+- 戏剧
+- 美国文学
+- 德国文学
+- 拉美文学
+- 人类学
 comments: true
 feature: 
 description: 

@@ -1,6 +1,8 @@
 ---
 title: 初雪から桜まで、卒業、おめでとう。
 date: 2018-01-24 11:47:04
+categories:
+- 美术与游艺
 tags: [二次元,galgame]
 published: true
 hideInList: false

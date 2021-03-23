@@ -1,6 +1,8 @@
 ---
 title: 买了几本二次元狂热
 date: 2019-01-21 12:35:01
+categories:
+- 杂感
 tags: [二次元,生活,败家]
 published: true
 hideInList: false

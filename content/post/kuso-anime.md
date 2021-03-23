@@ -1,7 +1,10 @@
 ---
 title: '我感觉我已经会拍日本动画了'
 date: 2019-09-26 08:35:54
-tags: [脑洞,二次元]
+categories:
+- 美术与游艺
+- 杂感
+tags: [二次元]
 published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/76092399_p0.png

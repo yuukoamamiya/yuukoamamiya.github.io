@@ -1,6 +1,8 @@
 ---
 title: '入坑千年第一天'
 date: 2019-05-18 00:26:29
+categories:
+- 美术与游艺
 tags: [二次元,手游]
 published: true
 hideInList: false

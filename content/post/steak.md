@@ -1,6 +1,8 @@
 ---
 title: '广州的牛排屋'
 date: 2019-10-18 23:35:38
+categories:
+- 杂感
 tags: [生活]
 published: true
 hideInList: false

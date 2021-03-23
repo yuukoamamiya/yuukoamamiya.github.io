@@ -1,7 +1,9 @@
 ---
 title: '空气炸锅'
 date: 2020-09-03 21:38:54
-tags: [生活]
+categories:
+- 杂感
+tags: [生活,败家]
 published: true
 hideInList: false
 feature: 

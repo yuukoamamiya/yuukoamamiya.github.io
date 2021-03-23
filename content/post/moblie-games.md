@@ -1,6 +1,8 @@
 ---
 title: '做氪金母猪呢，最重要的是开心'
 date: 2020-08-18 14:05:19
+categories:
+- 美术与游艺
 tags: [二次元,手游]
 published: true
 hideInList: false

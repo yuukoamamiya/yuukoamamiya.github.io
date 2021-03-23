@@ -1,10 +1,12 @@
 ---
 title: '水浒王之死'
 date: 2019-05-25 16:18:21
-tags: [脑洞]
+categories:
+- 杂感
 published: true
 hideInList: false
 feature: 
+slug: Le-Morte-d'SongJiang
 ---
 “白衣秀士”哈夫丹是宋江、“蛇眼”公孙胜和“无骨”柴进三人的义父，他们四个人原本只是江湖上知名的大盗，在策划“四鼠闹汴京”的时候被皇帝的“御猫”童贯捉住，义父为了救下三个义子自己去送死才给三个兄弟打开了一条生路。
 

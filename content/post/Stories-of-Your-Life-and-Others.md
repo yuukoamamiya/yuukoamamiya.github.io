@@ -1,7 +1,9 @@
 ---
 title: '你一生的故事'
 date: 2020-07-11 22:04:22
-tags: [科幻,文艺,人文社科]
+categories:
+- 语言与文学
+tags: [科幻]
 feature: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20200711092845.jpg
 description: 飞跃巅峰（雾
 ---

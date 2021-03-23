@@ -1,7 +1,8 @@
 ---
 title: '我所接受的国学教育'
 date: 2020-10-01 22:46:13
-tags: [文艺]
+categories:
+- 哲学与宗教
 published: true
 hideInList: false
 feature: 

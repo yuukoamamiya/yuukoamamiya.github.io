@@ -1,12 +1,10 @@
 ---
 title: '那作文最吊诡的地方在于，如果讲了人话，就不见得有满分'
 date: 2020-08-06 00:28:30
-tags: [时评]
-published: true
-hideInList: false
-feature: 
-isTop: false
+categories:
+- 杂感
 description: 睿评2020高考作文
+slug: paper-on-the-tree
 ---
 > 因为高考作文就是这么一回事。
 

@@ -1,7 +1,8 @@
 ---
 title: '寒潮偶梦'
 date: 2016-03-19 20:27:49
-tags: [生活,脑洞]
+categories:
+- 杂感
 published: true
 hideInList: false
 feature: 

@@ -1,6 +1,8 @@
 ---
 title: '瘟疫公司视频'
 date: 2020-02-28 19:17:33
+categories:
+- 美术与游艺
 tags: [单机游戏]
 published: true
 hideInList: false

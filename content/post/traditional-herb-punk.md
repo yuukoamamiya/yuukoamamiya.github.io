@@ -1,7 +1,8 @@
 ---
 title: '中医朋克'
 date: 2020-03-16 16:03:26
-tags: [脑洞]
+categories:
+- 杂感
 published: true
 hideInList: false
 feature: https://storage.live.com/items/734D3C6FB1804A6C!1021?authkey=AKdg_ovNhZADhR0

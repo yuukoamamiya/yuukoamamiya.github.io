@@ -1,7 +1,8 @@
 ---
 title: '一条特立独行的狗'
 date: 2016-03-13 20:26:21
-tags: [生活,脑洞]
+categories:
+- 杂感
 published: true
 hideInList: false
 feature: 

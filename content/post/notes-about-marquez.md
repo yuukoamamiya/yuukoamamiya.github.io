@@ -1,7 +1,9 @@
 ---
 title: '简单的介绍一下马尔克斯所有的作品'
 date: 2017-05-04 14:28:00+0800
-tags: [读书笔记,文艺]
+categories:
+- 语言与文学
+tags: [拉美文学]
 comments: true
 feature: 
 description: 拉美文学，狗才看保罗科埃略

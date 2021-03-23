@@ -1,7 +1,10 @@
 ---
 title: '日本神话：发展·吸收·改造'
 date: 2017-03-29 11:15:36
-tags: [人文社科]
+categories:
+- 社会学
+tags:
+- 神话学
 published: true
 hideInList: false
 feature: 

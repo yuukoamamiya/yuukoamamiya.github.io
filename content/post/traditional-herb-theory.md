@@ -1,7 +1,8 @@
 ---
 title: '我在花五分钟理解了中医理论之后，提出了毅种中医现代化理论'
 date: 2020-01-23 22:40:38
-tags: [生活,脑洞]
+categories:
+- 杂感
 published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200123204628.jpg

@@ -1,7 +1,8 @@
 ---
 title: '滨海'
 date: 2016-03-06 20:29:33
-tags: [文艺,脑洞]
+categories:
+- 杂感
 published: true
 hideInList: false
 feature: 

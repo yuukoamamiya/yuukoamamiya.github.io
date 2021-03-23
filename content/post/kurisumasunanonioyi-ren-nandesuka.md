@@ -1,7 +1,11 @@
 ---
 title: 'クリスマスなのに、お一人なんですか'
 date: 2018-12-25 12:22:27
-tags: [文艺,时评]
+categories:
+- 哲学与宗教
+- 杂感
+tags:
+- 神话学
 published: true
 hideInList: false
 feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20190508122249.png

@@ -1,7 +1,10 @@
 ---
 title: ' 断电时刻的随想'
 date: 2017-04-05 20:57:00+0800
-tags: [文艺,脑洞,生活]
+categories:
+- 杂感
+tags: 
+- 生活
 comments: true
 feature: 
 description: 肥宅落泪

@@ -1,7 +1,8 @@
 ---
 title: '校长的冬天'
 date: 2017-01-06 20:20:13
-tags: [脑洞,生活]
+categories:
+- 杂感
 published: true
 hideInList: false
 feature: 

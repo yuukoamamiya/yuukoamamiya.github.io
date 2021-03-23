@@ -1,7 +1,8 @@
 ---
 title: '不一样的西西弗斯'
 date: 2017-04-17 11:13:32
-tags: [脑洞]
+categories:
+- 杂感
 published: true
 hideInList: false
 feature: 

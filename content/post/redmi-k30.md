@@ -1,7 +1,9 @@
 ---
 title: '红米k30折腾记'
 date: 2020-07-01 22:30:43
-tags: [科技]
+categories:
+- 技术
+tags: [安卓]
 feature: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20200701224625.jpg
 description: 我就这么耗费了一整天的时间把miui刷掉之后想方设法再现miui的功能……
 slug: redmi-k30

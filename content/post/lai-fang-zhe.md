@@ -1,7 +1,8 @@
 ---
 title: '来访者'
 date: 2016-03-06 20:31:16
-tags: [脑洞]
+categories:
+- 杂感
 published: true
 hideInList: false
 feature: 

@@ -1,6 +1,8 @@
 ---
 title: '“都0202年了，你怎么才看top”'
 date: 2020-02-26 00:34:37
+categories:
+- 美术与游艺
 tags: [二次元,动画,科幻]
 published: true
 hideInList: false

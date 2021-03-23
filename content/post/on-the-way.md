@@ -1,7 +1,8 @@
 ---
 title: '因为我们已不再年轻，不再泪流满面'
 date: 2016-03-13 20:18:57
-tags: [生活]
+categories:
+- 杂感
 published: true
 hideInList: false
 feature: 

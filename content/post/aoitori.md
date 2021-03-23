@@ -1,6 +1,8 @@
 ---
 title: '蒼い鳥'
 date: 2019-08-31 17:40:03
+categories:
+- 美术与游艺
 tags: [galgame,二次元]
 published: true
 hideInList: false

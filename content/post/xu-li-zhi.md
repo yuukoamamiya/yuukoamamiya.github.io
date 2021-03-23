@@ -1,7 +1,10 @@
 ---
 title: '许立志诗歌摘录'
 date: 2020-10-19 16:04:08
-tags: [文艺]
+categories:
+- 语言与文学
+tags:
+- 诗歌
 published: true
 hideInList: false
 feature: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20201019160505.jpg

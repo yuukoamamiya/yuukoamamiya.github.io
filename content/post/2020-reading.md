@@ -1,7 +1,21 @@
 ---
 title: '2020年读过的书'
 date: 2020-12-29 20:57:00
-tags: [读书笔记,文艺]
+categories:
+- 语言与文学
+- 哲学与宗教
+- 社会学
+tags: 
+- 小说
+- 人类学
+- 德国文学
+- 意大利文学
+- 中国文学
+- 希腊戏剧
+- 科幻
+- 哲学
+- 马克思主义
+- 精神分析
 published: true
 hideInList: false
 feature: 

@@ -1,6 +1,8 @@
 ---
 title: '脂砚斋点评近月2'
 date: 2020-08-05 15:56:20
+categories:
+- 美术与游艺
 tags: [galgame,二次元]
 published: true
 hideInList: false

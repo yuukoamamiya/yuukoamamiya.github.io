@@ -1,6 +1,8 @@
 ---
 title: 对某个飞行员的追忆：罗马！我最喜欢的城市就是罗马
 date: 2019-05-11 23:45:43
+categories:
+- 美术与游艺
 tags: [二次元,轻小说,电影]
 published: true
 hideInList: false

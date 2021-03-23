@@ -1,6 +1,8 @@
 ---
 title: '近期剁手：鼠标与耳机'
 date: 2019-05-28 21:07:33
+categories:
+- 杂感
 tags: [生活,败家]
 published: true
 hideInList: false

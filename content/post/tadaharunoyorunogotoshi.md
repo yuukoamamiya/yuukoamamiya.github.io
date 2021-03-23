@@ -1,7 +1,9 @@
 ---
 title: 'ただ春の夜の夢の如し'
 date: 2019-07-03 13:52:03
-tags: [脑洞,生活]
+categories:
+- 杂感
+tags: [生活]
 published: true
 hideInList: false
 feature: 

@@ -1,7 +1,9 @@
 ---
 title: ' 更换 win10 图标'
 date: 2021-02-23 14:18:00+0800
-tags: [科技]
+tags: [计算机]
+categories:
+- 技术
 feature: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210223143610.png
 description: 天哪你刚刚发完情又开始折腾电脑了
 slug: win10-icons
