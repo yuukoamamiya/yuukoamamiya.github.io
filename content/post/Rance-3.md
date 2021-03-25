@@ -2,7 +2,7 @@
 title: 关于兰斯3的50条
 date: 2018-06-28 12:05:40
 categories:
-- 美术与游艺
+- 艺术与休闲
 tags: [galgame,二次元]
 published: true
 hideInList: false

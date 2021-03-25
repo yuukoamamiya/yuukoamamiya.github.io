@@ -2,7 +2,7 @@
 title: '简单的介绍一下马尔克斯所有的作品'
 date: 2017-05-04 14:28:00+0800
 categories:
-- 语言与文学
+- 文学
 tags: [拉美文学]
 comments: true
 feature: 

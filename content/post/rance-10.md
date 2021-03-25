@@ -2,7 +2,7 @@
 title: Rance Grand Order
 date: 2018-06-22 12:00:40
 categories:
-- 美术与游艺
+- 艺术与休闲
 tags: [galgame,二次元]
 published: true
 hideInList: false

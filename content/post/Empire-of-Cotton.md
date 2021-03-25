@@ -2,8 +2,8 @@
 title: ' 棉花帝国：一部资本主义全球史'
 date: 2020-08-17 00:46:14
 categories:
-- 社会学
-- 史学
+- 社会科学
+- 历史
 published: true
 hideInList: false
 feature: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20200816173314.jpg

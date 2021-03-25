@@ -2,7 +2,7 @@
 title: 'さよならピアノソナタ'
 date: 2019-06-08 17:09:14
 categories:
-- 美术与游艺
+- 艺术与休闲
 tags: [轻小说,二次元]
 published: true
 hideInList: false

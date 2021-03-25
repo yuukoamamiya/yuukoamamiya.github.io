@@ -2,7 +2,7 @@
 title: '水仙：さよなら'
 date: 2017-03-19 11:18:08
 categories:
-- 美术与游艺
+- 艺术与休闲
 tags: [二次元,galgame]
 published: true
 hideInList: false

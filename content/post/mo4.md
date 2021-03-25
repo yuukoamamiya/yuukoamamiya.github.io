@@ -2,7 +2,7 @@
 title: 秋之回忆4：雨，何时会停
 date: 2019-02-23 12:41:43
 categories:
-- 美术与游艺
+- 艺术与休闲
 tags: [galgame,二次元]
 published: true
 hideInList: false

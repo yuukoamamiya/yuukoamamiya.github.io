@@ -2,7 +2,7 @@
 title: '爱者之饴——我读泰戈尔'
 date: 2017-01-06 20:20:13
 categories:
-- 语言与文学
+- 文学
 tags: [诗歌]
 published: true
 hideInList: false

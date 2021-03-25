@@ -2,7 +2,7 @@
 title: The Great Dictator
 date: 2019-05-09 23:17:13
 categories:
-- 美术与游艺
+- 艺术与休闲
 tags: [电影]
 published: true
 hideInList: false

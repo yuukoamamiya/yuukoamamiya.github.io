@@ -2,7 +2,7 @@
 title: '我最近看的电影：漂亮女人·老男人·机器人'
 date: 2020-01-21 17:53:51
 categories:
-- 美术与游艺
+- 艺术与休闲
 tags: [二次元,动画,电影,科幻]
 published: true
 hideInList: false

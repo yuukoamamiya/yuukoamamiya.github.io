@@ -2,7 +2,7 @@
 title: 秽翼的尤斯蒂娅：親愛なる世界へ
 date: 2018-03-11 11:52:36
 categories:
-- 美术与游艺
+- 艺术与休闲
 tags: [galgame,二次元]
 published: true
 hideInList: false

@@ -2,7 +2,7 @@
 title: 关于这个叫做西元帅巧壳的游戏
 date: 2019-01-22 12:37:23
 categories:
-- 美术与游艺
+- 艺术与休闲
 tags: [galgame,二次元]
 published: true
 hideInList: false

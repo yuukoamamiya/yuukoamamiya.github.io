@@ -2,7 +2,7 @@
 title: '小说《奔跑吧梅洛斯》的传承与系谱'
 date: 2019-11-30 22:48:30
 categories:
-- 语言与文学
+- 文学
 tags: [日本文学,德国文学]
 feature: 
 description: 柏拉图-席勒-太宰治

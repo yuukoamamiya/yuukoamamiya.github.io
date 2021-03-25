@@ -2,7 +2,7 @@
 title: ' 斜目而视'
 date: 2021-01-15 17:13:11
 categories:
-- 哲学与宗教
+- 哲学
 tags: 
 - 精神分析
 feature: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210114215734.jpg

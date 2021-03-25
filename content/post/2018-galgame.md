@@ -2,7 +2,7 @@
 title: 2018黄油总结
 date: 2018-12-28 12:25:41
 categories:
-- 美术与游艺
+- 艺术与休闲
 tags: [galgame,二次元]
 published: true
 hideInList: false
