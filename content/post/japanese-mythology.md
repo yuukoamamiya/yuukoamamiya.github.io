@@ -3,6 +3,7 @@ title: '日本神话：发展·吸收·改造'
 date: 2017-03-29 11:15:36
 categories:
 - 社会科学
+- 宗教
 tags:
 - 神话学
 published: true
