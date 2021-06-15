@@ -18,7 +18,7 @@ permalinks:
 params:
     mainSections:
         - post
-    featuredImageField: feature
+    featuredImageField: image
     rssFullContent: false
     favicon: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210127185955.ico
 
