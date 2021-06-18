@@ -65,3 +65,15 @@ k2pdfopt理论上也是可以自动裁边的，但是那个裁边效果不好，
 ![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210525100503.jpg)
 
 看到这个重排效果这么好，我和满书架还没看的书还有steam游戏都笑了。
+
+---
+
+补充一句……
+
+有一些PDF是一页一个书签的，在转换的过程中就会把每一页当作一章，直接换页。
+
+![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210618103753.png)
+
+![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210618104041.jpg)
+
+遇到这种PDF还得先把书签重新编辑一遍……
