@@ -126,11 +126,7 @@ menu:
           pre: link
 
 
-        - identifier: wiki
-          name: Wiki
-          url: wiki
-          weight: -40
-          pre: notebook
+
 
 
         - identifier: rss
