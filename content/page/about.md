@@ -39,11 +39,13 @@ lastmod = "2021-01-27"
 
 你可以在以下的一些社交媒体上找到我：
 
-微博：[雨宫优子厨](https://weibo.com/yukoamamiya) 我得说，新浪的体验相当差劲，我不想用了。
+微博：已停用。
 
-豆瓣：[雨宫优子厨](https://www.douban.com/people/147743842/) 几乎只做记录用，不产出内容。
+豆瓣：[雨宫优子厨](https://www.douban.com/people/147743842/) 博文都写在博客里，不会写什么太长的内容，倒是偶尔有短评。
 
-Bangumi：[雨宫优子厨](http://bgm.tv/user/296966) 同上
+知乎：[雨宫优子厨](https://www.zhihu.com/people/yu-gong-you-zi-chu) 同上
+
+Bangumi：[雨宫优子厨](http://bgm.tv/user/296966) 几乎只做记录用，不产出内容。
 
 Bilibili：[雨宫优子厨](https://space.bilibili.com/267755836) 会时不时传一些游戏视频，也会从油管搬运一些老二次元的内容过来
 
