@@ -14,7 +14,7 @@ suzumiyashirone's Blog：[https://suzumiyashirone.github.io/](https://suzumiyash
 
 mistakey | 博客 - Der Alte würfelt nicht.：[http://mistakey.top/](http://mistakey.top/)
 
-核桃酥：[http://lilis.coding.me/](http://lilis.coding.me/)
+核桃酥：[https://stgapr.github.io/](https://stgapr.github.io/)
 
 風祭学院オカルト研究会：[https://curediamond.blogspot.com/](https://curediamond.blogspot.com/)
 
