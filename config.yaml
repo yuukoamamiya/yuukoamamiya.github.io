@@ -19,7 +19,7 @@ params:
     mainSections:
         - post
     featuredImageField: image
-    rssFullContent: false
+    rssFullContent: true
     favicon: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210127185955.ico
 
 
