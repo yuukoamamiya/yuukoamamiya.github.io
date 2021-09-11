@@ -40,6 +40,8 @@ params:
 
     article:
         math: false
+        toc: false
+        readingTime: true
         license:
             enabled: true
             default: Licensed under CC BY-NC-SA 4.0
@@ -47,11 +49,6 @@ params:
     comments:
         enabled: true
         provider: disqus
-        utterances:
-            repo:
-            issueTerm: pathname
-            label:
-            theme: preferred-color-scheme
 
     widgets:
         enabled:
@@ -124,10 +121,6 @@ menu:
           url: link
           weight: -50
           pre: link
-
-
-
-
 
         - identifier: rss
           name: Rss
