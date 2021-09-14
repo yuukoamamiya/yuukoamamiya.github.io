@@ -47,7 +47,7 @@ lastmod = "2021-01-27"
 
 Bangumi：[雨宫优子厨](http://bgm.tv/user/296966) 几乎只做记录用，不产出内容。
 
-Bilibili：[雨宫优子厨](https://space.bilibili.com/267755836) 会时不时传一些游戏视频，也会从油管搬运一些老二次元的内容过来
+Bilibili：[雨宫优子厨](https://space.bilibili.com/267755836) 会时不时传一些游戏视频，也会从油管搬运一些老二次元的内容过来。有时候会开直播间读书。
 
 Telegram：[优子的沙雕吐槽频道](https://t.me/doloreshazeanime) 很长一段时间里是推特上点赞的色图顺手转发到频道里来
 
