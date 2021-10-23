@@ -11,7 +11,7 @@ disqusShortname: hugo-theme-stack
 googleAnalytics:
 
 # Theme i18n support
-# Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl, it
+# Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl, it, th, el
 DefaultContentLanguage: en
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
@@ -174,10 +174,23 @@ menu:
           name: Home
           url: /
           weight: -100
-          pre: home
           params:
               ### For demonstration purpose, the home link will be open in a new tab
               newTab: true
+              icon: home
+    
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/CaiJimmy/hugo-theme-stack
+          params:
+            icon: brand-github
+            
+        - identifier: twitter
+          name: Twitter
+          url: https://twitter.com
+          params:
+            icon: brand-twitter
 
 related:
     includeNewer: true
