@@ -122,6 +122,13 @@ menu:
           weight: -50
           pre: link
 
+        - identifier: memo
+          name: memo
+          url: memo
+          weight: -40
+          pre: notebook
+
+
         - identifier: rss
           name: Rss
           url: index.xml
