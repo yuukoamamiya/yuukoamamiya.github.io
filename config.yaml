@@ -123,10 +123,12 @@ menu:
           pre: link
 
         - identifier: memo
-          name: memo
+          name: Memo
           url: memo
           weight: -40
-          pre: notebook
+          params:
+            icon: notebook
+            newTab: true
 
 
         - identifier: rss
