@@ -4,7 +4,7 @@ date: 2020-07-11 22:04:22
 categories:
 - 文学
 tags: [科幻]
-image: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20200711092845.jpg
+image: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200711092845.jpg
 description: 飞跃巅峰（雾
 ---
 早年的宅社做动画片相当有SF魂，这一点从他们做过的机器人动画有多炫酷里面就可以看出来。EVA最终话标题neta了《在世界中心呼唤爱的野兽》；剧场版真心为你neta的是《献给阿尔吉侬的花束》（我前阵子读了这位作者的另一本《光明王》，有机会也讲一讲）；飞跃巅峰2最后一话的标题neta的就是特德·姜的《你一生的故事》，也就是我最近才看完的这一本。
@@ -31,7 +31,7 @@ description: 飞跃巅峰（雾
 
 这篇小说令我联想到在科幻小说里面经常被用来解释高维空间的一个段子：把纸带首尾相连做成纸环，让一只蚂蚁在这个纸环的表面上爬个一圈。对于这只蚂蚁而言，它无法理解为什么当它一直朝左边爬（我们假定这个纸环横着摆吧），向左爬过了这条纸带最左端的时候，为什么突然就跑到了这条纸带最右边去了。这是不是和这本小说异曲同工。
 
-![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20200711124342.jpg)
+![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200711124342.jpg)
 
 当然我不是说这篇短篇一定讲的就是高维空间（事实上这个词在三体之后都dssq了）。这本小说抓住我的地方还是在于有限的心智面对“循环”“无限”这种无法理解的概念的无力感。
 
@@ -55,7 +55,7 @@ description: 飞跃巅峰（雾
 
 ## 七十二个字母
 
-![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20200711092839.jpg)
+![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200711092839.jpg)
 
 在遥远的，我还要读书的时候（笑），那个时候生物老师给我放了这么一张图。这张图说的是以前的科学家们认为精子里面有一个完整的人形，只要显微镜的放大倍数足够大了就能观测到（当然，就以前那个粗糙的条件自然只能是假想），而发育的过程只不过是不断吸收营养长大的过程。
 
@@ -69,11 +69,11 @@ description: 飞跃巅峰（雾
 
 还有一个宗教梗来自格雷姆，这个也是基督教经典老梗了。我玩千年战争的时候被格雷姆暴打过（）
 
-![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20200711110040.png)
+![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200711110040.png)
 
 游戏王的魔女术卡组里的大boss阿鲁鲁就是被魔女们创造出来的Golem（当然游戏王也是玩梗带师，她的名字还有其他梗）
 
-![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20200711110032.jpg)
+![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200711110032.jpg)
 
 当然这篇小说更有趣的地方在于特德姜把这两个梗给联系在了一起，生物和编程联系在一起的时候，人在代行上帝 创造生命体的职能。
 

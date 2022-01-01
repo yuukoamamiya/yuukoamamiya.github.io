@@ -4,7 +4,7 @@ date: 2021-01-28 16:52:00+0800
 categories:
 - 技术
 tags: [博客]
-image: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210210222138.png
+image: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210210222138.png
 description: 持续集成，牛逼
 ---
 
@@ -66,7 +66,7 @@ params:
         - post
     featuredImageField: feature
     rssFullContent: false
-    favicon: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210127185955.ico
+    favicon: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210127185955.ico
 ```
 
 `featuredImageField` 决定的是特色图片（题图）使用的字段。默认是 image ，我这里修改成了 feature ，因为从 Gridea 的 post 文件夹里拿出来的文件就是这样的。当然也可以批量修改，用 sublime text 就可以把整个文件夹里的 feature 字段全部改成 image ，不过我偷懒了一手，而且这么改目前看下来也没出啥毛病。能用就成。
@@ -143,7 +143,7 @@ aliases:
 
 
 
-![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20200429164034.jpg)
+![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200429164034.jpg)
 
 反正 SEO 乱了也没什么，会点进来看的也就爱看个什么 TNO 魔怔 Order-44 啊，怒喷 MIUI 啊之类的，也就那么几篇，就连点进来看我睿评太宰治的都没几个。
 
@@ -160,14 +160,14 @@ aliases:
 ```yaml
 ---
 title: "科技"
-feature: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128122034.jpg
+feature: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128122034.jpg
 description: "你的XP系统有点问题，我已经帮你重装好了"
 ---
 ```
 
 显示效果是这样的：
 
-![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128201948.png)
+![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128201948.png)
 
 ## 迁移博文
 
@@ -177,7 +177,7 @@ Gridea 的博文存放在其数据文件夹的 `\posts` 子目录下，直接把
 
 一个比较明显的区别在文章简介，在这个主题里面基本就是副标题。Hugo 的文章简介是用 `description` 词条写的，而 Gridea 的则是靠 `<!-- more -->` 打标记。这个没啥批量改的法子，也许可以写脚本硬改，但是我这里文章虽然多，有副标题的也不怎么多，就硬改得了。
 
-![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128203433.png)
+![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128203433.png)
 
 我觉得最炫的是这个hhhhh
 
@@ -191,11 +191,11 @@ Gridea 里面的时间格式是 `2021-01-28 16:52:00` ，而 Hugo 的则是 `202
 
 ## Google Search Console
 
-![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128205719.png)
+![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128205719.png)
 
 如果是第一次向谷歌提交站点的话，这一步还是放在后面，等 Github Actions 设置好了再弄吧。我这里因为以前就设置过，现在重新提交一下站点地图就成。
 
-![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128210146.png)
+![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128210146.png)
 
 站点地图的提交需要时间……估计现在在谷歌上搜 TNO 搜来我博客的，摁一下还是会看404……
 
@@ -203,7 +203,7 @@ Gridea 里面的时间格式是 `2021-01-28 16:52:00` ，而 Hugo 的则是 `202
 
 主题作者在文档里面也[提了一嘴](https://docs.stack.jimmycai.com/v/zh-cn/modify-theme)怎么设置，不过我还是跟着[这个教程](https://coreychen71.github.io/posts/2019-05/hugoaddgoogleanalytics/)走的。
 
-![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128211634.png)
+![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128211634.png)
 
 没申请过 Google Analytics 服务的可以来 [https://analytics.google.com/analytics/web/?authuser=0#provision/SignUp/](https://analytics.google.com/analytics/web/?authuser=0#provision/SignUp/) 先申请一个，我这边是已经申请好了，就差把代码嵌到博客里面去了。
 
@@ -243,17 +243,17 @@ googleAnalytics: UA-xxxxxxxxx-x
 
 然后是申请 token，在 github 上依次点击 右上角你的头像 - Settings - Developer Settings - Personal access tokens，生成一个。
 
-![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128220717.png)
+![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128220717.png)
 
 （我这里之前 Gridea 本来就要用的，直接用了之前那个）
 
 要注意的是这个 token 只会在这个时候给你看一次，丢了就是丢了，以后就再也不会再出现了。我推荐把这个给存到密码管理软件里面去，用 lastpass 之类的软件给管理起来。
 
-![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128223012.png)
+![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128223012.png)
 
 回到 `<你的github用户名>.github.io` 仓库，依次选择 Settings - Secret ，添加一个仓库密钥名为 `personal_token` ，内容是刚刚的 token 复制进去。
 
-![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128223513.png)
+![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128223513.png)
 
 回到仓库，依次点击 Actions - New wordflow - Set up a workflow yourself，然后把这堆我也是抄来的一大坨代码复制进去就好了。
 
@@ -292,7 +292,7 @@ jobs:
 
 事情到这一步，就算是施工完毕了。你可以在 master 分支随便进行一些改动来使得 Action 生效。我刚弄好的时候传了一个表情包上去然后删掉了（
 
-![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210128231609.jpg)
+![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128231609.jpg)
 
 之后再更新新的文章就直接把 .md 文件上传到 `\content\post` 目录下就成，用网页传用命令行传用桌面应用传都没问题。改动之后会自动生成自动生效。已经难说和 Gridea 哪个方便哪个麻烦了。可能配置过程中还是 Gridea 更加傻瓜式一些，但是配置好之后还是这么整比较省事。
 

@@ -31,7 +31,7 @@ lastmod = "2021-01-27"
 
 最近就是在硬啃马克思、阿尔都塞和齐泽克的书。
 
-![](https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210127180812.jpg)
+![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210127180812.jpg)
 
 ## Contact
 
