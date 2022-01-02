@@ -62,17 +62,7 @@ slug: Adobe-Acrobat-XI-change-background-color
 
 现在是整了个别的软件来看扫描PDF，稻壳阅读器。这也是我最近发现的年度惊喜软件了。看扫描PDF能改背景颜色，不过能选的颜色不多；能看epub和mobi，不过不能换字体；看txt能自动分章节，不过智能程度挺低；有个批注功能，但是基本残废——总之什么都能做但是什么都做不好，不过好在能开的格式多，开起来速度快。
 
-以及前面提到的究极护眼方案，把书拿去淘宝打印店打印：
-
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210520104709.jpg)
-
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210520104513.jpg)
-
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210520104528.jpg)
-
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210520104544.jpg)
-
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210520104709.jpg)
+以及前面提到的究极护眼方案，把书拿去淘宝打印店打印。
 
 打的八分钱一张的道林纸，效果挺好，摸上去手上也不染墨粉。
 
