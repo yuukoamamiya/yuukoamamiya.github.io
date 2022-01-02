@@ -19,7 +19,7 @@ slug: Adobe-Acrobat-XI-change-background-color
 
 ![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210210193445.png)
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210210193451.png)
+<img src="https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210210193451.png" style="zoom:67%;" />
 
 这里设置一下就好了。我从简书偷了几个背景色的设定，不过总的来说我感觉这几个也就那样，看着选。
 
@@ -36,13 +36,13 @@ slug: Adobe-Acrobat-XI-change-background-color
 
 我体感是浅绿浅黄浅灰之类的看起来会比较舒服。
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210210200458.png)
+<img src="https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210210200458.png" style="zoom: 50%;" />
 
 改完背景色之后的效果大概是这样。
 
 不过这个只能改知网下的，或者是自己用doc生成的PDF。 那种扫描本是改不了的，原来是白底黑字还是白底黑字，这个和PDF文件有关。
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210210200843.png)
+<img src="https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210210200843.png" style="zoom:50%;" />
 
 比如说这个就是扫描的电子书，还是那么白。
 
@@ -54,11 +54,11 @@ slug: Adobe-Acrobat-XI-change-background-color
 
 2/28更新：
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210228222402.png)
+<img src="https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210228222402.png" style="zoom: 67%;" />
 
 扫描PDF可以用 视图-工具-文档处理-优化扫描的PDF 这里把PDF的背景扣了，扣了之后就能强行换背景了。但是效果挺拉的。
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210218214645.png)
+<img src="https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210218214645.png" style="zoom: 67%;" />
 
 现在是整了个别的软件来看扫描PDF，稻壳阅读器。这也是我最近发现的年度惊喜软件了。看扫描PDF能改背景颜色，不过能选的颜色不多；能看epub和mobi，不过不能换字体；看txt能自动分章节，不过智能程度挺低；有个批注功能，但是基本残废——总之什么都能做但是什么都做不好，不过好在能开的格式多，开起来速度快。
 

@@ -167,7 +167,7 @@ description: "你的XP系统有点问题，我已经帮你重装好了"
 
 显示效果是这样的：
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128201948.png)
+<img src="https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128201948.png" style="zoom: 67%;" />
 
 ## 迁移博文
 
@@ -191,11 +191,11 @@ Gridea 里面的时间格式是 `2021-01-28 16:52:00` ，而 Hugo 的则是 `202
 
 ## Google Search Console
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128205719.png)
+<img src="https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128205719.png" style="zoom: 67%;" />
 
 如果是第一次向谷歌提交站点的话，这一步还是放在后面，等 Github Actions 设置好了再弄吧。我这里因为以前就设置过，现在重新提交一下站点地图就成。
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128210146.png)
+<img src="https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128210146.png" style="zoom:67%;" />
 
 站点地图的提交需要时间……估计现在在谷歌上搜 TNO 搜来我博客的，摁一下还是会看404……
 
@@ -203,7 +203,7 @@ Gridea 里面的时间格式是 `2021-01-28 16:52:00` ，而 Hugo 的则是 `202
 
 主题作者在文档里面也[提了一嘴](https://docs.stack.jimmycai.com/v/zh-cn/modify-theme)怎么设置，不过我还是跟着[这个教程](https://coreychen71.github.io/posts/2019-05/hugoaddgoogleanalytics/)走的。
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128211634.png)
+<img src="https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128211634.png" style="zoom: 50%;" />
 
 没申请过 Google Analytics 服务的可以来 [https://analytics.google.com/analytics/web/?authuser=0#provision/SignUp/](https://analytics.google.com/analytics/web/?authuser=0#provision/SignUp/) 先申请一个，我这边是已经申请好了，就差把代码嵌到博客里面去了。
 
@@ -243,17 +243,17 @@ googleAnalytics: UA-xxxxxxxxx-x
 
 然后是申请 token，在 github 上依次点击 右上角你的头像 - Settings - Developer Settings - Personal access tokens，生成一个。
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128220717.png)
+<img src="https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128220717.png" style="zoom:80%;" />
 
 （我这里之前 Gridea 本来就要用的，直接用了之前那个）
 
 要注意的是这个 token 只会在这个时候给你看一次，丢了就是丢了，以后就再也不会再出现了。我推荐把这个给存到密码管理软件里面去，用 lastpass 之类的软件给管理起来。
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128223012.png)
+<img src="https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128223012.png" style="zoom: 50%;" />
 
 回到 `<你的github用户名>.github.io` 仓库，依次选择 Settings - Secret ，添加一个仓库密钥名为 `personal_token` ，内容是刚刚的 token 复制进去。
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128223513.png)
+<img src="https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128223513.png" style="zoom:67%;" />
 
 回到仓库，依次点击 Actions - New wordflow - Set up a workflow yourself，然后把这堆我也是抄来的一大坨代码复制进去就好了。
 
