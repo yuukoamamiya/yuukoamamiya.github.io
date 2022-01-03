@@ -122,13 +122,13 @@ menu:
           weight: -50
           pre: link
 
-        - identifier: memo
-          name: Memo
-          url: memo
-          weight: -40
-          params:
-            icon: notebook
-            newTab: true
+#        - identifier: memo
+#          name: Memo
+#          url: memo
+#          weight: -40
+#          params:
+#            icon: notebook
+#            newTab: true
 
 
         - identifier: rss
