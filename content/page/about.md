@@ -1,11 +1,18 @@
-+++
-title = "About"
-date = "2021-01-27"
-aliases = ["about-me",  "contact"]
-license = "CC BY-NC-ND"
-lastmod = "2021-01-27"
-
-+++
+---
+title: About
+description: 关于网左共趣雨宫优子的一切
+date: '2021-01-27'
+aliases:
+  - about-me
+  - contact
+license: CC BY-NC-ND
+lastmod: '2020-10-09'
+menu:
+    main: 
+        weight: -90
+        params:
+            icon: user
+---
 
 > 我们让资产阶级们去发疯吧！让那些无价值的灵魂去哭泣吧！工人同志们我们的回答就是这样的。加上三倍的警惕和小心，还要忍耐。大家应该守住自己的岗位。同志们你们必须要记住：我们只有一条出路，那就是胜利。还有另外一条路那就是死亡。死亡不属于工人阶级！ 
 >

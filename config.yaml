@@ -7,9 +7,13 @@ title: Yuko's Blog
 # Change it to your Disqus shortname before using
 disqusShortname: yukoamamiya
 
+googleAnalytics: UA-173973679-1
+
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn
 DefaultContentLanguage: zh-cn
+
+hasCJKLanguage: true
 
 permalinks:
     post: /p/:slug/
@@ -35,6 +39,7 @@ params:
         emoji: 🎷
         subtitle: 让无价值的灵魂去哭泣吧！
         avatar:
+            enabled: true
             local: true
             src: img/avatar.png
 
@@ -51,22 +56,24 @@ params:
         provider: disqus
 
     widgets:
-        enabled:
-            - search
-            - archives
-            - tag-cloud
-
-        archives:
-            limit: 5
-            path: archives
-
-        tagCloud:
-            limit: 10
+        homepage:
+            - type: search
+            - type: archives
+              params:
+                  limit: 5
+            - type: categories
+              params:
+                  limit: 10
+            - type: tag-cloud
+              params:
+                  limit: 10
+        page:
+            - type: toc
 
     opengraph:
         twitter: 
 
-            site: amamiyadolores
+            site: surreproduction
 
             # Available values: summary, summary_large_image
             card: summary_large_image
@@ -90,52 +97,31 @@ params:
         content:
             enabled: true
 
+### Custom menu
+### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
+### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-    main:
-        - identifier: home
-          name: Home
-          url: /
-          weight: -100
-          pre: home
+    main: []
 
-        - identifier: about
-          name: About
-          url: about
-          weight: -90
-          pre: user
+    social:
+        - identifier: zhihu
+          name: 知乎
+          url: https://www.zhihu.com/people/yu-gong-you-zi-chu
+          params:
+              icon: brand-bing
 
-        - identifier: archives
-          name: Archives
-          url: archives
-          weight: -70
-          pre: archives
-
-        - identifier: search
-          name: Search
-          url: search
-          weight: -60
-          pre: search
-
-        - identifier: link
-          name: Link
-          url: link
-          weight: -50
-          pre: link
-
-#        - identifier: memo
-#          name: Memo
-#          url: memo
-#          weight: -40
-#          params:
-#            icon: notebook
-#            newTab: true
-
+        - identifier: douban
+          name: 豆瓣
+          url: https://www.douban.com/people/147743842/
+          params:
+              icon: brand-disqus
 
         - identifier: rss
           name: Rss
-          url: index.xml
-          weight: -30
-          pre: rss
+          url: https://yuukoamamiya.github.io/index.xml
+          params:
+              icon: rss
+
 
 related:
     includeNewer: true
@@ -149,7 +135,19 @@ related:
           weight: 200
 
 markup:
+    goldmark:
+        renderer:
+            ## Set to true if you have HTML content inside Markdown
+            unsafe: false
+    tableOfContents:
+        endLevel: 4
+        ordered: true
+        startLevel: 2
     highlight:
         noClasses: false
-
-googleAnalytics: UA-173973679-1
+        codeFences: true
+        guessSyntax: true
+        lineNoStart: 1
+        lineNos: true
+        lineNumbersInTable: true
+        tabWidth: 4
