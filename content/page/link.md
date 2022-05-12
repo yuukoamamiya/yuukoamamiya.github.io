@@ -31,11 +31,11 @@ links:
   - title: 風祭学院オカルト研究会
     description: 噗咩酱！以前的好朋友，可惜现在无论是人生境遇也好前途也好都渐行渐远了……
     website: https://curediamond.blogspot.com/
-    image: pumie.jpeg
+    image: https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205121705085.jpeg
   - title: 幌子五月病
     description: 幌纸！以前的好朋友x2 他博客写的东西很神秘我都看不懂……
     website: http://hzwyb.lofter.com/
-    image: huangzhi.jpg
+    image: https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205121704544.jpg
 
 comments: false
 ---
