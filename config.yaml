@@ -1,5 +1,5 @@
 baseurl: https://yuukoamamiya.github.io
-languageCode: en-us
+languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
 title: Yuko's Blog
