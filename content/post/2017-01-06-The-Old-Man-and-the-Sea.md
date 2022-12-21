@@ -2,8 +2,8 @@
 title: '老人与海：用什么东西，去交换了虚无'
 date: 2017-01-06 20:20:13
 categories:
-- 文学
-tags: [美国文学,小说]
+- 读书
+tags: [小说]
 published: true
 hideInList: false
 image: 

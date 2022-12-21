@@ -2,7 +2,7 @@
 title: '你一生的故事'
 date: 2020-07-11 22:04:22
 categories:
-- 文学
+- 读书
 tags: [科幻]
 image: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200711092845.jpg
 description: 飞跃巅峰（雾

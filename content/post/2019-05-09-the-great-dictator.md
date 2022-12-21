@@ -2,8 +2,9 @@
 title: The Great Dictator
 date: 2019-05-09 23:17:13
 categories:
-- 艺术与休闲
-tags: [电影]
+- 电影
+tags: 
+- 卓别林
 published: true
 hideInList: false
 image: https://raw.githubusercontent.com/yuukoamamiya/pic/master/20190509210743.png
