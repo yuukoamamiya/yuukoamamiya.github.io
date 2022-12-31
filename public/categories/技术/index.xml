@@ -1,0 +1,2835 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>技术 on Yuko&#39;s Blog</title>
+        <link>https://yuukoamamiya.github.io/categories/%E6%8A%80%E6%9C%AF/</link>
+        <description>Recent content in 技术 on Yuko&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 07 Nov 2022 19:48:00 +0800</lastBuildDate><atom:link href="https://yuukoamamiya.github.io/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>电子书一键摆烂ABC</title>
+        <link>https://yuukoamamiya.github.io/p/e-book-abc/</link>
+        <pubDate>Mon, 07 Nov 2022 19:48:00 +0800</pubDate>
+        
+        <guid>https://yuukoamamiya.github.io/p/e-book-abc/</guid>
+        <description>&lt;img src="https://cdn.sspai.com/2020/12/24/b23ed5e9540c55625cc904c71d15a01f.jpg?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1" alt="Featured image of post 电子书一键摆烂ABC" /&gt;&lt;p&gt;本文最后一次更新于2022/11/07，请注意时效。&lt;/p&gt;
+&lt;p&gt;zlib死了，是被美国的垄断知识产权的资本家们干死的。他的死是好的，得以让全地球的人认识到资本主义的罪恶之处。但是仅仅是这一点还是不够的，就好像越南的每一个长了脑子或者没长脑子的人都明白美帝国主义是可恶的这一点一样，仅仅是这一点是不够的，对帝国主义的批判不过是帝国主义批判的一个环节，更重要的是进入下一个环节。而为了抵达下一个环节，阅读还要继续，要像列宁说的那样：学习学习再学习。&lt;/p&gt;
+&lt;p&gt;这篇文章预计要讲不少东西，先讲几个比较简单的，网文轻小说漫画怎么找，这个因为找来基本可以直接看，也不需要后续处理。然后是出版物怎么找，找到了怎么处理，这个过程就比较重量级了，要讲的比较多，也比较杂。&lt;/p&gt;
+&lt;h2 id=&#34;轻小说&#34;&gt;轻小说&lt;/h2&gt;
+&lt;p&gt;我推荐使用&lt;a class=&#34;link&#34; href=&#34;https://greasyfork.org/zh-CN/scripts/406070-%E5%B0%8F%E8%AF%B4%E4%B8%8B%E8%BD%BD%E5%99%A8&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;小说下载器&lt;/a&gt;脚本下载轻小说，首先在真白萌之类的网站找到想要下载的小说，然后下载就行，这个脚本会自动打包为epub。&lt;/p&gt;
+&lt;p&gt;推荐的找轻小说的网站有这几个：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://masiro.me/admin&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;真白萌&lt;/a&gt;（能找到民间翻译的日本网文）&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.wenku8.net/index.php&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;wenku8&lt;/a&gt;（需要注册）&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://w.linovelib.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;嘀哩轻小说&lt;/a&gt;（只有手机版网页才能让脚本正常运作，电脑版不行）&lt;/p&gt;
+&lt;h2 id=&#34;漫画&#34;&gt;漫画&lt;/h2&gt;
+&lt;p&gt;以前我比较推荐&lt;a class=&#34;link&#34; href=&#34;https://tachiyomi.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;tachiyomi&lt;/a&gt;，一个看漫画的聚合软件。但是这里面的源，大陆的不是看傻批国漫就是大妈之家这种被阉割了许多还动不动抽风的，要么就是台湾的源，能看许多，但是要翻墙。&lt;/p&gt;
+&lt;p&gt;后来发现用到的工具是&lt;a class=&#34;link&#34; href=&#34;https://vol.moe/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;vol.moe&lt;/a&gt;。先在手机上整一个kindle app，vol.moe那边绑定亚马逊账号，直接推送到kindle上然后用手机app看。这个过程里不需要用到kindle的电纸书设备，当然如果有的话拿来看漫画体验也挺不错的。&lt;/p&gt;
+&lt;h2 id=&#34;网文&#34;&gt;网文&lt;/h2&gt;
+&lt;p&gt;2022年，网文彻底烂了。我唯一的推荐是不读。&lt;/p&gt;
+&lt;h2 id=&#34;出版物&#34;&gt;出版物&lt;/h2&gt;
+&lt;p&gt;重量级的来了，我得分步奏讨论。&lt;/p&gt;
+&lt;h3 id=&#34;找书&#34;&gt;找书&lt;/h3&gt;
+&lt;h4 id=&#34;豆瓣资源下载大师&#34;&gt;豆瓣资源下载大师&lt;/h4&gt;
+&lt;p&gt;我得承认：在zlib被资产阶级铁拳砸了的恶时辰里，找书是一件难事&lt;/p&gt;
+&lt;p&gt;我现在最推荐的是使用&lt;a class=&#34;link&#34; href=&#34;https://greasyfork.org/zh-CN/scripts/329484-%E8%B1%86%E7%93%A3%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E5%A4%A7%E5%B8%88-1%E7%A7%92%E6%90%9E%E5%AE%9A%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1-%E9%9F%B3%E4%B9%90-%E5%9B%BE%E4%B9%A6%E4%B8%8B%E8%BD%BD&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;豆瓣资源下载大师&lt;/a&gt;脚本来找书，这个脚本会自动在这里面收录的各个网站里面搜索，如果有资源会用绿色来显示。当然尽管这里显示的选项很多，其实大多数都不准的，基本只有Lorefere和LibGen这两个网站有用。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20211018213221.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;找英文书用这个脚本也是可以的，比如说我下面这个图就是搜索An Introduction to Antonio Gramsci的结果，点开PDFDrive真的能找到。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072006596.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;zlib的电报bot&#34;&gt;zlib的电报bot&lt;/h4&gt;
+&lt;p&gt;zlib目前被爆了的只有域名，服务器还是好的，因此可以使用一些方法来偷渡。用tor上zlib的暗网版本也是可以的，我这里说一下电报bot。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072011610.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://t.me/zlibrary2bot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://t.me/zlibrary2bot&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;订阅这个bot之后还需要和zlib账号绑定才能下书，依照提示来就行，zlib现在被干烂的只有主站，登录站还是可以用的。&lt;/p&gt;
+&lt;p&gt;就算是等将来某一天zlib的网页复活之后也是可以用的，毕竟zlib每天有下载10本的限制，超出部分可以用电报bot下，这个不算在10本的额度内。&lt;/p&gt;
+&lt;h4 id=&#34;互助联盟&#34;&gt;互助联盟&lt;/h4&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.xueshu86.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.xueshu86.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;读秀的书库，卖两块钱一本。如果你面子够大有一个买了读秀书库的群友就可以省下这笔钱。&lt;/p&gt;
+&lt;p&gt;读秀书库的特点是PDF里每一页就是一条目录。要不要用我下文写的方法添加新的目录另说，但是我推荐你至少上来先把这个目录删了……&lt;/p&gt;
+&lt;h4 id=&#34;结语&#34;&gt;结语&lt;/h4&gt;
+&lt;p&gt;小书屋和epubee被越南帝国主义的铁拳干烂之后找书本就是一件很困难的事情了，zlib被美帝国主义的铁拳干烂更是使得困难光景变得雪上加霜。但是在越南，在赛里斯找书最难的环节还不是出了书之后找不到盗版，而是这之前的环节。我等阿尔都塞的《怎么办》、《在哲学中成为马克思主义者》和《马基雅维利的孤独》已经等了一年了，目前看来，在2022年里出版已经无望了。&lt;/p&gt;
+&lt;h3 id=&#34;处理&#34;&gt;处理&lt;/h3&gt;
+&lt;h4 id=&#34;calibre&#34;&gt;Calibre&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072024222.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Calibre就像一个本地版的豆瓣。你把书导入进去之后可以自己编辑标签和评分等信息，书多了之后就可以很方便地根据“西方马克思主义”等关键词来检索到特定的书了。&lt;/p&gt;
+&lt;p&gt;我很多朋友说这个软件不会用，我简单介绍一下这个软件的运行逻辑：&lt;/p&gt;
+&lt;p&gt;一上来这个软件会要求你选择一个文件夹作为储存数据库的场所，这里可以随便选一个自己记得住的文件夹。那之后所有导入到Calibre里的书都会复制到这个文件夹里。软件没了随时可以去官网重新装一份，但是书没了可就糟了，因此最好定期备份这个数据库文件夹，比如说每个月都拷贝到U盘里，或者直接用Onedrive之类的软件给备份起来。&lt;/p&gt;
+&lt;p&gt;导入到Calibre里面的书会被复制到数据库文件夹里，如果需要作为存档的话，只保留Calibre里的那一份就够了，外面的电子书可以直接删掉。&lt;/p&gt;
+&lt;p&gt;Calibre希望你只通过软件的窗口对它存储的电子书进行操作，不管是删除也好新增版本也好，最好都在这个软件的窗口里进行操作，而不是绕过这个软件直接去操作文件夹本身——实际上他也不会智能检测文件夹的变化，如果你绕过软件直接增减了文件，这将不会被软件读取出来。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072047577.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Calibre以很丑陋的方式储存文件，这也意味着不管是导入还是导出都需要通过软件窗口来进行。如果你不想在拷贝文件给朋友的时候复制出一个 &lt;code&gt;Yu Zhong Zha Ji - An Dong Ni Ao _Ge Lan Xi.pdf&lt;/code&gt; 程度的抽象文件名的话，就要用“保存到磁盘”这个按钮来让文件以中文方式被输出。&lt;/p&gt;
+&lt;p&gt;在Calibre内双击文件的逻辑为：对于特定格式的文件使用内置的阅读器打开，否则使用系统默认的打开方式。如果像我这样不喜欢Calibre内置的阅读器的，可以在设置里修改。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072051181.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Calibre内置了许多实用的电子书工具，比如说转换格式和编辑内容。有人抱怨说epub的电子书不能用Kindle读，实际上Calibre直接可以一键转换格式并且推送到Kindle上。&lt;/p&gt;
+&lt;h4 id=&#34;压缩与图像增强&#34;&gt;压缩与图像增强&lt;/h4&gt;
+&lt;p&gt;接下来的三小节我会参照&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/357015750&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这个帖子&lt;/a&gt;来写，实际上这个帖子的内容非常高妙，我推荐读一读。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072059552.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;图像增强和压缩使用adobe acrobat。&lt;/p&gt;
+&lt;h4 id=&#34;ocr&#34;&gt;OCR&lt;/h4&gt;
+&lt;p&gt;OCR会使得扫描的PDF变得可以复制。这里推荐的软件是ABBYY Finereader，做OCR可能是效果最好的。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072102348.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;如果是从上一步过来的，那可以关闭这里处理图像相关的内容，因为实际上都已经在上一步里处理过了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072103471.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;导出需要选择PDF/A来保证兼容性。&lt;/p&gt;
+&lt;h4 id=&#34;为pdf添加目录&#34;&gt;为PDF添加目录&lt;/h4&gt;
+&lt;p&gt;和原帖子一样，为PDF添加目录大概是这几步：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;将OCR后的目录页复制出来&lt;/li&gt;
+&lt;li&gt;处理这个目录，使之符合特定格式&lt;/li&gt;
+&lt;li&gt;附加到PDF文件上，别忘了设置基准页&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;不过我这里更推荐使用 &lt;code&gt;PdgCntEditor&lt;/code&gt; 这个软件，在上述第二步的时候方便点。&lt;/p&gt;
+&lt;p&gt;正常处理电子书到这一步就算完成了，甚至上面三小节的内容不搞也没事，不也照样看。然后如果是要在Kindle上面看还要再过一个步骤：&lt;/p&gt;
+&lt;h4 id=&#34;重排&#34;&gt;重排&lt;/h4&gt;
+&lt;p&gt;先用ABBYY处理PDF，把白边切掉，注意区分奇偶页，切的时候把翻译书侧边的原书页码切掉。&lt;/p&gt;
+&lt;p&gt;然后用 &lt;code&gt;k2pdfopt&lt;/code&gt; 这个软件来处理。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072123324.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;参数像我这样设置就行，字体大小可以再慢慢调过，用右边预览功能选个自己喜欢的大小。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072130417.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这是处理之后的效果&lt;/p&gt;
+&lt;p&gt;虽然依然无法和epub等电子书格式相比。但是至少在Kindle上已经达到了能看的标准。&lt;/p&gt;
+&lt;h4 id=&#34;修复kindle破损的封面&#34;&gt;修复Kindle破损的封面&lt;/h4&gt;
+&lt;p&gt;在某个版本的固件升级之后，Kindle对于导入的电子书经常会给一个很抽象的错误封面。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bookfere.com/wp-content/uploads/2022/06/fixed-kindle-ebook-covers.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;使用 &lt;code&gt;Fix Kindle Ebook Cover&lt;/code&gt; 这个软件可以修复这个问题。&lt;/p&gt;
+&lt;p&gt;从&lt;a class=&#34;link&#34; href=&#34;https://bookfere.com/post/994.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这个网站&lt;/a&gt;偷的活。&lt;/p&gt;
+&lt;h3 id=&#34;阅读&#34;&gt;阅读&lt;/h3&gt;
+&lt;p&gt;几个我推荐的阅读软件&lt;/p&gt;
+&lt;h4 id=&#34;稻壳阅读器&#34;&gt;稻壳阅读器&lt;/h4&gt;
+&lt;p&gt;全能型选手。什么格式都能打开，打开速度也很快。对于扫描PDF也可以设置护眼背景色。&lt;/p&gt;
+&lt;p&gt;但是每一种功能用起来都感觉差点意思。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072136526.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;kindle&#34;&gt;Kindle&lt;/h4&gt;
+&lt;p&gt;经典护眼阅读器，推荐和Calibre搭配使用。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072144782.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;一个实用的小技巧是更换自己想要的字体，在根目录下新建 &lt;code&gt;fonts&lt;/code&gt; 文件夹，然后把想要的字体存进去就行了。我这里推荐&lt;a class=&#34;link&#34; href=&#34;https://github.com/lxgw/LxgwWenKai&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;霞鹜文楷&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072142160.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;当然有时候会发现特定电子书不能选择字体，这是因为mobi文件类型不对，Calibre默认的是old，改成both就好了。&lt;/p&gt;
+&lt;h4 id=&#34;微信读书&#34;&gt;微信读书&lt;/h4&gt;
+&lt;p&gt;提前先用“传书到手机的功能把文件上传上去，然后就可以在办公室打开浏览器摸鱼了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072146413.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;就这一点而言，微信读书是无敌的。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>安卓搞机2022</title>
+        <link>https://yuukoamamiya.github.io/p/android-systemcare-2022/</link>
+        <pubDate>Sun, 05 Jun 2022 17:08:00 +0800</pubDate>
+        
+        <guid>https://yuukoamamiya.github.io/p/android-systemcare-2022/</guid>
+        <description>&lt;img src="https://cdn.sspai.com/2022/03/03/b942316b56718188dce6e5557d5c8a9f.jpg?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1" alt="Featured image of post 安卓搞机2022" /&gt;&lt;p&gt;在具体进入诸多技术性细节之前，有必要说一说为什么要写这一篇文章。我这句话的意思不是说为什么需要搞机，为什么要不厌其烦地给手机刷root、刷框架、刷内核，我认为这个是不需要也无法解释的，刷的人大概都已经刷了，不刷的人向他宣讲再多什么流氓应用怎么作恶怎么违反安卓规范也是徒然无用的。在今天的网上能看到许多人侃侃而谈什么我当年如何如何搞机现在也累了最后还是选择了默认反正也不是不能用，就好像一个酒桌油腻中年人向你侃侃而谈他当年也是一个嗯造德勒兹德里达的激进左翼青年天天在日常生活中起义最后还是选择了和生活妥协一样，我们可以轻易看出对于后者而言他酒桌油腻中年男的身份回溯性地取消了他曾经的激进，把他曾经激进的心路历程化成了一切为了招安招安就是一切的小宋江阶段，那么对于一个宣称自己曾经也折腾搞机但是现在已经不搞了的人而言也是一样啊，他曾经的搞机只不过是为了他现在向不搞机投降时提高身价用的一种说辞，佐证不搞机纯靠默认是多么伟大光明正确时的一个勋章，那么对于他们而言，再宣称搞机之必要无疑是不合时宜的。我这里说要为什么要写这篇文章不是这个意思，也不是面向这些宣称自己已经不搞机了的人的。&lt;/p&gt;
+&lt;p&gt;那么我写这篇文章到底是为了什么呢？或者换个时髦一点的话来说：我有什么目的，是谁指使的？与其说我这篇文章写的对象是技术，倒不如说写的对象是时间。我之前在知乎无意之间点进一个“&lt;a class=&#34;link&#34; href=&#34;https://www.zhihu.com/question/22063862&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;有什么好用的Xposed模块&lt;/a&gt;”的问题，简直是掉入时光隧道，一堆安卓4时代的逝去回忆突如其来袭击了我。但仅仅是指出从安卓4到今天的玩机手段发生了天翻地覆的变化以至于以前的所有玩机教程都不适用这一点还是不够的，天翻地覆的变化与断裂发生于今天的每一个当下，比如说riru更新到23之后原先的&lt;a class=&#34;link&#34; href=&#34;https://github.com/MiPushFramework/MiPushFakeForRiru&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MiPushFakeForRiru&lt;/a&gt;就不能用了，而现在更是riru本身都在逐渐转移到zygisk，再比如说随着magisk更新到24，原先的magisk hide的技巧就不再能用了，转而需要shamiko插件来实现功能……这些变化都是发生在近期的事情，因而这也就对于玩机的心得帖子提出了很大的时效性的要求。&lt;/p&gt;
+&lt;p&gt;今天的日期是2022/06/05，请读者在看到这篇文章之后也请自行比对这篇文章中提高的搞机方式在你所在的时间是否仍然适用。&lt;/p&gt;
+&lt;p&gt;以下进入正题。&lt;/p&gt;
+&lt;h2 id=&#34;magisk&#34;&gt;Magisk&lt;/h2&gt;
+&lt;p&gt;24版本的magisk移除了magisk hide功能和自带的插件商店，后者影响不大，前者则直接导致需要多刷一个插件才能实现原来对特定app隐藏root的功能。在面对银行app的时候这个功能尤其要紧。&lt;/p&gt;
+&lt;h3 id=&#34;shamiko&#34;&gt;shamiko&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202206051915602.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;对magisk设置中“配置排除列表”中的应用生效，相当于magisk hide又回来了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/LSPosed/LSPosed.github.io/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/LSPosed/LSPosed.github.io/releases&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lsposed&#34;&gt;Lsposed&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/LSPosed/LSPosed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/LSPosed/LSPosed&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Xposed的最新选择。在这个时点原版xposed已经是遥远的回忆，edxposed尚在更新也还算能用，但是没有道理不选择更精简也更省电的lsposed。和老版相比，lsposed必须要选择特定模块需要作用在哪些对象应用上而不是默认作用全局。&lt;/p&gt;
+&lt;p&gt;随着magisk的更新带来了zygisk，lsposed现在同样也有zygisk和riru两个版本。当然，我推荐zygisk版。&lt;/p&gt;
+&lt;h3 id=&#34;disable-flag_secure&#34;&gt;Disable-FLAG_SECURE&lt;/h3&gt;
+&lt;p&gt;Lsposed小插件，作用是能够在禁止截图的窗口上截图，不过需要勾选目标app进入作用域。应用场景是给QQ闪照截图或者是看飞卢的时候截图。&lt;/p&gt;
+&lt;p&gt;顺便一提这玩意七八年前就有了，老版的前两个单词里面没一横杠，但是那个版本年久失修已经不能用了，这个中间带横杠的是新版。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202206051936120.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这都2022年了我看个网文看到生草的地方不许我截图发Q群的国产应用开发商是不是脑子有点问题&lt;/p&gt;
+&lt;h3 id=&#34;去你大爷的内置浏览器&#34;&gt;去你大爷的内置浏览器&lt;/h3&gt;
+&lt;p&gt;也是老当益壮了，作用在于使得QQ微信在打开别人发送的网址的时候可以不经由内置浏览器而是直接打开系统里设置的默认浏览器，这也就意味着别人发给你一个B站链接的时候可以直接跳转到b站app，而不是走 聊天窗口收到链接-QQ内置浏览器-右上角在系统浏览器中打开-再在浏览器中点击在APP中打开 这么一个大迂回。&lt;/p&gt;
+&lt;p&gt;顺便一提在酷安已经下架了&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://wws.lanzouj.com/b016o155i&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://wws.lanzouj.com/b016o155i&lt;/a&gt;
+密码：85zr&lt;/p&gt;
+&lt;h3 id=&#34;知了&#34;&gt;知了&lt;/h3&gt;
+&lt;p&gt;知乎去广告，没啥好说的。&lt;/p&gt;
+&lt;h2 id=&#34;小米推送服务&#34;&gt;小米推送服务&lt;/h2&gt;
+&lt;p&gt;让非小米手机同样支持小米推送，这样子就可以在后台把国产应用杀了的同时还能接受到其消息推送了。这里也可以看到越南政府作孽把谷歌杀了之后这个坑需要花费多大力气来埋。&lt;/p&gt;
+&lt;p&gt;在非MIUI上装小米推送也是四五年前的老项目了，要点在于：1.把推送框架装上；2.假装是MIUI骗过框架来注册推送。第一步给的那个推送框架是个18年年久失修的老app，第二步伪装MIUI的方法更是换了好几次。对着老教程按图索骥是行不通的，好在我翻酷安找到了一个直接打包好的版本：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.coolapk.com/feed/27190877?shareKey=NGFlN2UyYzJmZTMzNjI5YzhlZmI~&amp;amp;shareFrom=com.coolapk.market_12.3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.coolapk.com/feed/27190877?shareKey=NGFlN2UyYzJmZTMzNjI5YzhlZmI~&amp;shareFrom=com.coolapk.market_12.3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202206052016810.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;刷进去就能用，还是很方便的。&lt;/p&gt;
+&lt;p&gt;顺便一提QQ和微信没法用小米推送的，这个没辙，单纯是人家没做。解决方案就是别解决了。硬要解决就是QQ走华为推送，微信走fcm，但是我宁可微信直接挂后台，QQ不要推送了。&lt;/p&gt;
+&lt;h2 id=&#34;通知滤盒&#34;&gt;通知滤盒&lt;/h2&gt;
+&lt;p&gt;我是觉得这个软件和小米推送加在一起必装。小米推送可以让你收到后台被关掉的淘宝发送的推送消息，而通知滤盒再对推送消息做一次过滤，把广告给滤掉，只留下快递发货之类的消息。&lt;/p&gt;
+&lt;p&gt;此外，同样支持复制短信验证码。&lt;/p&gt;
+&lt;h2 id=&#34;存储空间重定向&#34;&gt;存储空间重定向&lt;/h2&gt;
+&lt;p&gt;我&lt;a class=&#34;link&#34; href=&#34;https://yuukoamamiya.github.io/p/redmi-k30/#%E5%AD%98%E5%82%A8%E9%87%8D%E5%AE%9A%E5%90%91&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;之前的一篇文章&lt;/a&gt;里介绍了这个软件的功能，那个时候写的东西在今天是依然适用的，我直接长段复制如下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这是一个谷歌本拟在安卓10里面就加入的功能，现在咕到安卓11去了，意在规范安卓app的文件存储。所有应用，保存的图片就全部存在picture文件夹，保存的文件就全部存在download文件夹，而不是在存储目录下东一坨tencent西一坨qqbrowser到处拉屎。不过考虑到应用开发者干啥啥不行拖字第一名，最后谷歌的要求是2021年的时候上架play市场的app都要支持这个功能。&lt;/p&gt;
+&lt;p&gt;存储重定向就是这点好，装了之后存储目录干净锃亮，除了picture啊download啊几个文件夹之外，什么tencent之类的屎是不存在的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;用了这个软件之后，所有微信保存的图片都存到了Picture/Weixin里，保存的文件都存到了Download/Weixin里，诸如此类。&lt;/p&gt;
+&lt;p&gt;顺便一提上面这一段是我2020年刚买来这个手机的时候扯的，现在2022年了，我手机都用砖了几次重新刷机重新装存储空间重定向了，谷歌当年的愿景还没有实现，岂止是没有，甚至还更烂了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202206052035176.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;handshaker&#34;&gt;HandShaker&lt;/h2&gt;
+&lt;p&gt;QQ在某个特定版本之后会把接收到的文件给藏起来，不给你在文件管理器里面找了。这就纯纯的整蛊。手机和电脑传文件从此不能像以前那样顺手QQ丢那个文件互传助手了。解决方法是要么换低版本QQ，要么换一个传文件的软件。&lt;/p&gt;
+&lt;p&gt;我挑来挑去找了个锤子手机当年的软件，不得不说也亏得锤子手机凉凉了我才能大胆夸奖他家的手机软件做的有想法。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202206052056554.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202206052056002.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202206052056825.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;顺便一提原版HandShaker也有点年久失修，我也是酷安找了个修改版。&lt;/p&gt;
+&lt;h2 id=&#34;thanox&#34;&gt;Thanox&lt;/h2&gt;
+&lt;p&gt;在压制毒瘤应用方面起着瑞士军刀般的作用。&lt;/p&gt;
+&lt;p&gt;我先前使用的是黑域，黑域一直有其问题，比如说奇怪的定价策略等等，我最近变得无法忍受黑域是因为黑域无法在后台稳杀毒瘤相互唤醒，后台自启个几次，黑域压不住了，就开始弹窗说嗨呀我们这么拉锯更加耗电也不是个事啊要么您老高抬贵手放人家自启一条活路吧。这也太整蛊了。&lt;/p&gt;
+&lt;p&gt;我转用Thanox就是在这个背景下的，现在看来Thanox很好地完成了替代黑域的历史任务。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202206052052043.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;冰箱&#34;&gt;冰箱&lt;/h2&gt;
+&lt;p&gt;老牌了，没什么好说的。&lt;/p&gt;
+&lt;h2 id=&#34;acca&#34;&gt;AccA&lt;/h2&gt;
+&lt;p&gt;可以控制电池充电别冲太满伤电池。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202206052059277.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;如图所示，我会在白天工作时间允许电池正常快充充满，而到了晚上睡觉前把手机充电器插上睡觉的时候调成慢冲到60电，等到白天起床上班前又改成快充冲冲满好去上班。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[{&amp;#34;profile&amp;#34;:{&amp;#34;uid&amp;#34;:12,&amp;#34;profileName&amp;#34;:&amp;#34;正常充满&amp;#34;,&amp;#34;accConfig&amp;#34;:{&amp;#34;configCapacity&amp;#34;:{&amp;#34;shutdown&amp;#34;:0,&amp;#34;resume&amp;#34;:101,&amp;#34;pause&amp;#34;:101},&amp;#34;configVoltage&amp;#34;:{},&amp;#34;configTemperature&amp;#34;:{&amp;#34;coolDownTemperature&amp;#34;:40,&amp;#34;maxTemperature&amp;#34;:50,&amp;#34;pause&amp;#34;:90},&amp;#34;configResetUnplugged&amp;#34;:false,&amp;#34;configResetBsOnPause&amp;#34;:false,&amp;#34;configChargeSwitch&amp;#34;:&amp;#34;battery/input_suspend 0 1&amp;#34;,&amp;#34;configIsAutomaticSwitchingEnabled&amp;#34;:false,&amp;#34;prioritizeBatteryIdleMode&amp;#34;:false}},&amp;#34;mIsChecked&amp;#34;:true},{&amp;#34;profile&amp;#34;:{&amp;#34;uid&amp;#34;:6,&amp;#34;profileName&amp;#34;:&amp;#34;慢充到60&amp;#34;,&amp;#34;accConfig&amp;#34;:{&amp;#34;configCapacity&amp;#34;:{&amp;#34;shutdown&amp;#34;:0,&amp;#34;resume&amp;#34;:60,&amp;#34;pause&amp;#34;:63},&amp;#34;configVoltage&amp;#34;:{},&amp;#34;configCurrMax&amp;#34;:2000,&amp;#34;configTemperature&amp;#34;:{&amp;#34;coolDownTemperature&amp;#34;:35,&amp;#34;maxTemperature&amp;#34;:45,&amp;#34;pause&amp;#34;:90},&amp;#34;configCoolDown&amp;#34;:{&amp;#34;atPercent&amp;#34;:15,&amp;#34;charge&amp;#34;:50,&amp;#34;pause&amp;#34;:5},&amp;#34;configResetUnplugged&amp;#34;:false,&amp;#34;configResetBsOnPause&amp;#34;:false,&amp;#34;configChargeSwitch&amp;#34;:&amp;#34;battery/input_suspend 0 1&amp;#34;,&amp;#34;configIsAutomaticSwitchingEnabled&amp;#34;:false,&amp;#34;prioritizeBatteryIdleMode&amp;#34;:true}},&amp;#34;mIsChecked&amp;#34;:true}] 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;可以从剪切板里导入这个设定。&lt;/p&gt;
+&lt;p&gt;官方github地址：https://github.com/MatteCarra/AccA/&lt;/p&gt;
+&lt;p&gt;要注意的是还需要安装这两个magisk模块&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/VR-25/djs/releases/tag/v2021.8.26&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/VR-25/djs/releases/tag/v2021.8.26&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://github.com/VR-25/acc/releases/tag/v2021.8.31&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/VR-25/acc/releases/tag/v2021.8.31&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;nova-launcher&#34;&gt;Nova Launcher&lt;/h2&gt;
+&lt;p&gt;陪伴了我几百年的启动器。没什么新东西，有些地方甚至还保留着安卓7左右的设计。&lt;/p&gt;
+&lt;p&gt;等待下一个启动器。&lt;/p&gt;
+&lt;h2 id=&#34;自动记账&#34;&gt;自动记账&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://auto.ankio.net&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://auto.ankio.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;先说一句，作者在使用文档里面提到的通过记账和理财来超克消费社会的想法纯属是对于哲学的误读（乐），不过意思理解到了就行，也不是说人家一个做软件的搞错了哲学问题咱就不用软件了是不是。&lt;/p&gt;
+&lt;p&gt;作用在于每次支付宝和微信进行支出的时候自动把消费了多少传递到钱迹这个记账软件里面去记账。此外还有一些比如说自动把消费类型分类啊之类的挺好用的功能。&lt;/p&gt;
+&lt;p&gt;需要注意的是如果同时使用了小米推送，需要在lsposed的作用域里面把通知框架也加进去。&lt;/p&gt;
+&lt;h2 id=&#34;李跳跳&#34;&gt;李跳跳&lt;/h2&gt;
+&lt;p&gt;需要去公众号下载。&lt;/p&gt;
+&lt;p&gt;通过无障碍来模拟点击跳过应用的开屏广告。&lt;/p&gt;
+&lt;p&gt;其实还有一个用lsposed框架来跳过开屏广告的AD快消，那个消除广告速度更快，李跳跳还能明显看到广告被加载出来了一会儿才被点掉，AD快消则是快到广告看都看不见。但是AD快消的规则做的很烂，经常对着不是广告的地方狂点，考虑到这个毛病还是用李跳跳吧。&lt;/p&gt;
+&lt;h2 id=&#34;养老应用&#34;&gt;养老应用&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://jamcz.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://jamcz.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;推荐晨钟酱整理的一批老版本应用，这些老版应用老地恰到好处，一方面没有加进来太多杂七杂八用不到的功能，另一方面又不至于老到没法正常登录和使用。&lt;/p&gt;
+&lt;p&gt;他以前甚至是还分享修改版软件的，我手机砖了之前用的QQ就是他做的修改版，养老正好。可惜吃了律师函不分享了。我手机砖了之前也没备份，就没了。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>手机直接看电脑视频漫画</title>
+        <link>https://yuukoamamiya.github.io/p/anime-manga-stream/</link>
+        <pubDate>Mon, 30 May 2022 20:53:00 +0800</pubDate>
+        
+        <guid>https://yuukoamamiya.github.io/p/anime-manga-stream/</guid>
+        <description>&lt;img src="https://pockies.github.io/img/post-bg-032.jpg" alt="Featured image of post 手机直接看电脑视频漫画" /&gt;&lt;p&gt;最近往硬盘里存了点小动画和小漫画，琢磨着能不能用手机躺在床上看，最后是参考了阿虚同学的&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/45967353&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这篇文章&lt;/a&gt;找到了法子，用smb来共享文件，达成一个手机直接看的效果。电脑上要进行的操作和他的完全一样，只是手机上因为要看漫画，需求不一样，所以找了别的软件，原理就是这么个原理。&lt;/p&gt;
+&lt;h2 id=&#34;电脑端设置&#34;&gt;电脑端设置&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205302100067.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;在需要共享的文件夹上右键-属性，进入“共享”选项卡。我这个配图是TC的正常来说可以不用管233&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205302100370.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;然后点中间这个有蓝框的共享按钮。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205302101522.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;在选择需要共享的用户里面添加everyone。&lt;/p&gt;
+&lt;p&gt;到这一步就算设置完了。当然在上一步的共享选项卡里面选择“网络和设置中心”还有和文件分享有关的进一步设置，但是其实win10默认设置就已经可以了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205302103861.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;就像这样，文件分享默认是开启的，那就行了。&lt;/p&gt;
+&lt;p&gt;这个方法启用的是SMB V2，大多数软件只支持v1，需要开启v1得去控制面板里面启用或关闭windows系统功能里面开。不过我下面用到的软件全是支持v2的，所以问题也不大。&lt;/p&gt;
+&lt;h2 id=&#34;手机上看视频&#34;&gt;手机上看视频&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205302123896.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;手机上我使用的文件管理器是solid，别的文件管理器，什么FX File Explorer啊MiXplorer啊之类的应该也都差不多的，设置方法大概也就大同小异。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205302124724.jpeg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;使用如图所示的方式添加一个云链接之后可以直接访问，然后就可以用任何你喜欢的播放器来播放电脑上共享的视频了。我用的是mx player，到这一步换成任何一个你喜欢的播放器了，就和播放本地视频一样。&lt;/p&gt;
+&lt;p&gt;这里唯一要注意的就是我打码了的ip要记住，等下看漫画的时候要手动输入的。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205302131037.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205302131784.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;最后播放起来的效果就这样。&lt;/p&gt;
+&lt;h2 id=&#34;手机上看漫画&#34;&gt;手机上看漫画&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205302133445.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这里用到的软件是comic screen，来读从ehentai上面找的种子下载下来的zip格式的漫画。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205302134124.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;首先先说一句这个软件是有广告的，幸运破解器可以去广告。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205302142615.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;点击右上角的+号添加一个smb v2的链接，输入上一步里记录的的ip地址，账号就使用游客账号就行。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205302144862.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;然后你就获得了一个ehentai本地版（&lt;/p&gt;
+&lt;p&gt;好处是不用担心ehentai的版权炮&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Calibre美化</title>
+        <link>https://yuukoamamiya.github.io/p/theme-for-calibre/</link>
+        <pubDate>Thu, 12 May 2022 17:07:00 +0800</pubDate>
+        
+        <guid>https://yuukoamamiya.github.io/p/theme-for-calibre/</guid>
+        <description>&lt;img src="https://cdn.sspai.com/2022/03/01/3268126cfc1a78de5051961605ed0b0a.jpg?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1" alt="Featured image of post Calibre美化" /&gt;&lt;p&gt;之前几次在QQ群里推荐Calibre这个软件，因为用起来很方便，相当于一个本地的豆瓣，自己在本地维护一个图书的数据库，打好tag设置好作者之后搜索起来很方便。不过吹了很久也没几个人响应，照样一堆文件丢桌面，有良心点的套一层文件夹整理一下，真想找的时候又找半天找不到，末了还要说一句我推荐这个软件学习成本太高了。我琢磨着不是和豆瓣差不多的吗……&lt;/p&gt;
+&lt;p&gt;不过这个软件确实有个问题，应该说开源软件都有这毛病，UI吊烂丑地一批，就算真想学看到这么丑的UI也先胆怯了三分了，设置又复杂，根本不知道从何处着手。最后默认拿来一看就长这样：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20211018221841.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;说真的长这样的软件用个锤子啊，就算真的好用看到这个长相也不想用了……&lt;/p&gt;
+&lt;p&gt;于是下面说点怎么给这个软件美化&lt;/p&gt;
+&lt;h2 id=&#34;风格图标字体&#34;&gt;风格/图标/字体&lt;/h2&gt;
+&lt;p&gt;其实在首选项里排第一项的就是界面外观，界面外观里面头两项随便设置设置这个软件就能很好看。但是看到这么多设置首先我先怕了……&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205121456521.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;设置里第一项默认是calibre风格，这个选项决定了数据库表格和表格边上的滚动条是XP时代的那种像果冻凸出来的拟物风格，现在看来挺丑的，换成系统默认之后就变成了win10时代的扁平风格。扁平，彳亍，拟物，不行。&lt;/p&gt;
+&lt;p&gt;第二个选项是图标主题，这个是说什么也推荐更换的&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205121459120.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;就光换这一项，别的什么都不换，颜值都能提高好几倍……&lt;/p&gt;
+&lt;p&gt;然后是字体，这里可以随便换换看看有没有中意的。我这里推荐冬青黑体，一个早年苹果使用的字体，用来做UI正好。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205121503820.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;设置完之后就是这个效果了，这不是乱秒默认的。&lt;/p&gt;
+&lt;h2 id=&#34;已读未读正在读&#34;&gt;已读、未读、正在读&lt;/h2&gt;
+&lt;p&gt;这个没什么难的，首选项里添加栏目然后像我这么设置就行&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205121507201.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;calibre-viewer-美化&#34;&gt;Calibre Viewer 美化&lt;/h2&gt;
+&lt;p&gt;Calibre里面打开PDF是默认用系统设置的默认PDF打开方式，但是如果是打开mobi或者epub这样的电子书则是默认使用内置的Calibre Viewer打开。这个内置的阅读器我以前没少黑屁，实在是又丑又难用的代表。不过最近倒是发现也没有这么不堪，难用倒是没那么难用，尤其是在windows底下试过一圈之后发现已经算是挺好用的了，至于丑，到是可以设置，就是设置又多又复杂比较哈人。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205121523757.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Calibre Viewer的操作逻辑是选中文字自动出现高亮之类的选项，而右键是出现菜单，这个操作逻辑放在windows上是挺奇怪的，其实是安卓之类的触屏操作系统才比较适合这种操作逻辑，比如说我在安卓上常用的moon+ reader就和这个逻辑差不多。这里右键出菜单之后进首选项看看我搞的设置，基本是试图把稻壳阅读器那套搬运过来。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205121526510.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;首先是颜色，这个必改的吧，换个浅绿或者浅黄浅棕的看起来舒服点，我用的这个颜色是 &lt;code&gt;#dae5d0&lt;/code&gt; ，其实也可以上这个&lt;a class=&#34;link&#34; href=&#34;https://www.colorhunt.co&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;查配色的网站&lt;/a&gt;自己找点中意的配色，或者直接去找那种终端配色抄现成的。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205121529624.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;页面布局就单纯看着改了，我比较喜欢流式布局。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205121531389.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;修改字体也是定番了，这里选了个比较适合拿来看书的霞鹜文楷。这是个开源的字体，可以在&lt;a class=&#34;link&#34; href=&#34;https://github.com/lxgw/LxgwWenKai&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github&lt;/a&gt;下载到这个字体及其衍生版本，我用的就是这里的一个衍生版本，字重更重，看起来线条更粗。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205121712417.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;杂项里的记住最后使用的窗口大小和位置是必选的，这个软件默认会用一个挺小的窗口打开，很烦……&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202205121552726.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;最后显示效果大概是这样，这样子感觉就还可以。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>卡片笔记法</title>
+        <link>https://yuukoamamiya.github.io/p/zettelkasten/</link>
+        <pubDate>Wed, 11 Aug 2021 19:49:00 +0800</pubDate>
+        
+        <guid>https://yuukoamamiya.github.io/p/zettelkasten/</guid>
+        <description>&lt;img src="https://cdn.sspai.com/2021/07/26/4383d556f6f070637248956465d6f570.jpg?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1" alt="Featured image of post 卡片笔记法" /&gt;&lt;h2 id=&#34;德勒兹为卡片笔记而做&#34;&gt;德勒兹——为卡片笔记而做&lt;/h2&gt;
+&lt;p&gt;前阵子开始流行卢曼卡片笔记法。然后像是少数派或者是知乎这种小资焦虑发病网站就开始雨后春笋一样一窝蜂地涌现出各路关于卢曼笔记的文章。这些文章也往往有个定式，上来先吹一通说“卢曼就是做了这个笔记之后balabala最后走上了人生巅峰”，高情商说法是 为提高效率设立了其终极保障，不用担心学了学亏了，低情商说法是认了个爹。最搞笑的还是这个爹（甚至还是哈贝马斯论敌）的书在豆瓣上看得最多的也就一百多号人，远不及讲他的卡片笔记的工具书标记的多。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210811201545.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210811201445.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;卢曼这套笔记法说穿了就是搞超链接，他那套笔记法为什么厉害，是因为他在还没有互联网和超链接的时候用卡片和盒子手搓了一套超链接的系统，这才显得卡片笔记屌。但是今年是2021年，对于玩网的人而言这个应该只是常识。&lt;/p&gt;
+&lt;p&gt;要我说横竖都是给超链接找个爹，索性说这套笔记法是从德勒兹的根茎理论那里得来的灵感得了。正好德勒兹那里还有个和根茎对应的树的隐喻，正好也对应onenote那种层级嵌套的笔记，齐活了。广告词我都想好了：用德勒兹的根茎理论生成卡片笔记，一年在知乎上开除114514个微观法西斯的左籍。&lt;/p&gt;
+&lt;h2 id=&#34;欢迎来到卡片笔记这个大草原&#34;&gt;欢迎来到卡片笔记这个大草原&lt;/h2&gt;
+&lt;p&gt;关于卡片笔记怎么做这一点，上面有一本书，但是如果你真的看了，会发现其实做法很简单，但是不明白为什么人家可以罗里吧嗦扯这么一大通——进而明白了，看来卡片笔记是真的很有助于水文，看来人家确实在第五层。&lt;/p&gt;
+&lt;p&gt;卡片笔记分成三个步奏：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;先做临时笔记。这个就是inbox，随便想到什么学到什么都能往里丢，比如说看书的时候划的重点就属于这一类。&lt;/li&gt;
+&lt;li&gt;做文献笔记。先理解你想要摘抄的话的内容，在理解之后自己概括自己复述。&lt;/li&gt;
+&lt;li&gt;做永久笔记。这里其实原文挺语焉不详的，我的理解是思考怎么把前两步做的笔记和已有的笔记用超链接给连接起来。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.sspai.com/2021/07/23/d85b7cb13093b03c4794187212c93ad6.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;因为每一个笔记的单元都很小，而且更加强调和其他笔记之间的连接，到最后输出文章是很自然而然的事情——至于为什么这种拼凑的东西就能生产出合格线以上的学术写作，那这个问题属于低情商的。&lt;/p&gt;
+&lt;h2 id=&#34;无机质主体论卡片笔记及其软件&#34;&gt;无机质主体：论卡片笔记及其软件&lt;/h2&gt;
+&lt;p&gt;能做的软件很多，我就推荐Obsidian和思源笔记两个。&lt;/p&gt;
+&lt;p&gt;Obsidian是我现在在用的这个，打开很快，编辑器是markdown，用双链有关系图谱，社区很活跃也有许多好用的插件（低情商：开发者偷懒）。但是问题还是出在markdown上，纯文本有纯文本的问题。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210811205433.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;相对的，思源笔记用的是本地数据库，功能上就比纯文本的obsidian强。就比如我上面那个图，卡片标题都有一串巨长的数字作为编码，就是因为担心文件名相同出问题。而使用数据库的思源笔记就没有这问题，反正数据库里面自带编码了，根本不怕重名。此外像是插入附件图片表格都是富文本要比markdown省心。不过相对的，打开也会慢一点。 &lt;del&gt;我单纯不喜欢富文本&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;此外还有一些配套的软件，比如说zotero和calibre这种，能直接生成一个定位到某pdf某一句的连接，来作为参考链接用，时不时回过头检查一下自己理解的有没有问题。但是我也不用这玩意看pdf，就算了。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>在kindle上阅读k2pdfopt重排过的PDF电子书</title>
+        <link>https://yuukoamamiya.github.io/p/%E5%9C%A8kindle%E4%B8%8A%E9%98%85%E8%AF%BBk2pdfopt%E9%87%8D%E6%8E%92%E8%BF%87%E7%9A%84pdf%E7%94%B5%E5%AD%90%E4%B9%A6/</link>
+        <pubDate>Mon, 24 May 2021 22:02:00 +0800</pubDate>
+        
+        <guid>https://yuukoamamiya.github.io/p/%E5%9C%A8kindle%E4%B8%8A%E9%98%85%E8%AF%BBk2pdfopt%E9%87%8D%E6%8E%92%E8%BF%87%E7%9A%84pdf%E7%94%B5%E5%AD%90%E4%B9%A6/</guid>
+        <description>&lt;img src="https://cdn.sspai.com/article/2e1f8239-05ac-55a8-675a-076da4f49e35.jpg?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1" alt="Featured image of post 在kindle上阅读k2pdfopt重排过的PDF电子书" /&gt;&lt;p&gt;在研究了一上午如何给Kindle刷机无果后，我放弃了在Kinlde上使用KOReader的打算。转而研究怎么在电脑上先处理PDF后发送给Kindle看。这个时候我发现了k2pdfopt。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.willus.com/k2pdfopt/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官网地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这玩意的原理是不经过OCR，而是大致判断每个字占用多少面积大小，像拼拼图一样把每个字作为一个图案来打乱重拼。我记得核桃以前写过一个用这玩意来做竖版书的软件，但是他博客现在又是关的，看不了……&lt;/p&gt;
+&lt;p&gt;这个软件的win版是有GUI的，而且我在书伴网站的&lt;a class=&#34;link&#34; href=&#34;https://bookfere.com/post/134.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;介绍帖子&lt;/a&gt;底下找到了有人发汉化版。那有汉化必不用英文（bushi&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210524221548.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;先裁边&#34;&gt;先裁边&lt;/h2&gt;
+&lt;p&gt;k2pdfopt理论上也是可以自动裁边的，但是那个裁边效果不好，看到有字就不裁，把页眉页脚也给放进来了。当然这么搞也不影响阅读，只是觉得难看，效果不好。&lt;/p&gt;
+&lt;p&gt;于是用PDF编辑器来手动裁，我用的软件是ABBYY FineReader，这个切边比较方便。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210524222720.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这里在切边的时候可以分奇数偶数，这对于扫描出版物而言是个很实用的功能，因为扫描书扫出来往往都是左边那一页偏左一点，右边那一页偏右一点。当然一般的书遇到这种情况，那截得胖一点也没什么，大不了左右留点空白，反正等下重排的时候也会去掉的。但是有时候会遇到那种页码标在侧面的书，或者有些翻译书会在侧面标原书页码，这个时候又不想把数字也截进去，不然重排之后好端端一行字里面突然蹦个数字出来，那就得活用这个区分奇数偶数来切边的功能。&lt;/p&gt;
+&lt;p&gt;当然还有那种做出来就是在网上分发的文字版PDF电子书，那种理论上可以直接用ABBYY的功能另存为epub，不过我没试过，也不知道效果如何。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210524223957.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;重排&#34;&gt;重排&lt;/h2&gt;
+&lt;p&gt;重排就是用k2pdfopt，win下不用操作命令行，不怎么麻烦。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210525100438.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;右上角的设备是要调过的，我的kindle型号是KT2，选项里虽然没有，但是想来这台机子比较垃圾，在这里找分辨率最低的 kindle1-5 估计也差不离。&lt;/p&gt;
+&lt;p&gt;这里默认打开的智能断行（smart line breaks）应该关掉，这个功能是给英文用的，防止一个单词太长被劈成两半写进两行里。因为中文不用担心一个冲字被拆到第一行一个冫在行末，第二行开头半个中字，所以这个没必要开。甚至万一开了，他会按照英文的分词逻辑，把两个标点中间没带空格的中文全部视作一个单词，这个情况下生成的文章立马变成诗歌……&lt;/p&gt;
+&lt;p&gt;智能断行后面的输入框是字间距，中文的话越小越好，比如我这里是0.001。稍微大点，生成的PDF里字间距就会乱七八糟一会小一会大。&lt;/p&gt;
+&lt;p&gt;自适应（Autostaighten）则是能在PDF扫描歪了的时候（常有的，一个PDF拿来一看是斜着的）能做点微调，把看起来像是斜着的字给掰正了。&lt;/p&gt;
+&lt;p&gt;我这里还在附加参数那里输入了-m，这个参数的意思是先智能裁边，然后再进行重排。这个智能裁边，就如我前面所说的，不会裁掉页眉页脚，所以并不是那么好用。如果前面已经先用别的软件裁过一次了，那这里不需要这个参数了。&lt;/p&gt;
+&lt;p&gt;参数设置完之后直接Convert All Files就成。&lt;/p&gt;
+&lt;h2 id=&#34;压缩&#34;&gt;压缩&lt;/h2&gt;
+&lt;p&gt;其实到这一步之后这个PDF就已经可用了，拷贝进Kindle里面已经可以看了。就是重排出来的PDF体积巨大，原来这个布哈林的《共产主义ABC》有14M，重排完变成了36M了。&lt;/p&gt;
+&lt;p&gt;嫌重排出来的文件体积太大可以再去找那种在线压缩PDF的工具，或者本地压缩的话ABBYY也行，不过要我说，这一步搞不搞没啥差别了，照样用。&lt;/p&gt;
+&lt;h2 id=&#34;最后拿来压泡面&#34;&gt;最后拿来压泡面&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210525100503.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;看到这个重排效果这么好，我和满书架还没看的书还有steam游戏都笑了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;关于书签&#34;&gt;关于书签&lt;/h2&gt;
+&lt;p&gt;补充一句……&lt;/p&gt;
+&lt;p&gt;有一些PDF是一页一个书签的，在转换的过程中就会把每一页当作一章，直接换页。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210618103753.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210618104041.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;遇到这种PDF还得先把书签重新编辑一遍……&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>关于我被github封号这件事</title>
+        <link>https://yuukoamamiya.github.io/p/%E5%85%B3%E4%BA%8E%E6%88%91%E8%A2%ABgithub%E5%B0%81%E5%8F%B7%E8%BF%99%E4%BB%B6%E4%BA%8B/</link>
+        <pubDate>Mon, 17 May 2021 22:19:00 +0800</pubDate>
+        
+        <guid>https://yuukoamamiya.github.io/p/%E5%85%B3%E4%BA%8E%E6%88%91%E8%A2%ABgithub%E5%B0%81%E5%8F%B7%E8%BF%99%E4%BB%B6%E4%BA%8B/</guid>
+        <description>&lt;img src="https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210517225938.jpg" alt="Featured image of post 关于我被github封号这件事" /&gt;&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210517222454.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;说实话，就github竟然会封人这一点来讲，我也是第一次听说。之前只听说过有个讲国内政治的仓库用中国ip是访问不了的，还听说过github被微软收购之后响应特朗普政策ban了伊朗ip，但是还真没想到铁拳终有一天会落在我头上。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210517222803.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;至于被ban掉的原因，那也说不准。最有可能的自然是发了有版权的内容，被资产阶级法权给橄榄了。毕竟这个博客有《斜目而视》那个季广茂后记的基本所有内容，之前还弄着个人wiki的时候还有《导读弗洛伊德》的内容，还有个个人仓库里面传了一堆马克思的书。——如果是因为马克思而被橄榄的话那这下可就真的很搞笑了，实现了内容和形式的统一。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210517223151.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;当然这也只是猜测，真正的原因谁也说不准。人就轻飘飘地一句“参照社区规定”，提前连个招呼都不打不声不响就给你封了，提交申诉过了半个月都没人理，这下可刑不可知则威不可测了，法制史要考的。&lt;/p&gt;
+&lt;p&gt;不过好在我的github账号里面也没什么东西，封了也就封了。本来无一物何处染尘埃。毕竟也不是什么程序员，github里面除了博客什么都没有，甚至就连博客都是本地有备份的，就像今天这样，注册一个新账户，把本地文件上传一下，立马又是个新博客。&lt;/p&gt;
+&lt;p&gt;唯一的问题就是以前博客的配图没备份，这下可尴尬了，哈哈哈哈。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210517224502.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;被封了之后琢磨还能用什么东西来搭博客，于是我考察了一下当下流行的博客工具：&lt;/p&gt;
+&lt;p&gt;jekyll, hexo, hugo&amp;hellip;&lt;/p&gt;
+&lt;p&gt;总而言之，你可以在github和github里面做自由选择&lt;/p&gt;
+&lt;p&gt;有没有不用github的啊？有：&lt;/p&gt;
+&lt;p&gt;wordpress.com, blogger&amp;hellip;&lt;/p&gt;
+&lt;p&gt;总而言之，你可以在微软谷歌里面自由选择&lt;/p&gt;
+&lt;p&gt;这下可真就印证了齐泽克的黑屁了，“先生，你可以选择自由主义和保守主义哦”“见鬼，我就不能选共产主义吗”，选来选去看似五彩斑斓五花十色，实际上都是一个味儿。&lt;/p&gt;
+&lt;p&gt;最后没辙，还是重新注册了一个github的新账号（见鬼，和雨宫优子有关的用户名是一个都没给我留下），套用某个&lt;a class=&#34;link&#34; href=&#34;https://zh.wikipedia.org/zh-hans/%e6%b8%a9%e6%96%af%e9%a1%bf%c2%b7%e4%b8%98%e5%90%89%e5%b0%94&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;大傻逼&lt;/a&gt;的话说，这玩意不是个好东西，但是已经是坏东西里面最不坏的那个了。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>GTD小记</title>
+        <link>https://yuukoamamiya.github.io/p/gtd-memo/</link>
+        <pubDate>Thu, 25 Mar 2021 21:21:00 +0800</pubDate>
+        
+        <guid>https://yuukoamamiya.github.io/p/gtd-memo/</guid>
+        <description>&lt;img src="https://cdn.sspai.com/2019/02/09/323849faa281f237278dc051a59704e1.png?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1" alt="Featured image of post GTD小记" /&gt;&lt;p&gt;我发现我似乎干什么都赶不上趟。以前少数派文章狂轰滥炸GTD的时候我没去研究，现在终于有空去把戴维·艾伦的那本《搞定》看了一下的时候，GTD似乎已经不流行了——不过流行不流行无所谓，更悲惨的还是别的：我发现了我以前跟着软件做的不是GTD，而且以后也估计不会去做。&lt;/p&gt;
+&lt;p&gt;GTD的心法其实很简单，无外乎几点。一是把要记的东西全部写出来存起来，而不是记在脑子里，借此把脑子清空，因为脑子是用来想东西的而不是用来记东西的；二是记下来的东西只不过是没处理过的杂多表象，那之后还需要去对其进行综合，该丢的丢该打tag的打tag，该推给别人的推给别人该设置日期的设置日期；三来是被处理之后的项目一共有8个去处，比正常人想象中的“那我标个日期吧”要复杂许多。&lt;/p&gt;
+&lt;p&gt;那么我们一条一条来看。&lt;/p&gt;
+&lt;h2 id=&#34;收集&#34;&gt;收集&lt;/h2&gt;
+&lt;p&gt;首先是整个GTD流程最开始的收集。“收集”要求实践者把脑子里所想到的一切快速记在纸上，就好像是弗洛伊德要求他的患者们进行自由联想一样，不管是什么东西，想法目标点子，要不加以甄别、不加思索地全部记到inbox里来。&lt;/p&gt;
+&lt;p&gt;在这个时候千万不能思索，一旦先思索了“哪些值得加，哪些不值得加”，实际上就破坏了“脑子用来想而不是用来记”的心法。去超市的时候觉得“买牛奶要摘上，买盐这还用摘？我奶奶都记得住”，结果就是在超市里转来转去真的想不起来要买啥，“当时我是怎么想的来着，买烟还是买咸鱼”。&lt;/p&gt;
+&lt;h2 id=&#34;判断和整理&#34;&gt;判断和整理&lt;/h2&gt;
+&lt;p&gt;然后是用先验统觉来处理杂多表象（雾&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202201021556319.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这图总结地很好了，按照这图里的内容来看就行（我之前用mermaid手撸了半天流程图才发现有这个图）。就是有些地方翻译可能和网上看的别的资料不一样，“愿望清单”=“将来/某时”，“文件夹”=“参考资料”，别的都能望文生义。&lt;/p&gt;
+&lt;p&gt;这里可以看到有个“文件夹/参考资料”，这更说明了在收集的第一步里摘录的不仅仅是“要做的事”，一些点子或者金句之类的快速摘录的东西都是放在这里的。&lt;/p&gt;
+&lt;p&gt;这里要单独提一嘴的是，许多人对于GTD的印象就是先想好哪些事情要做，然后给每个都设置一个DDL。其实这在《搞定》那本书里还被单独拿出来批了一顿。在这个图里可以看到“自己做”的任务有两个去处，一个是“日历”，对应的是有明确日期的任务，就把这个任务安排到某一天去做了；另一个是“执行清单”，执行清单是没有日期而只有先后顺序的，主宰执行清单的逻辑就是“照着顺序来，做完上一件就做下一件”，不设置日期的原因是现实太复杂，设置好的日期随时有可能被打破。&lt;/p&gt;
+&lt;p&gt;在GTD的系统中，进行“日历”与“执行清单”的二分是为了维持“日历神圣”的原则，即写了日历的任务不可随意打破其执行日期——而执行清单与之相反，反正很有可能打破执行日期，那不如从一开始就不设置。&lt;/p&gt;
+&lt;h2 id=&#34;复查&#34;&gt;复查&lt;/h2&gt;
+&lt;p&gt;完成了对inbox中原始项目的整理之后，在着手进行执行之前，要进行一次复查，包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;inbox是否清空&lt;/li&gt;
+&lt;li&gt;愿望清单有无准备着手的&lt;/li&gt;
+&lt;li&gt;项目清单的进度几何&lt;/li&gt;
+&lt;li&gt;等待清单有无要催的&lt;/li&gt;
+&lt;li&gt;项目有无已失效需要删除的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;复查对于GTD而言还是很要紧的。但这也是GTD太复杂而被人诟病的地方。&lt;/p&gt;
+&lt;h2 id=&#34;执行&#34;&gt;执行&lt;/h2&gt;
+&lt;p&gt;最后一步是执行，执行也有其顺序：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;日历上的工作。“日历神圣原则”。&lt;/li&gt;
+&lt;li&gt;突发工作。这里指的是临时指派而又比较紧急的任务；不紧急的就写inbox&lt;/li&gt;
+&lt;li&gt;执行清单上的工作。如果设置了优先级就从上往下做，没设置就挑能做的做吧。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;参考资料&#34;&gt;参考资料&lt;/h2&gt;
+&lt;p&gt;写得最详细的当然是《搞定》这本书，但是工具书我感觉都没啥必要硬啃，有别人反刍过的最好。&lt;/p&gt;
+&lt;p&gt;别人写的资料里面&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/42694082&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;知乎的这篇&lt;/a&gt;最好，我上面用的那张图片就来自这个帖子，就是用的译名和习惯的不太一样。&lt;/p&gt;
+&lt;h2 id=&#34;我为什么没用gtd&#34;&gt;我为什么没用GTD&lt;/h2&gt;
+&lt;p&gt;因为我之前掏150买了个todo清单，看见这软件颜值不错而且是买断制直接心动了下手（结果买来一用连夜间模式都没有，淦）。&lt;/p&gt;
+&lt;p&gt;那个时候我还没啃《搞定》这本书，还觉得记一记任务嘛，就是每天晚上睡前抽五分钟把明天要做的事情记一下做个todo list，今天要是有没完成的就移到明天，最好还能设置一下周目标月目标啥的。这是bullet journal的那套做法了，不是GTD。&lt;/p&gt;
+&lt;p&gt;因为每天的任务不多，这么搞也就做下来了。&lt;/p&gt;
+&lt;p&gt;等啃过《搞定》那本书之后问题就来了，这个时候有两个悲哀的事实：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;什么，我做的竟然不是GTD&lt;/li&gt;
+&lt;li&gt;什么，我竟然不做GTD也就这么做下来了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;好吧，确实挺悲哀的。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title> 更换 win10 图标</title>
+        <link>https://yuukoamamiya.github.io/p/win10-icons/</link>
+        <pubDate>Tue, 23 Feb 2021 14:18:00 +0800</pubDate>
+        
+        <guid>https://yuukoamamiya.github.io/p/win10-icons/</guid>
+        <description>&lt;img src="https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210223143610.png" alt="Featured image of post  更换 win10 图标" /&gt;&lt;p&gt;存了一堆 epub 和 mobi 格式的电子书，之前默认打开方式是 calibre 的时候还好，虽然打开巨尼玛慢，但是因为图标长得还可以，面子上还过得去。最近开始用稻壳阅读器之后，打开速度倒是快了，就是文件图标直接变成了软件图标，丑到不行。于是就琢磨能不能把图标给换一换。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210223135239.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;改完之后这个效果，比一开始好看了不少。就是感觉文件夹图标还不够炫，算了算了……&lt;/p&gt;
+&lt;h2 id=&#34;flaticon&#34;&gt;Flaticon&lt;/h2&gt;
+&lt;p&gt;图标我是在 Flaticon 网找的。&lt;a class=&#34;link&#34; href=&#34;https://www.flaticon.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210223135551.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;随便搜了一下 txt 看这个图标风格不错，顺手摸进去看看这个图标包。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210223135616.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;是不错，决定就是你了。没登陆要单张单张下载，登陆之后可以直接下载打包的。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flaticon.com/packs/files-8&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;图标包地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不过我嫌这里的这个 zip 文件不太好看，又找了个别的&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210223140035.ico&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;一张纸上写着 zip，不行，几个彩色的色块，行。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flaticon.com/packs/file-and-document-31&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;图标包地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210223140341.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;当然，还有 Google Suite 风格的图标包。我一上手就先把那几个 office 格式的文件全换成谷歌的了，后来想想这也太骚了算了算了233&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flaticon.com/packs/google-suite-18&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;图标包地址&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;png-to-ico&#34;&gt;PNG to ICO&lt;/h2&gt;
+&lt;p&gt;小众软件以前&lt;a class=&#34;link&#34; href=&#34;https://www.appinn.com/png-to-ico/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;有个帖子&lt;/a&gt;介绍过这玩意，不过现在不好找了……&lt;/p&gt;
+&lt;p&gt;我传了一份。&lt;a class=&#34;link&#34; href=&#34;https://github.com/yuukoamamiya/Tools/blob/master/png%20%E6%89%B9%E9%87%8F%E8%BD%AC%20ico.7z&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;解压之后把 .png 图片丢进 png 文件夹里，运行 &lt;code&gt;start.bat&lt;/code&gt; 就行。十分傻瓜。&lt;/p&gt;
+&lt;p&gt;这个 bat 里的第一行可以定义图片大小，我已经改过了，现在是默认输出 256*256 的图。&lt;/p&gt;
+&lt;p&gt;输出的 .ico 图标找个地方存好。我是存在 &lt;code&gt;D:\icons&lt;/code&gt; 下的，总之爱存哪存哪，别哪天忘了给删了就行——别存桌面，桌面上放了个东西看久了就会忍不住去删的。&lt;/p&gt;
+&lt;h2 id=&#34;修图&#34;&gt;修图&lt;/h2&gt;
+&lt;p&gt;这堆图标包里面还是没有我一开始想要的 epub 和 mobi 电子书格式的图标包。不过不慌，这个可以用PS做。&lt;/p&gt;
+&lt;p&gt;之前如果是登陆了打包下的图标包的话，给的压缩包里是有一堆 psd 文件的。用PS对着做就行了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210224151809.ico&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;我这个md就是对着js的图标改的。对着摹仿就可以了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210224151649.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;字体：Arial Rounded MT Bold&lt;/p&gt;
+&lt;p&gt;字重：Regular&lt;/p&gt;
+&lt;p&gt;大小：120&lt;/p&gt;
+&lt;p&gt;字距：-10&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这是个看起来和原来的图标比较像的设定。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210224151707.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;要注意的是给的psd是长宽不相等的，直接输出png图片去转的话整个图标就变胖了。在输出png之前要先调整画布大小至长宽相等。&lt;/p&gt;
+&lt;h2 id=&#34;filetypesman&#34;&gt;Filetypesman&lt;/h2&gt;
+&lt;p&gt;换图标的工具用的是这个 Nirsoft 的一个小工具。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.nirsoft.net/utils/file_types_manager.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官网&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210223142423.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;傻瓜操作，没啥好说的。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>从Gridea迁移到Hugo</title>
+        <link>https://yuukoamamiya.github.io/p/%E4%BB%8Egridea%E8%BF%81%E7%A7%BB%E5%88%B0hugo/</link>
+        <pubDate>Thu, 28 Jan 2021 16:52:00 +0800</pubDate>
+        
+        <guid>https://yuukoamamiya.github.io/p/%E4%BB%8Egridea%E8%BF%81%E7%A7%BB%E5%88%B0hugo/</guid>
+        <description>&lt;img src="https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210210222138.png" alt="Featured image of post 从Gridea迁移到Hugo" /&gt;&lt;p&gt;我之前写了&lt;a class=&#34;link&#34; href=&#34;https://yuukoamamiya.github.io/p/%E8%AE%B0%E4%B8%80%E6%AC%A1%E6%90%AC%E8%BF%81%E5%8D%9A%E5%AE%A2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;一篇博文&lt;/a&gt;来讲述我从 blogspot 转移到现在用的 github page ，那个时候用的生成工具是 Gridea ，我现在还觉得那玩意不错，什么都是傻瓜式的，也就第一次设置的时候要跟着教程来，麻烦点，设置好之后就可以看着GUI的脸色行事了。&lt;/p&gt;
+&lt;p&gt;只不过后来是越用越觉得 Gridea 有各种各样的问题。我最讨厌的毒瘤框架自不必说，写了篇文章要生成个半天再同步个半天，还经常同步个半天没能 push 上去，就相当痛苦。正好这个时候有了 Github Actions ，如果是自建博客的话传个markdown文件就行，剩下的都是云端自动了，也犯不着在本地先执行什么 &lt;code&gt;hexo -d&lt;/code&gt; 再执行一下 &lt;code&gt;git&lt;/code&gt; ，最早制约我去自己折腾 hexo 一类工具的制约已经消失了。&lt;/p&gt;
+&lt;h2 id=&#34;安装hugo&#34;&gt;安装Hugo&lt;/h2&gt;
+&lt;p&gt;我得说我选择 Hugo 没有什么特别的理由，纯粹就是单纯图个装起来省事。我之前装好了包管理器 Chocolatey ，再装 Hugo 就一行命令的事情，而且装好了直接就已经是环境变量了，可以直接在命令行里执行 &lt;code&gt;hugo&lt;/code&gt; 命令，很方便。&lt;/p&gt;
+&lt;p&gt;要紧的命令就这么两行：&lt;/p&gt;
+&lt;p&gt;安装 Chocolatey （需要管理员权限 powershell）：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Set-ExecutionPolicy Bypass -Scope &lt;span style=&#34;color:#66d9ef&#34;&gt;Process&lt;/span&gt; -Force; &lt;span style=&#34;color:#66d9ef&#34;&gt;[System.Net.ServicePointManager]&lt;/span&gt;::SecurityProtocol = &lt;span style=&#34;color:#66d9ef&#34;&gt;[System.Net.ServicePointManager]&lt;/span&gt;::SecurityProtocol &lt;span style=&#34;color:#f92672&#34;&gt;-bor&lt;/span&gt; 3072; iex ((New-Object System.Net.WebClient).DownloadString(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://chocolatey.org/install.ps1&amp;#39;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;安装 Hugo&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;choco install hugo-extended
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这两个装上就够了，当然，要是像我这样没GUI就浑身难受的，那还可以再装个 Chocolatey GUI：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;choco install chocolateygui
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;装到这里就算是该装的软件都装过一遍了，那之后就是做博客了。&lt;/p&gt;
+&lt;h2 id=&#34;创建博客&#34;&gt;创建博客&lt;/h2&gt;
+&lt;p&gt;Hugo 里面新建工程的命令是&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site my_blog
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在任意目录下运行，就可以看到生成了一个名为 &lt;code&gt;my_blog&lt;/code&gt; 的文件夹，这个文件夹里面自带了一些博客最基本的内容。Hugo 是不自带默认主题的，需要去下一个来。&lt;/p&gt;
+&lt;p&gt;我下的是 &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stack&lt;/a&gt; 主题，自带一个&lt;a class=&#34;link&#34; href=&#34;https://docs.stack.jimmycai.com/v/zh-cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;中文文档&lt;/a&gt;，一步一步照着文档来就行。下载最新 &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Release&lt;/a&gt; 之后下，把 &lt;code&gt;hugo-theme-stack-master&lt;/code&gt; 改名为 &lt;code&gt;hugo-theme-stack&lt;/code&gt; 并放到站点目录的 &lt;code&gt;theme&lt;/code&gt; 文件夹下。&lt;/p&gt;
+&lt;p&gt;我这是个全新的博客，就如文档所言，把 &lt;code&gt;exampleSite&lt;/code&gt; 文件夹中的 &lt;code&gt;assets&lt;/code&gt; 和 &lt;code&gt;config.yaml&lt;/code&gt; 给复制到博客根目录下；博客根目录下原本有个 &lt;code&gt;config.toml&lt;/code&gt; ，理论上可以对着这两个文件依样画葫芦自己写配置文件，但是还是算了，嫌麻烦，直接给删了得了。&lt;/p&gt;
+&lt;p&gt;不过网上能找到的一些修改功能的教程几乎都是基于 toml 的，有时候把格式改成 yaml 修修改改还能用，有时候就用不了，凑合凑合得了，也不用太讲究。&lt;/p&gt;
+&lt;p&gt;以下设置过程中，全程时不时打开 &lt;code&gt;hugo server&lt;/code&gt; 看看对劲不对劲……&lt;/p&gt;
+&lt;h2 id=&#34;配置主题&#34;&gt;配置主题&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;config.yaml&lt;/code&gt; 这个文件几乎是开箱即用的，但还是不少地方需要自己再设置过。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;mainSections&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        - &lt;span style=&#34;color:#ae81ff&#34;&gt;post&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;featuredImageField&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;feature&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;rssFullContent&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;favicon&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210127185955.ico&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;featuredImageField&lt;/code&gt; 决定的是特色图片（题图）使用的字段。默认是 image ，我这里修改成了 feature ，因为从 Gridea 的 post 文件夹里拿出来的文件就是这样的。当然也可以批量修改，用 sublime text 就可以把整个文件夹里的 feature 字段全部改成 image ，不过我偷懒了一手，而且这么改目前看下来也没出啥毛病。能用就成。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;rssFullContent&lt;/code&gt; 决定的是 rss 是否输出全文。 &lt;code&gt;favicon&lt;/code&gt; 决定了网站的图标，看着改就行。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;sidebar&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;emoji&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;🎷&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;subtitle&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;让无价值的灵魂去哭泣吧！&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;avatar&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#f92672&#34;&gt;local&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#f92672&#34;&gt;src&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;img/avatar.png&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;一些个性化博客的设置。把博主头像放在根目录下的 &lt;code&gt;assets/img&lt;/code&gt; 里就成。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;menu&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        - &lt;span style=&#34;color:#f92672&#34;&gt;identifier&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;link&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Link&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;link&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;weight&lt;/span&gt;: -&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;pre&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;link&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        - &lt;span style=&#34;color:#f92672&#34;&gt;identifier&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;rss&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Rss&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;index.xml&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;weight&lt;/span&gt;: -&lt;span style=&#34;color:#ae81ff&#34;&gt;40&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;pre&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;rss&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;个性化菜单。&lt;/p&gt;
+&lt;p&gt;原本的左侧菜单只有主页、关于、存档、搜索，这四个选项。我给加了友链和 rss 订阅这两个。&lt;/p&gt;
+&lt;p&gt;当然这个时候菜单里面的东西都是不能用的，还需要再配置过。&lt;/p&gt;
+&lt;p&gt;老样子还是从作者给的示范里面偷活，把 &lt;code&gt;exampleSite/content/page&lt;/code&gt; 整个文件夹拷到根目录的 &lt;code&gt;content&lt;/code&gt; 文件夹底下，搜索和存档是直接可以用了。&lt;code&gt;about.md&lt;/code&gt; 这个文件还得依样画葫芦自己写点东西上去（我之前甚至想不到写什么去别人博客里偷活233）， &lt;code&gt;link.md&lt;/code&gt; 也是一律。大佬们自然有办法手写点代码让友情链接的页面好看点，我是个粗人，拿 md 随手写写差不多了。rss 直接可以用了，不需要再创建了。&lt;/p&gt;
+&lt;p&gt;不过这里有个问题是，生成的 rss 订阅地址是 &lt;code&gt;index.xml&lt;/code&gt; 而不是以前的 &lt;code&gt;atom.xml&lt;/code&gt; ，这就意味着以前的 rss 订阅地址就失效了。我也没什么好办法去解决。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Change it to your Disqus shortname before using&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;disqusShortname&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;yukoamamiya&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;comments&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;enabled&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;provider&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;disqus&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;评论系统设置 disqus 省事，就直接用了。 &lt;code&gt;disqusShortname&lt;/code&gt; 这个属性设置一下就行。&lt;/p&gt;
+&lt;p&gt;这个主题支持 disqus 和 utterances 两套评论系统，后者是基于 github issue 的，要是我之前 gitalk 的数据还在我就用后者了。不过换成 Hugo 之后链接地址全变了，原先的 issue 也就对应不上了，算了算了，全扬了得了233&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;permalinks&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;post&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;/p/:filename/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;page&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;/:slug/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这行代码决定的是生成的博文页面的 url 。&lt;/p&gt;
+&lt;p&gt;Gridea 的逻辑是取文件名做链接，比如说 &lt;code&gt;aigis.md&lt;/code&gt; 这个文件最后生成的链接是 &lt;code&gt;xxx.github.io/post/aigis&lt;/code&gt; ，而 Hugo 的逻辑，至少按照这个主题原来的设置 &lt;code&gt;post: /p/:slug/&lt;/code&gt;来说是读文件的内容。如果有在 Front Matter 里面设置 &lt;code&gt;slug&lt;/code&gt; 字段的话，那就读取这个字段并生成地址，没有的话就读 &lt;code&gt;title&lt;/code&gt; ，那我从 Gridea 刚刚转过来的，哪里会设置这个字段嘛，结果就是前面的 &lt;code&gt;aigis.md&lt;/code&gt; 生成的链接成了 &lt;code&gt;xxx.github.io/p/千年战争&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;我把这段里面的 &lt;code&gt;slug&lt;/code&gt; 改成了 &lt;code&gt;filename&lt;/code&gt; 这个逻辑就和 Gridea 的对上了。当然，还有 p 和 post 的区别，不过这个我不打算改了。就那么几篇特定的博文用 &lt;code&gt;aliases&lt;/code&gt; 设置一下别名就成了。比如这样：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;aliases&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#ae81ff&#34;&gt;/post/order-44/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200429164034.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;反正 SEO 乱了也没什么，会点进来看的也就爱看个什么 TNO 魔怔 Order-44 啊，怒喷 MIUI 啊之类的，也就那么几篇，就连点进来看我睿评太宰治的都没几个。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.stack.jimmycai.com/v/zh-cn/modify-theme/example-custom-font-family-for-article-content&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;修改字体&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;修改字体我几乎是从文档里面一字不落直接照搬了。不过我自己也确认不了思源宋体的效果，我这边直接本地强制把字体显示成 Ubuntu 了……&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.stack.jimmycai.com/v/zh-cn/writing/gei-fen-lei-biao-qian-tian-jia-tu-pian-he-jian-jie&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;给分类 / 标签添加图片和简介&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;同样是照着文档来就行。在 &lt;code&gt;content/tags/标签名&lt;/code&gt; 下创建 &lt;code&gt;_index.md&lt;/code&gt;，然后写点迫真二次元内容。&lt;/p&gt;
+&lt;p&gt;比如：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;科技&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;feature&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128122034.jpg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;description&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;你的XP系统有点问题，我已经帮你重装好了&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;显示效果是这样的：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128201948.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;迁移博文&#34;&gt;迁移博文&lt;/h2&gt;
+&lt;p&gt;Gridea 的博文存放在其数据文件夹的 &lt;code&gt;\posts&lt;/code&gt; 子目录下，直接把里面的那堆博文复制到 &lt;code&gt;\content\post&lt;/code&gt; 下就能用。&lt;/p&gt;
+&lt;p&gt;两者的 Front Matter 还是有些区别的，比如说 Hugo 的 &lt;code&gt;hidden: = flase&lt;/code&gt; 对应的是 Gridea 的 &lt;code&gt;hideInList: false&lt;/code&gt; ，不过总体而言差别不大。而且也可以用 sublime text 批量改整个文件夹。&lt;/p&gt;
+&lt;p&gt;一个比较明显的区别在文章简介，在这个主题里面基本就是副标题。Hugo 的文章简介是用 &lt;code&gt;description&lt;/code&gt; 词条写的，而 Gridea 的则是靠 &lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt; 打标记。这个没啥批量改的法子，也许可以写脚本硬改，但是我这里文章虽然多，有副标题的也不怎么多，就硬改得了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128203433.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;我觉得最炫的是这个hhhhh&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;不过这篇博文是大一时候写的了，现在我看我也流泪啊&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;还有一个重大的问题是时间。&lt;/p&gt;
+&lt;p&gt;Gridea 里面的时间格式是 &lt;code&gt;2021-01-28 16:52:00&lt;/code&gt; ，而 Hugo 的则是 &lt;code&gt;2021-01-28 16:52:00+0800&lt;/code&gt; ，两者几乎完全一样，就是 Hugo 的加上了时区信息。&lt;/p&gt;
+&lt;p&gt;老的博文不写时区也无所谓，但是新的博文在写的时候一定要加上时区信息。如果不写的话，Hugo 会认为这是一篇发布时间在未来的博文而不给渲染……&lt;/p&gt;
+&lt;h2 id=&#34;google-search-console&#34;&gt;Google Search Console&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128205719.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;如果是第一次向谷歌提交站点的话，这一步还是放在后面，等 Github Actions 设置好了再弄吧。我这里因为以前就设置过，现在重新提交一下站点地图就成。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128210146.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;站点地图的提交需要时间……估计现在在谷歌上搜 TNO 搜来我博客的，摁一下还是会看404……&lt;/p&gt;
+&lt;h2 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h2&gt;
+&lt;p&gt;主题作者在文档里面也&lt;a class=&#34;link&#34; href=&#34;https://docs.stack.jimmycai.com/v/zh-cn/modify-theme&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;提了一嘴&lt;/a&gt;怎么设置，不过我还是跟着&lt;a class=&#34;link&#34; href=&#34;https://coreychen71.github.io/posts/2019-05/hugoaddgoogleanalytics/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这个教程&lt;/a&gt;走的。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128211634.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;没申请过 Google Analytics 服务的可以来 &lt;a class=&#34;link&#34; href=&#34;https://analytics.google.com/analytics/web/?authuser=0#provision/SignUp/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://analytics.google.com/analytics/web/?authuser=0#provision/SignUp/&lt;/a&gt; 先申请一个，我这边是已经申请好了，就差把代码嵌到博客里面去了。&lt;/p&gt;
+&lt;p&gt;首先把跟踪 id 加到 &lt;code&gt;config.yaml&lt;/code&gt; 里面去。上面发的那个教程里用的是 toml ，和 yaml 的格式略有不同。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;googleAnalytics&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;UA-xxxxxxxxx-x&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后是把 &lt;code&gt;\themes\hugo-theme-stack\layouts\partials\head\head.html&lt;/code&gt; 复制到根目录下的 &lt;code&gt;\layouts\partials\head\head.html&lt;/code&gt; 里去。&lt;/p&gt;
+&lt;p&gt;在这个文件里加上四行：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{ template &amp;#34;_internal/google_analytics_async.html&amp;#34; . }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{ if not .Site.IsServer }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{ template &amp;#34;_internal/google_analytics_async.html&amp;#34; . }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{ end }}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在 &lt;code&gt;\layouts&lt;/code&gt; 目录下建立 &lt;code&gt;_internal&lt;/code&gt; 文件夹，并且再在其中创建 &lt;code&gt;google_analytics_async.html &lt;/code&gt; 文件，然后把我前面截图里面的全局网站代码（gtag.js）复制进去就成。&lt;/p&gt;
+&lt;h2 id=&#34;设置github-actions&#34;&gt;设置Github Actions&lt;/h2&gt;
+&lt;p&gt;首先是要准备 &lt;code&gt;&amp;lt;你的github用户名&amp;gt;.github.io&lt;/code&gt; 仓库，有一个 master 分支和一个 gh-pages 分支。&lt;/p&gt;
+&lt;p&gt;然后把刚刚弄出来的那堆博客文件整个目录传到这个仓库的 master 分支上去——这个时候比较标准的解法是 &lt;code&gt;git push&lt;/code&gt; ，不过我能不用命令行肯定不用命令行的233&lt;/p&gt;
+&lt;p&gt;我在这一步用的是 &lt;a class=&#34;link&#34; href=&#34;https://desktop.github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github Desktop&lt;/a&gt; 应用（没错，我甚至连 git 都没装）。&lt;/p&gt;
+&lt;p&gt;这里要注意的是需要设置排除，根目录下创建一个文本文档并重命名为 &lt;code&gt;.gitignore&lt;/code&gt; ，写入以下内容：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/public/
+/themes/*/.git
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后是申请 token，在 github 上依次点击 右上角你的头像 - Settings - Developer Settings - Personal access tokens，生成一个。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128220717.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;（我这里之前 Gridea 本来就要用的，直接用了之前那个）&lt;/p&gt;
+&lt;p&gt;要注意的是这个 token 只会在这个时候给你看一次，丢了就是丢了，以后就再也不会再出现了。我推荐把这个给存到密码管理软件里面去，用 lastpass 之类的软件给管理起来。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128223012.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;回到 &lt;code&gt;&amp;lt;你的github用户名&amp;gt;.github.io&lt;/code&gt; 仓库，依次选择 Settings - Secret ，添加一个仓库密钥名为 &lt;code&gt;personal_token&lt;/code&gt; ，内容是刚刚的 token 复制进去。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128223513.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;回到仓库，依次点击 Actions - New wordflow - Set up a workflow yourself，然后把这堆我也是抄来的一大坨代码复制进去就好了。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Deploy Hugo&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# 任君喜欢&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;on&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;push&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;branches&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#ae81ff&#34;&gt;master  &lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# master 更新触发&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;jobs&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;build-deploy&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;runs-on&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;ubuntu-18.04&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;steps&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;uses&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;actions/checkout@v1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Setup Hugo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;uses&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;peaceiris/actions-hugo@v2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;with&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;hugo-version&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;latest&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Build &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;run&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;hugo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Deploy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;uses&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;peaceiris/actions-gh-pages@v3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;with&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;personal_token&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;${{ secrets.personal_token }}&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# personal_token&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;PUBLISH_BRANCH&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;gh-pages &lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# 推送到当前 gh-pages 分支&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;PUBLISH_DIR&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;./public &lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# hugo 生成到 public 作为跟目录&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#f92672&#34;&gt;commit_message&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;${{ github.event.head_commit.message }}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;施工完毕&#34;&gt;施工完毕&lt;/h2&gt;
+&lt;p&gt;事情到这一步，就算是施工完毕了。你可以在 master 分支随便进行一些改动来使得 Action 生效。我刚弄好的时候传了一个表情包上去然后删掉了（&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210128231609.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;之后再更新新的文章就直接把 .md 文件上传到 &lt;code&gt;\content\post&lt;/code&gt; 目录下就成，用网页传用命令行传用桌面应用传都没问题。改动之后会自动生成自动生效。已经难说和 Gridea 哪个方便哪个麻烦了。可能配置过程中还是 Gridea 更加傻瓜式一些，但是配置好之后还是这么整比较省事。&lt;/p&gt;
+&lt;p&gt;就是手写 Front Matter 还有点麻烦，这个我还得再琢磨琢磨。比如说可以设置 Front Matter 的默认格式，再比如说可以用那种自定义短语的软件来辅助之类的，都还可以进一步研究。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>红米k30折腾记</title>
+        <link>https://yuukoamamiya.github.io/p/redmi-k30/</link>
+        <pubDate>Wed, 01 Jul 2020 22:30:43 +0000</pubDate>
+        
+        <guid>https://yuukoamamiya.github.io/p/redmi-k30/</guid>
+        <description>&lt;img src="https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200701224625.jpg" alt="Featured image of post 红米k30折腾记" /&gt;&lt;p&gt;突然这么说一句可能有些突兀。MIUI是傻逼。&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;我在打开任何应用都能看见广告的时候发现MIUI是傻逼。我在关广告关了半个钟头还没关完的时候发现MIUI是傻逼。我在发现无法更换默认桌面应用的时候发现MIUI是傻逼。我在安装了冰箱却发现无法冻结系统自带应用商店的时候发现MIUI是傻逼。我在安装了play版的支付宝和火狐却不停被提醒“您安装的是非正版版本”的时候发现MIUI是傻逼。我在v2ray没法正常更新订阅的时候发现MIUI是傻逼。我在受够了MIUI这个傻吊系统想要刷机刷掉时发现解锁还要等7天的时候发现MIUI真的就是一坨彻头彻尾的傻逼。&lt;/p&gt;
+&lt;p&gt;这一切都像极了那个苏联笑话：嘿老兄，这是谁买了这部手机，是你还是我？&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200628194331.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;那还能咋办。看到这么一个“与人斗其乐无穷的手机”。我一咬牙，一狠心，一跺脚，我就把这手机给……给供着用了一个星期。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200628194604.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;害，都用小米手机了，那必然是个穷鬼。穷鬼是没法砸手机的。而有钱砸手机的阔佬自然也不会花钱买小米的罪受。&lt;/p&gt;
+&lt;p&gt;等到这一个星期过去，分分钟给你解锁了，系统都给你刷咯。指定没有你的好果汁吃。&lt;/p&gt;
+&lt;p&gt;刷机的ROM选的是破先生推荐的&lt;a class=&#34;link&#34; href=&#34;https://crdroid.net/phoenix&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;crdroid&lt;/a&gt;，这是一个基于lineage修改的系统。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200701175522.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;哦管他呢，lineage也好pixel experience也好，什么都好，只要不是miui，什么都好。&lt;/p&gt;
+&lt;h2 id=&#34;解锁&#34;&gt;解锁&lt;/h2&gt;
+&lt;p&gt;正常来说我应该把刷rec放在第一部分。但是我很想把小米这个撒泼打滚就是不想让你解锁的模样给发出来乐一乐。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200701180359.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200628194338.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;考虑到我用小米以前用的手机不是谷歌就是三星，小米确实是我用过的手机里面体验最屎的同时也是最想让你吃屎并且千方百计阻止你离开屎盆子的手机了，以我贫瘠的脑容量实在是无法想象段位比小米还要高的华为手机用户是如何生存的。&lt;/p&gt;
+&lt;h2 id=&#34;recovery&#34;&gt;Recovery&lt;/h2&gt;
+&lt;p&gt;顺着crdroid的发布页面可以直接找到这个机型的&lt;a class=&#34;link&#34; href=&#34;https://sourceforge.net/projects/crdroid/files/phoenix/6.x/recovery/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;rec&lt;/a&gt;，现在的rec基本都是twrp了，没什么可说的，好歹都能用触摸屏，挺好。&lt;/p&gt;
+&lt;p&gt;刷入过程也没什么好说的，用这两句命令线刷就行。有刷机经验的话很快就能搞定。大约比下载ROM的速度快了个114514倍吧。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;fastboot flash recovery twrp.img
+fastboot boot twrp.img
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;del&gt;命令行看起来都比MIUI亲切&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;唯一要注意的是如果一边开模拟器肝手游一边刷机的话ADB会读到两个和电脑连接的安卓设备，所以还是先把模拟器关了吧。&lt;/p&gt;
+&lt;h2 id=&#34;刷入系统&#34;&gt;刷入系统&lt;/h2&gt;
+&lt;p&gt;主要是下载系统的过程比较慢，我用了bitcomet去下，但是也没比http硬下好多少。&lt;/p&gt;
+&lt;p&gt;进twrp三清。把rom包拷贝到手机目录。install。搞定。&lt;/p&gt;
+&lt;p&gt;刷好之后可以在“高级”菜单下直接root系统，root完了会自带magisk。&lt;/p&gt;
+&lt;h2 id=&#34;gapps&#34;&gt;GApps&lt;/h2&gt;
+&lt;p&gt;其实就是俗称的谷歌全家桶。可以在https://opengapps.org/下载到。&lt;/p&gt;
+&lt;p&gt;ARM64和安卓10不必说。variant看着选。&lt;/p&gt;
+&lt;p&gt;pico和nano是小包。mico和mini则多了一些谷歌自家app。full和stock是完整的全家桶，不同之处在于输入stock之后，谷歌自家的短信应用会替换你系统自带的短信应用，谷歌的电话会替代自带的电话，etc。&lt;/p&gt;
+&lt;p&gt;当然说是这么说，反正我的那个stock包刷进去了是没替换成……短信电话日历邮箱的APP都有了双份，还害得我特地用冰箱再去冻了一些……&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200701190543.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;如图所示，stock这个包是真的很完整，如果用不着什么google pay啊duo啊谷歌地图谷歌新闻之类的玩意还是别刷了，micro和mini里面选着刷就行。具体micro和mini的包里面有什么是可以在网页里看的，比如说这图里的就是micro的。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200701190653.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;magisk&#34;&gt;Magisk&lt;/h2&gt;
+&lt;p&gt;在twrp里面开启了root系统之后就自带的管理器，之后就都是这个应用来帮你管理root权限了。比起他的老前辈supersu而言，magisk有着可以安装插件的黑科技。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;虽然这么说话很阴间，但是都0202年了，不会还有kingroot吧&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;我先把我打上的模块列在这里。大部分都会在下面的部分提到。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Advanced Charging Controller (ACC)&lt;/li&gt;
+&lt;li&gt;Ice Box System Plugin Module&lt;/li&gt;
+&lt;li&gt;Riru (Riru - Core)&lt;/li&gt;
+&lt;li&gt;Riru - EdXposed&lt;/li&gt;
+&lt;li&gt;Riru - Enhanced mode for Strorage Isolation&lt;/li&gt;
+&lt;li&gt;Riru - MiPushFake&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;黑阈&#34;&gt;黑阈&lt;/h2&gt;
+&lt;p&gt;老牌后台管理了。这个作者人品不咋地，软件还是阳间的。&lt;/p&gt;
+&lt;h2 id=&#34;冰箱&#34;&gt;冰箱&lt;/h2&gt;
+&lt;p&gt;考虑到各路国产毒瘤APP在后台也不安生。比方说当你启动支付宝的时候这些国产毒瘤们会在后台挨个唤醒，支付宝叫醒淘宝，淘宝叫醒飞猪，飞猪叫醒咸鱼……就这么挨个地叫直到你的内存塞不下位置。&lt;/p&gt;
+&lt;p&gt;冰箱的意义就在这里，可以把这些国产毒瘤app给暂时禁用，被禁用的应用是无法耍流氓的。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200701192740.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;当然还有个用法是像我上文说的那样要是一不小心刷gapps刷多了可以用冰箱去禁用……不过这个是憨批用法小孩子不要学……&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200429164100.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;我前文讲到我装的magisk模块里有一个&lt;code&gt;Ice Box System Plugin Module&lt;/code&gt;，这个就是给冰箱用的提权插件。就是因为这个提权插件，冰箱被谷歌认为是利用了系统漏洞而被play市场下架。我刚刚装上冰箱的时候就愣住了，play市场上面下不到，从旧手机提取的apk装上去之后也没法恢复play市场的购买……好在我邮箱问了开发者之后开发者送了我一个激活码，不然我真的要吃瘪233&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200701192736.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;关于冰箱的使用技巧还有一则。把冰箱设置为默认的辅助应用之后可以长按home键调出冰箱。&lt;/p&gt;
+&lt;p&gt;不管是小爱同学还是google now我都挺不喜欢的，对着手机话筒说一句“hi google 我要订机票”然后看着那些智能AI助手告诉你说你现在的网络不行是真滴脑瘫&lt;/p&gt;
+&lt;h2 id=&#34;存储重定向&#34;&gt;存储重定向&lt;/h2&gt;
+&lt;p&gt;这是一个谷歌本拟在安卓10里面就加入的功能，现在咕到安卓11去了，意在规范安卓app的文件存储。所有应用，保存的图片就全部存在picture文件夹，保存的文件就全部存在download文件夹，而不是在存储目录下东一坨tencent西一坨qqbrowser到处拉屎。不过考虑到应用开发者干啥啥不行拖字第一名，最后谷歌的要求是2021年的时候上架play市场的app都要支持这个功能。&lt;/p&gt;
+&lt;p&gt;不过……国内的应用们嘛，哈哈哈哈。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200429164906.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;存储重定向就是这点好，装了之后存储目录干净锃亮，除了picture啊download啊几个文件夹之外，什么tencent之类的屎是不存在的。在装他之前，你时不时就想打开垃圾清理软件看看今天又是哪个傻卵APP给我生产了一堆垃圾（我以前爱用Dir）；在装了之后，你时不时就想打开文件管理器看看今天又是哪个傻卵APP又在存储目录给老子拉了屎。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200701202002.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;需要magisk模块&lt;code&gt;Riru - Enhanced mode for Strorage Isolation&lt;/code&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;app-ops&#34;&gt;App Ops&lt;/h2&gt;
+&lt;p&gt;黑格尔说“历史是自由观念的发展”，这话自然被马克思疯狂黑屁。不过用在安卓应用生态上总体还是比较靠谱的。不过考虑到安卓软件的流氓厂商比你更自由也更发展，所以说安卓应用的历史是流氓软件的发展倒是也不为过。&lt;/p&gt;
+&lt;p&gt;在古早的安卓版本里，用户无法控制哪些权限可以被厂商获得哪些不能，于是厂商一脚油门，不管这个权限需不需要，我先要了再说；在安卓6.0开始，用户可以选择自己的权限给或者不给厂商，于是厂商说你可以不给，那我也可以把应用不给你用。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200429164034.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;所以说从直接拿到变成了先预告了再拿，这种变化无疑就是一种自由观念的发展啊！&lt;/p&gt;
+&lt;p&gt;App Ops的意义在于如果厂商耍这种流氓，那咱们可以虚与委蛇一翻，假装给了，实际上给个空的权限，任你读剪切板读飞起来也读不到我刚刚复制的车牌号。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200701212431.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;当然，据说某个国产安卓UI内置了这个功能，然后有一些软件厂商进化到了第三形态：给我看看你的权限正常不正常。&lt;/p&gt;
+&lt;p&gt;要是你给了个假权限，软件会无法启动。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200429164034.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这就是技术力吗，中国安卓，崛起。&lt;/p&gt;
+&lt;h2 id=&#34;通知滤盒&#34;&gt;通知滤盒&lt;/h2&gt;
+&lt;p&gt;没什么奇技淫巧，就是天天被推送垃圾信息有点烦，用这个屏蔽一部分。屏蔽规则我还在慢慢摸索。&lt;/p&gt;
+&lt;h2 id=&#34;mi-push-service-framework&#34;&gt;Mi Push Service Framework&lt;/h2&gt;
+&lt;p&gt;用xp框架和magisk模块伪装成miui之后搭了小米推送的顺风车（便乘），这样子就可以很放心的把应用的后台杀了还不用担心收不到推送了。甚至可以和冰箱打配合，被冰箱禁用的app也能收到推送。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;要不是国内不能用fcm我干嘛要倒腾这个&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;当然，用了这个之后感觉最大的问题就是……我留着这些傻逼软件的推送干什么，让他们特意推送点垃圾信息给我，我再刻意用另一个软件去屏蔽吗，这也太傻逼了吧。&lt;/p&gt;
+&lt;h2 id=&#34;edxposed&#34;&gt;EdXposed&lt;/h2&gt;
+&lt;p&gt;Xposed框架在古早的安卓4.x占据了玩机界的半壁江山。不过现在提当年也没什么意义，当年的酷安还是玩机界的北极星呢哈哈哈哈。&lt;/p&gt;
+&lt;p&gt;至于现在，现在的xp整个生态都不行了，我也就顺手装了几个。与其说是挖空心思去折腾……倒不如说是和老朋友的久别重逢。&lt;/p&gt;
+&lt;p&gt;说实话这些xp模块竟然在安卓10上还能用这一点就挺令我惊讶的。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;去你大爷的内置浏览器&lt;/li&gt;
+&lt;li&gt;验证码提取器&lt;/li&gt;
+&lt;li&gt;NekoSMS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;acca&#34;&gt;AccA&lt;/h2&gt;
+&lt;p&gt;magisk的模块里面有个&lt;code&gt;Advanced Charging Controller (ACC)&lt;/code&gt;，用了这个模块，你就可以更加高效地把电池供起来，实现电池崇拜的大飞跃，一脚油门从把手机电池当爷爷进化到手机电池当祖宗……&lt;/p&gt;
+&lt;p&gt;不过这个模块是没有图形界面的，要实现控制手机到60开始充电到80停止充电得去修改配置文件。于是开发者又写了个方便修改配置的GUI出来。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200701220503.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这样子我就可以更加优雅的把手机电池当祖宗了。谢谢你，开发者。&lt;/p&gt;
+&lt;h2 id=&#34;f-droid&#34;&gt;F-Droid&lt;/h2&gt;
+&lt;p&gt;要是早几年，我会和人说酷安是一个乌烟瘴气的地方。但是今天的话就算了。酷安是个什么臭弟弟，他也配乌烟瘴气？&lt;/p&gt;
+&lt;p&gt;现在的酷安充其量算是个乌烟瘴气的余烬，没有乌没有烟没有瘴也没有气，什么都没有，什么都是虚无的，只不过是昔日酷安的倒影罢了。&lt;/p&gt;
+&lt;p&gt;现在的话，play菜市场自不必说，F-Droid也是个好去处。有大家都爱的telegram，有我上文提到的AccA，有油管最新最in的第三方NewPipe，有看漫画的tachiyomi。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200701222911.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;总之，都是好东西啊。大概秒了酷安114514个手机乐园吧。&lt;/p&gt;
+&lt;h2 id=&#34;结语&#34;&gt;结语&lt;/h2&gt;
+&lt;p&gt;安卓是自由的系统。自由是安卓最锋利的矛，也是安卓最脆弱的脚后跟。&lt;/p&gt;
+&lt;p&gt;我给这台红米刷完机的那一晚上折腾到了半夜，然后蒙头便睡，一觉睡到了第二天中午。&lt;/p&gt;
+&lt;p&gt;醒来之后我就在问自己这么一个问题：&lt;/p&gt;
+&lt;p&gt;这一切值得吗？&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;别吐槽题图的k20，我没找到k30的图&lt;/del&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>我的常用软件/工作方式</title>
+        <link>https://yuukoamamiya.github.io/p/%E6%88%91%E7%9A%84%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/%E5%B7%A5%E4%BD%9C%E6%96%B9%E5%BC%8F/</link>
+        <pubDate>Sun, 26 Apr 2020 13:41:32 +0000</pubDate>
+        
+        <guid>https://yuukoamamiya.github.io/p/%E6%88%91%E7%9A%84%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/%E5%B7%A5%E4%BD%9C%E6%96%B9%E5%BC%8F/</guid>
+        <description>&lt;p&gt;2019-3-19 初版&lt;/p&gt;
+&lt;p&gt;2020-4-26 第二版&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;操作系统&#34;&gt;操作系统&lt;/h2&gt;
+&lt;h3 id=&#34;windows&#34;&gt;Windows&lt;/h3&gt;
+&lt;p&gt;电脑上我的主力操作系统还是&lt;code&gt;Windows&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;家里面倒是有一台老电脑，十几年前的&lt;code&gt;MacBook Pro&lt;/code&gt;，当年是家里人不会用&lt;code&gt;Mac OS&lt;/code&gt;就去装了&lt;code&gt;Windows&lt;/code&gt;，结果近几年因为苹果的质量太好一直不坏但是那个 core 2 duo 的 CPU 实在是用着太费劲了，我就给装了&lt;code&gt;Lubuntu&lt;/code&gt;。结论是比想象中要凑合能用，至少也不会有那么卡了，也不至于有多么发热（我一开始装的是&lt;code&gt;Deepin&lt;/code&gt;，用一会整个电脑都烫得可怕）。&lt;/p&gt;
+&lt;p&gt;言归正传，使用&lt;code&gt;Windows&lt;/code&gt;以外的系统是需要理由的，比如说像是程序员会去用&lt;code&gt;Linux&lt;/code&gt;而设计师会去用&lt;code&gt;OS X&lt;/code&gt;那样。而使用&lt;code&gt;Windows&lt;/code&gt;本身是不需要理由的，因为软件就在那里啊不是吗。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;何况我还有那么多黄油要打呢（笑。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;黄色游戏没有手游色情，不如玩手游。&lt;/p&gt;
+&lt;h3 id=&#34;安卓&#34;&gt;安卓&lt;/h3&gt;
+&lt;p&gt;我已经好几次被家里人揪着领子逼问“你到底买不买 iPhone ，别家的小朋友都用 iPhone 了凭什么就你不叫我们给你买 iPhone ”了。当然最近似乎 iPhone 被换成了华为（苦笑。&lt;/p&gt;
+&lt;p&gt;我就直说吧，我使用安卓而不是 iOS 的最大理由就是因为安卓上有&lt;code&gt;ehviewer&lt;/code&gt;这种杀手级应用，没了这个应用我简直不知道这个手机存在于我的裤兜里头到底有什么意义。&lt;/p&gt;
+&lt;p&gt;至于华为为首的国产手机……我觉得即使抛开那种冷战式的疑神疑鬼思维不提，我作为一个将 iOS 弃之如敝履的安卓用户，实在是没有道理去用那种抄袭 iOS 之后将安卓进行再发明然后在发布会上吹一通牛逼说自己如何如何又“吊打”了苹果的国产手机吧。只有原生安卓才是我的菜。更何况那种冷战式的疑神疑鬼思维，我还真觉得有点道理。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;尽管安卓手机在面对国产流氓软件的时候需要付出很大努力才能勉强压制住……&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;等我有钱我必换苹果。不仅乱杀国产流氓软件，还能方便给日本手游充钱。&lt;/p&gt;
+&lt;h3 id=&#34;安卓模拟器&#34;&gt;安卓模拟器&lt;/h3&gt;
+&lt;p&gt;我用的雷电模拟器。雷电3的系统是安卓5，占用的资源比较低。&lt;/p&gt;
+&lt;p&gt;我用的是果壳剥壳的&lt;a class=&#34;link&#34; href=&#34;https://www.ghpym.com/lnmnq.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;去广告版本&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200426212156.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;主要是玩的手游多233&lt;/p&gt;
+&lt;h2 id=&#34;浏览器&#34;&gt;浏览器&lt;/h2&gt;
+&lt;h3 id=&#34;chrome&#34;&gt;&lt;del&gt;Chrome&lt;/del&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;del&gt;最近惊闻 RunningCheese 大神终于开始做 &lt;a class=&#34;link&#34; href=&#34;https://www.runningcheese.com/chrome&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chrome&lt;/a&gt; 了，我当年就全靠他做的 &lt;code&gt;firefox&lt;/code&gt; 放在U盘里随身带着才能度过一个又一个辗转于图书馆机房的无聊周末午后的。不过现在时过境迁，我基本已经从拿着大神手把手制作的修改版浏览器那里毕业了，尽管我现在还是做不到像RC大神那样高度定义一个 &lt;code&gt;firefox&lt;/code&gt; 那样出来用，自己给 &lt;code&gt;Chrome&lt;/code&gt; 装两个插件、装几个脚本、再收藏几个小书签，还是容易的。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;言归正传，我现在在电脑和手机上都在使用 &lt;code&gt;Chrome&lt;/code&gt; ，原因无他，谷歌家的同步功能用起来实在是太舒服了。无论是书签浏览记录还是保存的密码都会一并同步过来，甚至当你换电脑的时候还会在另一台登上谷歌账号的电脑上把之前装过的插件都给同步过来——只要你能够连上国际互联网。&lt;/del&gt;&lt;/p&gt;
+&lt;h3 id=&#34;firefox&#34;&gt;Firefox&lt;/h3&gt;
+&lt;p&gt;我现在用的就是 RunningCheese 大神的火狐了。得益于火狐在修改上的高自由度，奶酪大神在浏览器里加入了大量便于使用的特性，稍微改一改，用起来就能很舒服。&lt;/p&gt;
+&lt;p&gt;而且感觉火狐的占用比较低，打欧陆风云打一半切出去查控制台指令也不会让电脑太卡。&lt;/p&gt;
+&lt;p&gt;而且同步书签不要翻了。虽然我电脑上梯子是常开的，但是手机上不是常开的。&lt;/p&gt;
+&lt;h3 id=&#34;神奇浏览器&#34;&gt;神奇浏览器&lt;/h3&gt;
+&lt;p&gt;我现在在手机上使用的副手浏览器。因为有着还过得去的阅读模式和去广告的功能，晚上看也有夜间模式，所以我会在上乱七八糟网站看色情小说的时候用这个浏览器。平时基本用不着。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;顺便吐槽一句，手机版的 &lt;code&gt;Chrome&lt;/code&gt; 不能支持扩展这一点实在是太难受了= =，隔壁 &lt;code&gt;Yandex Browser&lt;/code&gt;怕不是都支持几百年了都。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;手机版的 &lt;code&gt;firefox&lt;/code&gt; 能装去广告插件，不过 &lt;code&gt;lastpass&lt;/code&gt; 还是不行。&lt;/p&gt;
+&lt;h2 id=&#34;效率&#34;&gt;效率&lt;/h2&gt;
+&lt;h3 id=&#34;fence&#34;&gt;&lt;del&gt;Fence&lt;/del&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;del&gt;“fence”这个英文单词的意思是篱笆，当然我是文化人，叫篱笆不叫篱笆，得叫藩篱，不过反正都是这么个意思。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;&lt;code&gt;fence&lt;/code&gt; 这个软件的作用在于能在桌面上圈出一个又一个的桌面分区，然后将文件分类放进去。我的用法是像做 GTD 一样地做桌面文件管理，在桌面上拉三个“to do”、“doing”和“done”的桌面分区出来，默认所有发送到桌面的文件全部进入“to do”这个分区里面，然后“done”分区中的文件每学期都整理一遍，弄一个“2018年下半年归档”的文件夹什么的。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;文件整理真的是一种禅啊。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;我以前还用 &lt;code&gt;Rolan&lt;/code&gt; 启动器来启动电脑中安装了的软件。但是我不知道为什么在我这台电脑上 &lt;code&gt;Rolan&lt;/code&gt; 用了一阵就会自己把自己给删除掉，最关键的是我还在网上搜不到别人有这个问题，我遭重了两次之后实在受不了了给换了。现在的替代方案是用 &lt;code&gt;fence&lt;/code&gt; 在桌面上面划一个“常用”分区，然后把之前会放在 &lt;code&gt;Rolan&lt;/code&gt; 里面的软件全部丢个快捷方式进去。就是可惜了一没法分类，二没法体验桌面上整个放空全用快捷键操作的快感了，呜呼哀哉。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;顺便一提我手机上用的是 &lt;code&gt;Niagara Launcher&lt;/code&gt; 也是挺有效率的一个启动器，但是就是对于中文的支持不太好。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;要怎么花哨干什么，放开始菜单不就得了。&lt;/p&gt;
+&lt;h3 id=&#34;listary&#34;&gt;Listary&lt;/h3&gt;
+&lt;p&gt;和 &lt;code&gt;everything&lt;/code&gt; 差不多的本地文件搜索工具。&lt;/p&gt;
+&lt;p&gt;不过 &lt;code&gt;Listary&lt;/code&gt; 给我一种更加接近我这种一般用户的感觉，&lt;code&gt;everything&lt;/code&gt; 感觉相当 geek 。毕竟像是更加模糊的搜索或者是更好地支持中文拼音这种功能怎么看都不是给 geek 用户的2333&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Listary&lt;/code&gt; 最舒服的功能还是能在别的软件的“打开文件”对话框内快速定位，不仅在这个对话框下依然可以进行搜索，还有一个快捷键 &lt;code&gt;ctrl+G&lt;/code&gt; 可以直接跳转到文件管理器里刚刚才打开的目录。&lt;/p&gt;
+&lt;p&gt;虽然我文件管理做的好，但是能取巧最好还是取巧嘛www&lt;/p&gt;
+&lt;h3 id=&#34;gtd&#34;&gt;GTD&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;滴答清单&lt;/code&gt;也用过，&lt;code&gt;Microsoft TODO&lt;/code&gt; 也用过，甚至自己买本本子做子弹笔记也用过，但是每个都坚持不长久。我专门买来做子弹笔记的活页本甚至就用了几页然后就丢在了那里再也没动过。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;现在在用的是 &lt;code&gt;any.do&lt;/code&gt; ，相当轻量化的一个工具。有些情况下我会用小工具，有些情况下我会用大工具。但是无论如何，适合自己的才是好工具。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;现在用的是 &lt;code&gt;todoist&lt;/code&gt;，能同步到谷歌日历，也支持自然语义输入，这两个功能比较杀手级。别的什么IFTTT之类的功能不太用得上。也有全平台同步啊网页版啊什么的，但我感觉不太用得着——说实话我感觉这个有点伪需求的意思，因为手机总是放在手边的。&lt;/p&gt;
+&lt;h2 id=&#34;写作&#34;&gt;写作&lt;/h2&gt;
+&lt;p&gt;我打下这个标题的时候心里面都在噗噗噗地笑，我这样子的算个屁的写作嘛2333&lt;/p&gt;
+&lt;h3 id=&#34;ms-office&#34;&gt;MS Office&lt;/h3&gt;
+&lt;p&gt;文科生嘛，一用不着什么 &lt;code&gt;mathlab&lt;/code&gt; 之类的我看不懂只觉得很神奇的东西，&lt;code&gt;MS Office&lt;/code&gt; 就是我现在写作业写论文做发表什么的最常用的工具了。&lt;/p&gt;
+&lt;p&gt;目前用的是盗版，貌似是以前在 zd423 上面下的绿色版然后拿 &lt;code&gt;kms&lt;/code&gt; 激活的。&lt;/p&gt;
+&lt;p&gt;我总不可能去用国产流氓 &lt;code&gt;WPS&lt;/code&gt; 。&lt;/p&gt;
+&lt;h3 id=&#34;typora&#34;&gt;Typora&lt;/h3&gt;
+&lt;p&gt;我对于 &lt;code&gt;electron&lt;/code&gt; 构建的应用不太感冒，说实话我总觉得我去用个网页打包干嘛不直接用网页版算了。不过再考虑到尴尬的网络状况又让我不放心在浏览器用 &lt;a class=&#34;link&#34; href=&#34;https://stackedit.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;StackEdit&lt;/a&gt; 或者是 &lt;a class=&#34;link&#34; href=&#34;https://telegra.ph/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;telegraph&lt;/a&gt; 一类的工具打字，要是哪一天突然上不去了不就遭重了。所以最后还是喊了声真香然后开始用 &lt;code&gt;Typora&lt;/code&gt; 来打字了，尽管这是个我先前一直在 diss 的 &lt;code&gt;electron&lt;/code&gt; 构建的应用吧。&lt;/p&gt;
+&lt;p&gt;拿 &lt;code&gt;Typora&lt;/code&gt; 码个博客是挺爽的，MD+所见即所得让整个打字的过程显得很舒服。尽管这个软件本身因为启动速度太慢让我不会想在平时不写博客的时候启动它，好吧我又在黑 &lt;code&gt;electron&lt;/code&gt;了。&lt;/p&gt;
+&lt;h3 id=&#34;markdown-here&#34;&gt;&lt;del&gt;Markdown Here&lt;/del&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;del&gt;一个 Chrome 插件，我习惯在本地写完 md 之后直接复制 md 格式的文件到 blogger 的编辑器里去，用 &lt;code&gt;Markdown Here&lt;/code&gt; 直接转换成富文本。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;我现在不用blogger，用不着了。&lt;/p&gt;
+&lt;h3 id=&#34;sublime-text&#34;&gt;Sublime Text&lt;/h3&gt;
+&lt;p&gt;这个的介绍很多了，不赘述。因为响应速度很快，我用这个来做一下轻度的笔记，临时记点东西或者打点草稿什么的。&lt;/p&gt;
+&lt;h3 id=&#34;纯纯写作&#34;&gt;纯纯写作&lt;/h3&gt;
+&lt;p&gt;我在安卓上的主力打字软件，偶尔躺在床上码博客的时候就会拿&lt;code&gt;纯纯写作&lt;/code&gt;来写。最舒服的地方在于它会不断地自动保存已经写过的内容，或者用人家自己宣传的话说是“永不丢失内容”，不会出现写到一半给放到后台然后顺手划掉了回来一看之前打了半天的字全没了的情况——尽管我在发微博的时候还是经常犯这种错误就是了。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;现在这个 app 总算是允许能用 &lt;code&gt;dropbox&lt;/code&gt; 来同步了，不过可惜人家同步的是一个 .db 的数据库文件，而不是像 &lt;code&gt;jotterpad&lt;/code&gt; 那样直接同步所有的 .md 文件来给你云读写。不过人家自己也带有一个比较残废的能上传下载 .txt 的云读写功能，只能说，有总比没有好。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;同步还是坚果云香。&lt;/p&gt;
+&lt;h3 id=&#34;幕布&#34;&gt;幕布&lt;/h3&gt;
+&lt;p&gt;一个大纲式的协作工具。我一般用这个来做期末复习，所有知识点有条理的梳理一遍，最后直接生成一个 PDF 文件拿去打印。可以说是真实一年打开两次的应用了233333&lt;/p&gt;
+&lt;p&gt;幕布真要买高级版的话还是挺贵的，而且比起它而言好用的替代品有很多，像是 &lt;code&gt;workflowy&lt;/code&gt;啊 &lt;code&gt;moo.do&lt;/code&gt; 啊这些都是。我还在用幕布的理由纯粹就是之前撸了幕布的好多羊毛，高级版续到了2021年，等到时候我还用不用那就两说了。&lt;/p&gt;
+&lt;h2 id=&#34;阅读&#34;&gt;阅读&lt;/h2&gt;
+&lt;h3 id=&#34;网文&#34;&gt;网文&lt;/h3&gt;
+&lt;p&gt;上来就先说网文是不是很丢人啊2333&lt;/p&gt;
+&lt;p&gt;我现在看网文，&lt;del&gt;偶尔也会用&lt;code&gt;欢乐书客&lt;/code&gt;的官方app看，谁叫人家下不到 txt 呢（摊手）&lt;/del&gt;，大多是情况下是在&lt;a class=&#34;link&#34; href=&#34;http://www.zxcs.me/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;知轩藏书&lt;/a&gt;之类的地方下载精校 txt ，然后在手机上用&lt;code&gt;静读天下&lt;/code&gt;看，无他，这个 app 的阅读体验实在是太好了，比起起点啊书客啊之类的网站自家 app 不知道甩了几条街。而且看精校 txt 有个好处，不会有那么多尴尬的和谐词，付钱看小说看个百来字里面出现了五六个 ** 的时候是真的绝望，这个时候要看正版还真的不如去看盗版来的体验更好。&lt;/p&gt;
+&lt;p&gt;如果是在追连载的话，那精校txt就不行了，手机用的是 &lt;code&gt;阅读&lt;/code&gt; ，电脑上用的是 &lt;code&gt;书荒小说阅读器&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;书客的书能在一些论坛找到盗版，不过ocr扫的看起来效果并不好。而且书客的小说水平江河日下，我是越来越不乐意在那里看小说了——甚至我现在就越来越不乐意看网文了。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.yousuu.com/booklist/5b67a8485a22f5ad5fd25c7a&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;我的二次元网文书单&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.yousuu.com/booklist/5e34264512b5df22a9b103ef&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;我的历史穿越网文书单&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;kindle&#34;&gt;Kindle&lt;/h3&gt;
+&lt;p&gt;Kindle 是个好东西，有了它你就能比起手机更加有效率地压住方便面的碗了（并不。&lt;/p&gt;
+&lt;p&gt;我用 Kindle 看点轻小说或者是大部头小说或者是一些学术书。因为是校园网只能有一部设备在线，而这部设备常年是我的电脑，所以 Kindle 的网络推送功能对我来说基本没有……所以我更多时候还是连上数据线再用 &lt;code&gt;calibre&lt;/code&gt; 转换并推送到 Kindle。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;calibre&lt;/code&gt;是个好工具，不仅能够把 epub 等原本 Kindle 不支持的格式转换后再推送，甚至 txt 小说还可以用 &lt;code&gt;calibre&lt;/code&gt; 做好带目录的电子书推到 Kindle 上，就很舒服。不过这就属于用 Kindle 看网文的奇技淫巧了2333&lt;/p&gt;
+&lt;p&gt;顺便一提电脑上我想看看 epub 就直接拿 &lt;code&gt;Edge&lt;/code&gt; 看了，比我想象中要来的更加能用一些，反正不会主要拿电脑看的2333&lt;/p&gt;
+&lt;h3 id=&#34;rss&#34;&gt;RSS&lt;/h3&gt;
+&lt;p&gt;我用的 &lt;code&gt;Inoreader&lt;/code&gt; 看新闻追博客更新，还有追up主的更新，因为订阅源相当少，甚至没怎么受到最近的限制免费用户订阅数量的影响。&lt;/p&gt;
+&lt;p&gt;在客户端的选择上，安卓客户端我选择 &lt;code&gt;feedme&lt;/code&gt; ，虽然比起官方客户端少了抓取全文的功能，但是胜在观看体验更好更舒服。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;rsshub&lt;/code&gt; 就是世界的瑰宝。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;RSS&lt;/code&gt; 配合 &lt;code&gt;IFTTT&lt;/code&gt; 还能玩出不少很神奇的奇技淫巧，比如说我前阵子订阅李先生的博客被他给 ban 了，那阵子我就是用的 &lt;code&gt;IFTTT&lt;/code&gt; 直接把他更新的文章转发到邮箱的。&lt;/p&gt;
+&lt;h3 id=&#34;instapaper&#34;&gt;&lt;del&gt;Instapaper&lt;/del&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;del&gt;稍后读应用，尽管我更多把他当作网络收藏夹来用。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;什么叫做稍后读什么叫做网络收藏夹呢，很简单，read it later 就是稍后读，read it never 就是网络收藏夹咯2333&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;这种稍后读应用还是得配合 GTD 啊。不过其实这样的话其实还是比较适合能够用 &lt;code&gt;IFTTT&lt;/code&gt; 进行联动的 &lt;code&gt;todoist&lt;/code&gt; 会更好一些，能够自动把 &lt;code&gt;Instapaper&lt;/code&gt; 或者是 &lt;code&gt;Pocket&lt;/code&gt; 里面的新文章发送到 GTD 应用里面去（不过我现在用的 &lt;code&gt;any.do&lt;/code&gt; 就没法这么搞，哭惹）。不然就真的是 read it never 了。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;&lt;code&gt;Instapaper&lt;/code&gt; 还提供一个定时推送到 Kindle 的功能，由于上文我提到的原因，这个功能我就是开着看看的2333&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;用个屁，反正存了的东西也不回去看的233&lt;/p&gt;
+&lt;h2 id=&#34;多媒体&#34;&gt;多媒体&lt;/h2&gt;
+&lt;h3 id=&#34;视频&#34;&gt;视频&lt;/h3&gt;
+&lt;p&gt;没啥好说的，电脑用的&lt;code&gt;potplayer&lt;/code&gt; ，手机用的 &lt;code&gt;MXPlayer&lt;/code&gt; 。挺标配的应用了。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;以前剪辑视频倒是用过 &lt;code&gt;Sony Vegas&lt;/code&gt;，现在么，现在不剪视频2333。主要大一那阵子会有挺傻吊的通选课教你拍电影，现在则没了这个需求。我甚至连游戏视频都懒得做了2333。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;大学的时候学了 &lt;code&gt;Edius&lt;/code&gt; ，为了学分硬选的。现在剪点游戏视频会用pr，明日方舟和千年战争的视频我倒是都有在录的。之前倒是还有剪欧陆风云的视频——虽然感觉自己打的太菜删掉了，不过已经在琢磨了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200426220023.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;音乐&#34;&gt;音乐&lt;/h3&gt;
+&lt;p&gt;音乐流媒体我就一直用的&lt;code&gt;网易云音乐&lt;/code&gt;，无他，不过是凑合能用罢了。&lt;/p&gt;
+&lt;p&gt;我倒是好几次想过换个平台来用用， &lt;code&gt;Spotify&lt;/code&gt; 和 &lt;code&gt;Apple Music&lt;/code&gt; 都研究过，最后都还是作罢。倒不是说我命贱用不得优质服务，只是选听歌平台这种事情实在是和听什么歌有关系。我主要听这几类歌：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;超时空要塞&lt;/li&gt;
+&lt;li&gt;Aimer、霜月、riya等我喜欢的歌手的专辑&lt;/li&gt;
+&lt;li&gt;其他anisong&lt;/li&gt;
+&lt;li&gt;Galgame&lt;/li&gt;
+&lt;li&gt;东方同人&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;Spotify&lt;/code&gt; 和 &lt;code&gt;Apple Music&lt;/code&gt; 对于前面三个还好，后面两个就实在是遭重……&lt;code&gt;网易云音乐&lt;/code&gt;上面有大量没有版权的黄油歌，实在找不到了还可以拿&lt;code&gt;虾米音乐&lt;/code&gt;凑合着顶一顶。版权什么的都是虚的，在版权和体验之间，我永远站在体验的一边，除非体验和版权能够兼得，那我倒是还会摸着自己的钱包考虑考虑支持正版。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;不过话虽如此，&lt;code&gt;网易云音乐&lt;/code&gt;确实并不是一个很好的选择，不是一个很好的服务，上面被各种尬评给充斥着，每次打开评论区都是对于我智力的一种挑战，但人家好歹是能用，仅此而已。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;网易云下架的东西太多了，已经用不得了。现在是本地听，UWP的 &lt;code&gt;Loco Music&lt;/code&gt; 就是一个不错的播放器。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200426212203.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;手机上的本地播放器用的是 &lt;code&gt;Phonograph&lt;/code&gt; 。主要是晚上睡前拿来听歌的时候学校已经断网了，这个时候要是一直拿流媒体我的流量真的撑不住。&lt;/p&gt;
+&lt;h3 id=&#34;图片&#34;&gt;图片&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Google Photos&lt;/code&gt;是个好东西，我手机上面拍的基本所有的照片都存在上面。而且因为我用的是 Pixel 手机，是可以无限容量存原图的，特别舒服。&lt;/p&gt;
+&lt;p&gt;截图工具的话，电脑上我用的是 &lt;code&gt;Snipaste&lt;/code&gt; ，一个是我有时候不启动 QQ 也想要截图，另一个是 &lt;code&gt;Snipaste&lt;/code&gt; 的按钮是 F1 ，能截那种按住 ctrl 就会自动消失的菜单的图。至于作为人家特色的贴图功能，说来惭愧，我只在抄英语作业的时候用过一次23333。~~顺便一提，&lt;code&gt;Snipaste&lt;/code&gt; 虽然有一个应用商店版本，但是因为权限太低，在 &lt;code&gt;steam&lt;/code&gt; 游戏下是没法截图的……~~现在可以用&lt;/p&gt;
+&lt;p&gt;~~手机上因为原生系统没有长截图功能，我就额外装了一个 &lt;code&gt;Longshot&lt;/code&gt; 来补足，尽管这只是个挺低频的需求吧。~~反正用不着，装什么装。&lt;/p&gt;
+&lt;p&gt;电脑上的看图工具我用的 &lt;code&gt;IrfanView&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;博客传图先用 &lt;code&gt;Riot&lt;/code&gt; 压一遍，再用 &lt;code&gt;PicGo&lt;/code&gt; 传到github图床，带个jsdelivr的cdn……我本来是这么用的，不过最近老容易上传失败，用1.6.2版本偶尔还能成功一下，2.x版本是稳失败……实在用不了的时候可以用UWP的&lt;code&gt;Picture Share&lt;/code&gt;来做onedrive图床。&lt;/p&gt;
+&lt;p&gt;没装&lt;code&gt;PS&lt;/code&gt;。感觉不太用得着。图片编辑器倒是装了个 &lt;code&gt;Paint.net&lt;/code&gt; 备用，尽管几乎用不着……&lt;/p&gt;
+&lt;h2 id=&#34;系统优化&#34;&gt;系统优化&lt;/h2&gt;
+&lt;p&gt;行吧我知道我打个“系统优化”之类的不明不白的名字肯定是有人会在安心暗想“这个傻屌是不是要写360呀什么的”。用360是不可能的，这辈子都不可能的。我雨宫优子厨就算是饿死，死外边，从这里跳下去，都不可能用你360家一个产品！&lt;/p&gt;
+&lt;h3 id=&#34;卡巴斯基&#34;&gt;卡巴斯基&lt;/h3&gt;
+&lt;p&gt;我现在依然在用的杀毒软件。&lt;del&gt;&lt;code&gt;KIS&lt;/code&gt; 在淘宝只卖1用户1年15元，不是很贵我就用了这个。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;现在貌似没有那么便宜的了，现在用的是三十多块的&lt;code&gt;KAV&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;因为我是卡饭论坛的常客，有时候也比较爱折腾这个。兴致上来了就把&lt;code&gt;avira&lt;/code&gt;、&lt;code&gt;avast&lt;/code&gt;、&lt;code&gt;bitdefender&lt;/code&gt;、&lt;code&gt;comodo&lt;/code&gt;挨个装一遍…兴致没了就安安心心用个稳定点的，往往就是&lt;code&gt;卡巴斯基&lt;/code&gt;或者是&lt;code&gt;火绒&lt;/code&gt;，尽管我对于&lt;code&gt;火绒&lt;/code&gt;的实力也相当怀疑，但是至少人家是个不太坏的选择。&lt;/p&gt;
+&lt;h3 id=&#34;play市场&#34;&gt;play市场&lt;/h3&gt;
+&lt;p&gt;包管理是 &lt;code&gt;linux&lt;/code&gt; 的艺术，但是肯定不是 &lt;code&gt;windows&lt;/code&gt; 的艺术。&lt;code&gt;windows&lt;/code&gt; 下倒是也有 &lt;code&gt;choco&lt;/code&gt; 之类的包管理器，但是那种实在是太 geek 了，并不太适合平时用。说实话要不是我实在信不过360，再兼之QQ之类的软件都不是原版的，去下个软件管家的提取版也不是不能接受嘛。&lt;/p&gt;
+&lt;p&gt;安卓上就好多了，有个好用的&lt;code&gt;play市场&lt;/code&gt;，颇具 &lt;code&gt;linux&lt;/code&gt; 只需要一行代码就想装啥装啥的感觉。我以前还比较爱用酷安，现在么真的是算了吧。&lt;/p&gt;
+&lt;h3 id=&#34;存储重定向--blocker--app-ops--冰箱--黑域&#34;&gt;存储重定向 &amp;amp; Blocker &amp;amp; App Ops &amp;amp; 冰箱 &amp;amp; 黑域&lt;/h3&gt;
+&lt;p&gt;折腾这么多几把玩意，不如直接换苹果。&lt;/p&gt;
+&lt;h3 id=&#34;uninstalltool&#34;&gt;UninstallTool&lt;/h3&gt;
+&lt;p&gt;电脑上装的唯一一个系统优化软件就是这个了，删除卸载残余的。&lt;/p&gt;
+&lt;h2 id=&#34;文件&#34;&gt;文件&lt;/h2&gt;
+&lt;h3 id=&#34;bandizip&#34;&gt;Bandizip&lt;/h3&gt;
+&lt;p&gt;免费闭源的解压压缩工具，有很多对于用户友好的小细节。比如说像是直接拖拽的逻辑啊，自动解压啊，代码页啊，都是让人感觉很舒服的地方。这些小细节就是我选择 &lt;code&gt;bandizip&lt;/code&gt; 的理由之一了。&lt;/p&gt;
+&lt;p&gt;当然为啥只是理由“之一”呢：当然最大的理由是人家免费还长得不丑啦2333&lt;/p&gt;
+&lt;p&gt;为啥我不用 &lt;code&gt;7z&lt;/code&gt; 呢，怎么想都是人家长得太丑了的缘故啦2333&lt;/p&gt;
+&lt;p&gt;没更新7.0版本，停留在免费的6.x版本。&lt;/p&gt;
+&lt;h3 id=&#34;qttabbar&#34;&gt;QTTabBar&lt;/h3&gt;
+&lt;p&gt;为win原生文件管理器加入多标签系统。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20200426214357.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;feem&#34;&gt;Feem&lt;/h3&gt;
+&lt;p&gt;电脑和手机相互传输文件，走的局域网。&lt;/p&gt;
+&lt;h2 id=&#34;订阅服务&#34;&gt;订阅服务&lt;/h2&gt;
+&lt;p&gt;说实话，订阅服务我基本是没有的。&lt;/p&gt;
+&lt;p&gt;我既不用给 &lt;code&gt;Spotify&lt;/code&gt; 或者是 &lt;code&gt;apple music&lt;/code&gt; 充钱，&lt;code&gt;网易云音乐&lt;/code&gt;的会员钱也仅限于突然想着冲一个月下载一下&lt;/p&gt;
+&lt;p&gt;毕竟我用的大部分的工具都是免费的，即便是像 &lt;code&gt;Lastpass&lt;/code&gt; 这种收费的工具，免费账户也足够我用的了。&lt;/p&gt;
+&lt;p&gt;真要说的话，可能充得多的订阅还是手游的月卡。&lt;/p&gt;
+&lt;h3 id=&#34;百度云&#34;&gt;百度云&lt;/h3&gt;
+&lt;p&gt;这是我唯一不间断开会员的服务了。&lt;/p&gt;
+&lt;p&gt;一个是因为百度家的政策的缘故，你不开超级会员速度就基本没有——这个时候是断然不可以去想人家干嘛还要专门在超级会员之下设立一个会员的，想明白了你就是百度的产品经理了。现在倒是网传有很多所谓的破解限速方式，但是说实话的，真给百度抓住了在服务器端给你一拉黑名单，什么加速方法也没辙。最好的破解限速方法就是开个超级会员，没有之一。&lt;/p&gt;
+&lt;p&gt;另一个原因是因为，网盘这种东西，多少和 IM 有点像，决定你用什么的不是你想用什么，而是别人都在用什么，我倒是讨厌死微信了，但是我有可能不去用吗？&lt;code&gt;百度云&lt;/code&gt;也是一律，这是一个因为别人都在用所以我自己不可能放弃使用的东西。&lt;/p&gt;
+&lt;p&gt;何况，要是分享一些小文件的话，我倒是更愿意用一下奶牛快传之类的小工具。但是有时候要分享就是一分享整个游戏的压缩包，要我用这种工具去分享就实在是太遭罪了。&lt;/p&gt;
+&lt;p&gt;最近入手了一块移动硬盘，至少存储的功能是用不着百度了，全部本地存就行了。但是还是老问题，别人分享给你，你不乐意用，人还不累分享呢。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>为什么要使用 windows 10 的214条理由</title>
+        <link>https://yuukoamamiya.github.io/p/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8-windows-10-%E7%9A%84214%E6%9D%A1%E7%90%86%E7%94%B1/</link>
+        <pubDate>Sat, 05 Jan 2019 12:28:56 +0000</pubDate>
+        
+        <guid>https://yuukoamamiya.github.io/p/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8-windows-10-%E7%9A%84214%E6%9D%A1%E7%90%86%E7%94%B1/</guid>
+        <description>&lt;p&gt;“一个不停刷存在感的操作系统，一定不是一个好的系统，一定不是一个好的工作环境。”&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;最早接触电脑是1996年或者1997年，小霸王学习机，如果这也算电脑的话，不过毕竟用它学了BASIC。&lt;/p&gt;
+&lt;p&gt;正式接触就是1998年了，家里买了第一台电脑，一万多。这一年用的操作系统是DOS。&lt;/p&gt;
+&lt;p&gt;2000年上大学，在学校买了另一台电脑，开始学C++和MAYA 2.5，也开始打游戏，从这时开始，一直在用windows 2000。因为当时咨询了一下做图形的前辈，大家说windows 2000比windows 98稳定，更适合渲染。&lt;/p&gt;
+&lt;p&gt;基本上我工作学习的主力机的操作系统是DOS——WIN 2K PRO——WIN 2K3 SERVER——WIN 7 X64，中间跳过了win me，win 98，win xp，vista，win 8，8.1，这几个系统碰都没碰过。&lt;/p&gt;
+&lt;p&gt;在2000到2010这十年间，我还会花费很多时间精力折腾系统，除了主力机上的系统比较固定，在副机上玩过各种Linux发行版，Red Hat就不说了，大众的小众的，奇奇怪怪的，玩过二十来种。&lt;/p&gt;
+&lt;p&gt;至于我吃饭的家伙，基本上是Microsoftoffice系列、Adobe系列、Autodesk系列，辅助性质的还有几十种，比如ESRI、SPSS、ANSYS等。&lt;/p&gt;
+&lt;p&gt;不过从2010年之后，就没再折腾过，一直是windows 7 X64，直到今天。&lt;/p&gt;
+&lt;p&gt;～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～&lt;/p&gt;
+&lt;p&gt;这二十多年用下来，  &lt;strong&gt;我认为操作系统连工具都算不上，它只是一个平台、一个容器、一个环境。&lt;/strong&gt; 打个不太恰当的比方，AutoCAD是工具，是个裁纸刀，操作系统可能就是放这把裁纸刀的工具箱，或者下面垫着的自愈切割垫。之所以说不太恰当，是因为软件工具和操作系统还是有依赖关系的，不过大概意思就是这么个意思。&lt;/p&gt;
+&lt;p&gt;既然操作系统只是一个平台、一个容器、一个环境，那么我认为 好的操作系统应该是 &lt;strong&gt;安装 - 配置，然后忘掉它。&lt;/strong&gt; 用《老子》第十七章来表达，我觉得恰如其分：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“太上，不知有之；其次，亲而誉之；其次，畏之；其次，侮之。”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;最强的操作系统，是你每天都在使用它，每天都在为你服务，而你却感觉不到它的存在；&lt;/p&gt;
+&lt;p&gt;差一点的操作系统，是你在使用它的时候感觉真不错，真方便，功能好强大，我太喜欢它了；&lt;/p&gt;
+&lt;p&gt;再差点的操作系统，是你在用的时候小心翼翼，稍有失误可能就很麻烦，必须要精通才行，一般人用不了；&lt;/p&gt;
+&lt;p&gt;最差的操作系统，是你用了之后骂娘，什么垃圾系统，什么幸福倒计时，倒计时完了还清空我的A片文件夹，MLGB的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;一个不停刷存在感的操作系统，一定不是一个好的系统，一定不是一个好的工作环境。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～&lt;/p&gt;
+&lt;p&gt;当初从WIN 2K3SERVER转到WIN 7 X64，也是观望了整整一年时间，谁知道从2010年就一直用到现在。本来在新一代操作系统将要发布的时候，满心以为会是windows 9，在发布前夕确实是带着激动的心情在期待，以为一定会是一款革命性的、颠覆性的、具有里程碑意义的操作系统。&lt;/p&gt;
+&lt;p&gt;不过，也确实等来了一款“颠覆性”的操作系统。&lt;/p&gt;
+&lt;p&gt;叫windows 10而不是windows 9，没关系，windows10就windows 10。所谓win10，即非win10，是名win10。《摩诃般若经》有云：“假立客名，随起言说”。&lt;/p&gt;
+&lt;p&gt;按我的习惯，至少要观望一年才会迁移，但这次我打算观望半年就迁移，毕竟之前是满怀期待的。谁知道，天意弄人，这一观望就观望了三年半，并总结出了我们应该升级到windows 10的214条理由（截至2018年10月11日）&lt;/p&gt;
+&lt;p&gt;这214条理由都是有据可查，绝无杜撰谣言成分，来源主要是cnBeta，大家可以根据标题搜索。&lt;/p&gt;
+&lt;p&gt;目前，推荐大家使用windows10的理由还在不断增加，这214条只是截至2018年10月11日的，而且这些推荐理由中不包括系统漏洞，仅仅是BUG。因为漏洞都是需要有心人的刻意利用才会造成影响。&lt;/p&gt;
+&lt;p&gt;～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～&lt;/p&gt;
+&lt;p&gt;如果你的时间一文不值、你有大量的时间精力可以用于解决操作系统带来的问题、每天盯着微软支持社区等待解决方案、可以承受面对三百人汇报时的幸福倒计时、无所谓文件被清空或者随机覆写……那windows 10真是一个不错的操作系统，以下就是推荐使用的214条理由。&lt;/p&gt;
+&lt;p&gt;即使以上问题你说你都没有遇到过，你说你用LTSB，你说你已经彻底关了系统更新，你说遇到问题的全是什么都不懂的小白，你说……你说……，但一款这么值得推荐的操作系统，你并不能保证自己下一次能幸免： 常在河边走，没有不湿鞋。&lt;/p&gt;
+&lt;p&gt;为什么是截至到2018年10月11日？因为这是我十一期间花了四天时间看了三年多新闻，纯手工一条一条收录，一条一条多个来源验证的。花了四天时间，就为了总结出使用windows 10的理由，可见我对它爱的有多深。&lt;/p&gt;
+&lt;p&gt;～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～&lt;/p&gt;
+&lt;p&gt;全文欢迎转载.by Planningall&lt;/p&gt;
+&lt;p&gt;～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～&lt;/p&gt;
+&lt;p&gt;以下是推荐使用windows 10的214条理由&lt;/p&gt;
+&lt;p&gt;编号：【214】&lt;/p&gt;
+&lt;p&gt;标题：【微软承认惠普PC打补丁蓝屏问题】&lt;/p&gt;
+&lt;p&gt;摘要：【面向Windows 10四月更新（Version 1803）发布的累积更新KB4462919出现蓝屏问题，集中在惠普设备上，会跳出“WDF_VIOLATION”错误】&lt;/p&gt;
+&lt;p&gt;日期：【2018.10.11】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【213】&lt;/p&gt;
+&lt;p&gt;标题：【部分Windows 10 Version 1809安装累积更新后出现蓝屏问题】&lt;/p&gt;
+&lt;p&gt;摘要：【面向Windows 10 October 2018更新发布了KB4464330累积更新，导致惠普工作站和部分电脑蓝屏】&lt;/p&gt;
+&lt;p&gt;日期：【2018.10.10】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【212】&lt;/p&gt;
+&lt;p&gt;标题：【微星主板与部分Surface用户遭遇Windows 10安装后卡死】&lt;/p&gt;
+&lt;p&gt;摘要：【版本1809无法完成升级，重启后操作系统就卡在启动屏幕，在屏幕中央只能看到白色的Windows徽标，等4个多小时后，电脑自动重新启动，然而同样的问题循环发生】&lt;/p&gt;
+&lt;p&gt;日期：【2018.10.10】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【211】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10十月更新后，操作系统激活小面积失效】&lt;/p&gt;
+&lt;p&gt;摘要：【在PC 10上安装了Windows 10版本1809后，操作系统不再被激活，唯一的解决方法是使用操作系统中的回滚功能返回到以前的Windows 10版本，然后提取产品密钥，重新安装2018年10月更新，然后手动激活它】&lt;/p&gt;
+&lt;p&gt;日期：【2018.10.09】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【210】&lt;/p&gt;
+&lt;p&gt;标题：【微软官网已紧急撤下Windows 10 1809下载链接回滚至1803】&lt;/p&gt;
+&lt;p&gt;摘要：【正当一群人翘首期盼着“2018 十月更新”（version 1809）到来时，微软又一次因为大量错误报告而紧急撤回了推送】&lt;/p&gt;
+&lt;p&gt;日期：【2018.10.08】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【209】&lt;/p&gt;
+&lt;p&gt;标题：【微软提醒丢失数据的Windows 10用户减少使用PC以等待修复】&lt;/p&gt;
+&lt;p&gt;摘要：【更新未经他们许可而擦除了他们的个人数据，微软已更新了支持文档，建议用户尽量减少对受影响设备的使用，并直接通过+ 1-800-MICROSOFT与微软联系】&lt;/p&gt;
+&lt;p&gt;日期：【2018.10.08】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【208】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10十月更新让已安装的PC多安装几遍】&lt;/p&gt;
+&lt;p&gt;摘要：【本次操作系统版本更新曾被多次提供给相同的PC，尽管其中一些实际安装成功，微软还是让他们再安装一遍】&lt;/p&gt;
+&lt;p&gt;日期：【2018.10.07】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【207】&lt;/p&gt;
+&lt;p&gt;标题：【因存在丢失文件问题微软公告暂停Windows 10 1809 10月版本推送】&lt;/p&gt;
+&lt;p&gt;摘要：【微软现在建议受影响的用户直接与公司联系，如果您手动下载了10月更新，那么“请不要安装它并等到新的安装包可用。”】&lt;/p&gt;
+&lt;p&gt;日期：【2018.10.06】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【206】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10十月更新让部分应用无法联网】&lt;/p&gt;
+&lt;p&gt;摘要：【不少用户发现自己的Microsoft Store应用程序和Microsoft Edge浏览器的Internet访问被切断，具体表现是用一会儿就断线，或者根本连不上】&lt;/p&gt;
+&lt;p&gt;日期：【2018.10.05】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【205】&lt;/p&gt;
+&lt;p&gt;标题：【严重的Windows 10 October 2018升级bug删除了部分用户的个人文件】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows 10 October 2018 Update（版本1809）中的错误导致在安装新操作系统版本期间删除了某些用户的文件，且无法恢复】&lt;/p&gt;
+&lt;p&gt;日期：【2018.10.04】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【204】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10的十月更新版安装并不顺利用户被提示错误信息】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows 10月更新在下载时显示错误，在Windows Update单击“检查更新”时，会显示一个错误代码】&lt;/p&gt;
+&lt;p&gt;日期：【2018.10.04】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【203】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10十月更新被发现有任务管理器的数据显示错误问题】&lt;/p&gt;
+&lt;p&gt;摘要：【该更新的公开发布包含了该公司已知达两周的任务管理器错误，导致任务管理器错误地报告CPU使用情况，微软决定跳过Release Preview直接退向用户】&lt;/p&gt;
+&lt;p&gt;日期：【2018.10.04】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【202】&lt;/p&gt;
+&lt;p&gt;标题：【微软被指在每一台 Windows 10 PC 上安装“膨胀软件”】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows 10系统安装后两分钟，系统自带的 Microsoft Store 应用商店会立即尝试下载第三方应用和游戏，用户对这些膨胀软件的抱怨没能改变微软的做法】&lt;/p&gt;
+&lt;p&gt;日期：【2018.09.25】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【201】&lt;/p&gt;
+&lt;p&gt;标题：【微软KB4100347补丁会限制X99平台超频能力】&lt;/p&gt;
+&lt;p&gt;摘要：【一旦安装了更新，对于处理器频率调整就会失效，频率可提升空间大大降低，多家制造商的X99设置已经出现这种情况】&lt;/p&gt;
+&lt;p&gt;日期：【2018.09.23】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【200】&lt;/p&gt;
+&lt;p&gt;标题：【若存储空间不足 Windows 10十月更新初始化可能会失败】&lt;/p&gt;
+&lt;p&gt;摘要：【本周早些时候悄然披露的支持文档中，微软已经承认 Windows Update 可能会在存储空间不足的设备上失败】&lt;/p&gt;
+&lt;p&gt;日期：【2018.09.22】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【199】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 Build 18237安装过程出现内存占用过高问题】&lt;/p&gt;
+&lt;p&gt;摘要：【在Build 18237发布之后，部分用户无法安装，错误代码为0x8007000e。在安装过程中，出现了内存使用率过高的情况。】&lt;/p&gt;
+&lt;p&gt;日期：【2018.09.13】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【198】&lt;/p&gt;
+&lt;p&gt;标题：【微软重发KB4100347更新导致设备无法启动】&lt;/p&gt;
+&lt;p&gt;摘要：【部分PC在安装该累积更新之后导致无法成功启动，在安装新版KB4100347更新之后依然阻止设备启动，到目前为止除了删除更新这条路之外，还没有其他任何妥善的解决方案】&lt;/p&gt;
+&lt;p&gt;日期：【2018.08.27】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【197】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10搜索功能偶尔“抽风”：微软也一头雾水】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows 10系统中的搜索功能存在某些奇怪的错误，但遗憾的是这些错误无法重现，而且只发生在小部分PC上】&lt;/p&gt;
+&lt;p&gt;日期：【2018.08.27】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【196】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 KB4100347引发严重问题，PC 遇到启动故障】&lt;/p&gt;
+&lt;p&gt;摘要：【自动安装 KB4346084 更新。结果系统强制重启后，系统就永久卡死在只显示 Windows 徽标的加载屏幕。尝试重装 Windows 10，但这个补丁会再一次导致机器崩溃】&lt;/p&gt;
+&lt;p&gt;日期：【2018.08.25】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【195】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10开始菜单bug让两个磁贴之间无法拖放另一个】&lt;/p&gt;
+&lt;p&gt;摘要：【用户无法正常操作开始菜单的功能，并且这仅存在于某些系统上，用户能够在Windows 10 April 2018更新设备上重现该漏洞】&lt;/p&gt;
+&lt;p&gt;日期：【2018.08.13】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【194】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10更新引发新问题请当心KB4345418与KB4054566】&lt;/p&gt;
+&lt;p&gt;摘要：【KB4345418修复本月 Patch Tuesday 更新带来的问题，但会破坏 Azure 动态目录连接（AADConnect），随时导致处理器负载达到 100%】&lt;/p&gt;
+&lt;p&gt;日期：【2018.07.20】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【193】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10的角标数字Bug】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows 10邮件的系统栏图标上的通知角标表现诡异，即便没有新邮件，也会显示一个“1”，甚至在阅读了新邮件之后，它依然存在】&lt;/p&gt;
+&lt;p&gt;日期：【2018.07.09】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【192】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10四月更新惹祸：部分三星打印机不工作】&lt;/p&gt;
+&lt;p&gt;摘要：【三星Xpress SL-C480FW多功能一体机在Win10 v1803中无法使用扫描功能的问题，这是微软Win10的BUG，而非打印机本身】&lt;/p&gt;
+&lt;p&gt;日期：【2018.06.25】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【191】&lt;/p&gt;
+&lt;p&gt;标题：【KB4284835更新再遇尴尬：循环启动安装失败】&lt;/p&gt;
+&lt;p&gt;摘要：【KB4284835要么显示安装失败然后会进行回滚操作，但是启动之后会黑屏；要么显示安装成功，然后不断要求重启设备以完成更新.目前微软官方并未做出承认】&lt;/p&gt;
+&lt;p&gt;日期：【2018.06.14】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【190】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 April 2018被爆新兼容性问题：导致旧版Excel卡死】&lt;/p&gt;
+&lt;p&gt;摘要：【仅影响包括Excel 2002在内的旧版Excel应用，导致Excel卡死，然后当用户尝试输入公式的时候突然会进入文档恢复模式】&lt;/p&gt;
+&lt;p&gt;日期：【2018.06.12】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【189】&lt;/p&gt;
+&lt;p&gt;标题：【调查：超过一半Windows 10用户都遭遇过BUG】&lt;/p&gt;
+&lt;p&gt;摘要：【消费者组织Which?近日开展的一项调查表明，超过一半的Windows 10用户在日常使用过程中遭遇过BUG】&lt;/p&gt;
+&lt;p&gt;日期：【2018.06.12】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【188】&lt;/p&gt;
+&lt;p&gt;标题：【未经用户许可微软在Windows 10设备上安装了Video Editor应用】&lt;/p&gt;
+&lt;p&gt;摘要：【在刚刚过去的24小时内，在未经用户许可的情况下大多数Windows 10设备上安装了名为“Video editor”应用程序】&lt;/p&gt;
+&lt;p&gt;日期：【2018.06.08】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【187】&lt;/p&gt;
+&lt;p&gt;标题：【用户反馈升级Windows 10 Version 1803后任务栏图标显示不正常】&lt;/p&gt;
+&lt;p&gt;摘要：【部分任务栏图标无法正常显示，有些APP图标会隐藏到任务栏下方，而该BUG此前曾在Windows 10秋季创作者更新中出现过】&lt;/p&gt;
+&lt;p&gt;日期：【2018.06.01】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【186】&lt;/p&gt;
+&lt;p&gt;标题：【尴尬的Windows 10更新：英特尔/东芝SSD未彻底修复还引起其他问题】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows 10 April 2018更新（Version 1803）中存在两个BUG，导致使用英特尔固态硬盘的用户蓝屏，而使用东芝固态硬盘的用户出现低续航情况。在5月23日发布的KB4100403累积更新中，微软终于修复了这两个BUG，并解禁了上述两个品牌固态硬盘的设备升级通道。然而会降低写入速度。】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.31】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【185】&lt;/p&gt;
+&lt;p&gt;标题：【微软调查强制安装Windows 10 2018年4月更新的问题】&lt;/p&gt;
+&lt;p&gt;摘要：【微软在一份声明中告诉我们，它意识到可能存在bug，导致被配置为阻止2018年4月10日更新的电脑实际上自动提供并且安装更新】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.31】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【184】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 2018年4月更新Bug使文件资源管理器中的字体消失】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows 10 2018年4月更新中的一个错误似乎导致文件资源管理器中的字体部分或完全消失，重新启动会暂时修复这个错误】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.31】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【183】&lt;/p&gt;
+&lt;p&gt;标题：【窗口最大化问题是Windows 10 1803最烦人的bug】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows 10 2018年4月10日更新中，窗口最大化并不能正常工作，显示桌面的窗口顶部留下一个栏框】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.29】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【182】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 2018年4月更新导致笔记本电脑电量快速耗尽】&lt;/p&gt;
+&lt;p&gt;摘要：【2018年4月10日的Windows Update会导致设备电量消耗，电池寿命减少一半，没有任何解决方法可以回滚到以前的Windows 10版本】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.25】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【181】&lt;/p&gt;
+&lt;p&gt;标题：【微软承认Windows 10 April 2018更新的无法启动BUG】&lt;/p&gt;
+&lt;p&gt;摘要：【更新出现了系统无法启动的情况，即使进入之后也只是显示回收站和底部的任务栏。无法使用开始菜单，且通过任务管理器也无法复原。对此今天微软官方承认存在这个问题，并表示在某种情况下Windows重启后需要用户选择键盘布局，虽然提供了一些故障排除选项，但是均没有效果】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.24】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【180】&lt;/p&gt;
+&lt;p&gt;标题：【因发现问题本周暂停推送Windows 10 RedStone 5更新】&lt;/p&gt;
+&lt;p&gt;摘要：【本周微软将不再继续推出Windows 10 RedStone 5预览版更新，目前团队已经在Fast通道候选版本中发现某些问题，因此决定延迟发布】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.24】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【179】&lt;/p&gt;
+&lt;p&gt;标题：【微软承认Windows 10 BUG：开始菜单无法激活Fluent Design界面】&lt;/p&gt;
+&lt;p&gt;摘要：【新版Windows 10的BUG导致开始菜单无法激活Fluent Design界面，当用户在开始菜单上移动光标，然后在某个图标上悬停超过1秒以显示该图标名称之后，就会立即触发该错误，导致开始菜单禁用高亮效果显示】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.23】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【178】&lt;/p&gt;
+&lt;p&gt;标题：【Avast用户无法升级Windows 10 April 2018更新：会黑屏】&lt;/p&gt;
+&lt;p&gt;摘要：【Avast防病毒产品和Windows 10 April 2018更新存在兼容性问题，最终用户只能通过重新安装才能解决这个问题】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.22】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【177】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 4月更新惹大祸：桌面配置完全丢失】&lt;/p&gt;
+&lt;p&gt;摘要：【升级了Windows 10 4月更新之后，在即将进入桌面时，系统完全黑屏，并提示桌面不存在，没有发现任何解决方法，似乎完全重装系统是唯一途径】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.22】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【176】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 April 2018 更新让自家Surface Studio键鼠出现问题】&lt;/p&gt;
+&lt;p&gt;摘要：【症状是会突然停止工作，唯一能够恢复的办法是先通过触控操作持续几秒钟才能得到暂时的解决】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.20】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【175】&lt;/p&gt;
+&lt;p&gt;标题：【微软在Windows 10每次更新后都会重新安装用户不需要的软件和游戏】&lt;/p&gt;
+&lt;p&gt;摘要：【2018年4月更新之后，重新安装了用户以前删除的一系列游戏，它要求用户首先登录到微软商店，更新所有应用程序和游戏，然后才能删除那些不再需要的东西】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.14】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【174】&lt;/p&gt;
+&lt;p&gt;标题：【微软叫停配备东芝XG4/XG5/BG3 SSD的电脑升最新Windows 10】&lt;/p&gt;
+&lt;p&gt;摘要：【微软最新确认，配置东芝部分型号SSD的Win10电脑也暂时停止部署更新，原因是耗电加剧】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.13】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【173】&lt;/p&gt;
+&lt;p&gt;标题：【Windows全家都有蓝屏死机Bug 微软：不会发补丁】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows上有一个存在了将近一年的Bug，会导致系统蓝屏死机，但微软并不打算修复它。如果在U盘上保存一个特制的NTFS镜像文件，并插入Windows电脑，就会导致系统崩溃，即便系统处于锁定状态也难逃。由于可以在系统锁定状态执行大量系统代码，这个Bug就十分危险，因为完全可以在你镜像文件内放置恶意代码，为所欲为，包括发动DoS拒绝服务攻击.微软说明：因为利用这个所谓的Bug，需要实体接触目标设备，或者走社会工程学途径，因此得不到CVE(通用漏洞披露)认可，也不会有安全补丁】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.11】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【172】&lt;/p&gt;
+&lt;p&gt;标题：【微软披露细节：重复进入UEFI导致英特尔SSD升Windows 10失败】&lt;/p&gt;
+&lt;p&gt;摘要：【在尝试升级Windows 10 April 2018 Update过程中，使用英特尔SSD 600pSeries和英特尔SSD Pro 6000p Series的磁盘可能会重复进入UEFI屏幕导致设备重启或者无法正常工作】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.10】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【171】&lt;/p&gt;
+&lt;p&gt;标题：【用户反馈Windows 10 17134.48更新将电脑变砖】&lt;/p&gt;
+&lt;p&gt;摘要：【KB4103721都是下载成功了的，但是卡在第一次重启应用更新这个过程中】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.09】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【170】&lt;/p&gt;
+&lt;p&gt;标题：【Intel SSD升级Windows 10 4月更新失败导致反复崩溃】&lt;/p&gt;
+&lt;p&gt;摘要：【微软确认，在部分基于Intel SSD固态硬盘的电脑上，如果安装Windows 10 4月更新版，会导致UEFI BIOS反复重启或者崩溃。目前已经基本查明，但尚无解决方法】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.08】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【169】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10四月更新Bug导致用户资源管理器频繁崩溃】&lt;/p&gt;
+&lt;p&gt;摘要：【系统的资源管理器进程（Explorer.exe）频繁崩溃。目前尚无明确的信息显示是什么原因引起了该故障，故障表现类似：资源管理器进程随机崩溃，自动重新加载进程后在短时间内还会再次崩溃】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.07】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【168】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 4月更新导致游戏性能下降】&lt;/p&gt;
+&lt;p&gt;摘要：【游戏性能下降——《上古卷轴5：高清重制版》之前稳定在57-60FPS，但现在只有45FPS，而且系统设置未做任何更改，所有驱动都是最新的，重装也不行。可以尝试使用Windows 7兼容模式玩游戏】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.07】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【167】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 4月更新导致Chrome浏览器等卡死】&lt;/p&gt;
+&lt;p&gt;摘要：【Chrome浏览器等卡死——Chrome浏览器打开后很快卡死，小娜助手也会如此，还有的甚至整个系统死机，Alt+Ctrl+Del都无反应】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.07】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【166】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 4月更新导致游戏时Atl+Tab切换缓慢】&lt;/p&gt;
+&lt;p&gt;摘要：【游戏时Atl+Tab切换缓慢——玩游戏时，如果使用Alt+Tab快捷键切换多任务，系统响应非常缓慢】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.07】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【165】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 4月更新导致反馈频率无法更改】&lt;/p&gt;
+&lt;p&gt;摘要：【反馈频率无法更改——系统设置中的诊断和反馈部分，反馈频率无法更改，选项为灰色，并提示此选项由Windows Insider项目管理】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.07】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【164】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 4月更新导致蓝屏死机】&lt;/p&gt;
+&lt;p&gt;摘要：【蓝屏死机——升级顺利，但之后随即蓝屏死机，最常见的提示是CRITICAL_PROCESS_DIED，触发条件很多，Skype通话、上网、网游戏、看视频时都可能】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.07】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【163】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 4月更新导致安装错误提示】&lt;/p&gt;
+&lt;p&gt;摘要：【安装错误提示——最常见的错误代码是0xc1900209、0xc1900101，有时也会出现0x80070005、0x80240034，但没有任何确切解释。】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.07】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【162】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 4月更新导致安装中卡死】&lt;/p&gt;
+&lt;p&gt;摘要：【安装中卡死——在不定什么地方卡死，无法完成，但没有错误提示】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.07】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【161】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10更新导致Chrome卡死微软正在着手修复】&lt;/p&gt;
+&lt;p&gt;摘要：【在安装了 Windows 10 April 2018 Update 后，遇到了设备完全挂起锁死的问题，以及Chrome卡死和“Hey Cortana”功能异常的问题，用电源按钮完全复位是恢复机器的唯一方法】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.04】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【160】&lt;/p&gt;
+&lt;p&gt;标题：【部分用户升级Windows 10失败:提示磁盘空间不足】&lt;/p&gt;
+&lt;p&gt;摘要：【由于给恢复分区指派了错误的磁盘盘符，导致在尝试升级至最新操作系统的时候警告磁盘空间不足，打开这个分区会引导用户至一个空的文件夹，有些甚至可能会被完全格式化】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.04】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【159】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 熔断漏洞补丁曝出缺陷导致修补功能失效】&lt;/p&gt;
+&lt;p&gt;摘要：【安全研究人员Alex Ionescu宣称在Windows 10熔断漏洞补丁内发现了一个致命缺陷，而只有刚刚推送的Windows 10 4月更新修复了它】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.03】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【158】&lt;/p&gt;
+&lt;p&gt;标题：【外星人笔记本无法升级Windows 10四月更新：部分应用不兼容】&lt;/p&gt;
+&lt;p&gt;摘要：【外星人系列笔记本升级失败，虽然可以通过Windows Update手动检查到这个更新，但会卡在安装界面显示“we couldn’t uninstall these apps。”】&lt;/p&gt;
+&lt;p&gt;日期：【2018.05.02】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【157】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 17134出现设置闪退BUG】&lt;/p&gt;
+&lt;p&gt;摘要：【不少升级了17134的用户在Reddit集结报告称，系统内依然有个比较讨厌的BUG，即在设置中修改默认应用时会出现闪退】&lt;/p&gt;
+&lt;p&gt;日期：【2018.04.19】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【156】&lt;/p&gt;
+&lt;p&gt;标题：【微软Windows 10累积更新KB4088776可能无法安装】&lt;/p&gt;
+&lt;p&gt;摘要：【由于某个尚未确定的原因，无法正常安装。但是，在官方KB页面上，微软详细说明了KB4088776未能安装的一个可能原因，即由以前的增量更新引起的问题】&lt;/p&gt;
+&lt;p&gt;日期：【2018.03.16】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【155】&lt;/p&gt;
+&lt;p&gt;标题：【微软补丁KB4011730让Word 2016 docx文档无法打开】&lt;/p&gt;
+&lt;p&gt;摘要：【微软发现并最近确认存在问题的更新是KB4011730，让微软 Word 2016启动时导致DOCX文档出现问题，在安装此安全更新后，您可能无法打开或保存Word文档】&lt;/p&gt;
+&lt;p&gt;日期：【2018.03.15】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【154】&lt;/p&gt;
+&lt;p&gt;标题：【微软承认对部分Windows 10强制升级 10天内可降级恢复】&lt;/p&gt;
+&lt;p&gt;摘要：【本月初部分Windows 10周年更新（1607）/创作者更新（1703）用户报告在未经用户许可情况下，以安全更新为“要挟”强制升级至秋季创作者更新】&lt;/p&gt;
+&lt;p&gt;日期：【2018.03.13】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【153】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10企业版用户遭遇连环提示“连接您的手机和PC”】&lt;/p&gt;
+&lt;p&gt;摘要：【最近Windows 10几乎每隔半小时收到一个“连接您的手机和PC”的通知，尽管反复选择解除这一信息的弹出，但依然没有效果】&lt;/p&gt;
+&lt;p&gt;日期：【2018.03.07】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【152】&lt;/p&gt;
+&lt;p&gt;标题：【Spotify应用意外导致Windows 10系统恢复功能故障】&lt;/p&gt;
+&lt;p&gt;摘要：【这口锅到底该扣在 Spotify 身上、还是归咎于 Windows 10 自身的累积更新问题，目前暂不得而知】&lt;/p&gt;
+&lt;p&gt;日期：【2018.03.05】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【151】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10新BUG：恶意代码通过空字符绕过安全检查】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows 10系统中防恶意程序扫描接口（AMSI）中存在的BUG，如果代码中包含空字符就能够跳过恶意程序的检测】&lt;/p&gt;
+&lt;p&gt;日期：【2018.02.20】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【150】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10打补丁变砖微软：兼容性问题】&lt;/p&gt;
+&lt;p&gt;摘要：【去年12月份发布的KB4058043导致蓝屏死机无限循环，多位用户表示遇到了类似问题，而微软的解释都是兼容性问题，建议用户检查，微软目前尚未就此补丁列出任何已知问题，也未给出解决方案】&lt;/p&gt;
+&lt;p&gt;日期：【2018.02.18】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【149】&lt;/p&gt;
+&lt;p&gt;标题：【微软：芯片漏洞补丁会拖慢PC速度尤其是英特尔处理器】&lt;/p&gt;
+&lt;p&gt;摘要：【为防护Meltdown和Spectre安全漏洞攻击而发布的补丁导致部分PC和服务器的运行速度变慢，其中基于老款英特尔处理器运行的系统的性能明显下降】&lt;/p&gt;
+&lt;p&gt;日期：【2018.01.10】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【148】&lt;/p&gt;
+&lt;p&gt;标题：【微软CPU修复补丁尴尬了：不兼容AMD 无法正常升级】&lt;/p&gt;
+&lt;p&gt;摘要：【累积更新KB4056892，着重修复了“熔断”和“幽灵”两个CPU漏洞。使用AMD处理器的设备在回滚至此前版本时候跳出启动错误，显示Error 0x800f0845】&lt;/p&gt;
+&lt;p&gt;日期：【2018.01.05】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【147】&lt;/p&gt;
+&lt;p&gt;标题：【微软承认本月累积更新存在安装失败BUG】&lt;/p&gt;
+&lt;p&gt;摘要：【累积更新 KB4054517出现了部分用户无法正确安装的情况。微软今天承认该累积更新存在两个不同的BUG，并提供了临时的解决方案.可能会出现0x80070643错误以及在安装KB4054022更新升级卡在99%，导致CPU和磁盘使用率大幅增加】&lt;/p&gt;
+&lt;p&gt;日期：【2017.12.21】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【146】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10补丁坑到AMD显卡：只有三种分辨率可选】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows 10 AMD显卡用户如果安装了最新版显卡驱动22.19.128.0，尤其是那些使用老A卡的用户，桌面分辨率将只有三种可选。微软承认，错误在于它们】&lt;/p&gt;
+&lt;p&gt;日期：【2017.12.19】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【145】&lt;/p&gt;
+&lt;p&gt;标题：【微软补丁又惹祸：点阵打印机集体阵亡】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows 10 KB4048954补丁：具体表现为：打印队列正常显示，然后消失，表明应该已经打印完成，但打印机本身并没动】&lt;/p&gt;
+&lt;p&gt;日期：【2017.11.18】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【144】&lt;/p&gt;
+&lt;p&gt;标题：【X299主板+NVMe SSD遭遇Windows 10秋季创作者更新升级失败】&lt;/p&gt;
+&lt;p&gt;摘要：【X299主板和使用NVMe标准的SSD存储硬盘组合无法获得升级，微软已经承认存在这个问题，已经携手合作伙伴尽快解决这个问题】&lt;/p&gt;
+&lt;p&gt;日期：【2017.10.26】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【143】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10秋季创作者更新让某些电脑的Windows Hello罢工】&lt;/p&gt;
+&lt;p&gt;摘要：【系统启动的时候，即使Windows正在显示寻找用户，但是相机也无法打开并搜索用户脸部。当用户手动登录时，Windows Hello会重新设置，用户必须重新登录才能关闭Windows Hello登录屏幕】&lt;/p&gt;
+&lt;p&gt;日期：【2017.10.24】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【142】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10秋季创作者更新导致Razer笔记本电脑出现问题】&lt;/p&gt;
+&lt;p&gt;摘要：【所有Razer笔记本电脑与Windows 10版本1709 Build 16299.15秋季创作者更新不兼容，从睡眠模式唤醒，Razer笔记本电脑触摸板，键盘和USB功能均无法使用】&lt;/p&gt;
+&lt;p&gt;日期：【2017.10.20】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【141】&lt;/p&gt;
+&lt;p&gt;标题：【微软承认Windows 10秋季创作者更新存在bug，升级后开始菜单不正常】&lt;/p&gt;
+&lt;p&gt;摘要：【在升级完成之后开始菜单完全处于瘫痪状态，无法执行类似于钉选或者移除元素等常规操作，部分应用在开始菜单上丢失】&lt;/p&gt;
+&lt;p&gt;日期：【2017.10.18】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【140】&lt;/p&gt;
+&lt;p&gt;标题：【未经用户许可微软擅自安装神秘Windows 10应用】&lt;/p&gt;
+&lt;p&gt;摘要：【在未经消费者同意的情况下，微软擅自在用户电脑上悄然安装了一款神秘的Windows 10应用程序，而对于安装这款应用的目的微软依然缄口不言】&lt;/p&gt;
+&lt;p&gt;日期：【2017.10.13】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【139】&lt;/p&gt;
+&lt;p&gt;标题：【部分用户出现KB4041676累积更新安装失败问题】&lt;/p&gt;
+&lt;p&gt;摘要：【用Windows Update自动更新安装KB4041676累积更新过程中出现卡死情况，甚至有用户表示整个过程持续了4个多小时，目前微软官方并没有提供临时解决方案和后续修复方案】&lt;/p&gt;
+&lt;p&gt;日期：【2017.10.11】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【138】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10更新致惠普用户中招：黑屏10分钟】&lt;/p&gt;
+&lt;p&gt;摘要：【补丁KB4038788升级后，在登陆界面会出现非常明显的延迟，也就是登录界面前需要最长10分钟的黑屏等待时间】&lt;/p&gt;
+&lt;p&gt;日期：【2017.09.18】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【137】&lt;/p&gt;
+&lt;p&gt;标题：【微软承认Windows 10创意者更新会导致游戏掉帧卡顿】&lt;/p&gt;
+&lt;p&gt;摘要：【诸如守望先锋和战地系列等出现严重的卡顿。即使已经安装最新版本的显卡驱动程序游戏的帧率依然下降，微软目前已承认Windows10创意者更新版确实存在这个问题】&lt;/p&gt;
+&lt;p&gt;日期：【2017.09.11】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【136】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10曝出MTP连接BUG：无法复制、丢文件】&lt;/p&gt;
+&lt;p&gt;摘要：【一是连接安卓设备后，不能用Win10在系统ROM或者存储卡上进行移动文件的操作二是连接安卓设备后，不能用Win10在系统ROM或者存储卡进行复制粘贴文件的操作】&lt;/p&gt;
+&lt;p&gt;日期：【2017.09.01】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【135】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 Build 16251再遇尴尬：升级错误+开始菜单全透明】&lt;/p&gt;
+&lt;p&gt;摘要：【在升级过程中出现了Error 0x80240013和Error 0x80010105两种错误，开始菜单、Action Center以及通知背景极有可能会变成100%透明】&lt;/p&gt;
+&lt;p&gt;日期：【2017.0.27】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【134】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10创意者更新因兼容性问题不支持部分凌动处理器】&lt;/p&gt;
+&lt;p&gt;摘要：【部分使用英特尔凌动处理器的设备虽然早已经可以安装 Windows 10 系统但现在却无法正常升级创意者更新。出现该问题的主要原因是 Windows 10 创意者更新版与英特尔凌动系列处理器中的部分型号存在不兼容问题】&lt;/p&gt;
+&lt;p&gt;日期：【2017.07.17】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【133】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10惊现尴尬Bug 24核心竟然卡成蜗牛】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows 10在进程销毁方面存在一个严重的Bug。当一个Windows系统/程序进程需要关闭的时候，会通过单独一个线程进行处理，也就是说即便你有几十个处理器核心/线程，Windows系统也完全支持它们，但这时候Windows其实是单线程运行的.这个Bug只在Windows 10上存在，老版本的诸如Windows 7反而没问题】&lt;/p&gt;
+&lt;p&gt;日期：【2017.07.16】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【132】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 Build 16226遇尴尬，安装使用都不省心】&lt;/p&gt;
+&lt;p&gt;摘要：【1.版本升级下载时候长时间卡在77%进度；2.Build 16226并不会安装，并且导致无限重启或者回滚至此前版本；3Edge浏览器处于非常不稳定的状态。除了经常跳出崩溃报道，运行缓慢或者无响应，Edge还无法正确渲染页面；4.Cortana和Feedback Hub无法正常工作】&lt;/p&gt;
+&lt;p&gt;日期：【2017.06.23】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【131】&lt;/p&gt;
+&lt;p&gt;标题：【KB4022725补丁遭遇无限重启】&lt;/p&gt;
+&lt;p&gt;摘要：【这是微软本月针对Windows 10发布的一个累积性补丁，很多用户升级的时候始终无法安装成功，Windows Update就卡在那里，也没有任何报错提示。当然，更多的人安装成功了，但麻烦也接踵而至，陷入了无限循环重启之中，还不如装不上】&lt;/p&gt;
+&lt;p&gt;日期：【2017.06.15】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【130】&lt;/p&gt;
+&lt;p&gt;标题：【KB4022725和KB4022715补丁高频卡机、原味蓝屏】&lt;/p&gt;
+&lt;p&gt;摘要：【统计显示，有将近10%的电脑遇到了安装卡住的问题，也就是无法顺利进行，主要涉及KB4022725和KB4022715】&lt;/p&gt;
+&lt;p&gt;日期：【2017.06.14】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【129】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10失误推送Build 16212系统更新：一堆设备瘫痪】&lt;/p&gt;
+&lt;p&gt;摘要：【目前桌面Win10的最新预览版是Build 16199，预计下一版是16203，而手机用户的下一版本应该是Build 15220才对】&lt;/p&gt;
+&lt;p&gt;日期：【2017.06.02】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【128】&lt;/p&gt;
+&lt;p&gt;标题：【部分用户反馈安装累积更新KB4016871失败】&lt;/p&gt;
+&lt;p&gt;摘要：【在安装KB4016871累积更新的时候，更新进度会出现冻结卡死的状态。部署映像服务和管理（DISM）是损坏的.】&lt;/p&gt;
+&lt;p&gt;日期：【2017.05.10】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【127】&lt;/p&gt;
+&lt;p&gt;标题：【第三方开始菜单软件导致微软Windows 10升级时崩溃】&lt;/p&gt;
+&lt;p&gt;摘要：【微软已承认，一些Windows 10系统会在安装Creators Update时触发系统错误，并表示市面上流行的第三方开始菜单软件可能导致黑屏】&lt;/p&gt;
+&lt;p&gt;日期：【2017.05.09】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【126】&lt;/p&gt;
+&lt;p&gt;标题：【微软承认Windows 10创作者更新出现蓝牙连接问题承诺尽快修复】&lt;/p&gt;
+&lt;p&gt;摘要：【微软承认在安装Windows 10 Creators Update之后部分用户出现了蓝牙设备连接问题，并表示已经着手进行修复承诺在近期内发布.】&lt;/p&gt;
+&lt;p&gt;日期：【2017.04.20】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【125】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10创作者更新打让部分微软鼠标罢工】&lt;/p&gt;
+&lt;p&gt;摘要：【微软已经确认，Windows 10创作者更新让多台电脑上的微软Arc鼠标罢工，微软建议用户尝试Windows 10创作者更新内置的疑难解答或等待修复.】&lt;/p&gt;
+&lt;p&gt;日期：【2017.04.14】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【124】&lt;/p&gt;
+&lt;p&gt;标题：【KB4015217又惹麻烦：安装后部分设备出现黑屏状态】&lt;/p&gt;
+&lt;p&gt;摘要：【在安装过程中会卡在某个进度中，尽管从表面来看更新处于中止状态，但是后台依然在进行安装，所以这里可能要等待比常规更新更长的时间。而另一个更重大的问题是，在安装过程中导致黑屏】&lt;/p&gt;
+&lt;p&gt;日期：【2017.04.12】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【123】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10创意者更新夜间模式出BUG：无法自动关闭】&lt;/p&gt;
+&lt;p&gt;摘要：【基于地理位置日升日落时间启用夜间模式自动启闭，但是当他晚上关了电脑后，早上打开时发现，夜间模式没有自动关闭】&lt;/p&gt;
+&lt;p&gt;日期：【2017.04.11】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【122】&lt;/p&gt;
+&lt;p&gt;标题：【用户发现Windows 10创意者更新不兼容东芝屏幕工具】&lt;/p&gt;
+&lt;p&gt;摘要：【从微软的口径来看，似乎是他们在推送前就发现了兼容性BUG，所以表示，如果你的电脑中存在这样一款软件，必须卸载后才能升级系统，否则检查不到更新】&lt;/p&gt;
+&lt;p&gt;日期：【2017.04.06】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【121】&lt;/p&gt;
+&lt;p&gt;标题：【这些Intel Atom处理器千万别升Windows 10创意者更新：不兼容】&lt;/p&gt;
+&lt;p&gt;摘要：【微软已经给出警告，Intel Clover Trail家族的处理器暂时不支持Windows 10创意者更新，万勿升级，升级后可能出现图标、文本消失，或显示为硬色块】&lt;/p&gt;
+&lt;p&gt;日期：【2017.04.06】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【120】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10升级奇葩bug：安装进度已达256％】&lt;/p&gt;
+&lt;p&gt;摘要：【安装过程中Windows 10竟然提示已经完成256％，而看进度条实际上也就75％左右的样子】&lt;/p&gt;
+&lt;p&gt;日期：【2017.04.06】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【119】&lt;/p&gt;
+&lt;p&gt;标题：【多名Windows 7用户起诉微软：免费升级导致数据丢失和电脑损害】&lt;/p&gt;
+&lt;p&gt;摘要：【近日多名Windows 7用户组成受害者联盟向微软发起诉讼，由于在免费升级Windows 10系统过程中导致数据丢失和对电脑产生损害。这些用户表示这些损害迫使他们不得不重新购买新的电脑或者额外支付维护费用】&lt;/p&gt;
+&lt;p&gt;日期：【2017.03.28】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【118】&lt;/p&gt;
+&lt;p&gt;标题：【三位用户控告微软：Windows 10强制性升级毁了电脑】&lt;/p&gt;
+&lt;p&gt;摘要：【三位Windows用户向微软发起了法律控诉，Windows 10升级导致了他们的计算机遭到了重要数据丢失，硬件故障等问题】&lt;/p&gt;
+&lt;p&gt;日期：【2017.03.25】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【117】&lt;/p&gt;
+&lt;p&gt;标题：【累积更新KB4015438再遇问题：部分用户经历40分钟超长更新时间】&lt;/p&gt;
+&lt;p&gt;摘要：【有用户反馈称该累积更新的安装时间要比平常更长，给人已经在某个进度卡死的假象.KB4015438中更新容量为1.03GB，所以导致更新时间非常的漫长，而实际的增量更新容量为38MB】&lt;/p&gt;
+&lt;p&gt;日期：【2017.03.21】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【116】&lt;/p&gt;
+&lt;p&gt;标题：【微软再发累积更新KB4015438 修复KB4013429出现的问题】&lt;/p&gt;
+&lt;p&gt;摘要：【微软面向Windows 10周年更新用户发布了KB4013429累积更新，部分用户在升级过程中出现了长时间滞留“Getting Windows ready”屏幕的问题。对此，今天微软决定再发布另一个累积更新KB4015438，来修复用户在安装KB4013429过程中出现的一些问题】&lt;/p&gt;
+&lt;p&gt;日期：【2017.03.21】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【115】&lt;/p&gt;
+&lt;p&gt;标题：【更多微软产品的广告正在侵入Windows 10】&lt;/p&gt;
+&lt;p&gt;摘要：【用户发现，微软正在用恼人的广告“感染”Windows 10，第一个是出现在锁屏上的“提示”，然后有糖果粉碎游戏内置到操作系统当中，现在微软已经开始在Windows 10任务栏和文件资源管理器上显示广告】&lt;/p&gt;
+&lt;p&gt;日期：【2017.03.17】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【114】&lt;/p&gt;
+&lt;p&gt;标题：【微软确认周二Windows更新补丁破坏了Windows 10重置功能】&lt;/p&gt;
+&lt;p&gt;摘要：【一些用户的电脑出现故障，这些用户随后在使用Windows 10重置选项来恢复系统时发现，如果勾选“删除一切”设置，那么Windows 10重置功能无法正常工作，让他们几乎没有什么方法来修复因为更新补丁出故障的系统】&lt;/p&gt;
+&lt;p&gt;日期：【2017.03.17】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【113】&lt;/p&gt;
+&lt;p&gt;标题：【荷兰监察机构发警告:Windows 10新版隐私设置中有个隐藏广告设置】&lt;/p&gt;
+&lt;p&gt;摘要：【荷兰监察机构表示微软在隐私菜单的底部隐藏了一项设置，机构解释道：“鼠标悬停在屏幕右侧部分，这时滚动条就会出现，下拉滚动条才会看见隐藏选项。这个隐私菜单中所包含的设置默认情况下都处于激活状态，显然是不需要消费者真正进行设置】&lt;/p&gt;
+&lt;p&gt;日期：【2017.03.15】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【112】&lt;/p&gt;
+&lt;p&gt;标题：【外媒称Windows 10是一辆“广告大巴车”】&lt;/p&gt;
+&lt;p&gt;摘要：【BetaNews撰文炮轰Windows 10，称，千万别信了微软的“鬼话”，Windows10根本不算一套操作系统，而是……“一辆广告大巴车”。资深老编Mark Wilson写道，这些广告出现在开始菜单、通知栏、操作中心、资源管理器、锁屏、分享、商店等几乎你能接触到的一切界面中】&lt;/p&gt;
+&lt;p&gt;日期：【2017.03.13】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【111】&lt;/p&gt;
+&lt;p&gt;标题：【微软驱动更新再出岔子：Windows 10无法识别便携式设备】&lt;/p&gt;
+&lt;p&gt;摘要：【对于Windows 7/8.1用户，该驱动是可选更新，而对于Windows 10用户则是自动更新，微软今天在Answers论坛上承认这个驱动确实存在问题.】&lt;/p&gt;
+&lt;p&gt;日期：【2017.03.11】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【110】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10文件资源管理器出现微软OneDrive广告】&lt;/p&gt;
+&lt;p&gt;摘要：【有Windows 10用户发现，微软在文件管理器中显示广告，广告内容是促销OneDrive高级账户。目前，它只是一个广告，但是微软这种操作系统内广告行为在过去几年中引起了用户的一些严重关注】&lt;/p&gt;
+&lt;p&gt;日期：【2017.03.09】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【109】&lt;/p&gt;
+&lt;p&gt;标题：【Gmail等多种谷歌服务无法在Windows 10最新版本上正常工作】&lt;/p&gt;
+&lt;p&gt;摘要：【微软最近发布的Windows 10 build 15019附带了一系列已知问题，其中一个问题导致用户无法访问多种Google服务（包括Gmail），F12工具也可能无法正常工作，并且可能崩溃或无法接受输入】&lt;/p&gt;
+&lt;p&gt;日期：【2017.01.30】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【108】&lt;/p&gt;
+&lt;p&gt;标题：【微软不会修复Windows 10最糟糕的体验–自动升级】&lt;/p&gt;
+&lt;p&gt;摘要：【微软认为能够让你获得更新是非常重要。“自动重新启动”是一项功能，而不是BUG.如果你正在使用Windows 10操作系统，那么不管你正在做什么，Windows系统都有可能强制自动升级】&lt;/p&gt;
+&lt;p&gt;日期：【2017.01.25】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【107】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10家庭版用户将无法暂停创作者更新】&lt;/p&gt;
+&lt;p&gt;摘要：【累积更新公告中的已知问题也对部分消费者产生困扰，在配置多显示器功能的时候出现一些问题】&lt;/p&gt;
+&lt;p&gt;日期：【2017.01.12】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【106】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10累积更新KB3213986正常升级，但存在已知BUG】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows 10累积更新KB3213986正常升级，但存在已知BUG】&lt;/p&gt;
+&lt;p&gt;日期：【2017.01.12】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【105】&lt;/p&gt;
+&lt;p&gt;标题：【微软在Windows 10创造者更新中加入更多广告】&lt;/p&gt;
+&lt;p&gt;摘要：【微软几乎在Windows10系统的每一个空余角落都塞进了广告，这些广告出现在开始菜单中，出现在锁屏中，甚至还在新的标签页中放上Edge浏览器和APP的推广广告。但是，由于还是存在一些广告未覆盖的地方，因此微软打算在即将推出的“创造者更新”中加入更多的广告】&lt;/p&gt;
+&lt;p&gt;日期：【2017.01.09】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【104】&lt;/p&gt;
+&lt;p&gt;标题：【微软承认强推Windows 10免费升级“太过激进”】&lt;/p&gt;
+&lt;p&gt;摘要：【最让膈应人的一个举措，就是微软改变了“获取 Windows 10”应用弹窗上“×”按钮的行为定义—— 点下“×”竟然不是取消（不再接收推送），而是“忽略设置并在后台预备安装新系统”】&lt;/p&gt;
+&lt;p&gt;日期：【2016.12.23】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【103】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10周年更新遇DHCP问题】&lt;/p&gt;
+&lt;p&gt;摘要：【如果这项服务被破坏或者行为异常，那么消费者将无法访问网络或者本地资源，在升级至14393.479之后用户就经历了这样的问题】&lt;/p&gt;
+&lt;p&gt;日期：【2016.12.14】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【102】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10新版14986升级报错：微软无解】&lt;/p&gt;
+&lt;p&gt;摘要：【官方微软咨询论坛出现了不少Error Code 80240031的升级报错，目前，跟帖人数已达161页。微软随后也意识到了问题.】&lt;/p&gt;
+&lt;p&gt;日期：【2016.12.09】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【101】&lt;/p&gt;
+&lt;p&gt;标题：【微软发布Windows 10 Build 14959 已知有IE崩溃问题】&lt;/p&gt;
+&lt;p&gt;摘要：【IE浏览器会在启动后数秒崩溃】&lt;/p&gt;
+&lt;p&gt;日期：【2016.11.04】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【100】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 14946是游戏玩家噩梦：大作统统不兼容】&lt;/p&gt;
+&lt;p&gt;摘要：【微软目前已经确认Build 14946在软件兼容性方面存在严重问题，堪称游戏玩家噩梦，目前微软正在测试和检查导致Build 14946兼容性缺陷的原因】&lt;/p&gt;
+&lt;p&gt;日期：【2016.10.14】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【099】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10累积更新KB3194798产生3.99TB可删除垃圾】&lt;/p&gt;
+&lt;p&gt;摘要：【部分用户报告他们无法安装Windows 10累积更新KB3194798，另一部分用户更新后，Windows 10自带的磁盘清理程序Disk Cleanup运行后汇报KB3194798更新在磁盘行产生了3.99 TB大小的垃圾文件】&lt;/p&gt;
+&lt;p&gt;日期：【2016.10.13】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【098】&lt;/p&gt;
+&lt;p&gt;标题：【用户反馈无法安装KB3194798累积更新】&lt;/p&gt;
+&lt;p&gt;摘要：【用户在尝试安装KB3194798累积更新的时候再次出现问题，跳出“无法完成安装更新，无法执行更改”的提示】&lt;/p&gt;
+&lt;p&gt;日期：【2016.10.12】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【097】&lt;/p&gt;
+&lt;p&gt;标题：【KB3194496更新正式发布：更多用户经历无法升级问题】&lt;/p&gt;
+&lt;p&gt;摘要：【更新KB3194496，升级后版本号为Build 14393.222，不过不少用户遭遇升级失败的情况微软官方并未出面承认，也没有合适的临时解决方案】&lt;/p&gt;
+&lt;p&gt;日期：【2016.09.30】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【096】&lt;/p&gt;
+&lt;p&gt;标题：【卡45%/95%进度？KB3189866换成KB3193494照样卡】&lt;/p&gt;
+&lt;p&gt;摘要：【9月13日微软发布了Windows 10累积更新KB3189866，随后不断有用户反馈称在升级过程中卡在45%或95%的进度中。一周后，微软终于承认这个累积更新所存在的问题，并重新发布了KB3193494累积更新进行替代。令人感到尴尬的是，这个KB3193494经历了相同的问题】&lt;/p&gt;
+&lt;p&gt;日期：【2016.09.23】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【095】&lt;/p&gt;
+&lt;p&gt;标题：【无语凝噎：更新iOS 10遇到Windows 10自动更新变砖了】&lt;/p&gt;
+&lt;p&gt;摘要：【今天正好是iOS10更新的日子，Windows10又闯祸了。用iTunes更新iOS10，在完成了80%的时候，Windows10突然自动更新了.由于突然停止了更新，这部iPhone毫无悬念的变砖了】&lt;/p&gt;
+&lt;p&gt;日期：【2016.09.14】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【094】&lt;/p&gt;
+&lt;p&gt;标题：【用户反馈KB3189866累积更新出现卡在95%进度情况】&lt;/p&gt;
+&lt;p&gt;摘要：【部分用户反馈称无法安装本次更新并导致出现各种问题。很多读者反馈称KB3189866累积更新会在45%或95%的时候卡住不动，无法执行和完成安装】&lt;/p&gt;
+&lt;p&gt;日期：【2016.09.14】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【093】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 Build 14915更新后出现Wi-Fi网卡失灵现象】&lt;/p&gt;
+&lt;p&gt;摘要：【Wi-Fi失灵。这种现象主要出现在Surface Pro和Surface Pro 2用户身上，当他们更新至Build 14915之后惊讶的发现自己的设备竟然无法使用Wi-Fi网络】&lt;/p&gt;
+&lt;p&gt;日期：【2016.09.02】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【092】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10一周年更新版插入Kindle会导致蓝屏死机】&lt;/p&gt;
+&lt;p&gt;摘要：【更新后插入Kindle Paperwhite会立即导致电脑蓝屏死机，更新前使用没有任何问题.一种权宜之计是在电脑睡眠状态时候插入Kindle】&lt;/p&gt;
+&lt;p&gt;日期：【2016.08.21】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【091】&lt;/p&gt;
+&lt;p&gt;标题：【微软承认最新累积更新导致PowerShell DSC功能无法正常使用】&lt;/p&gt;
+&lt;p&gt;摘要：【微软承认由于本周四面向Windows 10 Verizon 1607发布的最新累积更新KB3176934导致PowerShell客户端出现问题，导致在使用DSC服务的时候出现InvalidError错误】&lt;/p&gt;
+&lt;p&gt;日期：【2016.08.25】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【090】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10周年更新致数百万摄像头无法正常工作】&lt;/p&gt;
+&lt;p&gt;摘要：【在Windows 10周年更新中，微软对网络摄像头进行了非常明显的调整导致包括企业用户在内的诸多用户电脑出现各种严重问题】&lt;/p&gt;
+&lt;p&gt;日期：【2016.08.20】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【089】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10周年更新：重新安装用户此前移除的应用程序】&lt;/p&gt;
+&lt;p&gt;摘要：【在最近的周年更新中微软再次做出了干扰用户应用选择的动作，未经许可重新安装了用户此前已经卸载的应用程序】&lt;/p&gt;
+&lt;p&gt;日期：【2016.08.20】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【088】&lt;/p&gt;
+&lt;p&gt;标题：【微软仍在调查Windows 10周年更新冻结BUG 现提供更多解决方案】&lt;/p&gt;
+&lt;p&gt;摘要：【诸多用户报告称设备在升级Windows 10周年更新之后遭遇冻结问题。数天之后，微软官方承认存在这个问题】&lt;/p&gt;
+&lt;p&gt;日期：【2016.08.17】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【087】&lt;/p&gt;
+&lt;p&gt;标题：【微软确认Windows 10周年更新确实会冻结电脑】&lt;/p&gt;
+&lt;p&gt;摘要：【部分用户升级后会出现电脑被冻结，无法使用的问题。只有将Windows10系统安装在SSD固态硬盘上，程序和数据则在另一块硬盘上的用户，才会受此问题影响】&lt;/p&gt;
+&lt;p&gt;日期：【2016.08.13】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【086】&lt;/p&gt;
+&lt;p&gt;标题：【部分用户Windows 10升级周年更新后遭遇硬盘分区消失】&lt;/p&gt;
+&lt;p&gt;摘要：【部分用户在升级完毕之后，竟然发现自己的部分硬盘分区消失了，资源管理器中根本看不到！如果打开磁盘管理工具，可以看到消失的分区都显示为RAW格式，即原始未分区状态.】&lt;/p&gt;
+&lt;p&gt;日期：【2016.08.12】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【085】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10累计更新KB3176493出现无法安装问题】&lt;/p&gt;
+&lt;p&gt;摘要：【据用户反映，当他们点击安装1511版(KB3176493)累计更新的时候，页面跳出错误提示–“无法安装，取消修改”。由于这种错误提示没有提供过多的信息，所以想要修复就变得非常困难】&lt;/p&gt;
+&lt;p&gt;日期：【2016.08.10】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【084】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10周年更新导致部分PC网速变慢】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows Auto-Tuning服务自Windows Vista开始引入到系统服务中，目的是操作和管理应用程序从网络上接收TCP数据的行为并用来改善这些数据传输性能，不过在周年更新中却出现了导致网速变慢的问题】&lt;/p&gt;
+&lt;p&gt;日期：【2016.08.08】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【083】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10周年更新后: 许多用户汇报PC在运行时遇到冻结问题】&lt;/p&gt;
+&lt;p&gt;摘要：【短短的几天时间内，也有不少用户汇报其PC在运行时遇到了冻结的问题，而且没办法找到一个通用的解决方案】&lt;/p&gt;
+&lt;p&gt;日期：【2016.08.07】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【082】&lt;/p&gt;
+&lt;p&gt;标题：【警告：Windows 10周年更新或许会删掉你的Linux分区】&lt;/p&gt;
+&lt;p&gt;摘要：【自Windows 10周年更新于8月2号正式推送以来，曝光的问题就接连不断。除了更新失败、随机死机、应用崩溃、设置被重置之外，还可能导致你的Linux分区被删除】&lt;/p&gt;
+&lt;p&gt;日期：【2016.08.04】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【081】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10周年更新遇应用崩溃BUG】&lt;/p&gt;
+&lt;p&gt;摘要：【在完成周年更新升级之后所有应用（部分称只有Netflix）在打开不到1秒的时间就会崩溃的问题.目前的临时解决方案就是完全清除或者重置Windows Store缓存】&lt;/p&gt;
+&lt;p&gt;日期：【2016.08.04】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【080】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10周年更新版发布一天-更新失败】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows Update无法下载，或者给出各种错误提示，包括0x80070057、0xa0000400等等，都无法解决】&lt;/p&gt;
+&lt;p&gt;日期：【2016.08.04】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【079】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10周年更新版发布一天-随机死机】&lt;/p&gt;
+&lt;p&gt;摘要：【安装很顺利，但是更新完毕进入桌面后，随机出现突然死机或者崩溃现象。有的是启动到桌面就死了，有的是过了几分钟才失去响应】&lt;/p&gt;
+&lt;p&gt;日期：【2016.08.04】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【078】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10周年更新版发布一天-应用关闭】&lt;/p&gt;
+&lt;p&gt;摘要：【有的用户只是Netflix等个别应用，而有的是几乎所有应用，在更新完毕启动后立即崩溃。有人试验后发现，清空并重置Windows Store商店的所有缓存可以解决】&lt;/p&gt;
+&lt;p&gt;日期：【2016.08.04】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【077】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10周年更新版发布一天-设置重置】&lt;/p&gt;
+&lt;p&gt;摘要：【部分用户更新后，系统设置被恢复到了默认值。微软确认了这个问题，称正在研究解决，暂时只能手动重新修改了】&lt;/p&gt;
+&lt;p&gt;日期：【2016.08.04】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【076】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10专业版确认无法阻止Store安装Bloatware（臃肿软件）】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows 10专业版用户将无法调整组策略编辑器的“关闭微软消费者体验”选项，意味着专业版用户无法阻止系统通过Windows Store上安装类似于Candy Crush Saga等游戏和应用】&lt;/p&gt;
+&lt;p&gt;日期：【2016.08.01】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【075】&lt;/p&gt;
+&lt;p&gt;标题：【微软因其Windows 10更新策略面临新诉讼】&lt;/p&gt;
+&lt;p&gt;摘要：【微软因其 Windows 10 更新策略面临两起新的诉讼。其中一起递交到佛罗里达地区法院，微软的更新策略被指违反了 FTC 有关欺骗和不正当行为的裁决。另一起则是发生在以色列海法，微软被控未经用户同意安装Windows 10】&lt;/p&gt;
+&lt;p&gt;日期：【2016.07.29】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【074】&lt;/p&gt;
+&lt;p&gt;标题：【累积更新KB3172985再遇尴尬：部分用户无法安装】&lt;/p&gt;
+&lt;p&gt;摘要：【KB3172985无法安装的情况，当你完成下载并系统重启之后，当安装器启动之后你会得到这样一个提示：“我们无法完成更新，无法执行更改。”PC随后进行回滚操作，跳转回安装前的系统桌面】&lt;/p&gt;
+&lt;p&gt;日期：【2016.07.13】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【073】&lt;/p&gt;
+&lt;p&gt;标题：【部分用户无法安装KB3163018累积更新】&lt;/p&gt;
+&lt;p&gt;摘要：【无法安装本次更新并导致部分Windows 10设备出现各种问题.其中最为常规的错误是本次累积更新无法安装，电脑开始显示“undoing changes”，不过也有部分网友抱怨称在完成KB3163018的更新之后导致IE和Edge浏览器的思科CCX/finesse网页无法打开】&lt;/p&gt;
+&lt;p&gt;日期：【2016.06.16】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【072】&lt;/p&gt;
+&lt;p&gt;标题：【世界各地用户发现无法访问Windows应用商店】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows应用商店这个麻烦早在昨天晚上就开始了，并且错误代码指向微软的支持站点页面，但是其中提供的办法似乎没有解决这个问题】&lt;/p&gt;
+&lt;p&gt;日期：【2016.06.15】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【071】&lt;/p&gt;
+&lt;p&gt;标题：【强制升级Windows 10 让非洲反盗猎工作者面临生命危险】&lt;/p&gt;
+&lt;p&gt;摘要：【我们已经看到了很多不幸的时刻，当Windows 10升级突然启动，让用户丢失数据或者工作成果，但是最近非洲中部丛林发生的Windows 10升级突然启动，让非洲反盗猎工作者面临生命危险】&lt;/p&gt;
+&lt;p&gt;日期：【2016.06.04】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【070】&lt;/p&gt;
+&lt;p&gt;标题：【微软移除Windows 10升级通知的关闭按钮】&lt;/p&gt;
+&lt;p&gt;摘要：【微软因为恼人的Windows 10升级通知而遭到了无数批评，但软件巨人的回应是让它变的更恼人。Windows 10升级通知没有拒绝选项，暂时无意升级的用户通常的做法是关闭通知窗口。后来微软做了决定，用户的关闭操作变成了默认同意升级】&lt;/p&gt;
+&lt;p&gt;日期：【2016.06.03】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【069】&lt;/p&gt;
+&lt;p&gt;标题：【微软Windows 10升级政策在中国广遭吐槽】&lt;/p&gt;
+&lt;p&gt;摘要：【众所周知，微软在推广Windows 10的道路上可还是无所不用其极，不过中国用户可不买账，微软这种命令式的升级遭到了广泛批评。最新的统计数字称，微博上吐槽微软升级策略的帖子已经达到 1200万之多，可谓是“民怨沸腾”】&lt;/p&gt;
+&lt;p&gt;日期：【2016.05.29】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【068】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10强制升级致用户损失300万元大单专家建议提起诉讼】&lt;/p&gt;
+&lt;p&gt;摘要：【微软被发现使用比较低级的方法诱骗用户升级到Windows 10，这一做法不仅引起了广泛的批评，同时也使得许多用户遭受了不必要的损失.一位中国公关公司工作者Yang Shuo愤怒地声称，由于没有看到弹窗提醒，当他正在起草一份商业计划时被突如其来的Windows 10升级进程和重启打断，由于没有保存并及时完成草案，这使得他的客户取消了交易会晤，这份交易价值300万元人民币】&lt;/p&gt;
+&lt;p&gt;日期：【2016.05.28】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【067】&lt;/p&gt;
+&lt;p&gt;标题：【正版软件受害者 Windows 10自动升级让漫画家丢失画稿】&lt;/p&gt;
+&lt;p&gt;摘要：【今天《旋风管家》漫画作者畑健二郎也遭遇到了强制升级 Win 10 的问题，而且还导致了他的数据未能及时保存，畑健二郎对此十分愤怒，表示以后再也不会买带 Windows 系统的设备！】&lt;/p&gt;
+&lt;p&gt;日期：【2016.05.27】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【066】&lt;/p&gt;
+&lt;p&gt;标题：【微软又有新招强迫用户升级Windows 10】&lt;/p&gt;
+&lt;p&gt;摘要：【最近一些用户发现他们的电脑未经他们同意就开始Windows 10升级，并且在某些情况下，用户非常难以找到一种方法来阻止升级】&lt;/p&gt;
+&lt;p&gt;日期：【2016.05.27】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【065】&lt;/p&gt;
+&lt;p&gt;标题：【微软承认擅自安排Windows 10升级并称这基于用户反馈】&lt;/p&gt;
+&lt;p&gt;摘要：【微软表示：“基于消费者反馈，在Get Windows 10(GWX)应用的最近版本更新中我们确认推荐你的升级安排，并提供了额外的机会来选择取消或者重新安排升级时间。”】&lt;/p&gt;
+&lt;p&gt;日期：【2016.05.18】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【064】&lt;/p&gt;
+&lt;p&gt;标题：【部分用户无法安装KB3156421累积更新】&lt;/p&gt;
+&lt;p&gt;摘要：【在公司官方已知BUG方面表示部分计算机安装之后将会出现非常缓慢的情况。然而，KB3156421事实上还引发了更多问题–部分用户无法安装】&lt;/p&gt;
+&lt;p&gt;日期：【2016.05.11】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【063】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10新累积更新又遇BUG–致PC运行滞缓】&lt;/p&gt;
+&lt;p&gt;摘要：【微软官方就表示本次累积更新存在一个已知BUG：一旦在Windows 10设备上安装会导致部分PC出现运行滞缓的情况】&lt;/p&gt;
+&lt;p&gt;日期：【2016.05.11】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【062】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10更新KB3140741又出故障：连开始菜单都不能用了】&lt;/p&gt;
+&lt;p&gt;摘要：【在安装KB3140741更新后，开始菜单彻底不能用。KB3140741还会从桌面，以及库文件夹移除所有的文件，这导致要复原就就须要进行数据恢复】&lt;/p&gt;
+&lt;p&gt;日期：【2016.03.24】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【061】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 Redstone 14291版存在BUG：插入Xbox手柄就崩溃】&lt;/p&gt;
+&lt;p&gt;摘要：【已经有许多用户在微软社区论坛上抱怨了该BUG：Windows 10 Redstone build 14291系统在PC连上Xbox One手柄之后就会崩溃，唯一的解决方法就是不要用手柄】&lt;/p&gt;
+&lt;p&gt;日期：【2016.03.23】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【060】&lt;/p&gt;
+&lt;p&gt;标题：【微软简短声明：从未强迫任何人升级Windows 10】&lt;/p&gt;
+&lt;p&gt;摘要：【微软今天发布了一份简短的声明，称一直都允许用户选择是否升级Windows 10，控制权一直都在用户手中】&lt;/p&gt;
+&lt;p&gt;日期：【2016.03.15】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【059】&lt;/p&gt;
+&lt;p&gt;标题：【无需用户同意部分Windows 7被自动升级至Windows 10】&lt;/p&gt;
+&lt;p&gt;摘要：【现在，世界各地不少用户反映，没有经过他们同意，微软已经悄然将他们机器上的Windows 7和8.1操作系统升级到Windows 10】&lt;/p&gt;
+&lt;p&gt;日期：【2016.03.12】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【058】&lt;/p&gt;
+&lt;p&gt;标题：【越来越多人反馈无法安装Windows 10累积更新KB3140768】&lt;/p&gt;
+&lt;p&gt;摘要：【发布数小时后就有部分用户反馈称无法安装这个更新，电脑会在更新重启时还原系统设置项.很多资深科技用户声称尝试了包括SFC和DISM命令都没有效果】&lt;/p&gt;
+&lt;p&gt;日期：【2016.03.11】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【057】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 KB3140743累积更新仍然对许多PC造成了破坏】&lt;/p&gt;
+&lt;p&gt;摘要：【由于Windows 10特殊的强制更新机制，安装不上该更新的倒霉用户只能眼睁睁地看着机器陷入无限重启的泥潭.】&lt;/p&gt;
+&lt;p&gt;日期：【2016.03.08】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【056】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10锁屏页开始出现广告？微软说只为加强用户体验】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows 10现如今开始在锁屏页面显示广告了，推荐用户进入到商店中，下载或者购买某些应用和游戏】&lt;/p&gt;
+&lt;p&gt;日期：【2016.03.03】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【055】&lt;/p&gt;
+&lt;p&gt;标题：【微软向Windows 10“免费用户”推送锁屏广告】&lt;/p&gt;
+&lt;p&gt;摘要：【本周开始，视频游戏《古墓丽影》女主劳拉·克劳馥（Lara Croft）的广告形象竟然出现在了部分Windows 10用户的锁屏界面上.我的系统不该是你家的广告分发系统】&lt;/p&gt;
+&lt;p&gt;日期：【2016.02.25】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【054】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10最新预览版被曝重大Bug：开不了机】&lt;/p&gt;
+&lt;p&gt;摘要：【安装了该预览版之后，笔者每次开机时几乎都会碰到系统无法启动的情况，画面会一直卡在启动界面，必须强制重启一次才能正常进入系统】&lt;/p&gt;
+&lt;p&gt;日期：【2016.02.22】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【053】&lt;/p&gt;
+&lt;p&gt;标题：【KB3135173更新再出问题会重置默认程序】&lt;/p&gt;
+&lt;p&gt;摘要：【KB3135173是首款包含更新日志的Windows 10累积更新，除此前报道部分用户无法安装该更新之外还有用户反馈称该更新自动重置默认应用程序，重新配置将微软的解决方案作为网页浏览或图片欣赏的默认选项】&lt;/p&gt;
+&lt;p&gt;日期：【2016.02.17】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【052】&lt;/p&gt;
+&lt;p&gt;标题：【KB3135173累积更新再次出现无法安装情况】&lt;/p&gt;
+&lt;p&gt;摘要：【部分用户表示由于各种错误导致无法正常安装KB3135173进行升级。公司本身从未承认Windows 10累积更新存在安装问题，这也导致从未提供过任何解决方案，所以受影响用户除了尝试进行自我判断别无他法】&lt;/p&gt;
+&lt;p&gt;日期：【2016.02.15】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【051】&lt;/p&gt;
+&lt;p&gt;标题：【KB3114717新补丁再次惹祸令Office 2013无法启动】&lt;/p&gt;
+&lt;p&gt;摘要：【KB3114717安装后Word 2013启动后会立即占用100％ CPU，只能强行结束进程，完全无法工作，安全模式也打不开，doc、docx文档均难幸免】&lt;/p&gt;
+&lt;p&gt;日期：【2016.02.15】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【050】&lt;/p&gt;
+&lt;p&gt;标题：【微软证实Windows 10商店存在问题承诺尽快修复】&lt;/p&gt;
+&lt;p&gt;摘要：【微软刚刚承认Windows 10商店存在问题，许多用户确实无法启动Windows 10商店，或得到一个空白屏幕.Windows 10商店无法正常工作，对微软影响很大，Windows 10用户不仅无法下载新的应用程序，但他们甚至不能更新现有应用程序】&lt;/p&gt;
+&lt;p&gt;日期：【2016.01.28】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【049】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10累积更新KB 3124262出现安装问题】&lt;/p&gt;
+&lt;p&gt;摘要：【用户在安装KB3124262失败之后，Windows 10 Update一遍又一遍地向用户提供这个更新，除非他们隐藏这个累积更新，否则他们不会不断收到系统发送的下载和安装提醒】&lt;/p&gt;
+&lt;p&gt;日期：【2016.01.28】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【048】&lt;/p&gt;
+&lt;p&gt;标题：【时隔2个月：Windows 10十一月更新卡进度问题仍未解决】&lt;/p&gt;
+&lt;p&gt;摘要：【十一月更新作为于去年7月发布的Windows 10首个重大更新，被微软强烈推荐所有用户尽快安装。但是对于部分用户来说，尽管他们想要尽可能的加入到升级行列中，但是由于BUG导致升级在进度条至44%的时候卡住从而无法正常安装.】&lt;/p&gt;
+&lt;p&gt;日期：【2016.01.20】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【047】&lt;/p&gt;
+&lt;p&gt;标题：【Windows KB3119142补丁反复在用户设备上安装】&lt;/p&gt;
+&lt;p&gt;摘要：【微软推出的Windows KB3119142补丁在用户设备上成功安装一次之后，居然反复在用户设备上继续安装，受此问题影响的都是Windows 10设备.】&lt;/p&gt;
+&lt;p&gt;日期：【2016.01.20】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【046】&lt;/p&gt;
+&lt;p&gt;标题：【部分用户无法安装Windows 10累积更新KB3124263】&lt;/p&gt;
+&lt;p&gt;摘要：【由于安装过程中出现的各种错误且没有提供详细的错误信息导致无法正常升级至最新系统。同样，KB3124263在部分设备中无法正确安装，且没有提供任何错误信息】&lt;/p&gt;
+&lt;p&gt;日期：【2016.01.18】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【045】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10补丁KB3132372又带来大麻烦】&lt;/p&gt;
+&lt;p&gt;摘要：【这个补丁会导致浏览器上网时出现崩溃、卡死、空白等现象，尤其是涉及所有基于IE内核的浏览器，那些双内核的在兼容模式下(也就是使用IE内核)也会如此】&lt;/p&gt;
+&lt;p&gt;日期：【2015.12.31】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【044】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10升级用户仍然碰到博通虚拟无线网卡兼容性错误】&lt;/p&gt;
+&lt;p&gt;摘要：【在近半年之后，还是无法解决Windows 10中博通虚拟无线网卡兼容性错误.还有用户表示升级到Windows 10之后，蓝牙不工作，原因是没有新的驱动程序】&lt;/p&gt;
+&lt;p&gt;日期：【2015.12.27】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【043】&lt;/p&gt;
+&lt;p&gt;标题：【微软商店“应用内购买”功能出现异常：影响全平台】&lt;/p&gt;
+&lt;p&gt;摘要：【据外媒报道，开发者和用户们似乎都在抱怨内购系统竟然崩掉了，愤怒的用户甚至炮轰花钱还得不到应有的服务】&lt;/p&gt;
+&lt;p&gt;日期：【2015.12.23】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【042】&lt;/p&gt;
+&lt;p&gt;标题：【微软承认KB3124200累积更新存在安装失败问题】&lt;/p&gt;
+&lt;p&gt;摘要：【KB3124200主要内容是BUG修复和后台稳定性调整，不过在该累积更新发布之后部分用户反馈称存在安装失败的情况，电脑陷入了下载、安装和失败这样永无止境的恶性循环中。对此微软官方承认该问题确实存在.】&lt;/p&gt;
+&lt;p&gt;日期：【2015.12.21】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【041】&lt;/p&gt;
+&lt;p&gt;标题：【你的Windows 10升级11月更新后遭遇开始菜单“关键错误”了吗？】&lt;/p&gt;
+&lt;p&gt;摘要：【部分Windows 10用户开始菜单工作不正常，屏幕上会显示错误信息：“关键错误，您的开始菜单停止工作。我们将尝试在您下次登录的时候修复该问题。”实际情况是重启还是没用】&lt;/p&gt;
+&lt;p&gt;日期：【2015.12.16】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【040】&lt;/p&gt;
+&lt;p&gt;标题：【部分Windows 10用户仍受驱动兼容问题困扰】&lt;/p&gt;
+&lt;p&gt;摘要：【相当多的用户抱怨因为显卡或其它设备的驱动问题经历了死亡蓝屏或工作不正常等问题。Windows Update中默认自动下载Win 10兼容驱动也经常导致硬件工作不支持.索尼的VAIO设备由于通用驱动问题，而导致用户的电池设置和键盘背光灯等高级设置功能无法使用】&lt;/p&gt;
+&lt;p&gt;日期：【2015.12.16】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【039】&lt;/p&gt;
+&lt;p&gt;标题：【推广Windows 10更加激进：微软问你“现在”还是“今晚”更新？】&lt;/p&gt;
+&lt;p&gt;摘要：【现在，启用了Windows Update的老用户，将在后台下载完Windows 10更新包后，见到“唯一”的选项——（立即）更新、还是（今晚）更新——也就是说，你再也没有拒绝的余地了！】&lt;/p&gt;
+&lt;p&gt;日期：【2015.12.14】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【038】&lt;/p&gt;
+&lt;p&gt;标题：【安装Windows 10十一月更新时会移除不兼容的反病毒软件】&lt;/p&gt;
+&lt;p&gt;摘要：【为了确保安装过程中不遇到问题，Windows 10十一月更新（TH2）会自动扫描当前运行在计算机上的应用程序，如果其不幸被标记为‘不兼容’，那它们将会在此期间被移除】&lt;/p&gt;
+&lt;p&gt;日期：【2015.12.10】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【037】&lt;/p&gt;
+&lt;p&gt;标题：【不少MacBook用户反映升级Windows 10十一月更新后WiFi经常断开】&lt;/p&gt;
+&lt;p&gt;摘要：【某些用户在升级11月更新后还遭遇了WiFi连接问题，WiFi网络连接变得非常不稳定，WiFi连接总会突然断开，似乎驱动出现问题】&lt;/p&gt;
+&lt;p&gt;日期：【2015.12.08】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【036】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10家庭版用户抱怨系统更新致设备卡顿】&lt;/p&gt;
+&lt;p&gt;摘要：【对于Windows 10家庭版用户来说微软所发布的所有更新和补丁都会进行自动安装，用户没有选项延迟更新.某个系统更新导致电脑变得非常卡顿。而作为用户只能拖延更新1到2个小时，所以微软能够直接干涉你的工作环境和电脑。用户无法对系统进行掌控】&lt;/p&gt;
+&lt;p&gt;日期：【2015.12.07】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【035】&lt;/p&gt;
+&lt;p&gt;标题：【Windows10累积更新再出问题临时解决方案出炉】&lt;/p&gt;
+&lt;p&gt;摘要：【部分用户在升级过程中收到“我们无法完成更新，无法执行改变”的信息提醒，在升级失败之后弹出0x80070570的错误代码并显示：“部分更新文件丢失或存在问题。我们将在稍后重新下载该更新。错误代码：（0x80070570）”】&lt;/p&gt;
+&lt;p&gt;日期：【2015.12.04】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【034】&lt;/p&gt;
+&lt;p&gt;标题：【因Windows 10糟糕表现用户向微软发起集体诉讼】&lt;/p&gt;
+&lt;p&gt;摘要：【在部分人眼中Windows 10显然是不成熟稳定的系统，为此他们决定向微软公司发起集体诉讼.通过“自动化更新”来升级Windows 10系统之后导致数以千计的电脑处于无法使用的状态】&lt;/p&gt;
+&lt;p&gt;日期：【2015.11.30】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【033】&lt;/p&gt;
+&lt;p&gt;标题：【KB3120677更新偶尔会重置Windows 10的隐私设置和默认应用】&lt;/p&gt;
+&lt;p&gt;摘要：【安装了这个更新之后，或许又会见到一些意想不到的变化。有用户报告称，该补丁偶尔会重置默认应用和隐私设置，并将之全部切换到启用的状态】&lt;/p&gt;
+&lt;p&gt;日期：【2015.11.26】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【032】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10秋季更新未经用户许可擅自删除应用程序】&lt;/p&gt;
+&lt;p&gt;摘要：【近期上线的大型Windows10更新在未经用户许可的情况下擅自卸载/移除应用程序。受影响应用包括CPUID、CPU-Z和Speccy等应用，而这些应用都用于查看系统硬件信息。此外在本次11月更新/秋季更新中，微软还擅自移除了用于控制AMD显卡的AMD Catalyst控制中心.在整个过程中Windows 10系统并未向用户提出权限申请来移除这些应用程序，而是直接显示这些应用已经被移除】&lt;/p&gt;
+&lt;p&gt;日期：【2015.11.26】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【031】&lt;/p&gt;
+&lt;p&gt;标题：【无法启用BitLocker加密：Windows 10十一月更新有bug】&lt;/p&gt;
+&lt;p&gt;摘要：【在升级到最新版本的Windows 10之后，不少用户报告称其遇到了BitLocker加密技术无法启用的情况。无论用户手动操作、还是系统重置并选择‘不保留任何内容’（Keep Nothing）时所需要——用户仍然无法再次启用该功能（同样弹出‘参数不正确’的错误提示）】&lt;/p&gt;
+&lt;p&gt;日期：【2015.11.24】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【030】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10数据搜集服务消失了？结果更狡猾】&lt;/p&gt;
+&lt;p&gt;摘要：【Windows 10 TH2更新终于允许企业用户关闭这一服务了，但家庭用户依然只能忍受，而且根据最新发现，微软为了不让大家找到并关闭其数据搜集服务，可谓煞费苦心。】&lt;/p&gt;
+&lt;p&gt;日期：【2015.11.22】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【029】&lt;/p&gt;
+&lt;p&gt;标题：【客服建议用户付费解决Windows 10 TH2无法更新错误】&lt;/p&gt;
+&lt;p&gt;摘要：【有人声称打客服电话，经过5位微软技术人员和12个小时都无法解决问题，微软客服建议他付费寻找更懂行的微软技术专家来解决问题，但客户认为买的是正版Windows 10，本来就应该得到免费技术支持服务】&lt;/p&gt;
+&lt;p&gt;日期：【2015.11.19】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【028】&lt;/p&gt;
+&lt;p&gt;标题：【升级Windows 10 TH2或删掉回滚分区：降级至Win7已不可能】&lt;/p&gt;
+&lt;p&gt;摘要：【之前有部分未能在第一时间升级到TH2的用户选择了用ISO或媒体创建工具来手动升级，但在回滚分区被干掉之后，没做备份的用户估计只能哭着去重装Win7/8.1了】&lt;/p&gt;
+&lt;p&gt;日期：【2015.11.16】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【027】&lt;/p&gt;
+&lt;p&gt;标题：【Windows10 Threshold 2会自动重新安装已删除的自带应用程序】&lt;/p&gt;
+&lt;p&gt;摘要：【Threshold 2在安装过程当中，重置了电脑上的默认应用程序，这种变化没有在安装过程中提及.另外，事实证明，文件关联也重置，所以就算你安装了Acrobat Reader打开PDF文档，Windows 10 Threshold2仍然采用Edge浏览器作为默认打开PDF的选项】&lt;/p&gt;
+&lt;p&gt;日期：【2015.11.14】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【026】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 TH2更新被发现偷偷删除应用程序】&lt;/p&gt;
+&lt;p&gt;摘要：【微软现在似乎很喜欢背着用户偷偷摸摸地做事，比如说悄无声息地给你下载更新Windows 10，比如强制搜集个人数据。今天，Windows 10 TH2年度更新开始推送，很值得更新，但是有不少网友发现，更新完毕之后，一些应用悄然不见了。】&lt;/p&gt;
+&lt;p&gt;日期：【2015.11.13】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【025】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 Threshold 2 升级用户遭遇卡死问题】&lt;/p&gt;
+&lt;p&gt;摘要：【有用户称更新安装会卡在44％，然后就没反应了.微软很快做出回应，称这是SD卡的缘故，暂时拔掉就可以继续了。随即更多用户称自己并没有SD卡，却卡在了9％、34％、91％甚至是0％等不同的阶段。特别是91％的那位最严重，被迫关机重启后却被告知要滚回到Windows7，结果又失败了，只是一个黑屏说启动失败，错误代码0xc000000e】&lt;/p&gt;
+&lt;p&gt;日期：【2015.11.13】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【024】&lt;/p&gt;
+&lt;p&gt;标题：【戴尔惠普联想客服都建议客户删除Windows 10】&lt;/p&gt;
+&lt;p&gt;摘要：【联系PC厂商技术支持人员，应该是用户遇到PC问题最后应该做的事情.当涉及到Windows 10，技术支持工程师似乎并没有得到很好的培训，以帮助客户确定问题所在，他们当中大部分人建议客户彻底清除操作系统，并且降级到Windows 7或8.1】&lt;/p&gt;
+&lt;p&gt;日期：【2015.11.06】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【023】&lt;/p&gt;
+&lt;p&gt;标题：【Win7用户请注意：微软现已开始全屏推送Windows 10升级通知】&lt;/p&gt;
+&lt;p&gt;摘要：【最近几周，该公司的行为变得更加激进了一点，除了通过Windows Update重复推送重要的“引导升级补丁”，它还改变了这些更新提示的呈现方式。外媒Business Insider指出，Windows 10升级通知现已接管了整个屏幕，而且“没有明显的方法去关闭它”】&lt;/p&gt;
+&lt;p&gt;日期：【2015.10.26】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【022】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10越发霸道：极力保留默认应用】&lt;/p&gt;
+&lt;p&gt;摘要：【最新泄露的Windows 10 Build 10568版本里，微软对默认应用设置又做了一些调整，加大了更改的难度，在你更改任何一项的时候，不会直接弹出应用列表，而是首先出现一段提示，告诉你微软自己的应用多么多么好，而且默认选项是不要更换，还做了高亮处理。】&lt;/p&gt;
+&lt;p&gt;日期：【2015.10.18】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【021】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10开始菜单塞入513个条目后出现崩溃问题】&lt;/p&gt;
+&lt;p&gt;摘要：【如果在开始菜单里放入的条目超过512个，它就会神经错乱，要么吃掉某些应用，要么反复崩溃】&lt;/p&gt;
+&lt;p&gt;日期：【2015.09.17】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【020】&lt;/p&gt;
+&lt;p&gt;标题：【无法阻挡：微软采取更多强硬手段逼迫老用户升级Windows 10】&lt;/p&gt;
+&lt;p&gt;摘要：【部分用户发现Windows Update现在竟然也只给出“升级到Windows 10”这一个选项了，甚至无法看到相关的更新.很多用户报告微软强行自动在Windows 7和8.x计算机的后台下载安装Windows 10更新】&lt;/p&gt;
+&lt;p&gt;日期：【2015.10.16】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【019】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10累积更新(KB3097617)的安装问题】&lt;/p&gt;
+&lt;p&gt;摘要：【微软为Windows 10推出了KB3097617这个累积更新。尴尬的是，很多人既无法顺利安装这个更新，也没能看到任何明晰的错误提示消息】&lt;/p&gt;
+&lt;p&gt;日期：【2015.10.15】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【018】&lt;/p&gt;
+&lt;p&gt;标题：【微软客服：Get Windows 10是恶意程序欲清理先购增值服务】&lt;/p&gt;
+&lt;p&gt;摘要：【网友想要在现有设备上移除这款应用，为此他和微软Answer技术专家Marvin B进行了交流，但是专家给出的解决方案令他震惊。Marvin不仅表示“Get Windows 10”是恶意程序，想要移除该“病毒”需要先花费$120（约合744元人民币）成为微软的高级订阅服务用户】&lt;/p&gt;
+&lt;p&gt;日期：【2015.10.15】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【017】&lt;/p&gt;
+&lt;p&gt;标题：【用户报告Windows 10邮件应用无法添加Gmail/Outlook账号微软称将修复】&lt;/p&gt;
+&lt;p&gt;摘要：【据部分用户报告他们遇到了无法添加自己的Gmail/Outlook账号，当添加失败后会出现错误提示信息。微软在社区论坛中已经确认获悉此问题】&lt;/p&gt;
+&lt;p&gt;日期：【2015.09.25】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【016】&lt;/p&gt;
+&lt;p&gt;标题：【用户发现Cortana文件阻碍Windows 10还原功能】&lt;/p&gt;
+&lt;p&gt;摘要：【很多人和公司发现，个人助理经常无法顺利工作，在若干情况下，它会影响这款操作系统其他功能正常运行，比如阻止Windows 10还原功能.升级到Windows 10遇到无数次蓝屏或者错误之后，试图还原系统到之前创建的还原点，但是系统提示，系统还原失败，无法提取Cortana个人语音助手相关文件，还原点已经被删除或者损坏】&lt;/p&gt;
+&lt;p&gt;日期：【2015.09.22】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【015】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10累积更新KB3081455依然出现无法安装情况】&lt;/p&gt;
+&lt;p&gt;摘要：【KB3081455在部分设备上出现无法安装的情况，大部分用户在尝试部署在电脑上的时候出现了0x80070002错误。】&lt;/p&gt;
+&lt;p&gt;日期：【2015.09.21】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【014】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10发布50天后一些用户的开始菜单仍然无法正常工作】&lt;/p&gt;
+&lt;p&gt;摘要：【一个最尴尬的问题影响了Windows 10 开始菜单，操作中心和音量图标，无论用户进行多少次重启，它们就是不工作】&lt;/p&gt;
+&lt;p&gt;日期：【2015.09.18】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【013】&lt;/p&gt;
+&lt;p&gt;标题：【微软确认Windows 10定位偏离问题正着手修复】&lt;/p&gt;
+&lt;p&gt;摘要：【许多Windows 10用户会发现系统自带的定位系统似乎并不准确，通过Cortana或者邮件发送的定位地址有不小偏离】&lt;/p&gt;
+&lt;p&gt;日期：【2015.09.14】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【012】&lt;/p&gt;
+&lt;p&gt;标题：【至今仍未修复：部分Windows 10开始菜单和Cortana无法正常工作】&lt;/p&gt;
+&lt;p&gt;摘要：【开始菜单和Cortana由于严重错误导致在部分Windows 10设备上无法正常工作，根据受影响用户反馈称该问题至今没有解决，无法访问已经安装的应用或者文件，这些用户经常会弹出“严重错误–开始菜单和Cortana无法正常工作】&lt;/p&gt;
+&lt;p&gt;日期：【2015.09.14】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【011】&lt;/p&gt;
+&lt;p&gt;标题：【部分Windows 10用户吐槽：续航陡降、发热严重】&lt;/p&gt;
+&lt;p&gt;摘要：【目前微软还没有就部分Windows 10设备的续航与过热问题给出应对方案】&lt;/p&gt;
+&lt;p&gt;日期：【2015.09.09】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【010】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10桌面反复崩溃诺顿提供修复工具】&lt;/p&gt;
+&lt;p&gt;摘要：【部分第三方软件存在问题，会导致Windows 10的桌面反复闪烁、崩溃，严重的甚至完全无法使用】&lt;/p&gt;
+&lt;p&gt;日期：【2015.08.24】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【009】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10新预览版再曝低级Bug 系统详情页出现旧素材】&lt;/p&gt;
+&lt;p&gt;摘要：【在Windows 10 Build 10525的系统详情页面居然出现了Windows 8的Logo，这实在太不应该了】&lt;/p&gt;
+&lt;p&gt;日期：【2015.08.19】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【008】&lt;/p&gt;
+&lt;p&gt;标题：【强制累积更新KB3081424无限重启】&lt;/p&gt;
+&lt;p&gt;摘要：【尽管上周的汇总更新修复了各种错误和问题，但是对于某些用户来说，KB3081424补丁又造成了他们的电脑陷入无限重启.由于更新是强制性的，这一过程根本无法取消！】&lt;/p&gt;
+&lt;p&gt;日期：【2015.08.11】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【007】&lt;/p&gt;
+&lt;p&gt;标题：【部分用户升级Windows10遭遇死机和黑屏】&lt;/p&gt;
+&lt;p&gt;摘要：【一些试图升级到Windows10的消费者发生故障，导致电脑无法使用。他们不是无法使用微软的新系统，而是看到错误提示，称他们的电脑“系统丢失”】&lt;/p&gt;
+&lt;p&gt;日期：【2015.08.05】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【006】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10“设置”选项无法启动或打开】&lt;/p&gt;
+&lt;p&gt;摘要：【一些Windows 10用户报告说他们在安装或升级之后无法打开“设置”选项】&lt;/p&gt;
+&lt;p&gt;日期：【2015.08.01】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【005】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10用户吐槽：自己仿佛被“扒光”】&lt;/p&gt;
+&lt;p&gt;摘要：【英国《卫报》导报，不少国外用户抱怨称Windows 10会将个人数据上传给微软，还会将Wi-Fi密码共享给好友，而且微软还会监控用户的网页浏览习惯，并有针对性的投放广告（这难道不是软件商们一贯的做法吗？）】&lt;/p&gt;
+&lt;p&gt;日期：【2015.08.01】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【004】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10 KB3074681更新会导致资源管理器的崩溃】&lt;/p&gt;
+&lt;p&gt;摘要：【当前似乎并没有在受影响机器的控制面板里修改已安装的程序的方法。除此之外，我们也已证实，当启用或禁用某个活跃的网络连接的时候，也会出现崩溃】&lt;/p&gt;
+&lt;p&gt;日期：【2015.07.27】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【003】&lt;/p&gt;
+&lt;p&gt;标题：【N卡用户请注意：Windows 10自动更新的驱动或会带来故障】&lt;/p&gt;
+&lt;p&gt;摘要：【面向家庭用户的Windows 10系统移除掉了人们挑选可安装的更新的功能，尽管Windows Update可因此而完全无需人们的干预并自动进行，但它的副作用就是无法避开某些有问题的驱动或更新。近日，不少Nvidia显卡用户在支持论坛上抱怨称，在其计算机上自动安装的驱动导致了计算机的故障】&lt;/p&gt;
+&lt;p&gt;日期：【2015.07.27】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【002】&lt;/p&gt;
+&lt;p&gt;标题：【Windows10强制自动更新不能关微软不妥协】&lt;/p&gt;
+&lt;p&gt;摘要：【这一次Windows 10将拥有史上最大规模的软件测试员，大大削减出错的机率.那么问题来了，Insider会员如果更新出错了怎么办？（设计台词）微软：都给你们免费使用了，你还计较那么多干嘛？】&lt;/p&gt;
+&lt;p&gt;日期：【2015.07.20】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;编号：【001】&lt;/p&gt;
+&lt;p&gt;标题：【Windows 10将强迫用户进行系统更新只要连接网络就得更新】&lt;/p&gt;
+&lt;p&gt;摘要：【原本Windows系统是否更新补丁是可以由用户自行选择的，不过据说微软这次将强迫Windows 10 Home家庭版用户下载和安装更新，不会有可关闭的选项。】&lt;/p&gt;
+&lt;p&gt;日期：【2015.07.17】&lt;/p&gt;
+&lt;p&gt;======================================================&lt;/p&gt;
+&lt;p&gt;原文地址：https://meta.appinn.com/t/windows-10-214/8500&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

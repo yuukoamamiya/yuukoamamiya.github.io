@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ABBYY FineReader on Yuko&#39;s Blog</title>
+        <link>https://yuukoamamiya.github.io/tags/abbyy-finereader/</link>
+        <description>Recent content in ABBYY FineReader on Yuko&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 07 Nov 2022 19:48:00 +0800</lastBuildDate><atom:link href="https://yuukoamamiya.github.io/tags/abbyy-finereader/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>电子书一键摆烂ABC</title>
+        <link>https://yuukoamamiya.github.io/p/e-book-abc/</link>
+        <pubDate>Mon, 07 Nov 2022 19:48:00 +0800</pubDate>
+        
+        <guid>https://yuukoamamiya.github.io/p/e-book-abc/</guid>
+        <description>&lt;img src="https://cdn.sspai.com/2020/12/24/b23ed5e9540c55625cc904c71d15a01f.jpg?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1" alt="Featured image of post 电子书一键摆烂ABC" /&gt;&lt;p&gt;本文最后一次更新于2022/11/07，请注意时效。&lt;/p&gt;
+&lt;p&gt;zlib死了，是被美国的垄断知识产权的资本家们干死的。他的死是好的，得以让全地球的人认识到资本主义的罪恶之处。但是仅仅是这一点还是不够的，就好像越南的每一个长了脑子或者没长脑子的人都明白美帝国主义是可恶的这一点一样，仅仅是这一点是不够的，对帝国主义的批判不过是帝国主义批判的一个环节，更重要的是进入下一个环节。而为了抵达下一个环节，阅读还要继续，要像列宁说的那样：学习学习再学习。&lt;/p&gt;
+&lt;p&gt;这篇文章预计要讲不少东西，先讲几个比较简单的，网文轻小说漫画怎么找，这个因为找来基本可以直接看，也不需要后续处理。然后是出版物怎么找，找到了怎么处理，这个过程就比较重量级了，要讲的比较多，也比较杂。&lt;/p&gt;
+&lt;h2 id=&#34;轻小说&#34;&gt;轻小说&lt;/h2&gt;
+&lt;p&gt;我推荐使用&lt;a class=&#34;link&#34; href=&#34;https://greasyfork.org/zh-CN/scripts/406070-%E5%B0%8F%E8%AF%B4%E4%B8%8B%E8%BD%BD%E5%99%A8&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;小说下载器&lt;/a&gt;脚本下载轻小说，首先在真白萌之类的网站找到想要下载的小说，然后下载就行，这个脚本会自动打包为epub。&lt;/p&gt;
+&lt;p&gt;推荐的找轻小说的网站有这几个：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://masiro.me/admin&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;真白萌&lt;/a&gt;（能找到民间翻译的日本网文）&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.wenku8.net/index.php&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;wenku8&lt;/a&gt;（需要注册）&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://w.linovelib.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;嘀哩轻小说&lt;/a&gt;（只有手机版网页才能让脚本正常运作，电脑版不行）&lt;/p&gt;
+&lt;h2 id=&#34;漫画&#34;&gt;漫画&lt;/h2&gt;
+&lt;p&gt;以前我比较推荐&lt;a class=&#34;link&#34; href=&#34;https://tachiyomi.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;tachiyomi&lt;/a&gt;，一个看漫画的聚合软件。但是这里面的源，大陆的不是看傻批国漫就是大妈之家这种被阉割了许多还动不动抽风的，要么就是台湾的源，能看许多，但是要翻墙。&lt;/p&gt;
+&lt;p&gt;后来发现用到的工具是&lt;a class=&#34;link&#34; href=&#34;https://vol.moe/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;vol.moe&lt;/a&gt;。先在手机上整一个kindle app，vol.moe那边绑定亚马逊账号，直接推送到kindle上然后用手机app看。这个过程里不需要用到kindle的电纸书设备，当然如果有的话拿来看漫画体验也挺不错的。&lt;/p&gt;
+&lt;h2 id=&#34;网文&#34;&gt;网文&lt;/h2&gt;
+&lt;p&gt;2022年，网文彻底烂了。我唯一的推荐是不读。&lt;/p&gt;
+&lt;h2 id=&#34;出版物&#34;&gt;出版物&lt;/h2&gt;
+&lt;p&gt;重量级的来了，我得分步奏讨论。&lt;/p&gt;
+&lt;h3 id=&#34;找书&#34;&gt;找书&lt;/h3&gt;
+&lt;h4 id=&#34;豆瓣资源下载大师&#34;&gt;豆瓣资源下载大师&lt;/h4&gt;
+&lt;p&gt;我得承认：在zlib被资产阶级铁拳砸了的恶时辰里，找书是一件难事&lt;/p&gt;
+&lt;p&gt;我现在最推荐的是使用&lt;a class=&#34;link&#34; href=&#34;https://greasyfork.org/zh-CN/scripts/329484-%E8%B1%86%E7%93%A3%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E5%A4%A7%E5%B8%88-1%E7%A7%92%E6%90%9E%E5%AE%9A%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1-%E9%9F%B3%E4%B9%90-%E5%9B%BE%E4%B9%A6%E4%B8%8B%E8%BD%BD&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;豆瓣资源下载大师&lt;/a&gt;脚本来找书，这个脚本会自动在这里面收录的各个网站里面搜索，如果有资源会用绿色来显示。当然尽管这里显示的选项很多，其实大多数都不准的，基本只有Lorefere和LibGen这两个网站有用。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20211018213221.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;找英文书用这个脚本也是可以的，比如说我下面这个图就是搜索An Introduction to Antonio Gramsci的结果，点开PDFDrive真的能找到。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072006596.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;zlib的电报bot&#34;&gt;zlib的电报bot&lt;/h4&gt;
+&lt;p&gt;zlib目前被爆了的只有域名，服务器还是好的，因此可以使用一些方法来偷渡。用tor上zlib的暗网版本也是可以的，我这里说一下电报bot。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072011610.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://t.me/zlibrary2bot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://t.me/zlibrary2bot&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;订阅这个bot之后还需要和zlib账号绑定才能下书，依照提示来就行，zlib现在被干烂的只有主站，登录站还是可以用的。&lt;/p&gt;
+&lt;p&gt;就算是等将来某一天zlib的网页复活之后也是可以用的，毕竟zlib每天有下载10本的限制，超出部分可以用电报bot下，这个不算在10本的额度内。&lt;/p&gt;
+&lt;h4 id=&#34;互助联盟&#34;&gt;互助联盟&lt;/h4&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.xueshu86.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.xueshu86.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;读秀的书库，卖两块钱一本。如果你面子够大有一个买了读秀书库的群友就可以省下这笔钱。&lt;/p&gt;
+&lt;p&gt;读秀书库的特点是PDF里每一页就是一条目录。要不要用我下文写的方法添加新的目录另说，但是我推荐你至少上来先把这个目录删了……&lt;/p&gt;
+&lt;h4 id=&#34;结语&#34;&gt;结语&lt;/h4&gt;
+&lt;p&gt;小书屋和epubee被越南帝国主义的铁拳干烂之后找书本就是一件很困难的事情了，zlib被美帝国主义的铁拳干烂更是使得困难光景变得雪上加霜。但是在越南，在赛里斯找书最难的环节还不是出了书之后找不到盗版，而是这之前的环节。我等阿尔都塞的《怎么办》、《在哲学中成为马克思主义者》和《马基雅维利的孤独》已经等了一年了，目前看来，在2022年里出版已经无望了。&lt;/p&gt;
+&lt;h3 id=&#34;处理&#34;&gt;处理&lt;/h3&gt;
+&lt;h4 id=&#34;calibre&#34;&gt;Calibre&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072024222.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Calibre就像一个本地版的豆瓣。你把书导入进去之后可以自己编辑标签和评分等信息，书多了之后就可以很方便地根据“西方马克思主义”等关键词来检索到特定的书了。&lt;/p&gt;
+&lt;p&gt;我很多朋友说这个软件不会用，我简单介绍一下这个软件的运行逻辑：&lt;/p&gt;
+&lt;p&gt;一上来这个软件会要求你选择一个文件夹作为储存数据库的场所，这里可以随便选一个自己记得住的文件夹。那之后所有导入到Calibre里的书都会复制到这个文件夹里。软件没了随时可以去官网重新装一份，但是书没了可就糟了，因此最好定期备份这个数据库文件夹，比如说每个月都拷贝到U盘里，或者直接用Onedrive之类的软件给备份起来。&lt;/p&gt;
+&lt;p&gt;导入到Calibre里面的书会被复制到数据库文件夹里，如果需要作为存档的话，只保留Calibre里的那一份就够了，外面的电子书可以直接删掉。&lt;/p&gt;
+&lt;p&gt;Calibre希望你只通过软件的窗口对它存储的电子书进行操作，不管是删除也好新增版本也好，最好都在这个软件的窗口里进行操作，而不是绕过这个软件直接去操作文件夹本身——实际上他也不会智能检测文件夹的变化，如果你绕过软件直接增减了文件，这将不会被软件读取出来。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072047577.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Calibre以很丑陋的方式储存文件，这也意味着不管是导入还是导出都需要通过软件窗口来进行。如果你不想在拷贝文件给朋友的时候复制出一个 &lt;code&gt;Yu Zhong Zha Ji - An Dong Ni Ao _Ge Lan Xi.pdf&lt;/code&gt; 程度的抽象文件名的话，就要用“保存到磁盘”这个按钮来让文件以中文方式被输出。&lt;/p&gt;
+&lt;p&gt;在Calibre内双击文件的逻辑为：对于特定格式的文件使用内置的阅读器打开，否则使用系统默认的打开方式。如果像我这样不喜欢Calibre内置的阅读器的，可以在设置里修改。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072051181.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Calibre内置了许多实用的电子书工具，比如说转换格式和编辑内容。有人抱怨说epub的电子书不能用Kindle读，实际上Calibre直接可以一键转换格式并且推送到Kindle上。&lt;/p&gt;
+&lt;h4 id=&#34;压缩与图像增强&#34;&gt;压缩与图像增强&lt;/h4&gt;
+&lt;p&gt;接下来的三小节我会参照&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/357015750&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这个帖子&lt;/a&gt;来写，实际上这个帖子的内容非常高妙，我推荐读一读。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072059552.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;图像增强和压缩使用adobe acrobat。&lt;/p&gt;
+&lt;h4 id=&#34;ocr&#34;&gt;OCR&lt;/h4&gt;
+&lt;p&gt;OCR会使得扫描的PDF变得可以复制。这里推荐的软件是ABBYY Finereader，做OCR可能是效果最好的。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072102348.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;如果是从上一步过来的，那可以关闭这里处理图像相关的内容，因为实际上都已经在上一步里处理过了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072103471.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;导出需要选择PDF/A来保证兼容性。&lt;/p&gt;
+&lt;h4 id=&#34;为pdf添加目录&#34;&gt;为PDF添加目录&lt;/h4&gt;
+&lt;p&gt;和原帖子一样，为PDF添加目录大概是这几步：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;将OCR后的目录页复制出来&lt;/li&gt;
+&lt;li&gt;处理这个目录，使之符合特定格式&lt;/li&gt;
+&lt;li&gt;附加到PDF文件上，别忘了设置基准页&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;不过我这里更推荐使用 &lt;code&gt;PdgCntEditor&lt;/code&gt; 这个软件，在上述第二步的时候方便点。&lt;/p&gt;
+&lt;p&gt;正常处理电子书到这一步就算完成了，甚至上面三小节的内容不搞也没事，不也照样看。然后如果是要在Kindle上面看还要再过一个步骤：&lt;/p&gt;
+&lt;h4 id=&#34;重排&#34;&gt;重排&lt;/h4&gt;
+&lt;p&gt;先用ABBYY处理PDF，把白边切掉，注意区分奇偶页，切的时候把翻译书侧边的原书页码切掉。&lt;/p&gt;
+&lt;p&gt;然后用 &lt;code&gt;k2pdfopt&lt;/code&gt; 这个软件来处理。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072123324.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;参数像我这样设置就行，字体大小可以再慢慢调过，用右边预览功能选个自己喜欢的大小。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072130417.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这是处理之后的效果&lt;/p&gt;
+&lt;p&gt;虽然依然无法和epub等电子书格式相比。但是至少在Kindle上已经达到了能看的标准。&lt;/p&gt;
+&lt;h4 id=&#34;修复kindle破损的封面&#34;&gt;修复Kindle破损的封面&lt;/h4&gt;
+&lt;p&gt;在某个版本的固件升级之后，Kindle对于导入的电子书经常会给一个很抽象的错误封面。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bookfere.com/wp-content/uploads/2022/06/fixed-kindle-ebook-covers.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;使用 &lt;code&gt;Fix Kindle Ebook Cover&lt;/code&gt; 这个软件可以修复这个问题。&lt;/p&gt;
+&lt;p&gt;从&lt;a class=&#34;link&#34; href=&#34;https://bookfere.com/post/994.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这个网站&lt;/a&gt;偷的活。&lt;/p&gt;
+&lt;h3 id=&#34;阅读&#34;&gt;阅读&lt;/h3&gt;
+&lt;p&gt;几个我推荐的阅读软件&lt;/p&gt;
+&lt;h4 id=&#34;稻壳阅读器&#34;&gt;稻壳阅读器&lt;/h4&gt;
+&lt;p&gt;全能型选手。什么格式都能打开，打开速度也很快。对于扫描PDF也可以设置护眼背景色。&lt;/p&gt;
+&lt;p&gt;但是每一种功能用起来都感觉差点意思。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072136526.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;kindle&#34;&gt;Kindle&lt;/h4&gt;
+&lt;p&gt;经典护眼阅读器，推荐和Calibre搭配使用。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072144782.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;一个实用的小技巧是更换自己想要的字体，在根目录下新建 &lt;code&gt;fonts&lt;/code&gt; 文件夹，然后把想要的字体存进去就行了。我这里推荐&lt;a class=&#34;link&#34; href=&#34;https://github.com/lxgw/LxgwWenKai&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;霞鹜文楷&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072142160.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;当然有时候会发现特定电子书不能选择字体，这是因为mobi文件类型不对，Calibre默认的是old，改成both就好了。&lt;/p&gt;
+&lt;h4 id=&#34;微信读书&#34;&gt;微信读书&lt;/h4&gt;
+&lt;p&gt;提前先用“传书到手机的功能把文件上传上去，然后就可以在办公室打开浏览器摸鱼了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/202211072146413.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;就这一点而言，微信读书是无敌的。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>在kindle上阅读k2pdfopt重排过的PDF电子书</title>
+        <link>https://yuukoamamiya.github.io/p/%E5%9C%A8kindle%E4%B8%8A%E9%98%85%E8%AF%BBk2pdfopt%E9%87%8D%E6%8E%92%E8%BF%87%E7%9A%84pdf%E7%94%B5%E5%AD%90%E4%B9%A6/</link>
+        <pubDate>Mon, 24 May 2021 22:02:00 +0800</pubDate>
+        
+        <guid>https://yuukoamamiya.github.io/p/%E5%9C%A8kindle%E4%B8%8A%E9%98%85%E8%AF%BBk2pdfopt%E9%87%8D%E6%8E%92%E8%BF%87%E7%9A%84pdf%E7%94%B5%E5%AD%90%E4%B9%A6/</guid>
+        <description>&lt;img src="https://cdn.sspai.com/article/2e1f8239-05ac-55a8-675a-076da4f49e35.jpg?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1" alt="Featured image of post 在kindle上阅读k2pdfopt重排过的PDF电子书" /&gt;&lt;p&gt;在研究了一上午如何给Kindle刷机无果后，我放弃了在Kinlde上使用KOReader的打算。转而研究怎么在电脑上先处理PDF后发送给Kindle看。这个时候我发现了k2pdfopt。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.willus.com/k2pdfopt/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官网地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这玩意的原理是不经过OCR，而是大致判断每个字占用多少面积大小，像拼拼图一样把每个字作为一个图案来打乱重拼。我记得核桃以前写过一个用这玩意来做竖版书的软件，但是他博客现在又是关的，看不了……&lt;/p&gt;
+&lt;p&gt;这个软件的win版是有GUI的，而且我在书伴网站的&lt;a class=&#34;link&#34; href=&#34;https://bookfere.com/post/134.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;介绍帖子&lt;/a&gt;底下找到了有人发汉化版。那有汉化必不用英文（bushi&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210524221548.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;先裁边&#34;&gt;先裁边&lt;/h2&gt;
+&lt;p&gt;k2pdfopt理论上也是可以自动裁边的，但是那个裁边效果不好，看到有字就不裁，把页眉页脚也给放进来了。当然这么搞也不影响阅读，只是觉得难看，效果不好。&lt;/p&gt;
+&lt;p&gt;于是用PDF编辑器来手动裁，我用的软件是ABBYY FineReader，这个切边比较方便。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210524222720.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;这里在切边的时候可以分奇数偶数，这对于扫描出版物而言是个很实用的功能，因为扫描书扫出来往往都是左边那一页偏左一点，右边那一页偏右一点。当然一般的书遇到这种情况，那截得胖一点也没什么，大不了左右留点空白，反正等下重排的时候也会去掉的。但是有时候会遇到那种页码标在侧面的书，或者有些翻译书会在侧面标原书页码，这个时候又不想把数字也截进去，不然重排之后好端端一行字里面突然蹦个数字出来，那就得活用这个区分奇数偶数来切边的功能。&lt;/p&gt;
+&lt;p&gt;当然还有那种做出来就是在网上分发的文字版PDF电子书，那种理论上可以直接用ABBYY的功能另存为epub，不过我没试过，也不知道效果如何。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210524223957.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;重排&#34;&gt;重排&lt;/h2&gt;
+&lt;p&gt;重排就是用k2pdfopt，win下不用操作命令行，不怎么麻烦。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210525100438.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;右上角的设备是要调过的，我的kindle型号是KT2，选项里虽然没有，但是想来这台机子比较垃圾，在这里找分辨率最低的 kindle1-5 估计也差不离。&lt;/p&gt;
+&lt;p&gt;这里默认打开的智能断行（smart line breaks）应该关掉，这个功能是给英文用的，防止一个单词太长被劈成两半写进两行里。因为中文不用担心一个冲字被拆到第一行一个冫在行末，第二行开头半个中字，所以这个没必要开。甚至万一开了，他会按照英文的分词逻辑，把两个标点中间没带空格的中文全部视作一个单词，这个情况下生成的文章立马变成诗歌……&lt;/p&gt;
+&lt;p&gt;智能断行后面的输入框是字间距，中文的话越小越好，比如我这里是0.001。稍微大点，生成的PDF里字间距就会乱七八糟一会小一会大。&lt;/p&gt;
+&lt;p&gt;自适应（Autostaighten）则是能在PDF扫描歪了的时候（常有的，一个PDF拿来一看是斜着的）能做点微调，把看起来像是斜着的字给掰正了。&lt;/p&gt;
+&lt;p&gt;我这里还在附加参数那里输入了-m，这个参数的意思是先智能裁边，然后再进行重排。这个智能裁边，就如我前面所说的，不会裁掉页眉页脚，所以并不是那么好用。如果前面已经先用别的软件裁过一次了，那这里不需要这个参数了。&lt;/p&gt;
+&lt;p&gt;参数设置完之后直接Convert All Files就成。&lt;/p&gt;
+&lt;h2 id=&#34;压缩&#34;&gt;压缩&lt;/h2&gt;
+&lt;p&gt;其实到这一步之后这个PDF就已经可用了，拷贝进Kindle里面已经可以看了。就是重排出来的PDF体积巨大，原来这个布哈林的《共产主义ABC》有14M，重排完变成了36M了。&lt;/p&gt;
+&lt;p&gt;嫌重排出来的文件体积太大可以再去找那种在线压缩PDF的工具，或者本地压缩的话ABBYY也行，不过要我说，这一步搞不搞没啥差别了，照样用。&lt;/p&gt;
+&lt;h2 id=&#34;最后拿来压泡面&#34;&gt;最后拿来压泡面&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210525100503.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;看到这个重排效果这么好，我和满书架还没看的书还有steam游戏都笑了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;关于书签&#34;&gt;关于书签&lt;/h2&gt;
+&lt;p&gt;补充一句……&lt;/p&gt;
+&lt;p&gt;有一些PDF是一页一个书签的，在转换的过程中就会把每一页当作一章，直接换页。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210618103753.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210618104041.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;遇到这种PDF还得先把书签重新编辑一遍……&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

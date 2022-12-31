@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>github on Yuko&#39;s Blog</title>
+        <link>https://yuukoamamiya.github.io/tags/github/</link>
+        <description>Recent content in github on Yuko&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 17 May 2021 22:19:00 +0800</lastBuildDate><atom:link href="https://yuukoamamiya.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>关于我被github封号这件事</title>
+        <link>https://yuukoamamiya.github.io/p/%E5%85%B3%E4%BA%8E%E6%88%91%E8%A2%ABgithub%E5%B0%81%E5%8F%B7%E8%BF%99%E4%BB%B6%E4%BA%8B/</link>
+        <pubDate>Mon, 17 May 2021 22:19:00 +0800</pubDate>
+        
+        <guid>https://yuukoamamiya.github.io/p/%E5%85%B3%E4%BA%8E%E6%88%91%E8%A2%ABgithub%E5%B0%81%E5%8F%B7%E8%BF%99%E4%BB%B6%E4%BA%8B/</guid>
+        <description>&lt;img src="https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210517225938.jpg" alt="Featured image of post 关于我被github封号这件事" /&gt;&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210517222454.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;说实话，就github竟然会封人这一点来讲，我也是第一次听说。之前只听说过有个讲国内政治的仓库用中国ip是访问不了的，还听说过github被微软收购之后响应特朗普政策ban了伊朗ip，但是还真没想到铁拳终有一天会落在我头上。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210517222803.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;至于被ban掉的原因，那也说不准。最有可能的自然是发了有版权的内容，被资产阶级法权给橄榄了。毕竟这个博客有《斜目而视》那个季广茂后记的基本所有内容，之前还弄着个人wiki的时候还有《导读弗洛伊德》的内容，还有个个人仓库里面传了一堆马克思的书。——如果是因为马克思而被橄榄的话那这下可就真的很搞笑了，实现了内容和形式的统一。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210517223151.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;当然这也只是猜测，真正的原因谁也说不准。人就轻飘飘地一句“参照社区规定”，提前连个招呼都不打不声不响就给你封了，提交申诉过了半个月都没人理，这下可刑不可知则威不可测了，法制史要考的。&lt;/p&gt;
+&lt;p&gt;不过好在我的github账号里面也没什么东西，封了也就封了。本来无一物何处染尘埃。毕竟也不是什么程序员，github里面除了博客什么都没有，甚至就连博客都是本地有备份的，就像今天这样，注册一个新账户，把本地文件上传一下，立马又是个新博客。&lt;/p&gt;
+&lt;p&gt;唯一的问题就是以前博客的配图没备份，这下可尴尬了，哈哈哈哈。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210517224502.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;被封了之后琢磨还能用什么东西来搭博客，于是我考察了一下当下流行的博客工具：&lt;/p&gt;
+&lt;p&gt;jekyll, hexo, hugo&amp;hellip;&lt;/p&gt;
+&lt;p&gt;总而言之，你可以在github和github里面做自由选择&lt;/p&gt;
+&lt;p&gt;有没有不用github的啊？有：&lt;/p&gt;
+&lt;p&gt;wordpress.com, blogger&amp;hellip;&lt;/p&gt;
+&lt;p&gt;总而言之，你可以在微软谷歌里面自由选择&lt;/p&gt;
+&lt;p&gt;这下可真就印证了齐泽克的黑屁了，“先生，你可以选择自由主义和保守主义哦”“见鬼，我就不能选共产主义吗”，选来选去看似五彩斑斓五花十色，实际上都是一个味儿。&lt;/p&gt;
+&lt;p&gt;最后没辙，还是重新注册了一个github的新账号（见鬼，和雨宫优子有关的用户名是一个都没给我留下），套用某个&lt;a class=&#34;link&#34; href=&#34;https://zh.wikipedia.org/zh-hans/%e6%b8%a9%e6%96%af%e9%a1%bf%c2%b7%e4%b8%98%e5%90%89%e5%b0%94&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;大傻逼&lt;/a&gt;的话说，这玩意不是个好东西，但是已经是坏东西里面最不坏的那个了。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
