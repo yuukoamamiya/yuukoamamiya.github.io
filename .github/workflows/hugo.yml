@@ -1,14 +1,14 @@
-name: Deploy Hugo # 任君喜欢
+name: GitHub Pages
 
 on:
   push:
     branches:
-      - master   # master 更新触发
+      - master  # Set a branch to deploy
   pull_request:
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-20.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -21,15 +21,15 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
+          # 是否启用 hugo extend
           extended: true
 
-      - name: Build 
+      - name: Build
         run: hugo
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
-          personal_token: ${{ secrets.personal_token }} # personal_token 这里新建一个 https://github.com/settings/tokens
-          PUBLISH_BRANCH: gh-pages  # 推送到当前 gh-pages 分支
-          PUBLISH_DIR: ./public  # hugo 生成到 public 作为跟目录
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
