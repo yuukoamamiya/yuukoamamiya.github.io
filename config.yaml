@@ -37,7 +37,7 @@ params:
 
     sidebar:
         emoji: 🎷
-        subtitle: 让无价值的灵魂去哭泣吧！
+        subtitle: 这就是我的立场。
         avatar:
             enabled: true
             local: true
