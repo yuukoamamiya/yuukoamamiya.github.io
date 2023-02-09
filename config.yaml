@@ -122,10 +122,3 @@ menu:
           params:
               icon: rss
 
-        - identifier: memo
-          name: Memo
-          url: https://yuukoamamiya.github.io/memo
-          params:
-              icon: notebook
-
-
