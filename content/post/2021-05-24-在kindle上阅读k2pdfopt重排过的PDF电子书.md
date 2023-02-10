@@ -21,7 +21,7 @@ description: 没完了是吧，和PDF杠上了是吧
 
 这个软件的win版是有GUI的，而且我在书伴网站的[介绍帖子](https://bookfere.com/post/134.html)底下找到了有人发汉化版。那有汉化必不用英文（bushi
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210524221548.png)
+![](https://img.amamiyayuuko.com/20210524221548.png)
 
 ## 先裁边
 
@@ -29,19 +29,19 @@ k2pdfopt理论上也是可以自动裁边的，但是那个裁边效果不好，
 
 于是用PDF编辑器来手动裁，我用的软件是ABBYY FineReader，这个切边比较方便。
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210524222720.png)
+![](https://img.amamiyayuuko.com/20210524222720.png)
 
 这里在切边的时候可以分奇数偶数，这对于扫描出版物而言是个很实用的功能，因为扫描书扫出来往往都是左边那一页偏左一点，右边那一页偏右一点。当然一般的书遇到这种情况，那截得胖一点也没什么，大不了左右留点空白，反正等下重排的时候也会去掉的。但是有时候会遇到那种页码标在侧面的书，或者有些翻译书会在侧面标原书页码，这个时候又不想把数字也截进去，不然重排之后好端端一行字里面突然蹦个数字出来，那就得活用这个区分奇数偶数来切边的功能。
 
 当然还有那种做出来就是在网上分发的文字版PDF电子书，那种理论上可以直接用ABBYY的功能另存为epub，不过我没试过，也不知道效果如何。
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210524223957.png)
+![](https://img.amamiyayuuko.com/20210524223957.png)
 
 ## 重排
 
 重排就是用k2pdfopt，win下不用操作命令行，不怎么麻烦。
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210525100438.jpg)
+![](https://img.amamiyayuuko.com/20210525100438.jpg)
 
 右上角的设备是要调过的，我的kindle型号是KT2，选项里虽然没有，但是想来这台机子比较垃圾，在这里找分辨率最低的 kindle1-5 估计也差不离。
 
@@ -63,7 +63,7 @@ k2pdfopt理论上也是可以自动裁边的，但是那个裁边效果不好，
 
 ## 最后拿来压泡面
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210525100503.jpg)
+![](https://img.amamiyayuuko.com/20210525100503.jpg)
 
 看到这个重排效果这么好，我和满书架还没看的书还有steam游戏都笑了。
 
@@ -75,8 +75,8 @@ k2pdfopt理论上也是可以自动裁边的，但是那个裁边效果不好，
 
 有一些PDF是一页一个书签的，在转换的过程中就会把每一页当作一章，直接换页。
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210618103753.png)
+![](https://img.amamiyayuuko.com/20210618103753.png)
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210618104041.jpg)
+![](https://img.amamiyayuuko.com/20210618104041.jpg)
 
 遇到这种PDF还得先把书签重新编辑一遍……
