@@ -24,7 +24,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: https://cdn.jsdelivr.net/gh/yuukoamamiya/pic/20210127185955.ico
+    favicon: https://img.amamiyayuuko.com/20210127185955.ico
 
 
     footer:
