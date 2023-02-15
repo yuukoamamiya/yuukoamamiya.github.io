@@ -54,6 +54,14 @@ params:
     comments:
         enabled: true
         provider: disqus
+        disqusjs:
+            shortname: yukoamamiya
+            apiUrl: https://disqus.amamiyayuuko.com/api/
+            apiKey: W4tjEgaiCuVivojE9FEf43urT1YnfX0KzTkmdbYyMsfL2ZG3dDKZvsybWqkDgJUh
+            admin: yukoamamiya
+            adminLabel:
+
+
 
     widgets:
         homepage:
