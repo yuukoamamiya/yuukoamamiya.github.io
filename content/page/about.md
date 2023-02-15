@@ -38,7 +38,7 @@ menu:
 
 最近就是在硬啃马克思、阿尔都塞和齐泽克的书。
 
-![](https://raw.githubusercontent.com/yuukoamamiya/pic/master/20210127180812.jpg)
+![](https://img.amamiyayuuko.com/20210127180812.jpg)
 
 ## Contact
 
@@ -46,13 +46,13 @@ menu:
 
 微博：已停用。
 
-豆瓣：[雨宫优子厨](https://www.douban.com/people/147743842/) 博文都写在博客里，不会写什么太长的内容，倒是偶尔有短评。
+豆瓣：[雨宫优子](https://www.douban.com/people/147743842/) 博文都写在博客里，不会写什么太长的内容，倒是偶尔有短评。
 
-知乎：[无意识的形态](https://www.zhihu.com/people/yu-gong-you-zi-chu) 同上
+知乎：[极黑的布莱希特](https://www.zhihu.com/people/yu-gong-you-zi-chu) 同上
 
 Bangumi：[雨宫优子厨](http://bgm.tv/user/296966) 几乎只做记录用，不产出内容。
 
-Bilibili：[塞壬的政治](https://space.bilibili.com/267755836) 会时不时传一些游戏视频，也会从油管搬运一些老二次元的内容过来。有时候会开直播间读书。
+Bilibili：[反俄尔甫斯](https://space.bilibili.com/267755836) 会时不时传一些游戏视频，也会从油管搬运一些老二次元的内容过来。有时候会开直播间读书。
 
 Telegram：[优子的沙雕吐槽频道](https://t.me/doloreshazeanime) 很长一段时间里是推特上点赞的色图顺手转发到频道里来。不过最近好久没更新了，推特也不上了，就没啥更新的动力。
 
