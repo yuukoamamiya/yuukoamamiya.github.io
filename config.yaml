@@ -126,7 +126,7 @@ menu:
 
         - identifier: rss
           name: Rss
-          url: https://yuukoamamiya.github.io/index.xml
+          url: https://blog.amamiyayuuko.com/index.xml
           params:
               icon: rss
 
