@@ -116,13 +116,13 @@ menu:
           name: 知乎
           url: https://www.zhihu.com/people/yu-gong-you-zi-chu
           params:
-              icon: brand-bing
+              icon: ri_zhihu-line
 
         - identifier: douban
           name: 豆瓣
           url: https://www.douban.com/people/147743842/
           params:
-              icon: brand-disqus
+              icon: mdi_douban
 
         - identifier: rss
           name: Rss
