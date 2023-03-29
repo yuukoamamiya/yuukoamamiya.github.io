@@ -41,7 +41,7 @@ params:
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/avatar_kisaki.jpg
 
     article:
         math: false
@@ -116,7 +116,7 @@ menu:
           name: 知乎
           url: https://www.zhihu.com/people/yu-gong-you-zi-chu
           params:
-              icon: ri_zhihu-line
+              icon: ri_zhihu-fill
 
         - identifier: douban
           name: 豆瓣
