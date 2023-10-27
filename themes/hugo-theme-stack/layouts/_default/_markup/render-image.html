@@ -4,24 +4,20 @@
 {{- $Width := 0 -}}
 {{- $Height := 0 -}}
 {{- $Srcset := "" -}}
-{{- $imageProcessing := .Page.Site.Params.imageProcessing.content.enabled -}}
-{{- $allowedTypes := .Page.Site.Params.ImageProcessing.AllowedTypes -}}
-{{- $resizableTypes := .Page.Site.Params.ImageProcessing.ResizableTypes -}}
+
+{{/* SVG and external images won't work with gallery layout, because their width and height attributes are unknown */}}
 {{- $galleryImage := false -}}
 
 {{- if $image -}}
-	{{- $type := $image.MediaType.SubType -}}
-	{{- $allowed := in $allowedTypes $type -}}
-    {{- $resizable := in $resizableTypes $type -}}
-    {{- $imageProcessing := and $imageProcessing $resizable -}}
+	{{- $notSVG := ne (path.Ext .Destination) ".svg" -}}
 	{{- $Permalink = $image.RelPermalink -}}
 
-	{{- if $allowed -}}
+	{{- if $notSVG -}}
 		{{- $Width = $image.Width -}}
 		{{- $Height = $image.Height -}}
 		{{- $galleryImage = true -}}
 
-		{{- if $imageProcessing -}}
+		{{- if (default true .Page.Site.Params.imageProcessing.content.enabled) -}}
 			{{- $small := $image.Resize `480x` -}}
 			{{- $big := $image.Resize `1024x` -}}
 			{{- $Srcset = printf `%s 480w, %s 1024w` $small.RelPermalink $big.RelPermalink -}}

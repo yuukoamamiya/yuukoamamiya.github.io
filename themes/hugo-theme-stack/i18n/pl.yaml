@@ -1,6 +1,8 @@
-toggleMenu: Przełącz Menu
+toggleMenu:
+    other: Przełącz Menu
 
-darkMode: Tryb ciemny
+darkMode:
+    other: Tryb ciemny
 
 list:
     page:
@@ -8,7 +10,10 @@ list:
         few: "{{ .Count }} strony"
         many: "{{ .Count }} stron"
         other: "{{ .Count }} stron"
-    section: Sekcja
+
+    section:
+        other: Sekcja
+
     subsection:
         one: Podsekcja
         few: Podsekcje
@@ -16,10 +21,18 @@ list:
         other: Podsekcji
 
 article:
-    back: Wróć
-    tableOfContents: Spis treści
-    relatedContent: Powiązane artykuły
-    lastUpdatedOn: Ostatnio zaktualizowany
+    back:
+        other: Wróć
+
+    tableOfContents:
+        other: Spis treści
+
+    relatedContent:
+        other: Powiązane artykuły
+
+    lastUpdatedOn:
+        other: Ostatnio zaktualizowany
+
     readingTime:
         one: "Przeczytasz w {{ .Count }} minutę"
         few: "Przeczytasz w {{ .Count }} minuty"
@@ -27,18 +40,33 @@ article:
         other: "Przeczytasz w {{ .Count }} minut"
 
 notFound:
-    title: Nie znaleziono
-    subtitle: Ta strona nie istnieje
+    title:
+        other: Nie znaleziono
+    subtitle:
+        other: Ta strona nie istnieje
 
 widget:
     archives:
-        title: Archiwum
-        more: Więcej
+        title:
+            other: Archiwum
+
+        more:
+            other: Więcej
+
+    tagCloud:
+        title:
+            other: Tagi
+
+    categoriesCloud:
+        title:
+            other: Kategorie
 
 search:
-    title: Szukaj
+    title:
+        other: Szukaj
 
-    placeholder: Wpisz coś...
+    placeholder:
+        other: Wpisz coś...
 
     resultTitle:
         one: "#PAGES_COUNT strona (#TIME_SECONDS sekund)"
@@ -47,5 +75,8 @@ search:
         other: "#PAGES_COUNT stron (#TIME_SECONDS sekund)"
 
 footer:
-    builtWith: Zbudowano z {{ .Generator }}
-    designedBy: Motyw {{ .Theme }} zaprojektowany przez {{ .DesignedBy }}
+    builtWith:
+        other: Zbudowano z {{ .Generator }}
+
+    designedBy:
+        other: Motyw {{ .Theme }} zaprojektowany przez {{ .DesignedBy }}
