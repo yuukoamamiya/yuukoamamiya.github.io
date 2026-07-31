@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{ if eq .Type "post" }}
+<h1>{{ .Title }}</h1>
+<p>
+    <i>
+        <time datetime='{{ .Date.Format "2006-01-02" }}'>
+            {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+        </time>
+    </i>
+</p>
+{{ else }}
+<h1>{{ .Title }}</h1>
+{{ end }}
+
+{{ if .Params.links }}
+<content>
+    {{ .Content }}
+    <div class="links">
+        {{ range .Params.links }}
+        <div class="link">
+            <h3><a href="{{ .website }}" rel="noopener">{{ .title }}</a></h3>
+            <p>{{ .description }}</p>
+        </div>
+        {{ end }}
+    </div>
+</content>
+{{ else }}
+<content>
+    {{ .Content }}
+</content>
+{{ end }}
+
+{{ if eq .Type "post" }}
+{{ if (.Param "enablePostNavigator") }}
+{{ partial "post_navigator.html" . }}
+{{ end }}
+
+<p>
+    {{ range (.GetTerms "tags") }}
+    <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+    {{ end }}
+</p>
+
+{{ if ne .Params.comments false }}
+{{ partial "comments.html" . }}
+{{ end }}
+{{ end }}
+{{ end }}

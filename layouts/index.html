@@ -1,0 +1,26 @@
+{{ define "main" }}
+{{ .Content }}
+<h3>最新文章</h3>
+<ul class="blog-posts">
+    {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
+    {{ range $paginator.Pages }}
+    <li>
+        <span>
+            <i>
+                <time datetime='{{ .Date.Format "2006-01-02" }}'>
+                    {{ .Date.Format (default "02 Jan, 2006" $.Site.Params.dateFormat) }}
+                </time>
+            </i>
+        </span>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+</ul>
+{{ if gt $paginator.TotalPages 1 }}
+<nav class="pagination">
+    {{ with $paginator.Prev }}<a href="{{ .URL }}">← 上一页</a>{{ end }}
+    {{ if and $paginator.Prev $paginator.Next }}<span> · </span>{{ end }}
+    {{ with $paginator.Next }}<a href="{{ .URL }}">下一页 →</a>{{ end }}
+</nav>
+{{ end }}
+{{ end }}

@@ -1,0 +1,23 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<content>
+    {{ $posts := where .Site.RegularPages "Type" "post" }}
+    {{ range $posts.GroupByDate "2006" "desc" }}
+    <h2>{{ .Key }}</h2>
+    <ul class="blog-posts">
+        {{ range .Pages }}
+        <li>
+            <span>
+                <i>
+                    <time datetime='{{ .Date.Format "2006-01-02" }}'>
+                        {{ .Date.Format (default "02 Jan, 2006" $.Site.Params.dateFormat) }}
+                    </time>
+                </i>
+            </span>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+    </ul>
+    {{ end }}
+</content>
+{{ end }}

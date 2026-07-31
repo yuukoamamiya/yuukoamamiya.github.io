@@ -1,0 +1,48 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<content>
+    <input type="search" id="searchInput" placeholder="输入关键词搜索…" autofocus />
+    <div id="searchResults"></div>
+</content>
+<script src="{{ "fuse/fuse.min.js" | relURL }}"></script>
+<script>
+    (function () {
+        var indexUrl = {{ with .OutputFormats.Get "json" }}{{ .RelPermalink | jsonify }}{{ end }};
+        var results = document.getElementById('searchResults');
+        var input = document.getElementById('searchInput');
+
+        fetch(indexUrl)
+            .then(function (resp) { return resp.json(); })
+            .then(function (posts) {
+                var fuse = new Fuse(posts, {
+                    keys: ['title', 'tags', 'categories', 'description', 'content'],
+                    threshold: 0.4
+                });
+
+                function render(items) {
+                    if (!items.length) {
+                        results.innerHTML = '<p>无结果</p>';
+                        return;
+                    }
+                    results.innerHTML = items.map(function (item) {
+                        var p = item.item;
+                        return '<p><a href="' + p.url + '">' + p.title + '</a><br />' +
+                            '<small>' + p.date + ' · ' + (p.tags.length ? '# ' + p.tags.join(' #') : '') + '</small></p>';
+                    }).join('');
+                }
+
+                input.addEventListener('input', function (e) {
+                    var q = e.target.value.trim();
+                    if (!q) {
+                        results.innerHTML = '';
+                        return;
+                    }
+                    render(fuse.search(q, { limit: 20 }));
+                });
+            })
+            .catch(function () {
+                results.innerHTML = '<p>搜索索引加载失败</p>';
+            });
+    })();
+</script>
+{{ end }}

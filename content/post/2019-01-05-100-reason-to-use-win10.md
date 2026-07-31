@@ -6,8 +6,6 @@ categories:
 tags: 
 - 转载
 - win10
-published: true
-hideInList: false
 image: 
 ---
 “一个不停刷存在感的操作系统，一定不是一个好的系统，一定不是一个好的工作环境。”

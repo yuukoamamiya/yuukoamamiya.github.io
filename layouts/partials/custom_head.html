@@ -1,0 +1,75 @@
+<style>
+    :root {
+        --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+        --font-secondary: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+    }
+
+    content {
+        font-family: var(--font-secondary);
+    }
+
+    .links .link {
+        margin: 1.5em 0;
+        padding-bottom: 1em;
+        border-bottom: 1px dashed rgba(0, 0, 0, 0.15);
+    }
+    .links .link:last-child {
+        border-bottom: none;
+    }
+    .links .link h3 {
+        margin-bottom: 0.3em;
+    }
+
+    #searchInput {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.5em;
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
+    #searchResults p {
+        line-height: 1.6;
+    }
+
+    .pagination {
+        margin: 2em 0;
+    }
+</style>
+
+<!-- Google Analytics (gtag.js)：大陆用户直接跳过（google-analytics 在大陆被墙，请求只会浪费连接）；其余用户空闲/首次交互时才加载，不占首屏 -->
+<script>
+    (function () {
+        function isMainlandCN() {
+            try {
+                var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                if (/^Asia\/(Shanghai|Chongqing|Harbin|Urumqi)$/.test(tz)) return true;
+                if (/^zh(-|_)CN$/i.test(navigator.language)) return true;
+            } catch (e) { /* ignore */ }
+            return false;
+        }
+        if (isMainlandCN()) return;
+
+        var loaded = false;
+        function loadGA() {
+            if (loaded) return;
+            loaded = true;
+            var s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-7F6V3SKFKX';
+            document.head.appendChild(s);
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { window.dataLayer.push(arguments); }
+            window.gtag = gtag;
+            gtag('js', new Date());
+            gtag('config', 'G-7F6V3SKFKX');
+        }
+
+        if ('requestIdleCallback' in window) {
+            requestIdleCallback(loadGA, { timeout: 4000 });
+        } else {
+            window.setTimeout(loadGA, 2500);
+        }
+        window.addEventListener('scroll', loadGA, { once: true, passive: true });
+        window.addEventListener('touchstart', loadGA, { once: true, passive: true });
+    })();
+</script>
