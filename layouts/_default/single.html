@@ -8,6 +8,7 @@
         </time>
     </i>
 </p>
+{{ with .Description }}<p class="post-description">{{ . }}</p>{{ end }}
 {{ partial "toc.html" . }}
 {{ else }}
 <h1>{{ .Title }}</h1>
@@ -36,11 +37,13 @@
 {{ partial "post_navigator.html" . }}
 {{ end }}
 
-<p>
-    {{ range (.GetTerms "tags") }}
-    <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
-    {{ end }}
+{{ $cats := .GetTerms "categories" }}{{ $tags := .GetTerms "tags" }}
+{{ if or $cats $tags }}
+<p class="post-meta">
+    {{ with $cats }}<span>分类：{{ range . }}<a href="{{ .Permalink }}">{{ .LinkTitle }}</a> {{ end }}</span>{{ end }}
+    {{ with $tags }}<span>关键词：{{ range . }}<a href="{{ .Permalink }}">#{{ .LinkTitle }}</a> {{ end }}</span>{{ end }}
 </p>
+{{ end }}
 
 {{ if ne .Params.comments false }}
 {{ partial "comments.html" . }}
