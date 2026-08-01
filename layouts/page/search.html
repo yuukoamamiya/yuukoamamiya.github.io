@@ -1,8 +1,8 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 <content>
-    <input type="search" id="searchInput" placeholder="输入关键词搜索…" autofocus />
-    <p id="searchStatus" class="search-status">正在加载索引…</p>
+    <input type="search" id="searchInput" placeholder="输入关键词搜索…" />
+    <p id="searchStatus" class="search-status">输入关键词开始搜索</p>
     <div id="searchResults"></div>
 </content>
 {{ $version := now.Unix }}
@@ -15,6 +15,7 @@
         var results = document.getElementById('searchResults');
         var entries = [];
         var ready = false;
+        var loading = false;
 
         var DB_NAME = 'search-index';
         var DB_STORE = 'cache';
@@ -105,43 +106,50 @@
                 });
         }
 
-        openDB()
-            .then(function (db) {
-                return dbGet(db).then(function (cached) {
-                    if (cached && cached.version === version && Array.isArray(cached.entries)) {
-                        entries = cached.entries;
-                        ready = true;
-                        status.textContent = '已从缓存加载（' + entries.length + ' 篇文章）';
-                        db.close();
-                        search(input.value.trim());
-                        return;
-                    }
-                    return fetchIndex().then(function (r) {
+        function ensureReady() {
+            if (ready || loading) return;
+            loading = true;
+            status.textContent = '正在加载索引…';
+            openDB()
+                .then(function (db) {
+                    return dbGet(db).then(function (cached) {
+                        if (cached && cached.version === version && Array.isArray(cached.entries)) {
+                            entries = cached.entries;
+                            ready = true;
+                            status.textContent = '已从缓存加载（' + entries.length + ' 篇文章）';
+                            db.close();
+                            search(input.value.trim());
+                            return;
+                        }
+                        return fetchIndex().then(function (r) {
+                            ready = true;
+                            status.textContent = '索引已加载（' + r.count + ' 篇文章）';
+                            search(input.value.trim());
+                            dbPut(db, { version: version, entries: entries }).then(function () {
+                                db.close();
+                            }).catch(function () {
+                                db.close();
+                            });
+                        }).catch(function () {
+                            status.textContent = '搜索索引加载失败';
+                            db.close();
+                        });
+                    });
+                })
+                .catch(function () {
+                    fetchIndex().then(function (r) {
                         ready = true;
                         status.textContent = '索引已加载（' + r.count + ' 篇文章）';
                         search(input.value.trim());
-                        dbPut(db, { version: version, entries: entries }).then(function () {
-                            db.close();
-                        }).catch(function () {
-                            db.close();
-                        });
                     }).catch(function () {
                         status.textContent = '搜索索引加载失败';
-                        db.close();
                     });
                 });
-            })
-            .catch(function () {
-                fetchIndex().then(function (r) {
-                    ready = true;
-                    status.textContent = '索引已加载（' + r.count + ' 篇文章）';
-                    search(input.value.trim());
-                }).catch(function () {
-                    status.textContent = '搜索索引加载失败';
-                });
-            });
+        }
 
+        input.addEventListener('focus', ensureReady);
         input.addEventListener('input', function (e) {
+            ensureReady();
             search(e.target.value.trim().toLowerCase());
         });
     })();
