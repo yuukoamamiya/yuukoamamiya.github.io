@@ -5,8 +5,10 @@
     <p id="searchStatus" class="search-status">正在加载索引…</p>
     <div id="searchResults"></div>
 </content>
+{{ $version := now.Unix }}
 <script>
     (function () {
+        var version = {{ $version }};
         var indexUrl = '{{ with .OutputFormats.Get "json" }}{{ .RelPermalink }}{{ end }}';
         var input = document.getElementById('searchInput');
         var status = document.getElementById('searchStatus');
@@ -14,12 +16,53 @@
         var entries = [];
         var ready = false;
 
+        var DB_NAME = 'search-index';
+        var DB_STORE = 'cache';
+        var DB_KEY = 'index';
+
+        function openDB() {
+            return new Promise(function (resolve, reject) {
+                if (!window.indexedDB) { reject(new Error('indexedDB unavailable')); return; }
+                var req = indexedDB.open(DB_NAME, 1);
+                req.onupgradeneeded = function () {
+                    var db = req.result;
+                    if (!db.objectStoreNames.contains(DB_STORE)) {
+                        db.createObjectStore(DB_STORE);
+                    }
+                };
+                req.onsuccess = function () { resolve(req.result); };
+                req.onerror = function () { reject(req.error); };
+            });
+        }
+
+        function dbGet(db) {
+            return new Promise(function (resolve, reject) {
+                var tx = db.transaction(DB_STORE, 'readonly');
+                var r = tx.objectStore(DB_STORE).get(DB_KEY);
+                r.onsuccess = function () { resolve(r.result || null); };
+                r.onerror = function () { reject(r.error); };
+            });
+        }
+
+        function dbPut(db, value) {
+            return new Promise(function (resolve, reject) {
+                var tx = db.transaction(DB_STORE, 'readwrite');
+                tx.objectStore(DB_STORE).put(value, DB_KEY);
+                tx.oncomplete = function () { resolve(); };
+                tx.onerror = function () { reject(tx.error); };
+            });
+        }
+
         function text(p) {
             return ((p.title || '') + ' ' +
                 [].concat(p.tags || []).join(' ') + ' ' +
                 [].concat(p.categories || []).join(' ') + ' ' +
                 (p.description || '') + ' ' +
                 (p.content || '')).toLowerCase();
+        }
+
+        function buildEntries(posts) {
+            return posts.map(function (p) { return { p: p, hay: text(p) }; });
         }
 
         function render(hits) {
@@ -53,16 +96,49 @@
             render(hits);
         }
 
-        fetch(indexUrl)
-            .then(function (resp) { return resp.json(); })
-            .then(function (posts) {
-                entries = posts.map(function (p) { return { p: p, hay: text(p) }; });
-                ready = true;
-                status.textContent = '索引已加载（' + posts.length + ' 篇文章）';
-                search(input.value.trim());
+        function fetchIndex() {
+            return fetch(indexUrl + '?v=' + version)
+                .then(function (resp) { return resp.json(); })
+                .then(function (posts) {
+                    entries = buildEntries(posts);
+                    return { count: posts.length };
+                });
+        }
+
+        openDB()
+            .then(function (db) {
+                return dbGet(db).then(function (cached) {
+                    if (cached && cached.version === version && Array.isArray(cached.entries)) {
+                        entries = cached.entries;
+                        ready = true;
+                        status.textContent = '已从缓存加载（' + entries.length + ' 篇文章）';
+                        db.close();
+                        search(input.value.trim());
+                        return;
+                    }
+                    return fetchIndex().then(function (r) {
+                        ready = true;
+                        status.textContent = '索引已加载（' + r.count + ' 篇文章）';
+                        search(input.value.trim());
+                        dbPut(db, { version: version, entries: entries }).then(function () {
+                            db.close();
+                        }).catch(function () {
+                            db.close();
+                        });
+                    }).catch(function () {
+                        status.textContent = '搜索索引加载失败';
+                        db.close();
+                    });
+                });
             })
             .catch(function () {
-                status.textContent = '搜索索引加载失败';
+                fetchIndex().then(function (r) {
+                    ready = true;
+                    status.textContent = '索引已加载（' + r.count + ' 篇文章）';
+                    search(input.value.trim());
+                }).catch(function () {
+                    status.textContent = '搜索索引加载失败';
+                });
             });
 
         input.addEventListener('input', function (e) {
