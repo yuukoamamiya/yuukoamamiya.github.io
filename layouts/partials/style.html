@@ -4,14 +4,14 @@
     --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
     --font-secondary: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
     --font-mono: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", "Noto Sans Mono CJK SC", monospace;
-    --font-scale: 1em;
+    --font-scale: 1.0625em;
     --background-color: #fff;
     --heading-color: #111;
     --text-color: #1f2328;
     --link-color: #1a5fb4;
     --visited-color: #8b6fcb;
     --blockquote-color: #3a3f44;
-    --muted-color: #666;
+    --muted-color: #595959;
     --code-background: #f4f4f4;
     --border-color: #e2e2e2;
   }
@@ -25,7 +25,7 @@
       --link-color: #8cc2dd;
       --visited-color: #9a8cc9;
       --blockquote-color: #c8c8c8;
-      --muted-color: #9a9a9a;
+      --muted-color: #a6a6a6;
       --code-background: #1b2329;
       --border-color: #2a3238;
     }
@@ -58,16 +58,6 @@
   }
 
   content { display: block; }
-
-  /* 长文优化：视口外的正文块跳过 Style & Layout（渐进增强，Safari 自动忽略） */
-  content p,
-  content li,
-  content blockquote,
-  content pre,
-  content .highlight {
-    content-visibility: auto;
-    contain-intrinsic-size: auto 3rem;
-  }
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-main);
