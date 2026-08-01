@@ -1,0 +1,17 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<content>
+    {{ $list := slice }}
+    {{ range .Pages }}
+    {{ $list = $list | append (dict "title" .Title "count" (len .Pages) "permalink" .Permalink) }}
+    {{ end }}
+    <ul class="taxonomy-list">
+        {{ range sort $list "count" "desc" }}
+        <li>
+            <a href="{{ .permalink }}">{{ .title }}</a>
+            <span class="taxonomy-count">{{ .count }} 篇</span>
+        </li>
+        {{ end }}
+    </ul>
+</content>
+{{ end }}
