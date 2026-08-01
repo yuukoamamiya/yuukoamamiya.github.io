@@ -39,6 +39,8 @@ params:
 
 menu:
     social:
+        - name: 播客
+          url: https://www.xiaoyuzhoufm.com/podcast/69d7887ab9229f64bf49afcc
         - name: 知乎
           url: https://www.zhihu.com/people/yu-gong-you-zi-chu
         - name: 豆瓣
