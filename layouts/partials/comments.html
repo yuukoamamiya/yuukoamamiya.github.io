@@ -3,11 +3,31 @@
 <div id="disqus_thread"></div>
 <script>
     (function () {
-        var d = document,
-            s = d.createElement('script');
-        s.src = 'https://{{ $shortname }}.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
+        var loaded = false;
+
+        function load() {
+            if (loaded) return;
+            loaded = true;
+            var d = document,
+                s = d.createElement('script');
+            s.src = 'https://{{ $shortname }}.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        }
+
+        var thread = document.getElementById('disqus_thread');
+        if ('IntersectionObserver' in window && thread) {
+            var io = new IntersectionObserver(function (entries) {
+                if (entries.some(function (e) { return e.isIntersecting; })) {
+                    load();
+                    io.disconnect();
+                }
+            }, { rootMargin: '700px 0px' });
+            io.observe(thread);
+        } else {
+            window.addEventListener('scroll', load, { once: true, passive: true });
+            window.setTimeout(load, 2500);
+        }
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

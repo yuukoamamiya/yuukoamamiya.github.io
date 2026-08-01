@@ -1,0 +1,7 @@
+{{ $toc := .TableOfContents }}
+{{ if and (eq .Type "post") (gt (len $toc) 0) (ne .Params.toc false) }}
+<details class="toc">
+    <summary>目录</summary>
+    {{ $toc | safeHTML }}
+</details>
+{{ end }}
