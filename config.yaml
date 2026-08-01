@@ -36,6 +36,9 @@ params:
     favicon: https://img.amamiyayuuko.com/20210127185955.ico
     dateFormat: "2006-01-02"
     enablePostNavigator: true
+    author: 雨宫优子
+    images:
+        - https://blog.amamiyayuuko.com/img/avatar_kisaki.jpg
 
 menu:
     social:
