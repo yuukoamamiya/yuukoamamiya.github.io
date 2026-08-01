@@ -355,9 +355,9 @@
   }
 
   /* 原生 Disqus（完整模式）是跨域 iframe，父页无法改其内部配色；
-     深色模式下用滤镜反色适配，头像/emoji 会随之反色（已知代价） */
+     深色才反色（手动浅色用 :not 排除），头像/emoji 会随之反色（已知代价） */
   @media (prefers-color-scheme: dark) {
-    #disqusjs iframe[title="Disqus"] {
+    :root:not([data-theme="light"]) #disqusjs iframe[title="Disqus"] {
       filter: invert(1) hue-rotate(180deg);
     }
   }
