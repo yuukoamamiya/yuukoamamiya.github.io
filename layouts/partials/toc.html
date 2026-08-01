@@ -1,5 +1,5 @@
 {{ $toc := .TableOfContents }}
-{{ if and (eq .Type "post") (gt (len $toc) 0) (ne .Params.toc false) }}
+{{ if and (eq .Type "post") (gt (len (findRE "<li" $toc)) 0) (ne .Params.toc false) }}
 <nav class="toc" id="page-toc" aria-label="目录">
     <h2>目录</h2>
     <div class="toc-body">{{ $toc | safeHTML }}</div>
