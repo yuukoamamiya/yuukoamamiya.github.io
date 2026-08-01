@@ -1,3 +1,4 @@
+{{ if .Params.noindex }}<meta name="robots" content="noindex" />{{ end }}
 {{ $title := or .Title .Site.Title }}
 {{ $desc := or .Description (cond .IsPage (truncate 200 .Summary) .Site.Params.description) }}
 {{ $img := .Params.image }}

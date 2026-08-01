@@ -5,6 +5,8 @@ layout: "search"
 outputs:
     - html
     - json
+noindex: true
+excludeFromSitemap: true
 menu:
     main:
         weight: -60
