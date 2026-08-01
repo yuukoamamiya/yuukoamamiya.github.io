@@ -5,6 +5,8 @@
 <link rel="preconnect" href="//img.amamiyayuuko.com" crossorigin />
 <link rel="dns-prefetch" href="//www.googletagmanager.com" />
 <link rel="preconnect" href="//www.googletagmanager.com" />
+<link rel="dns-prefetch" href="//ga.amamiyayuuko.com" />
+<link rel="preconnect" href="//ga.amamiyayuuko.com" />
 <link rel="dns-prefetch" href="//disqus-api.amamiyayuuko.com" />
 <link rel="preconnect" href="//disqus-api.amamiyayuuko.com" />
 <link rel="dns-prefetch" href="//yukoamamiya.disqus.com" />
@@ -13,39 +15,47 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@3.0/dist/browser/styles/disqusjs.css" />
 {{ end }}
 
-<!-- Google Analytics (gtag.js)：大陆用户直接跳过（google-analytics 在大陆被墙，请求只会浪费连接）；其余用户空闲/首次交互时才加载，不占首屏 -->
+<!-- Google Analytics：严格延迟（idle/scroll/touch 才触发，不占首屏）。能直连 google 则用官方 gtag.js；
+     直连失败（大陆被墙 / 被广告拦截）则改发轻量 beacon 给 CF Worker（ga.amamiyayuuko.com）转发 GA4 -->
 <script>
     (function () {
-        function isMainlandCN() {
-            try {
-                var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
-                if (/^Asia\/(Shanghai|Chongqing|Harbin|Urumqi)$/.test(tz)) return true;
-                if (/^zh(-|_)CN$/i.test(navigator.language)) return true;
-            } catch (e) { /* ignore */ }
-            return false;
-        }
-        if (isMainlandCN()) return;
+        var tid = 'G-7F6V3SKFKX';
+        var api = 'https://ga.amamiyayuuko.com/';
+        var fired = false, loaded = false;
 
-        var loaded = false;
-        function loadGA() {
-            if (loaded) return;
-            loaded = true;
-            var s = document.createElement('script');
-            s.async = true;
-            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-7F6V3SKFKX';
-            document.head.appendChild(s);
+        function sendCF() {
+            if (fired) return; fired = true;
+            var q = 'dt=' + encodeURIComponent(document.title)
+                + '&dr=' + encodeURIComponent(document.referrer)
+                + '&ul=' + encodeURIComponent((navigator.language || '').toLowerCase())
+                + '&sr=' + encodeURIComponent(screen.width + 'x' + screen.height)
+                + '&sid=' + Math.floor(Math.random() * 1e9)
+                + '&z=' + Date.now();
+            var img = new Image(); img.src = api + '?' + q;
+        }
+
+        function initGtag() {
+            if (fired) return; fired = true;
             window.dataLayer = window.dataLayer || [];
             function gtag() { window.dataLayer.push(arguments); }
             window.gtag = gtag;
             gtag('js', new Date());
-            gtag('config', 'G-7F6V3SKFKX');
+            gtag('config', tid);
         }
 
-        if ('requestIdleCallback' in window) {
-            requestIdleCallback(loadGA, { timeout: 4000 });
-        } else {
-            window.setTimeout(loadGA, 2500);
+        function loadGA() {
+            if (loaded || fired) return; loaded = true;
+            var s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=' + tid;
+            s.onload = initGtag;
+            s.onerror = sendCF;
+            document.head.appendChild(s);
+            setTimeout(function () { if (!window.gtag) sendCF(); }, 3000);
         }
+
+        if ('requestIdleCallback' in window) requestIdleCallback(loadGA, { timeout: 4000 });
+        else window.setTimeout(loadGA, 2500);
         window.addEventListener('scroll', loadGA, { once: true, passive: true });
         window.addEventListener('touchstart', loadGA, { once: true, passive: true });
     })();
