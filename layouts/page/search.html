@@ -7,7 +7,7 @@
 </content>
 <script>
     (function () {
-        var indexUrl = {{ with .OutputFormats.Get "json" }}{{ .RelPermalink | jsonify }}{{ end }};
+        var indexUrl = '{{ with .OutputFormats.Get "json" }}{{ .RelPermalink }}{{ end }}';
         var input = document.getElementById('searchInput');
         var status = document.getElementById('searchStatus');
         var results = document.getElementById('searchResults');
