@@ -1,1 +1,6 @@
+{{ if not (.Page.Scratch.Get "img-first") }}
+{{ .Page.Scratch.Set "img-first" true }}
+<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} fetchpriority="high" decoding="async" />
+{{ else }}
 <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy" decoding="async" />
+{{ end }}

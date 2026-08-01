@@ -103,6 +103,10 @@
 
   img { max-width: 100%; height: auto; }
 
+  /* 懒加载图片在加载前按平均比例(约4:3)预留空间，避免布局抖动(CLS)；
+     aspect-ratio: auto 表示加载后用真实比例，不拉伸变形 */
+  content img { aspect-ratio: auto 4 / 3; }
+
   code {
     font-family: var(--font-mono);
     background: var(--code-background);
