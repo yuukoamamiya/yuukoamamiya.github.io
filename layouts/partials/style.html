@@ -202,4 +202,44 @@
     ul.blog-posts li { flex-direction: column; gap: 0.1em; }
     ul.blog-posts li span { flex: none; }
   }
+
+  /* DisqusJS 暗色适配（DisqusJS 自带 CSS 为浅色主题，需手动覆盖） */
+  @media (prefers-color-scheme: dark) {
+    #disqusjs #dsqjs .dsqjs-post-body,
+    #disqusjs #dsqjs .dsqjs-no-comment,
+    #disqusjs #dsqjs .dsqjs-nav-tab,
+    #disqusjs #dsqjs .dsqjs-tab-active,
+    #disqusjs #dsqjs .dsqjs-post-header .dsqjs-post-author,
+    #disqusjs #dsqjs .dsqjs-meta,
+    #disqusjs #dsqjs .dsqjs-footer {
+      color: #c8ccd4;
+    }
+    #disqusjs #dsqjs a {
+      color: var(--link-color);
+    }
+    #disqusjs #dsqjs .dsqjs-nav,
+    #disqusjs #dsqjs .dsqjs-footer-container {
+      border-color: #2a3238;
+    }
+    #disqusjs #dsqjs .dsqjs-post-avatar {
+      background: #2a3238;
+    }
+    #disqusjs #dsqjs .dsqjs-order-label {
+      background-color: #2a3238;
+      color: #c8ccd4;
+    }
+    #disqusjs #dsqjs .dsqjs-order-radio:checked + .dsqjs-order-label {
+      background-color: #9a9a9a;
+    }
+    #disqusjs #dsqjs .dsqjs-load-more {
+      background: #4a5560;
+    }
+    #disqusjs #dsqjs .dsqjs-load-more.is-error {
+      background: #b33a3a;
+    }
+    #disqusjs #dsqjs .dsqjs-post-body :not(pre) > code {
+      background: #1b2329;
+      color: #d6d6d6;
+    }
+  }
 </style>

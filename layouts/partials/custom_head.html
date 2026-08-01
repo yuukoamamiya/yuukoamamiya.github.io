@@ -1,12 +1,17 @@
 <meta name="color-scheme" content="light dark" />
 
-<!-- 预连接外部资源：图片站 / GA / Disqus，减少连接建立时间 -->
+<!-- 预连接外部资源：图片站 / GA / DisqusJS 反代 / Disqus 完整模式兜底 -->
 <link rel="dns-prefetch" href="//img.amamiyayuuko.com" />
 <link rel="preconnect" href="//img.amamiyayuuko.com" crossorigin />
 <link rel="dns-prefetch" href="//www.googletagmanager.com" />
 <link rel="preconnect" href="//www.googletagmanager.com" />
+<link rel="dns-prefetch" href="//disqus-api.amamiyayuuko.com" />
+<link rel="preconnect" href="//disqus-api.amamiyayuuko.com" />
 <link rel="dns-prefetch" href="//yukoamamiya.disqus.com" />
-<link rel="preconnect" href="//yukoamamiya.disqus.com" />
+
+{{ if eq .Type "post" }}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@3.0/dist/browser/styles/disqusjs.css" />
+{{ end }}
 
 <!-- Google Analytics (gtag.js)：大陆用户直接跳过（google-analytics 在大陆被墙，请求只会浪费连接）；其余用户空闲/首次交互时才加载，不占首屏 -->
 <script>

@@ -1,21 +1,35 @@
 {{ $shortname := site.Config.Services.Disqus.Shortname }}
 {{ if $shortname }}
-<div id="disqus_thread"></div>
+<div id="disqusjs"></div>
 <script>
     (function () {
+        var shortname = '{{ $shortname }}';
         var loaded = false;
+
+        function initDisqusJS() {
+            if (!window.DisqusJS) return;
+            try {
+                var disqusjs = new window.DisqusJS({
+                    shortname: shortname,
+                    siteName: "Yuko's Blog",
+                    api: 'https://disqus-api.amamiyayuuko.com/api/',
+                    apikey: 'W4tjEgaiCuVivojE9FEf43urT1YnfX0KzTkmdbYyMsfL2ZG3dDKZvsybWqkDgJUh'
+                });
+                disqusjs.render(document.getElementById('disqusjs'));
+            } catch (e) { /* ignore */ }
+        }
 
         function load() {
             if (loaded) return;
             loaded = true;
-            var d = document,
-                s = d.createElement('script');
-            s.src = 'https://{{ $shortname }}.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
+            var s = document.createElement('script');
+            s.src = 'https://cdn.jsdelivr.net/npm/disqusjs@3.0/dist/browser/disqusjs.es2015.umd.min.js';
+            s.async = true;
+            s.onload = initDisqusJS;
+            (document.head || document.body).appendChild(s);
         }
 
-        var thread = document.getElementById('disqus_thread');
+        var thread = document.getElementById('disqusjs');
         if ('IntersectionObserver' in window && thread) {
             var io = new IntersectionObserver(function (entries) {
                 if (entries.some(function (e) { return e.isIntersecting; })) {
