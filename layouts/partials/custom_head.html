@@ -1,26 +1,37 @@
 <meta name="color-scheme" content="light dark" />
 
-<!-- 预连接外部资源：图片站 / GA / DisqusJS 反代 / Disqus 完整模式兜底 -->
+<!-- 预连接：图床（始终需要） -->
 <link rel="dns-prefetch" href="//img.amamiyayuuko.com" />
 <link rel="preconnect" href="//img.amamiyayuuko.com" crossorigin />
+
+{{ if .Site.Params.googleAnalytics.enabled }}
+<!-- 预连接：GA（官方 gtag + CF 反代） -->
 <link rel="dns-prefetch" href="//www.googletagmanager.com" />
 <link rel="preconnect" href="//www.googletagmanager.com" />
-<link rel="dns-prefetch" href="//ga.amamiyayuuko.com" />
-<link rel="preconnect" href="//ga.amamiyayuuko.com" />
-<link rel="dns-prefetch" href="//disqus-api.amamiyayuuko.com" />
-<link rel="preconnect" href="//disqus-api.amamiyayuuko.com" />
-<link rel="dns-prefetch" href="//yukoamamiya.disqus.com" />
+<link rel="dns-prefetch" href="{{ .Site.Params.googleAnalytics.proxy }}" />
+<link rel="preconnect" href="{{ .Site.Params.googleAnalytics.proxy }}" crossorigin />
+{{ end }}
 
-{{ if eq .Type "post" }}
+{{ if .Site.Params.disqusjs.enabled }}
+<!-- 预连接：DisqusJS 反代 / Disqus 完整模式兜底 -->
+<link rel="dns-prefetch" href="{{ .Site.Params.disqusjs.apiUrl }}" />
+<link rel="preconnect" href="{{ .Site.Params.disqusjs.apiUrl }}" />
+{{ with site.Config.Services.Disqus.Shortname }}
+<link rel="dns-prefetch" href="//{{ . }}.disqus.com" />
+{{ end }}
+{{ end }}
+
+{{ if and (eq .Type "post") .Site.Params.disqusjs.enabled }}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@3.0/dist/browser/styles/disqusjs.css" />
 {{ end }}
 
+{{ if .Site.Params.googleAnalytics.enabled }}
 <!-- Google Analytics：严格延迟（idle/scroll/touch 才触发，不占首屏）。能直连 google 则用官方 gtag.js；
-     直连失败（大陆被墙 / 被广告拦截）则改发轻量 beacon 给 CF Worker（ga.amamiyayuuko.com）转发 GA4 -->
+     直连失败（大陆被墙 / 被广告拦截）则改发轻量 beacon 给 CF Worker 转发 GA4 -->
 <script>
     (function () {
-        var tid = 'G-7F6V3SKFKX';
-        var api = 'https://ga.amamiyayuuko.com/';
+        var tid = '{{ .Site.Params.googleAnalytics.id }}';
+        var api = '{{ .Site.Params.googleAnalytics.proxy }}';
         var fired = false, loaded = false;
 
         function sendCF() {
@@ -60,8 +71,10 @@
         window.addEventListener('touchstart', loadGA, { once: true, passive: true });
     })();
 </script>
+{{ end }}
 
-<!-- Cloudflare Web Analytics：懒加载（空闲/滚动/触摸才拉 31KB beacon，不抢首屏） -->
+{{ if .Site.Params.cloudflareWebAnalytics.enabled }}
+<!-- Cloudflare Web Analytics：懒加载（空闲/滚动/触摸才拉 beacon，不抢首屏） -->
 <script>
     (function () {
         var loaded = false;
@@ -70,7 +83,7 @@
             var s = document.createElement('script');
             s.type = 'module';
             s.src = 'https://static.cloudflareinsights.com/beacon.min.js';
-            s.setAttribute('data-cf-beacon', '{"token": "0a652835cf504598804ceb55ad0b9f82"}');
+            s.setAttribute('data-cf-beacon', '{"token": "{{ .Site.Params.cloudflareWebAnalytics.token }}"}');
             document.head.appendChild(s);
         }
         if ('requestIdleCallback' in window) requestIdleCallback(loadWA, { timeout: 4000 });
@@ -79,3 +92,4 @@
         window.addEventListener('touchstart', loadWA, { once: true, passive: true });
     })();
 </script>
+{{ end }}

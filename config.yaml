@@ -40,6 +40,21 @@ params:
     images:
         - https://blog.amamiyayuuko.com/img/avatar_kisaki.jpg
 
+    # 统计与分析（enabled: false 即整体关闭该功能）
+    googleAnalytics:
+        enabled: true
+        id: G-7F6V3SKFKX
+        proxy: https://ga.amamiyayuuko.com/
+    cloudflareWebAnalytics:
+        enabled: true
+        token: 0a652835cf504598804ceb55ad0b9f82
+
+    # 评论（DisqusJS，shortname 沿用顶层 disqusShortname）
+    disqusjs:
+        enabled: true
+        apiUrl: https://disqus-api.amamiyayuuko.com/api/
+        apiKey: W4tjEgaiCuVivojE9FEf43urT1YnfX0KzTkmdbYyMsfL2ZG3dDKZvsybWqkDgJUh
+
 menu:
     social:
         - name: 播客

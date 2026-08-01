@@ -1,5 +1,5 @@
 {{ $shortname := site.Config.Services.Disqus.Shortname }}
-{{ if $shortname }}
+{{ if and $shortname .Site.Params.disqusjs.enabled }}
 <div id="disqusjs"></div>
 <script>
     (function () {
@@ -11,9 +11,9 @@
             try {
                 var disqusjs = new window.DisqusJS({
                     shortname: shortname,
-                    siteName: "Yuko's Blog",
-                    api: 'https://disqus-api.amamiyayuuko.com/api/',
-                    apikey: 'W4tjEgaiCuVivojE9FEf43urT1YnfX0KzTkmdbYyMsfL2ZG3dDKZvsybWqkDgJUh'
+                    siteName: {{ .Site.Title | jsonify | safeJS }},
+                    api: '{{ .Site.Params.disqusjs.apiUrl }}',
+                    apikey: '{{ .Site.Params.disqusjs.apiKey }}'
                 });
                 disqusjs.render(document.getElementById('disqusjs'));
             } catch (e) { /* ignore */ }

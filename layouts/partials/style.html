@@ -31,6 +31,32 @@
     }
   }
 
+  /* 手动深浅色（localStorage 持久化）：html 带 data-theme 时优先级高于上面的自动跟随 */
+  :root[data-theme="light"] {
+    color-scheme: light;
+    --background-color: #fff;
+    --heading-color: #111;
+    --text-color: #1f2328;
+    --link-color: #1a5fb4;
+    --visited-color: #8b6fcb;
+    --blockquote-color: #3a3f44;
+    --muted-color: #595959;
+    --code-background: #f4f4f4;
+    --border-color: #e2e2e2;
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --background-color: #0f1417;
+    --heading-color: #eee;
+    --text-color: #d6d6d6;
+    --link-color: #8cc2dd;
+    --visited-color: #9a8cc9;
+    --blockquote-color: #c8c8c8;
+    --muted-color: #a6a6a6;
+    --code-background: #1b2329;
+    --border-color: #2a3238;
+  }
+
   * { box-sizing: border-box; }
 
   html {
@@ -138,6 +164,18 @@
     font-size: 0.9em;
   }
   footer a { color: var(--muted-color); }
+
+  /* 深浅色切换按钮（页脚，社交链接右侧） */
+  .theme-toggle {
+    margin-left: 1.5em;
+    background: none;
+    border: none;
+    padding: 0;
+    color: var(--muted-color);
+    font-size: 0.9em;
+    cursor: pointer;
+  }
+  .theme-toggle:hover { color: var(--link-color); }
 
   .title:hover { text-decoration: none; }
   .title h1 { font-size: 1.5em; }
@@ -322,5 +360,8 @@
     #disqusjs iframe[title="Disqus"] {
       filter: invert(1) hue-rotate(180deg);
     }
+  }
+  :root[data-theme="dark"] #disqusjs iframe[title="Disqus"] {
+    filter: invert(1) hue-rotate(180deg);
   }
 </style>
