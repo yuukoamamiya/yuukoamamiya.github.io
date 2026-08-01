@@ -60,3 +60,22 @@
         window.addEventListener('touchstart', loadGA, { once: true, passive: true });
     })();
 </script>
+
+<!-- Cloudflare Web Analytics：懒加载（空闲/滚动/触摸才拉 31KB beacon，不抢首屏） -->
+<script>
+    (function () {
+        var loaded = false;
+        function loadWA() {
+            if (loaded) return; loaded = true;
+            var s = document.createElement('script');
+            s.type = 'module';
+            s.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+            s.setAttribute('data-cf-beacon', '{"token": "0a652835cf504598804ceb55ad0b9f82"}');
+            document.head.appendChild(s);
+        }
+        if ('requestIdleCallback' in window) requestIdleCallback(loadWA, { timeout: 4000 });
+        else window.setTimeout(loadWA, 2500);
+        window.addEventListener('scroll', loadWA, { once: true, passive: true });
+        window.addEventListener('touchstart', loadWA, { once: true, passive: true });
+    })();
+</script>
