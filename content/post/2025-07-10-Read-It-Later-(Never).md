@@ -4,8 +4,10 @@ date: 2025-07-10 21:46:00+0800
 slug: Read-It-Later
 categories:
 - 技术
-- 读书
 tags:
+- 稍后阅读
+- mkdocs
+- GitHub Pages
 toc: true
 image: https://img.amamiyayuuko.com/20250710214827136.webp
 description: 手搓稍后阅读系统

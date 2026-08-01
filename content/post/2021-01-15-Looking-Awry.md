@@ -2,9 +2,13 @@
 title: ' 斜目而视'
 date: 2021-01-15 17:13:11
 categories:
+- 读书
 - 哲学
-tags: 
+tags:
+- 齐泽克
+- 拉康
 - 精神分析
+- 斜目而视
 image: https://img.amamiyayuuko.com/20210114215734.jpg
 description: 用精神分析来云电影？狗都不看
 ---

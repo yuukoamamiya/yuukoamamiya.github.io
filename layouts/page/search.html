@@ -2,47 +2,72 @@
 <h1>{{ .Title }}</h1>
 <content>
     <input type="search" id="searchInput" placeholder="输入关键词搜索…" autofocus />
+    <p id="searchStatus" class="search-status">正在加载索引…</p>
     <div id="searchResults"></div>
 </content>
-<script src="{{ "fuse/fuse.min.js" | relURL }}"></script>
 <script>
     (function () {
         var indexUrl = {{ with .OutputFormats.Get "json" }}{{ .RelPermalink | jsonify }}{{ end }};
-        var results = document.getElementById('searchResults');
         var input = document.getElementById('searchInput');
+        var status = document.getElementById('searchStatus');
+        var results = document.getElementById('searchResults');
+        var entries = [];
+        var ready = false;
+
+        function text(p) {
+            return ((p.title || '') + ' ' +
+                [].concat(p.tags || []).join(' ') + ' ' +
+                [].concat(p.categories || []).join(' ') + ' ' +
+                (p.description || '') + ' ' +
+                (p.content || '')).toLowerCase();
+        }
+
+        function render(hits) {
+            if (!hits.length) {
+                results.innerHTML = '<p>无结果</p>';
+                return;
+            }
+            results.innerHTML = hits.map(function (p) {
+                var tags = [].concat(p.tags || []).join(' #');
+                return '<p><a href="' + p.url + '">' + p.title + '</a><br />' +
+                    '<small>' + p.date + (tags ? ' · # ' + tags : '') + '</small></p>';
+            }).join('') + '<p class="search-count">共 ' + hits.length + ' 条结果</p>';
+        }
+
+        function search(q) {
+            if (!ready) return;
+            if (!q) {
+                results.innerHTML = '';
+                return;
+            }
+            var terms = q.split(/\s+/);
+            var hits = [];
+            for (var i = 0; i < entries.length; i++) {
+                var ok = true;
+                for (var j = 0; j < terms.length; j++) {
+                    if (entries[i].hay.indexOf(terms[j]) === -1) { ok = false; break; }
+                }
+                if (ok) hits.push(entries[i].p);
+                if (hits.length >= 30) break;
+            }
+            render(hits);
+        }
 
         fetch(indexUrl)
             .then(function (resp) { return resp.json(); })
             .then(function (posts) {
-                var fuse = new Fuse(posts, {
-                    keys: ['title', 'tags', 'categories', 'description', 'content'],
-                    threshold: 0.4
-                });
-
-                function render(items) {
-                    if (!items.length) {
-                        results.innerHTML = '<p>无结果</p>';
-                        return;
-                    }
-                    results.innerHTML = items.map(function (item) {
-                        var p = item.item;
-                        return '<p><a href="' + p.url + '">' + p.title + '</a><br />' +
-                            '<small>' + p.date + ' · ' + (p.tags.length ? '# ' + p.tags.join(' #') : '') + '</small></p>';
-                    }).join('');
-                }
-
-                input.addEventListener('input', function (e) {
-                    var q = e.target.value.trim();
-                    if (!q) {
-                        results.innerHTML = '';
-                        return;
-                    }
-                    render(fuse.search(q, { limit: 20 }));
-                });
+                entries = posts.map(function (p) { return { p: p, hay: text(p) }; });
+                ready = true;
+                status.textContent = '索引已加载（' + posts.length + ' 篇文章）';
+                search(input.value.trim());
             })
             .catch(function () {
-                results.innerHTML = '<p>搜索索引加载失败</p>';
+                status.textContent = '搜索索引加载失败';
             });
+
+        input.addEventListener('input', function (e) {
+            search(e.target.value.trim().toLowerCase());
+        });
     })();
 </script>
 {{ end }}

@@ -3,9 +3,9 @@ languageCode: zh-cn
 theme: hugo-bearblog
 title: Yuko's Blog
 
-# 首页文章分页：每页 20 篇
+# 首页文章分页：每页 30 篇
 pagination:
-    pagerSize: 20
+    pagerSize: 30
     path: page
 
 disqusShortname: yukoamamiya

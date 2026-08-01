@@ -3,7 +3,11 @@ title: '水仙：さよなら'
 date: 2017-03-19 11:18:08
 categories:
 - Galgame
-tags: 
+tags:
+- 水仙
+- Narcissu
+- 视觉小说
+- 濑津美
 image: 
 slug: Narcissu
 ---

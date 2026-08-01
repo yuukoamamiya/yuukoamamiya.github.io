@@ -1,14 +1,14 @@
 ---
 title: 在kindle上阅读k2pdfopt重排过的PDF电子书
 date: 2021-05-24 22:02:00+0800
-lastmod: 2021-06-18 10:53:00+0800
 categories:
 - 技术
 tags:
 - Kindle
 - k2pdfopt
-- ABBYY FineReader
 - PDF
+- ABBYY
+lastmod: 2021-06-18 10:53:00+0800
 image: https://cdn.sspai.com/article/2e1f8239-05ac-55a8-675a-076da4f49e35.jpg?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1
 description: 没完了是吧，和PDF杠上了是吧
 ---

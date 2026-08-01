@@ -3,9 +3,11 @@ title: 为什么要使用 windows 10 的214条理由
 date: 2019-01-05 12:28:56
 categories:
 - 技术
-tags: 
+tags:
+- Windows10
+- 微软
+- BUG
 - 转载
-- win10
 image: 
 ---
 “一个不停刷存在感的操作系统，一定不是一个好的系统，一定不是一个好的工作环境。”

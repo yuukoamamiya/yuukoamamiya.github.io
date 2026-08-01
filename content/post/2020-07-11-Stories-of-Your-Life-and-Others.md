@@ -3,7 +3,11 @@ title: '你一生的故事'
 date: 2020-07-11 22:04:22
 categories:
 - 读书
-tags: [科幻]
+tags:
+- 特德·姜
+- 科幻
+- 你一生的故事
+- 短篇集
 image: https://img.amamiyayuuko.com/20200711092845.jpg
 description: 飞跃巅峰（雾
 ---

@@ -3,7 +3,11 @@ title: '老人与海：用什么东西，去交换了虚无'
 date: 2017-01-06 20:20:13
 categories:
 - 读书
-tags: [小说]
+tags:
+- 海明威
+- 老人与海
+- 美国文学
+- 虚无主义
 image: 
 slug: The-Old-Man-and-the-Sea
 ---
