@@ -14,6 +14,9 @@ hasCJKLanguage: true
 
 enableRobotsTXT: true
 
+# 压缩输出 HTML/CSS/JS/JSON，减小页面体积
+minify: true
+
 # 关闭分区列表页（/post/、/page/ 等），避免与首页分页的 /page/N/ 路径冲突
 # 个人页、文章页、分类/标签页均不受影响
 disableKinds:
