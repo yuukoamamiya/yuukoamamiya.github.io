@@ -124,6 +124,8 @@
 
   table { width: 100%; border-collapse: collapse; }
   th, td { border: 1px solid var(--border-color); padding: 0.4em 0.6em; text-align: left; }
+  /* 移动端表格横向滚动容器（由 custom_body.html 动态包裹） */
+  .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 
   hr { border: 0; border-top: 1px dashed var(--border-color); }
 
@@ -253,6 +255,19 @@
 
   .pagination { margin: 2em 0; }
   .search-status, .search-count { color: var(--muted-color); font-size: 0.9em; }
+  .search-snippet {
+    display: block;
+    color: var(--muted-color);
+    font-size: 0.9em;
+    margin-top: 0.2em;
+    line-height: 1.6;
+  }
+  #searchResults mark {
+    background: color-mix(in srgb, var(--link-color) 25%, transparent);
+    color: inherit;
+    padding: 0 0.15em;
+    border-radius: 2px;
+  }
   #searchInput {
     width: 100%;
     box-sizing: border-box;

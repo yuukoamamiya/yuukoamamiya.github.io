@@ -16,10 +16,13 @@
         var entries = [];
         var ready = false;
         var loading = false;
+        var debounceTimer = null;
 
         var DB_NAME = 'search-index';
         var DB_STORE = 'cache';
         var DB_KEY = 'index';
+        var MAX_RESULTS = 100;
+        var SNIPPET_RADIUS = 50;
 
         function openDB() {
             return new Promise(function (resolve, reject) {
@@ -54,47 +57,122 @@
             });
         }
 
-        function text(p) {
-            return ((p.title || '') + ' ' +
-                [].concat(p.tags || []).join(' ') + ' ' +
-                [].concat(p.categories || []).join(' ') + ' ' +
-                (p.description || '') + ' ' +
-                (p.content || '')).toLowerCase();
+        function escapeHtml(s) {
+            return (s == null ? '' : String(s))
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function escapeRegExp(s) {
+            return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        }
+
+        function highlight(text, terms) {
+            var out = escapeHtml(text);
+            for (var i = 0; i < terms.length; i++) {
+                out = out.replace(new RegExp(escapeRegExp(terms[i]), 'gi'), function (m) {
+                    return '<mark>' + m + '</mark>';
+                });
+            }
+            return out;
         }
 
         function buildEntries(posts) {
-            return posts.map(function (p) { return { p: p, hay: text(p) }; });
+            return posts.map(function (p) {
+                var tax = [].concat(p.tags || [], p.categories || []).join(' ');
+                var low = {
+                    title: (p.title || '').toLowerCase(),
+                    tax: tax.toLowerCase(),
+                    desc: (p.description || '').toLowerCase(),
+                    content: (p.content || '').toLowerCase()
+                };
+                return {
+                    p: p,
+                    low: low,
+                    combined: [low.title, low.tax, low.desc, low.content].join(' ')
+                };
+            });
         }
 
-        function render(hits) {
+        function makeSnippet(p, low, terms) {
+            var src = p.content || '';
+            var best = -1, bestTerm = null;
+            for (var i = 0; i < terms.length; i++) {
+                var idx = low.content.indexOf(terms[i]);
+                if (idx !== -1 && (best === -1 || idx < best)) {
+                    best = idx;
+                    bestTerm = terms[i];
+                }
+            }
+            var text;
+            if (best !== -1 && src) {
+                var start = Math.max(0, best - SNIPPET_RADIUS);
+                var end = Math.min(src.length, best + bestTerm.length + SNIPPET_RADIUS);
+                text = (start > 0 ? '…' : '') + src.slice(start, end) + (end < src.length ? '…' : '');
+            } else {
+                text = p.description || '';
+            }
+            return text ? highlight(text, terms) : '';
+        }
+
+        function render(hits, terms) {
             if (!hits.length) {
                 results.innerHTML = '<p>无结果</p>';
                 return;
             }
-            results.innerHTML = hits.map(function (p) {
-                var tags = [].concat(p.tags || []).join(' #');
-                return '<p><a href="' + p.url + '">' + p.title + '</a><br />' +
-                    '<small>' + p.date + (tags ? ' · # ' + tags : '') + '</small></p>';
+            results.innerHTML = hits.map(function (e) {
+                var p = e.p;
+                var tags = [].concat(p.tags || []).map(escapeHtml).join(' #');
+                var cats = [].concat(p.categories || []).map(escapeHtml).join(' / ');
+                var snip = makeSnippet(p, e.low, terms);
+                return '<p><a href="' + escapeHtml(p.url) + '">' + highlight(p.title || '', terms) + '</a><br />' +
+                    '<small>' + escapeHtml(p.date || '') +
+                    (cats ? ' · ' + cats : '') +
+                    (tags ? ' · # ' + tags : '') +
+                    '</small>' +
+                    (snip ? '<br /><span class="search-snippet">' + snip + '</span>' : '') +
+                    '</p>';
             }).join('') + '<p class="search-count">共 ' + hits.length + ' 条结果</p>';
         }
 
         function search(q) {
             if (!ready) return;
-            if (!q) {
+            var raw = (q || '').trim();
+            if (!raw) {
                 results.innerHTML = '';
                 return;
             }
-            var terms = q.split(/\s+/);
-            var hits = [];
+            var terms = raw.toLowerCase().split(/\s+/).filter(function (t) { return t; });
+            if (!terms.length) {
+                results.innerHTML = '';
+                return;
+            }
+            var scored = [];
             for (var i = 0; i < entries.length; i++) {
+                var e = entries[i];
                 var ok = true;
                 for (var j = 0; j < terms.length; j++) {
-                    if (entries[i].hay.indexOf(terms[j]) === -1) { ok = false; break; }
+                    if (e.combined.indexOf(terms[j]) === -1) { ok = false; break; }
                 }
-                if (ok) hits.push(entries[i].p);
-                if (hits.length >= 30) break;
+                if (!ok) continue;
+                var score = 0;
+                for (var k = 0; k < terms.length; k++) {
+                    var t = terms[k];
+                    if (e.low.title.indexOf(t) !== -1) score += 3;
+                    if (e.low.tax.indexOf(t) !== -1) score += 2;
+                    if (e.low.desc.indexOf(t) !== -1) score += 2;
+                    if (e.low.content.indexOf(t) !== -1) score += 1;
+                }
+                scored.push({ p: e.p, low: e.low, score: score, date: e.p.date || '' });
             }
-            render(hits);
+            scored.sort(function (a, b) {
+                if (b.score !== a.score) return b.score - a.score;
+                return a.date < b.date ? 1 : (a.date > b.date ? -1 : 0);
+            });
+            render(scored.slice(0, MAX_RESULTS), terms);
         }
 
         function fetchIndex() {
@@ -118,13 +196,13 @@
                             ready = true;
                             status.textContent = '已从缓存加载（' + entries.length + ' 篇文章）';
                             db.close();
-                            search(input.value.trim());
+                            search(input.value);
                             return;
                         }
                         return fetchIndex().then(function (r) {
                             ready = true;
                             status.textContent = '索引已加载（' + r.count + ' 篇文章）';
-                            search(input.value.trim());
+                            search(input.value);
                             dbPut(db, { version: version, entries: entries }).then(function () {
                                 db.close();
                             }).catch(function () {
@@ -140,7 +218,7 @@
                     fetchIndex().then(function (r) {
                         ready = true;
                         status.textContent = '索引已加载（' + r.count + ' 篇文章）';
-                        search(input.value.trim());
+                        search(input.value);
                     }).catch(function () {
                         status.textContent = '搜索索引加载失败';
                     });
@@ -150,7 +228,9 @@
         input.addEventListener('focus', ensureReady);
         input.addEventListener('input', function (e) {
             ensureReady();
-            search(e.target.value.trim().toLowerCase());
+            var q = e.target.value;
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(function () { search(q); }, 150);
         });
     })();
 </script>
