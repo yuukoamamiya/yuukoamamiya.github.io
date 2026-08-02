@@ -104,3 +104,8 @@ Every feature lives in `layouts/partials/`:
 ## License
 
 [MIT](LICENSE). The original [Hugo Bear Blog](https://github.com/janraasch/hugo-bearblog) license applies to the base, modifications are licensed under the same terms.
+
+## Credits
+
+- Design inspired by [Bear Blog](https://bearblog.dev) by Herman Martinus — [Bear Blog License 2.0](https://github.com/HermanMartinus/bearblog/blob/main/LICENSE.md)
+- Code derived from [Hugo Bear Blog](https://github.com/janraasch/hugo-bearblog) by Jan Raasch — MIT License
