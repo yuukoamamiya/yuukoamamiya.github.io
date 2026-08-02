@@ -5,7 +5,14 @@
         if (!root) return;
 
         var uid = '{{ .Site.Params.doubanBadge.uid }}';
+        var proxy = '{{ .Site.Params.doubanBadge.proxy }}';
         var items = [];
+
+        // 封面走 CF Worker 代理绕过豆瓣防盗链：proxy + <host>/<path>
+        function coverUrl(src) {
+            if (!proxy) return src;
+            return proxy + src.replace(/^https?:\/\//, '');
+        }
 
         function typeOf(href) {
             if (href.indexOf('movie.douban.com') !== -1) return 'movie';
@@ -61,7 +68,7 @@
                 var sub = (it.sub && it.sub !== it.main) ? '<span class="db-sub">' + escapeHtml(it.sub) + '</span>' : '';
                 return '<li class="db-item">' +
                     '<a href="' + escapeHtml(it.href) + '" target="_blank" rel="noopener">' +
-                    '<span class="db-cover"><img src="' + escapeHtml(it.img) + '" alt="' + escapeHtml(it.main) + '" loading="lazy" decoding="async" />' +
+                    '<span class="db-cover"><img src="' + escapeHtml(coverUrl(it.img)) + '" alt="' + escapeHtml(it.main) + '" loading="lazy" decoding="async" />' +
                     '<span class="db-type ' + t.cls + '">' + t.label + '</span></span>' +
                     '<span class="db-title">' + escapeHtml(it.main) + sub + '</span>' +
                     '</a>' +

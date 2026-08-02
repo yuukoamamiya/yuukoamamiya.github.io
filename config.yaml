@@ -61,7 +61,7 @@ params:
     doubanBadge:
         enabled: true
         uid: 147743842
-        proxy: ""
+        proxy: "https://img.amamiyayuuko.com/douban/"
 
 menu:
     social:
