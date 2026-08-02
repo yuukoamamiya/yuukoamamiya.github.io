@@ -49,12 +49,11 @@
         }
 
         var switcherHtml = '<div class="db-switch" role="group" aria-label="布局切换">' +
+            '<button type="button" data-layout="text">纯文字</button>' +
             '<button type="button" data-layout="cards">卡片</button>' +
-            '<button type="button" data-layout="cover">封面</button>' +
-            '<button type="button" data-layout="list">列表</button>' +
             '</div>';
 
-        var layout = 'cards';
+        var layout = 'text';
 
         function render() {
             var cards = items.map(function (it) {

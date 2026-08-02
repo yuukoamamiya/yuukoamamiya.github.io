@@ -56,9 +56,12 @@ params:
         apiKey: W4tjEgaiCuVivojE9FEf43urT1YnfX0KzTkmdbYyMsfL2ZG3dDKZvsybWqkDgJUh
 
     # 豆瓣最近书影音（About 页徽章，enabled: false 即关闭）
+    # proxy：CF Worker 代理地址（形如 https://img.amamiyayuuko.com/douban/），
+    # 配好后 JS 会把 doubanio 封面 URL 重写为代理路径；留空则直连（豆瓣防盗链会失败）
     doubanBadge:
         enabled: true
         uid: 147743842
+        proxy: ""
 
 menu:
     social:
