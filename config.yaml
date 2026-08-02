@@ -55,6 +55,11 @@ params:
         apiUrl: https://disqus-api.amamiyayuuko.com/api/
         apiKey: W4tjEgaiCuVivojE9FEf43urT1YnfX0KzTkmdbYyMsfL2ZG3dDKZvsybWqkDgJUh
 
+    # 豆瓣最近书影音（About 页徽章，enabled: false 即关闭）
+    doubanBadge:
+        enabled: true
+        uid: 147743842
+
 menu:
     social:
         - name: 播客

@@ -1,0 +1,108 @@
+{{ if and .Site.Params.doubanBadge.enabled .Site.Params.doubanBadge.uid }}
+<script>
+    (function () {
+        var root = document.getElementById('douban-badge');
+        if (!root) return;
+
+        var uid = '{{ .Site.Params.doubanBadge.uid }}';
+        var items = [];
+
+        function typeOf(href) {
+            if (href.indexOf('movie.douban.com') !== -1) return 'movie';
+            if (href.indexOf('book.douban.com') !== -1) return 'book';
+            if (href.indexOf('music.douban.com') !== -1) return 'music';
+            return 'game';
+        }
+
+        // 必须在替换 innerHTML 之前，从 douban 的 document.write 输出里收集数据
+        try {
+            var anchors = root.querySelectorAll('a');
+            for (var i = 0; i < anchors.length; i++) {
+                var a = anchors[i];
+                if (a.href.indexOf('/subject/') === -1 && a.href.indexOf('/game/') === -1) continue;
+                var img = a.querySelector('img');
+                if (!img || !img.src) continue;
+                var title = (a.getAttribute('title') || '').split(/\n+/);
+                items.push({
+                    href: a.href,
+                    img: img.src,
+                    main: (title[0] || '').trim(),
+                    sub: (title[title.length - 1] || '').trim(),
+                    type: typeOf(a.href)
+                });
+            }
+        } catch (e) { /* ignore */ }
+
+        var TYPES = {
+            movie: { label: '电影', cls: 't-movie' },
+            book: { label: '书', cls: 't-book' },
+            music: { label: '音乐', cls: 't-music' },
+            game: { label: '游戏', cls: 't-game' }
+        };
+
+        function escapeHtml(s) {
+            return (s == null ? '' : String(s))
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;');
+        }
+
+        var switcherHtml = '<div class="db-switch" role="group" aria-label="布局切换">' +
+            '<button type="button" data-layout="cards">卡片</button>' +
+            '<button type="button" data-layout="cover">封面</button>' +
+            '<button type="button" data-layout="list">列表</button>' +
+            '</div>';
+
+        var layout = 'cards';
+
+        function render() {
+            var cards = items.map(function (it) {
+                var t = TYPES[it.type] || TYPES.game;
+                var sub = (it.sub && it.sub !== it.main) ? '<span class="db-sub">' + escapeHtml(it.sub) + '</span>' : '';
+                return '<li class="db-item">' +
+                    '<a href="' + escapeHtml(it.href) + '" target="_blank" rel="noopener">' +
+                    '<span class="db-cover"><img src="' + escapeHtml(it.img) + '" alt="' + escapeHtml(it.main) + '" loading="lazy" decoding="async" />' +
+                    '<span class="db-type ' + t.cls + '">' + t.label + '</span></span>' +
+                    '<span class="db-title">' + escapeHtml(it.main) + sub + '</span>' +
+                    '</a>' +
+                    '</li>';
+            }).join('');
+
+            return switcherHtml +
+                '<div class="db-layout-' + layout + '"><ul class="db-items">' + cards + '</ul></div>' +
+                '<p class="db-more"><a href="https://www.douban.com/people/' + uid + '/" target="_blank" rel="noopener">我的豆瓣主页 →</a></p>';
+        }
+
+        function bindSwitch() {
+            var btns = root.querySelectorAll('.db-switch button');
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener('click', function () {
+                    layout = this.getAttribute('data-layout');
+                    apply();
+                });
+            }
+        }
+
+        function setActive() {
+            var btns = root.querySelectorAll('.db-switch button');
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].classList.toggle('active', btns[i].getAttribute('data-layout') === layout);
+            }
+        }
+
+        function apply() {
+            root.innerHTML = render();
+            bindSwitch();
+            setActive();
+        }
+
+        if (!items.length) {
+            root.innerHTML = switcherHtml + '<p class="db-empty">豆瓣数据加载失败</p>';
+            bindSwitch();
+            return;
+        }
+        apply();
+    })();
+</script>
+{{ end }}
