@@ -1,30 +1,3 @@
-<meta name="color-scheme" content="light dark" />
-
-<!-- 预连接：图床（始终需要） -->
-<link rel="dns-prefetch" href="//img.amamiyayuuko.com" />
-<link rel="preconnect" href="//img.amamiyayuuko.com" crossorigin />
-
-{{ if .Site.Params.googleAnalytics.enabled }}
-<!-- 预连接：GA（官方 gtag + CF 反代） -->
-<link rel="dns-prefetch" href="//www.googletagmanager.com" />
-<link rel="preconnect" href="//www.googletagmanager.com" />
-<link rel="dns-prefetch" href="{{ .Site.Params.googleAnalytics.proxy }}" />
-<link rel="preconnect" href="{{ .Site.Params.googleAnalytics.proxy }}" crossorigin />
-{{ end }}
-
-{{ if .Site.Params.disqusjs.enabled }}
-<!-- 预连接：DisqusJS 反代 / Disqus 完整模式兜底 -->
-<link rel="dns-prefetch" href="{{ .Site.Params.disqusjs.apiUrl }}" />
-<link rel="preconnect" href="{{ .Site.Params.disqusjs.apiUrl }}" />
-{{ with site.Config.Services.Disqus.Shortname }}
-<link rel="dns-prefetch" href="//{{ . }}.disqus.com" />
-{{ end }}
-{{ end }}
-
-{{ if and (eq .Type "post") .Site.Params.disqusjs.enabled }}
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@3.0/dist/browser/styles/disqusjs.css" />
-{{ end }}
-
 {{ if .Site.Params.googleAnalytics.enabled }}
 <!-- Google Analytics：严格延迟（idle/scroll/touch 才触发，不占首屏）。能直连 google 则用官方 gtag.js；
      直连失败（大陆被墙 / 被广告拦截）则改发轻量 beacon 给 CF Worker 转发 GA4 -->
@@ -35,7 +8,8 @@
         var fired = false, loaded = false;
 
         function sendCF() {
-            if (fired) return; fired = true;
+            // 未配置 proxy（自建反代）时跳过 beacon，仅用官方 gtag
+            if (fired || !api) return; fired = true;
             var q = 'dt=' + encodeURIComponent(document.title)
                 + '&dr=' + encodeURIComponent(document.referrer)
                 + '&ul=' + encodeURIComponent((navigator.language || '').toLowerCase())

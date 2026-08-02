@@ -1,0 +1,5 @@
+{{- partial "preconnect.html" . -}}
+{{- partial "analytics.html" . -}}
+{{ if and (eq .Type "post") .Site.Params.disqusjs.enabled }}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@3.0/dist/browser/styles/disqusjs.css" />
+{{ end }}

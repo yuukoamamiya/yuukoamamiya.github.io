@@ -1,6 +1,6 @@
 baseurl: https://blog.amamiyayuuko.com
-languageCode: zh-cn
-theme: hugo-bearblog
+locale: zh-cn
+theme: hugo-bear-blog-extended
 title: Yuko's Blog
 
 # 首页文章分页：每页 30 篇
@@ -15,7 +15,8 @@ hasCJKLanguage: true
 enableRobotsTXT: true
 
 # 压缩输出 HTML/CSS/JS/JSON，减小页面体积
-minify: true
+minify:
+    minifyOutput: true
 
 # 关闭分区列表页（/post/、/page/ 等），避免与首页分页的 /page/N/ 路径冲突
 # 个人页、文章页、分类/标签页均不受影响
@@ -44,10 +45,15 @@ params:
     googleAnalytics:
         enabled: true
         id: G-7F6V3SKFKX
+        # 可选：GA 直连失败时的自建反代（CF Worker），留空则仅用官方 gtag
         proxy: https://ga.amamiyayuuko.com/
     cloudflareWebAnalytics:
         enabled: true
         token: 0a652835cf504598804ceb55ad0b9f82
+
+    # 预连接：图片/CDN 域名（preconnect.html 循环输出，留空列表则不预连接）
+    preconnectHosts:
+        - img.amamiyayuuko.com
 
     # 评论（DisqusJS，shortname 沿用顶层 disqusShortname）
     disqusjs:

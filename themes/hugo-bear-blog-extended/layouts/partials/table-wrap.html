@@ -1,0 +1,11 @@
+<script>
+    (function () {
+        var tables = document.querySelectorAll('content table');
+        for (var i = 0; i < tables.length; i++) {
+            var wrap = document.createElement('div');
+            wrap.className = 'table-wrap';
+            tables[i].parentNode.insertBefore(wrap, tables[i]);
+            wrap.appendChild(tables[i]);
+        }
+    })();
+</script>

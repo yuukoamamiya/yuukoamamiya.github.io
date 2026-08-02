@@ -1,0 +1,87 @@
+<style>
+  /* 豆瓣最近书影音徽章 */
+  .db-switch { margin: 1em 0 0.8em; }
+  .db-switch button {
+    background: none;
+    border: 1px solid var(--border-color);
+    color: var(--muted-color);
+    font-size: 0.85em;
+    padding: 0.25em 0.7em;
+    margin-right: 0.4em;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .db-switch button:hover { color: var(--link-color); border-color: var(--link-color); }
+  .db-switch button.active {
+    background: color-mix(in srgb, var(--link-color) 15%, transparent);
+    color: var(--link-color);
+    border-color: var(--link-color);
+  }
+  .db-loading, .db-empty { color: var(--muted-color); font-size: 0.9em; }
+  .db-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem;
+  }
+  .db-item a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+  }
+  .db-cover { position: relative; display: block; }
+  .db-cover img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    background: var(--code-background);
+  }
+  .db-type {
+    position: absolute;
+    top: 0.35em;
+    left: 0.35em;
+    font-size: 0.72em;
+    color: #fff;
+    padding: 0.1em 0.45em;
+    border-radius: 3px;
+    opacity: 0.92;
+  }
+  .db-type.t-movie { background: #4a90d9; }
+  .db-type.t-book { background: #50b26b; }
+  .db-type.t-music { background: #e8963c; }
+  .db-type.t-game { background: #9b6fc7; }
+  .db-title {
+    margin-top: 0.4em;
+    font-size: 0.85em;
+    line-height: 1.4;
+    color: var(--text-color);
+  }
+  .db-title .db-sub {
+    display: block;
+    color: var(--muted-color);
+    font-size: 0.9em;
+  }
+  .db-more { margin: 0.9em 0 0; font-size: 0.85em; }
+  .db-more a { color: var(--muted-color); text-decoration: none; }
+  .db-more a:hover { color: var(--link-color); text-decoration: underline; }
+
+  /* 纯文字布局：类型标签 + 标题一行式，无封面 */
+  .db-layout-text .db-items { display: flex; flex-direction: column; gap: 0.4rem; }
+  .db-layout-text .db-item a { flex-direction: row; align-items: baseline; gap: 0.6rem; }
+  .db-layout-text .db-cover { flex: none; }
+  .db-layout-text .db-cover img { display: none; }
+  .db-layout-text .db-type { position: static; display: inline-block; }
+  .db-layout-text .db-title { margin: 0; }
+  .db-layout-text .db-title .db-sub { display: inline; }
+
+  @media (max-width: 560px) {
+    .db-items { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>

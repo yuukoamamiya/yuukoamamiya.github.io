@@ -1,0 +1,50 @@
+<style>
+  /* DisqusJS 适配（自带 CSS 为浅色主题，这里改用主题变量，深浅色 / 手动切换都跟随） */
+  #disqusjs #dsqjs .dsqjs-post-body,
+  #disqusjs #dsqjs .dsqjs-no-comment,
+  #disqusjs #dsqjs .dsqjs-nav-tab,
+  #disqusjs #dsqjs .dsqjs-tab-active,
+  #disqusjs #dsqjs .dsqjs-post-header .dsqjs-post-author,
+  #disqusjs #dsqjs .dsqjs-meta,
+  #disqusjs #dsqjs .dsqjs-footer {
+    color: var(--text-color);
+  }
+  #disqusjs #dsqjs a {
+    color: var(--link-color);
+  }
+  #disqusjs #dsqjs .dsqjs-nav,
+  #disqusjs #dsqjs .dsqjs-footer-container {
+    border-color: var(--border-color);
+  }
+  #disqusjs #dsqjs .dsqjs-post-avatar {
+    background: var(--border-color);
+  }
+  #disqusjs #dsqjs .dsqjs-order-label {
+    background-color: var(--border-color);
+    color: var(--text-color);
+  }
+  #disqusjs #dsqjs .dsqjs-order-radio:checked + .dsqjs-order-label {
+    background-color: var(--muted-color);
+  }
+  #disqusjs #dsqjs .dsqjs-load-more {
+    background: var(--muted-color);
+  }
+  #disqusjs #dsqjs .dsqjs-load-more.is-error {
+    background: #b33a3a;
+  }
+  #disqusjs #dsqjs .dsqjs-post-body :not(pre) > code {
+    background: var(--code-background);
+    color: var(--text-color);
+  }
+
+  /* 原生 Disqus（完整模式）是跨域 iframe，父页无法改其内部配色；
+     深色才反色（手动浅色用 :not 排除），头像/emoji 会随之反色（已知代价） */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) #disqusjs iframe[title="Disqus"] {
+      filter: invert(1) hue-rotate(180deg);
+    }
+  }
+  :root[data-theme="dark"] #disqusjs iframe[title="Disqus"] {
+    filter: invert(1) hue-rotate(180deg);
+  }
+</style>

@@ -1,0 +1,28 @@
+<meta name="color-scheme" content="light dark" />
+
+{{ range .Site.Params.preconnectHosts }}
+<!-- 预连接：图片/CDN 域名（站点 config 的 params.preconnectHosts，留空则不预连接） -->
+<link rel="dns-prefetch" href="//{{ . }}" />
+<link rel="preconnect" href="//{{ . }}" crossorigin />
+{{ end }}
+
+{{ if .Site.Params.googleAnalytics.enabled }}
+<!-- 预连接：GA（官方 gtag，可选自建反代） -->
+<link rel="dns-prefetch" href="//www.googletagmanager.com" />
+<link rel="preconnect" href="//www.googletagmanager.com" />
+{{ with .Site.Params.googleAnalytics.proxy }}
+<link rel="dns-prefetch" href="{{ . }}" />
+<link rel="preconnect" href="{{ . }}" crossorigin />
+{{ end }}
+{{ end }}
+
+{{ if .Site.Params.disqusjs.enabled }}
+<!-- 预连接：DisqusJS API / Disqus 完整模式兜底 -->
+{{ with .Site.Params.disqusjs.apiUrl }}
+<link rel="dns-prefetch" href="{{ . }}" />
+<link rel="preconnect" href="{{ . }}" />
+{{ end }}
+{{ with site.Config.Services.Disqus.Shortname }}
+<link rel="dns-prefetch" href="//{{ . }}.disqus.com" />
+{{ end }}
+{{ end }}

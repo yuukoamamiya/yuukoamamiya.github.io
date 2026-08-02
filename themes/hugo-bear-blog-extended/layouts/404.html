@@ -1,0 +1,11 @@
+{{ define "title" }}404{{ end }}
+
+{{ define "main" }}
+<h1>404</h1>
+<h2>ʕノ•ᴥ•ʔノ ︵ ┻━┻</h2>
+<p>
+    你来到了页面的荒原。可以<a href="{{ "/" | relURL }}">回到首页</a>
+    {{ with site.GetPage "/page/search.md" }}，或去<a href="{{ .Permalink }}">搜索</a>{{ end }}
+    {{ with site.GetPage "/page/archives.md" }}、<a href="{{ .Permalink }}">归档</a>{{ end }}里找找。
+</p>
+{{ end }}

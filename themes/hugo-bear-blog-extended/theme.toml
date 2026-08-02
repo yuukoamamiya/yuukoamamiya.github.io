@@ -1,0 +1,17 @@
+name = "hugo-bear-blog-extended"
+license = "MIT"
+licenselink = "https://github.com/yuukoamamiya/hugo-bear-blog-extended/blob/main/LICENSE"
+description = "An extended fork of the Hugo Bear Blog theme: paginated home, full-content RSS, client-side search, archives, category/tag taxonomies, DisqusJS comments, lazy images, Worg-style TOC, dark/light toggle and a Douban badge."
+homepage = "https://github.com/yuukoamamiya/hugo-bear-blog-extended"
+tags = ["blog", "responsive", "minimal", "seo", "clean", "simple", "search", "dark mode", "rss", "comments", "lazy images", "toc"]
+features = ["favicon", "seo", "rss", "dark mode", "search", "comments", "lazy images", "toc"]
+min_version = "v0.158.0"
+
+[author]
+  name = "AmamiyaYuuko"
+  homepage = "https://blog.amamiyayuuko.com"
+
+[original]
+  name = "Hugo Bear Blog"
+  homepage = "https://github.com/janraasch/hugo-bearblog"
+  repo = "https://github.com/janraasch/hugo-bearblog"
