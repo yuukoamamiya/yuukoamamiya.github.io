@@ -1,11 +1,14 @@
 {{ if .Params.noindex }}<meta name="robots" content="noindex" />{{ end }}
 {{ $title := or .Title .Site.Title }}
-{{ $desc := or .Description (cond .IsPage (truncate 200 .Summary) .Site.Params.description) }}
+{{ $desc := or .Description (cond .IsPage (truncate 200 (plainify .Summary)) .Site.Params.description) }}
 {{ $img := .Params.image }}
 {{ if not $img }}{{ with .Params.images }}{{ $img = index . 0 }}{{ end }}{{ end }}
 {{ if not $img }}{{ with .Site.Params.images }}{{ $img = index . 0 }}{{ end }}{{ end }}
 {{ $author := .Site.Params.author }}
-{{ $type := cond .IsPage "Article" "WebSite" }}
+{{ $ogImg := $img }}
+{{ if and $img (strings.HasPrefix $img "https://img.amamiyayuuko.com/") (not (strings.Contains $img "raw=1")) }}
+  {{ $ogImg = cond (strings.Contains $img "?") (printf "%s&raw=1" $img) (printf "%s?raw=1" $img) }}
+{{ end }}
 
 <!-- Primary Meta Tags -->
 <meta name="title" content="{{ $title }}" />
@@ -19,40 +22,28 @@
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 <meta property="og:locale" content="zh_CN" />
-{{ with $img }}<meta property="og:image" content="{{ . }}?raw=1" />{{ end }}
+{{ with $ogImg }}<meta property="og:image" content="{{ . }}" />{{ end }}
 {{ if .IsPage }}{{ with .Params.tags }}<meta property="article:tag" content="{{ delimit . ", " }}" />{{ end }}{{ end }}
 
 <!-- Twitter -->
 <meta name="twitter:card" content="{{ if $img }}summary_large_image{{ else }}summary{{ end }}" />
 <meta name="twitter:title" content="{{ $title }}" />
 <meta name="twitter:description" content="{{ $desc }}" />
-{{ with $img }}<meta name="twitter:image" content="{{ . }}?raw=1" />{{ end }}
-
-<!-- Microdata / Schema.org -->
-<div itemscope itemtype="https://schema.org/{{ $type }}">
-  <meta itemprop="name" content="{{ $title }}" />
-  <meta itemprop="description" content="{{ $desc }}" />
-  {{ if .IsPage }}
-  <meta itemprop="datePublished" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" />
-  <meta itemprop="dateModified" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}" />
-  {{ with $img }}<meta itemprop="image" content="{{ . }}" />{{ end }}
-  {{ with .Params.tags }}<meta itemprop="keywords" content="{{ delimit . "," }}" />{{ end }}
-  {{ with $author }}<meta itemprop="author" content="{{ . }}" />{{ end }}
-  {{ end }}
-</div>
+{{ with $ogImg }}<meta name="twitter:image" content="{{ . }}" />{{ end }}
 
 {{ if .IsPage }}
-<!-- JSON-LD: BlogPosting -->
+<!-- JSON-LD: BlogPosting for posts, WebPage for standalone pages -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
+  "@type": {{ if eq .Type "post" }}"BlogPosting"{{ else }}"WebPage"{{ end }},
   "headline": {{ $title | jsonify | safeJS }},
   "description": {{ $desc | jsonify | safeJS }},
-  "url": {{ .Permalink | jsonify | safeJS }},
+  "url": {{ .Permalink | jsonify | safeJS }}
+  {{ if eq .Type "post" }},
   "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify | safeJS }},
-  "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | jsonify | safeJS }}
-  {{ with $img }},
+  "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | jsonify | safeJS }}{{ end }}
+  {{ with $ogImg }},
   "image": {{ . | jsonify | safeJS }}
   {{ end }}{{ with .Params.tags }},
   "keywords": {{ . | jsonify | safeJS }}

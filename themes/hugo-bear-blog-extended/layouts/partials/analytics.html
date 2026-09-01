@@ -7,15 +7,39 @@
         var api = '{{ .Site.Params.googleAnalytics.proxy }}';
         var fired = false, loaded = false;
 
+        function getSession() {
+            var now = Math.floor(Date.now() / 1000);
+            var maxAge = 1800;
+            try {
+                var raw = sessionStorage.getItem('ga-session');
+                var saved = raw ? JSON.parse(raw) : null;
+                if (saved && saved.id && saved.last && now - saved.last < maxAge) {
+                    saved.last = now;
+                    saved.seq = (Number(saved.seq) || 0) + 1;
+                    sessionStorage.setItem('ga-session', JSON.stringify(saved));
+                    return { id: String(saved.id), seq: saved.seq, isNew: false };
+                }
+                var current = { id: String(now), last: now, seq: 1 };
+                sessionStorage.setItem('ga-session', JSON.stringify(current));
+                return { id: current.id, seq: current.seq, isNew: true };
+            } catch (e) {
+                return { id: String(now), seq: 1, isNew: true };
+            }
+        }
+
         function sendCF() {
             // 未配置 proxy（自建反代）时跳过 beacon，仅用官方 gtag
             if (fired || !api) return; fired = true;
+            var session = getSession();
             var q = 'dt=' + encodeURIComponent(document.title)
                 + '&dr=' + encodeURIComponent(document.referrer)
+                + '&dl=' + encodeURIComponent(location.href)
                 + '&ul=' + encodeURIComponent((navigator.language || '').toLowerCase())
                 + '&sr=' + encodeURIComponent(screen.width + 'x' + screen.height)
-                + '&sid=' + Math.floor(Math.random() * 1e9)
+                + '&sid=' + encodeURIComponent(session.id)
+                + '&seq=' + encodeURIComponent(session.seq)
                 + '&z=' + Date.now();
+            if (session.isNew) q += '&ss=1';
             var img = new Image(); img.src = api + '?' + q;
         }
 
@@ -55,7 +79,7 @@
         function loadWA() {
             if (loaded) return; loaded = true;
             var s = document.createElement('script');
-            s.type = 'module';
+            s.defer = true;
             s.src = 'https://static.cloudflareinsights.com/beacon.min.js';
             s.setAttribute('data-cf-beacon', '{"token": "{{ .Site.Params.cloudflareWebAnalytics.token }}"}');
             document.head.appendChild(s);
