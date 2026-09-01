@@ -91,8 +91,7 @@
                 };
                 return {
                     p: p,
-                    low: low,
-                    combined: [low.title, low.tax, low.desc, low.content].join(' ')
+                    low: low
                 };
             });
         }
@@ -118,7 +117,7 @@
             return text ? highlight(text, terms) : '';
         }
 
-        function render(hits, terms) {
+        function render(hits, terms, total) {
             if (!hits.length) {
                 results.innerHTML = '<p>无结果</p>';
                 return;
@@ -135,7 +134,8 @@
                     '</small>' +
                     (snip ? '<br /><span class="search-snippet">' + snip + '</span>' : '') +
                     '</p>';
-            }).join('') + '<p class="search-count">共 ' + hits.length + ' 条结果</p>';
+            }).join('') + '<p class="search-count">共找到 ' + total + ' 条结果' +
+                (total > hits.length ? '，显示前 ' + hits.length + ' 条' : '') + '</p>';
         }
 
         function search(q) {
@@ -154,8 +154,16 @@
             for (var i = 0; i < entries.length; i++) {
                 var e = entries[i];
                 var ok = true;
+                var fields = [e.low.title, e.low.tax, e.low.desc, e.low.content];
                 for (var j = 0; j < terms.length; j++) {
-                    if (e.combined.indexOf(terms[j]) === -1) { ok = false; break; }
+                    var found = false;
+                    for (var f = 0; f < fields.length; f++) {
+                        if (fields[f].indexOf(terms[j]) !== -1) {
+                            found = true;
+                            break;
+                        }
+                    }
+                    if (!found) { ok = false; break; }
                 }
                 if (!ok) continue;
                 var score = 0;
@@ -172,7 +180,7 @@
                 if (b.score !== a.score) return b.score - a.score;
                 return a.date < b.date ? 1 : (a.date > b.date ? -1 : 0);
             });
-            render(scored.slice(0, MAX_RESULTS), terms);
+            render(scored.slice(0, MAX_RESULTS), terms, scored.length);
         }
 
         function fetchIndex() {
