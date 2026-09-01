@@ -1,5 +1,6 @@
 <style>
   :root {
+    color-scheme: light;
     --width: 720px;
     --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
     --font-secondary: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
@@ -19,6 +20,7 @@
   /* OS 深色自动跟随（不支持 prefers-color-scheme 的旧浏览器自动忽略，保持浅色） */
   @media (prefers-color-scheme: dark) {
     :root {
+      color-scheme: dark;
       --background-color: #0f1417;
       --heading-color: #eee;
       --text-color: #d6d6d6;

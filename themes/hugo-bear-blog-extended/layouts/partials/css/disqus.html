@@ -38,9 +38,13 @@
   }
 
   /*
-   * 原生 Disqus 完整模式是跨域 iframe，父页面无法可靠修改其内部配色。
-   * 不对 iframe 使用 invert：Disqus 可能已经根据系统主题渲染，
-   * 再反色会导致黑底叠加深色文字，夜间模式完全不可读。
-   * 可读性优先，保留 iframe 的原始配色。
+   * 原生 Disqus 完整模式是跨域 iframe，父页面无法直接修改其内部颜色。
+   * color-scheme 会被 Disqus 用来选择 iframe 自身的浅色/深色主题；
+   * 不使用 invert，避免把 iframe 已经选择好的颜色再次反转。
    */
+  #disqusjs { color-scheme: light; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) #disqusjs { color-scheme: dark; }
+  }
+  :root[data-theme="dark"] #disqusjs { color-scheme: dark; }
 </style>
