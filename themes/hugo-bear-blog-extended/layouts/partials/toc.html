@@ -1,15 +1,18 @@
 {{ $toc := .TableOfContents }}
 {{ if and (eq .Type "post") (gt (len (findRE "<li" $toc)) 0) (ne .Params.toc false) }}
 <nav class="toc" id="page-toc" aria-label="目录">
-    <h2>目录</h2>
-    <div class="toc-body">{{ $toc | safeHTML }}</div>
+    <button class="toc-toggle" type="button" aria-expanded="false" aria-controls="page-toc-body">目录</button>
+    <div class="toc-body" id="page-toc-body" role="doc-toc">{{ $toc | safeHTML }}</div>
 </nav>
 <script>
     (function () {
         var toc = document.getElementById('page-toc');
         if (!toc) return;
-        toc.querySelector('h2').addEventListener('click', function () {
-            toc.classList.toggle('open');
+        var toggle = toc.querySelector('.toc-toggle');
+        if (!toggle) return;
+        toggle.addEventListener('click', function () {
+            var open = toc.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
         });
     })();
 </script>

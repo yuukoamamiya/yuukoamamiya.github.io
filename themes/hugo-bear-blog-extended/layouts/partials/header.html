@@ -1,4 +1,8 @@
 <a href="{{ "" | relURL }}" class="title">
-  <h2>{{ .Site.Title }}</h2>
+  {{ if .IsHome }}
+  <h1>{{ .Site.Title }}</h1>
+  {{ else }}
+  <span class="site-title">{{ .Site.Title }}</span>
+  {{ end }}
 </a>
 <nav aria-label="主导航">{{- partial "nav.html" . -}}</nav>

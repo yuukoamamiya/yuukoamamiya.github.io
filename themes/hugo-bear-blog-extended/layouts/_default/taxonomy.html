@@ -1,6 +1,6 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-<content>
+<article>
     {{ $list := slice }}
     {{ range .Pages }}
     {{ $list = $list | append (dict "title" .Title "count" (len .Pages) "permalink" .Permalink) }}
@@ -13,5 +13,5 @@
         </li>
         {{ end }}
     </ul>
-</content>
+</article>
 {{ end }}

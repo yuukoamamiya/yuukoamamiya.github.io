@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ .Content }}
-<h3>最新文章</h3>
+<h2>最新文章</h2>
 <ul class="blog-posts">
     {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
     {{ range $paginator.Pages }}

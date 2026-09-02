@@ -1,6 +1,6 @@
 <h1>{{ .Title }}</h1>
 {{ with .Description }}<p class="taxonomy-description">{{ . }}</p>{{ end }}
-<content>
+<article>
     {{ .Content }}
     <ul class="blog-posts">
         {{ range .Pages }}
@@ -18,4 +18,4 @@
         <li>暂无文章</li>
         {{ end }}
     </ul>
-</content>
+</article>

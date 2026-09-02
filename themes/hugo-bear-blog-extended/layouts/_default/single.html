@@ -15,7 +15,7 @@
 {{ end }}
 
 {{ if .Params.links }}
-<content>
+<article>
     {{ .Content }}
     <div class="links">
         {{ range .Params.links }}
@@ -25,11 +25,11 @@
         </div>
         {{ end }}
     </div>
-</content>
+</article>
 {{ else }}
-<content>
+<article>
     {{ .Content }}
-</content>
+</article>
 {{ end }}
 
 {{ if eq .Type "post" }}

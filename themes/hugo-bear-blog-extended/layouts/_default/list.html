@@ -1,6 +1,6 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-<content>
+<article>
     <ul class="blog-posts">
         {{ range .Pages }}
         <li>
@@ -15,5 +15,5 @@
         </li>
         {{ end }}
     </ul>
-</content>
+</article>
 {{ end }}

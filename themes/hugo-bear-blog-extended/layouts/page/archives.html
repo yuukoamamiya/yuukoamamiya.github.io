@@ -1,6 +1,6 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-<content>
+<article>
     {{ $posts := where .Site.RegularPages "Type" "post" }}
     {{ range $posts.GroupByDate "2006" "desc" }}
     <h2>{{ .Key }}</h2>
@@ -19,5 +19,5 @@
         {{ end }}
     </ul>
     {{ end }}
-</content>
+</article>
 {{ end }}
