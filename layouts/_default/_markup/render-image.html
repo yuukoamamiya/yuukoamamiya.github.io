@@ -1,0 +1,29 @@
+{{- $width := 0 -}}
+{{- $height := 0 -}}
+{{- $manifestURL := "https://raw.githubusercontent.com/yuukoamamiya/pic/master/image-manifest.json" -}}
+{{- $manifestResult := try (resources.GetRemote $manifestURL) -}}
+{{- with $manifestResult.Value -}}
+    {{- $manifestResult := try (transform.Unmarshal .) -}}
+    {{- with $manifestResult.Value -}}
+    {{- $parsedURL := urls.Parse $.Destination -}}
+    {{- $imageName := path.Base $parsedURL.Path -}}
+    {{- range .images -}}
+      {{- if eq (path.Base .path) $imageName -}}
+        {{- $width = .width -}}
+        {{- $height = .height -}}
+      {{- end -}}
+    {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+{{- $dimensions := "" -}}
+{{- if and (gt $width 0) (gt $height 0) -}}
+  {{- $dimensions = printf " width=\"%d\" height=\"%d\"" (int $width) (int $height) -}}
+{{- end -}}
+
+{{- if not (.Page.Scratch.Get "img-first") -}}
+  {{- .Page.Scratch.Set "img-first" true -}}
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ $dimensions | safeHTMLAttr }} fetchpriority="high" decoding="async" />
+{{- else -}}
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ $dimensions | safeHTMLAttr }} loading="lazy" decoding="async" />
+{{- end -}}
